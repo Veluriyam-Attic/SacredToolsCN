@@ -1,0 +1,8 @@
+displayName = 亚巴顿之影汉化
+author = 玲珑汉化组
+version = 0.1
+modReferences = SacredTools
+translationMod = true
+side = Client
+hideResources = true
+hideCode = true
