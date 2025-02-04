@@ -84,7 +84,7 @@ CrossMod: {
 		}
 
 		SpawnInfo: {
-			Bosses
+			// Bosses
 			Decree: Use a [i:SacredTools/DecreeSummon] in the snow biome
 			Ralnek: Use a [i:SacredTools/PumpkinLantern] at night
 			Jensen: Use a [i:SacredTools/JensenSummon] at night
@@ -100,13 +100,13 @@ CrossMod: {
 				'''
 			Erazor: Give Erazor 10 [i:SacredTools/ErosionSample]
 			Nihilus: Right-click the [i:SacredTools/NihilusObelisk] with a proper arena set up
-			Events
+			// Events
 			PiglinArmy: Use a [i:SacredTools/PigmanBanner] on the surface
 		}
 	}
 
 	Census: {
-		Note: Currently unused since Census doesn't support localization.
+		// Note: Currently unused since Census doesn't support localization.
 		Condition: {
 			ShrineCommon: Can only appear at the Starlight Shrine
 			Scavenger: Defeat the Decree, Ralnek, or Jensen
@@ -136,7 +136,7 @@ CrossMod: {
 
 	ROR2HealthBars: {
 		BossName: {
-			Most of these are here because the normal name already contains the title.
+			// Most of these are here because the normal name already contains the title.
 			Abaddon: Abaddon
 			AraghurHead: Araghur
 			Novaniel: Novaniel
@@ -811,7 +811,7 @@ Town: {
 	NeilTrade: Trade Items
 	NeilErosion: Erosion Status
 	NeilErosionGone: Looks like the Erosion's receeded for today, I'll let you know when it resurfaces.
-	NeilErosionUG: Y'know rocky place? Well, there are crystal-y worms. Yes, worms. I hate worms. Go kill it. SUCCUMB TO THE WORM. SUCCUMB TO THE WORM.
+	NeilErosionUG: Y'know rocky place? Well, there are crystal-y worms. Yes, worms. I hate worms. Go kill it. // SUCCUMB TO THE WORM. SUCCUMB TO THE WORM.
 	NeilErosionUGHallow: Looks like rainbow land got down with the sickness, there's some Erosion to weed out.
 	NeilErosionUGEvil: Purple eyeballs... Purple teeth... purple flesh... ew. Make it a little less disgusting by getting rid of whatever caught the Erosion.
 	NeilErosionSky: No. There's nothing up there. Stop.
@@ -1941,14 +1941,14 @@ Items: {
 	}
 
 	EgoTail: {
-		Vanity
+		// Vanity
 		DisplayName: Shocked's Tail
 		Tooltip: ""
 	}
 
 	IndiTail: {
 		DisplayName: Indi's Tail
-		Vanity
+		// Vanity
 		Tooltip: "'Great for impersonating mouse girls!'"
 	}
 
@@ -3478,12 +3478,12 @@ Items: {
 
 	BeetleShell: {
 		DisplayName: Buzzy Charm
-		Pets
+		// Pets
 		Tooltip: Summons a buzzy beetle
 	}
 
 	CerlaSummon: {
-		Pets
+		// Pets
 		
 		DisplayName: Divine Lifeshard
 		Tooltip: Summons a cute priestess to follow you around
@@ -8160,8 +8160,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: Defeat the Eye of Cthulhu
 	}
 
 	Erazor.DisplayName: Fallen Monarch
@@ -8187,8 +8185,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: Conditions unknown
 	}
 
 	FeatherShield.DisplayName: Feather Shield
@@ -8215,8 +8211,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: Conditions unknown
 	}
 
 	Pandolar: {
@@ -8240,8 +8234,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: Conditions unknown
 	}
 
 	PandolarFrozen.DisplayName: Frozen Pandolar
@@ -8290,8 +8282,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: Defeat the Decree, Flaming Pumpkin or Jensen
 	}
 
 	Serpent_Minion.DisplayName: Flare Elemental

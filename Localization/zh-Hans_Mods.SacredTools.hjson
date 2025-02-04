@@ -84,7 +84,7 @@ CrossMod: {
 		}
 
 		SpawnInfo: {
-			Bosses
+			// Bosses
 			Decree: Use a [i:SacredTools/DecreeSummon] in the snow biome
 			Ralnek: Use a [i:SacredTools/PumpkinLantern] at night
 			Jensen: Use a [i:SacredTools/JensenSummon] at night
@@ -100,13 +100,13 @@ CrossMod: {
 				'''
 			Erazor: Give Erazor 10 [i:SacredTools/ErosionSample]
 			Nihilus: Right-click the [i:SacredTools/NihilusObelisk] with a proper arena set up
-			Events
+			// Events
 			PiglinArmy: Use a [i:SacredTools/PigmanBanner] on the surface
 		}
 	}
 
 	Census: {
-		Note: Currently unused since Census doesn't support localization.
+		// Note: Currently unused since Census doesn't support localization.
 		Condition: {
 			ShrineCommon: Can only appear at the Starlight Shrine
 			Scavenger: Defeat the Decree, Ralnek, or Jensen
@@ -136,7 +136,7 @@ CrossMod: {
 
 	ROR2HealthBars: {
 		BossName: {
-			Most of these are here because the normal name already contains the title.
+			// Most of these are here because the normal name already contains the title.
 			Abaddon: Abaddon
 			AraghurHead: Araghur
 			Novaniel: Novaniel
@@ -811,7 +811,7 @@ Town: {
 	NeilTrade: Trade Items
 	NeilErosion: Erosion Status
 	NeilErosionGone: Looks like the Erosion's receeded for today, I'll let you know when it resurfaces.
-	NeilErosionUG: Y'know rocky place? Well, there are crystal-y worms. Yes, worms. I hate worms. Go kill it. SUCCUMB TO THE WORM. SUCCUMB TO THE WORM.
+	NeilErosionUG: Y'know rocky place? Well, there are crystal-y worms. Yes, worms. I hate worms. Go kill it. // SUCCUMB TO THE WORM. SUCCUMB TO THE WORM.
 	NeilErosionUGHallow: Looks like rainbow land got down with the sickness, there's some Erosion to weed out.
 	NeilErosionUGEvil: Purple eyeballs... Purple teeth... purple flesh... ew. Make it a little less disgusting by getting rid of whatever caught the Erosion.
 	NeilErosionSky: No. There's nothing up there. Stop.
@@ -1941,14 +1941,14 @@ Items: {
 	}
 
 	EgoTail: {
-		Vanity
+		// Vanity
 		DisplayName: Shocked's Tail
 		Tooltip: ""
 	}
 
 	IndiTail: {
 		DisplayName: Indi's Tail
-		Vanity
+		// Vanity
 		Tooltip: "'Great for impersonating mouse girls!'"
 	}
 
@@ -3014,35 +3014,35 @@ Items: {
 	}
 
 	GlassSoul: {
-		DisplayName: Glass Soul
+		DisplayName: 玻璃之魂
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedDamage}
-			Getting hit instantly ends your life
-			Shadow Dodge is disabled
+			被击中会立刻死亡
+			闪避功能已被禁用
 			'''
 	}
 
 	GlassSoulChallenge: {
-		DisplayName: Challenger's Glass Soul
+		DisplayName: 挑战者的玻璃之魂
 		Tooltip:
 			'''
-			'Become a god of destruction, but fragile like a butterfly'
-			Permanently makes the player enter 'Challenger's Glass Soul Mode', which causes any kind of damage to kill you, and disables all dodge and revival effects
-			Consuming life crystals increases your damage by 1%
-			Consuming life fruits increases damage by 0.5%
-			Consuming glass hearts increases damage by 5%
-			Can only be consumed if the player is at 100 max health
+			“成为毁灭之神，但是你将失去保命的手段”
+			永久启用「挑战者的玻璃之魂模式」，这会导致任何类型的伤害杀死你，并禁用所有闪避和复活效果
+			使用生命水晶将增加1%伤害
+			使用生命果将增加0.5%伤害
+			使用玻璃之心将增加5%伤害
+			只能在玩家拥有至少100生命值时候使用
 			'''
 	}
 
 	GlassSoulUnstable: {
-		DisplayName: Unstable Glass Soul
+		DisplayName: 不稳定的玻璃之魂
 		Tooltip:
 			'''
-			Any kind of damage will end your life.
-			The effect is permanent until you perish.
-			Can only be used with full health.
+			任何伤害会让你立刻死亡
+			这种效果将如同诅咒一般不死不休
+			只能在满生命值时使用
 			'''
 	}
 
@@ -3212,7 +3212,7 @@ Items: {
 	}
 
 	BirdFeather: {
-		DisplayName: White Feather
+		DisplayName: 白羽
 		Tooltip: ""
 	}
 
@@ -3478,12 +3478,12 @@ Items: {
 
 	BeetleShell: {
 		DisplayName: Buzzy Charm
-		Pets
+		// Pets
 		Tooltip: Summons a buzzy beetle
 	}
 
 	CerlaSummon: {
-		Pets
+		// Pets
 		
 		DisplayName: Divine Lifeshard
 		Tooltip: Summons a cute priestess to follow you around
@@ -5007,8 +5007,8 @@ Items: {
 	}
 
 	KeyToTheHeart: {
-		DisplayName: Key to the Heart
-		Tooltip: "'It feels oddly familiar...'"
+		DisplayName: 心灵之钥
+		Tooltip: “这感觉十分熟悉......”
 	}
 
 	AlexisCube: {
@@ -5364,7 +5364,7 @@ Items: {
 		Tooltip:
 			'''
 			Sends out a signal to the king's son
-			Cannot be used with a glass soul active
+			Cannot be used with a 玻璃之魂 active
 			'''
 	}
 
@@ -5556,38 +5556,38 @@ Items: {
 	}
 
 	AbaddonHeart: {
-		DisplayName: Glass Heart
+		DisplayName: 玻璃之心
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PermanentlyIncreasesMaxLifeBy}
-			Cannot be consumed until all life fruits have been consumed
+			在使用全部生命果之前不可使用
 			'''
 	}
 
 	AraghurHeart: {
-		DisplayName: Glass Heart
+		DisplayName: 玻璃之心
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PermanentlyIncreasesMaxLifeBy}
-			Cannot be consumed until all life fruits have been consumed
+			在使用全部生命果之前不可使用
 			'''
 	}
 
 	ErazorHeart: {
-		DisplayName: Glass Heart
+		DisplayName: 玻璃之心
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PermanentlyIncreasesMaxLifeBy}
-			Cannot be consumed until all life fruits have been consumed
+			在使用全部生命果之前不可使用
 			'''
 	}
 
 	LunarianHeart: {
-		DisplayName: Glass Heart
+		DisplayName: 玻璃之心
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PermanentlyIncreasesMaxLifeBy}
-			Cannot be consumed until all life fruits have been consumed
+			在使用全部生命果之前不可使用
 			'''
 	}
 
@@ -6179,12 +6179,12 @@ Items: {
 	}
 
 	CorruptedSigil: {
-		DisplayName: Sigil of the Corrupted One
+		DisplayName: 腐朽之契
 		Tooltip:
 			'''
-			'The truth often hurts far more than a facsimile. Live by these words, and you might just see what’s there beyond it...'
-			Activates 'True Mode', unleashing the true potential of Syrus' creatures. Some hidden content is unlocked as such.
-			This effect is IRREVERSIBLE, so only activate True Mode if you’re absolutely sure about it!
+			“真实往往比谎言更懂得如何刺痛人心。遵循此句箴言，或许你能窥见其后的真实……”
+			使用以启用「真实模式」, 释放出Syru的真正力量。也将为你敞开接触更深层内容的大门
+			注意：此！效！果！不！可！逆！请一定确保您做好了足够的准备后再开启此模式
 			'''
 	}
 
@@ -8067,9 +8067,9 @@ TooltipVanillaModify: {
 }
 
 TooltipSimple: {
-	BaseTooltip: (Enable Smart Cursor for details)
+	BaseTooltip: (启用智能光标以获取详细信息)
 	ComboPotion: Increased effects of ingredient potions
-	CorruptedSigil: New mechanics and stats await you on your journey
+	CorruptedSigil: 新的机制与属性在旅途的路上等待着你
 }
 
 TooltipDetail: {
@@ -8083,25 +8083,25 @@ TooltipDetail: {
 	CorruptedSigil:
 		'''
 
-		Bosses are more resilient to damage during their attacks, deal more damage, and have more health
-		Bosses receive new attacks, and will prefer to use certain attacks over others
-		Bosses can inflict several new debuffs upon the player, and will get more aggressive as the battle continues
-		Ranged attacks are now subject to Damage Falloff, and will lose damage the further they travel depending on the boss
-		Certain stats will now have Diminishing Returns, losing effectiveness as you stack the specific stat:
-		   - Melee speed
-		   - Crit chance
-		You will be able to counter negative effects and build into new stats:
-		   - Boss Damage: Increased damage against bosses
-		   - Polarize: Increases damage dealt and received (subject to diminishing returns)
-		   - Accuracy: Counters the effects of Damage falloff (subject to diminishing returns)
-		   - Crit Damage: Increases the damage of critical strikes
+		Boss受到的伤害减少，能够造成更多伤害并拥有更高的生命值
+		Boss会获得新的技能，并且更倾向于使用新的技能
+		Boss可以对玩家造成一些新的减益效果, 并且会随着进程更加强力
+		远程攻击现在会受到距离衰减的影响，同时根据Boss的不同，攻击距离越远，伤害越低
+		某些属性现在获得了更强的边际效应，当你堆叠下列属性时会失去效果：
+		   - 近战攻速
+		   - 暴击率
+		您将能够抵消负面影响并获得新的属性：
+		   - Boss易伤: 提高你对Boss的伤害
+		   - 极性: 提高造成和受到的伤害（边际效应）
+		   - 精准: 抵消距离衰减（边际效应）
+		   - 暴击伤害: 提高暴击率
 
-		Bosses will drop new rewards, including Glass Hearts and Challenge Items:
-		   - Glass Hearts are obtained by defeating specific post Moon-Lord bosses with any Glass Soul active, and will increase your max health
-		   - Challenge Items are obtained by defeating bosses under certain conditions, with hints displayed in the Bestiary. You can equip them in their designated slot
+		Boss会掉落新的奖励, 包括玻璃之心和挑战物品:
+		   - “玻璃之心”需要在启用“玻璃之魂”后通过击败特定的月亮领主后Boss获得，并且将增加你的最大生命值
+		   - 挑战物品需要再特定的条件下击败对应Boss获得，在生物图鉴中将会显示对应提示，您可以将他们装备在指定栏位上
 
-		This item persists after use, so you can read up on the mechanics when you need to.
-		However, if you require more info, feel free to visit the official wiki on Wiki.gg!
+		这个物品在使用后不会消失，当你需要阅读有关机制时可以随时来查看
+		不过，如果你需要更多详细信息，请查阅官方Wiki(Wiki.gg)上的内容
 		'''
 }
 
@@ -8160,8 +8160,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: Defeat the Eye of Cthulhu
 	}
 
 	Erazor.DisplayName: Fallen Monarch
@@ -8187,8 +8185,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: Conditions unknown
 	}
 
 	FeatherShield.DisplayName: Feather Shield
@@ -8215,8 +8211,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: Conditions unknown
 	}
 
 	Pandolar: {
@@ -8240,8 +8234,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: Conditions unknown
 	}
 
 	PandolarFrozen.DisplayName: Frozen Pandolar
@@ -8290,8 +8282,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: Defeat the Decree, Flaming Pumpkin or Jensen
 	}
 
 	Serpent_Minion.DisplayName: Flare Elemental
