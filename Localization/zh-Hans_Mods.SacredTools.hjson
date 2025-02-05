@@ -85,7 +85,7 @@ CrossMod: {
 
 		SpawnInfo: {
 			// Bosses
-			Decree: Use a [i:SacredTools/DecreeSummon] in the snow biome
+			Decree: 在雪原使用[i:SacredTools/DecreeSummon]以召唤
 			Ralnek: Use a [i:SacredTools/PumpkinLantern] at night
 			Jensen: Use a [i:SacredTools/JensenSummon] at night
 			Araneas: Break a Mysterious Statue in the Empress' Den
@@ -351,7 +351,7 @@ SubworldName.ShrineSubworld: Starlight Shrine
 
 DamageClasses: {
 	SanguineDamageClass.DisplayName: sanguine damage
-	KineticDamageClass.DisplayName: kinetic damage
+	KineticDamageClass.DisplayName: 动能伤害
 }
 
 Keybinds: {
@@ -416,7 +416,7 @@ BossMessage: {
 	AbaddonDeathMessage: The dark energy of Abaddon has been released...
 	FlameMessage: ... and reality is shifting.
 	MoonLordMessage: The brightest light casts the darkest shadow.
-	QueenBeeMessage: A faint flame scouts the night...
+	QueenBeeMessage: 一团微弱的火焰在夜里徘徊...
 	FlariumMessage: The force of flame has weakened.
 	FragmentMessage: The festive moons shine down.
 	PiglinBruteEnter: The army's brute enters the battlefield.
@@ -910,8 +910,8 @@ Town: {
 
 Buffs: {
 	DecreeTransformationBuff: {
-		DisplayName: Frigid Power
-		Description: Frigid power is flowing through your veins
+		DisplayName: 霜寒之力
+		Description: 冰冷的力量在你的血管流动
 	}
 
 	CandleingMinionBuff: {
@@ -2094,11 +2094,11 @@ Items: {
 	}
 
 	DecreeCharm: {
-		DisplayName: Frigid Pendant
+		DisplayName: 霜寒璎珞
 		Tooltip:
 			'''
-			'Become the Frigid Predator!'
-			Turns the holder into a humanoid Decree when in the snow biome
+			“捕食者需要变得无情，你也不例外”
+			在雪原时持有者将变为裁决
 			'''
 	}
 
@@ -3067,7 +3067,7 @@ Items: {
 	}
 
 	DecreeBag: {
-		DisplayName: Treasure Bag (The Decree)
+		DisplayName: 宝藏袋 (裁决)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
@@ -3197,7 +3197,7 @@ Items: {
 	}
 
 	ArcticFur: {
-		DisplayName: Decree Fur
+		DisplayName: 裁决兽绒
 		Tooltip: "'Filled with the frost magic of countless slain Pandolars'"
 	}
 
@@ -3337,8 +3337,8 @@ Items: {
 	}
 
 	FrigidOoze: {
-		DisplayName: Frigid Ooze
-		Tooltip: "'It's filled with pure frost energy'"
+		DisplayName: 霜寒泥泞
+		Tooltip: “它充满了纯粹的霜冻能量”
 	}
 
 	GoldNugget: {
@@ -3490,8 +3490,9 @@ Items: {
 	}
 
 	CharmOfH: {
-		DisplayName: Charm of H
-		Tooltip: Summons a Tabby Slime
+		DisplayName: H的魅力
+		Tooltip: 召唤一个喵喵史莱姆（来自《史莱姆农场》）
+		#（来自《史莱姆农场》）
 	}
 
 	CrimsonSigil: {
@@ -5176,17 +5177,17 @@ Items: {
 	}
 
 	FrigidJellyBanner: {
-		DisplayName: Frigid Jelly Banner
+		DisplayName: 霜寒水母旗
 		Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.FrigidJelly.DisplayName}"
 	}
 
 	FrigidSlimeBanner: {
-		DisplayName: Frigid Slime Banner
+		DisplayName: 霜寒史莱姆旗
 		Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.FrigidSlime.DisplayName}"
 	}
 
 	FrigidSpiritBanner: {
-		DisplayName: Frigid Spirit Banner
+		DisplayName: 霜寒幽魂旗
 		Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.FrigidSpirit.DisplayName}"
 	}
 
@@ -5350,12 +5351,13 @@ Items: {
 	}
 
 	DecreeSummon: {
-		DisplayName: Frost Rune
+		DisplayName: 凛冽符文
 		Tooltip:
 			'''
-			Infused with a strong frost aura
-			Attracts the apex predator of the frozen moon of Ariketik
-			Not consumable
+			散发着强烈的寒气
+			吸引the frozen moon of Ariketik的顶级捕食者
+			原文：Attracts the apex predator of the frozen moon of Ariketik
+			非消耗品
 			'''
 	}
 
@@ -6263,7 +6265,7 @@ Items: {
 	}
 
 	Bloodstain: {
-		DisplayName: Bloodstain
+		DisplayName: 血纹
 		Tooltip: ""
 	}
 
@@ -6273,7 +6275,7 @@ Items: {
 	}
 
 	DeathJavelin: {
-		DisplayName: Night's Fall
+		DisplayName: 夜落于此
 		Tooltip: ""
 	}
 
@@ -6327,7 +6329,7 @@ Items: {
 	}
 
 	GoldJavelin: {
-		DisplayName: Golden Javelin
+		DisplayName: 金标枪
 		Tooltip: ""
 	}
 
@@ -6342,12 +6344,12 @@ Items: {
 	}
 
 	GrassJavelin: {
-		DisplayName: Underbrush
+		DisplayName: 藤丛
 		Tooltip: ""
 	}
 
 	Hellebarde: {
-		DisplayName: Ignitus
+		DisplayName: 引信
 		Tooltip: ""
 	}
 
@@ -6408,17 +6410,17 @@ Items: {
 	}
 
 	Needler: {
-		DisplayName: Needler
+		DisplayName: 针刺枪
 		Tooltip: Fires cactus needles
 	}
 
 	NeedlerCorruption: {
-		DisplayName: Corrupted Needler
+		DisplayName: 腐烂针刺枪
 		Tooltip: Fires cactus needles
 	}
 
 	NeedlerCrimson: {
-		DisplayName: Bloody Needler
+		DisplayName: 血染针刺枪
 		Tooltip: Fires cactus needles
 	}
 
@@ -6491,7 +6493,7 @@ Items: {
 	}
 
 	PlatinumJavelin: {
-		DisplayName: Platinum Javelin
+		DisplayName: 铂金标枪
 		Tooltip: ""
 	}
 
@@ -6511,7 +6513,7 @@ Items: {
 	}
 
 	ShadowJavelin: {
-		DisplayName: Umbra
+		DisplayName: 半影
 		Tooltip: ""
 	}
 
@@ -6560,7 +6562,7 @@ Items: {
 	}
 
 	Tonbogiri: {
-		DisplayName: Nihongo
+		DisplayName: 日语
 		Tooltip: ""
 	}
 
@@ -6599,8 +6601,8 @@ Items: {
 	}
 
 	WoodJavelin: {
-		DisplayName: Wooden Javelin
-		Tooltip: "'The starter kit for throwers!'"
+		DisplayName: 木标枪
+		Tooltip: “为投手准备的入门装备！”
 	}
 
 	AsthralArrow: {
@@ -6806,16 +6808,16 @@ Items: {
 	}
 
 	FrigidFusillade: {
-		DisplayName: Frigid Fusillade
-		Tooltip: Fires frost spikes
+		DisplayName: 霜寒连咒
+		Tooltip: 发射霜寒尖刺
 	}
 
 	FrostGlobeStaff: {
-		DisplayName: Frigid Aura Staff
+		DisplayName: 霜寒光环法杖
 		Tooltip:
 			'''
-			Summons a frost aura below the cursor
-			Single Sentry
+			在鼠标下方召唤一个霜寒光环
+			哨兵上限为1
 			'''
 	}
 
@@ -7945,7 +7947,7 @@ Items: {
 	}
 
 	DecreeRelicItem: {
-		DisplayName: Decree Relic
+		DisplayName: 裁决圣物
 		Tooltip: ""
 	}
 
@@ -8358,7 +8360,7 @@ NPCs: {
 	AraneasLeg.DisplayName: Araneas
 
 	DecreeLegacy: {
-		DisplayName: The Decree (Outdated)
+		DisplayName: 裁决(Outdated)
 
 		BossChecklistIntegration: {
 			EntryName: "{$NPCs.DecreeLegacy.DisplayName}"
@@ -8367,7 +8369,7 @@ NPCs: {
 	}
 
 	Decree: {
-		DisplayName: The Decree
+		DisplayName: 裁决
 
 		BossChecklistIntegration: {
 			EntryName: "{$NPCs.Decree.DisplayName}"
@@ -8376,8 +8378,8 @@ NPCs: {
 	}
 
 	DecreeFrozen2.DisplayName: Mysterious Frozen Creature
-	DecreeRun.DisplayName: The Decree
-	DecreeTransition.DisplayName: The Decree
+	DecreeRun.DisplayName: 裁决
+	DecreeTransition.DisplayName: 裁决
 
 	ErazorShrine: {
 		DisplayName: Erazor
@@ -8574,9 +8576,9 @@ NPCs: {
 	FlareSharkWaterBecauseRedcodeSucks.DisplayName: Draconic Crusher
 	Flarian.DisplayName: Furia
 	FollowerofAbaddon.DisplayName: Umbral Follower
-	FrigidJelly.DisplayName: Frigid Jellyfish
-	FrigidSlime.DisplayName: Frigid Slime
-	FrigidSpirit.DisplayName: Frigid Spirit
+	FrigidJelly.DisplayName: 霜寒水母
+	FrigidSlime.DisplayName: 霜寒史莱姆
+	FrigidSpirit.DisplayName: 霜寒幽魂
 	FuriousSlime.DisplayName: Furious Slime
 	NebulaSlime.DisplayName: Nebula Slime
 	NightmareRiftOrb.DisplayName: Nightmare Rift
@@ -8875,8 +8877,8 @@ Projectiles: {
 	FlariumRocket.DisplayName: Flarium Rocket
 	FriendlyFire.DisplayName: Flarium Fireball
 	FriendlyShadow.DisplayName: Dark Energy Flame
-	FrigidFusillade.DisplayName: Frigid Orb
-	FrigidFusillade2.DisplayName: Frigid Spike
+	FrigidFusillade.DisplayName: 霜寒球
+	FrigidFusillade2.DisplayName: 霜寒尖刺
 	FrostBeamProjectile.DisplayName: Frost Scythe
 	FrostBullet.DisplayName: Cernium Bullet
 	FrostExplosion.DisplayName: Frost Explosion
@@ -9007,7 +9009,7 @@ Projectiles: {
 	UltimaShock.DisplayName: Ultima Shockwave
 	Whirlpool.DisplayName: Whirlpool
 	WitherSwing.DisplayName: Withering Swing
-	WoodJavelinProjectile.DisplayName: Wooden Javelin
+	WoodJavelinProjectile.DisplayName: 木标枪
 	WrathSpell.DisplayName: Despair Spike
 	WrathSpell1.DisplayName: Despair Spike
 	WrathSpell2.DisplayName: Despair Spike
@@ -9104,10 +9106,10 @@ Projectiles: {
 	Cobweb.DisplayName: Sticky Web
 	SpiderEgg.DisplayName: Spider Egg
 	VenomBreath.DisplayName: Venom Breath
-	DecreeSlash.DisplayName: Decree
+	DecreeSlash.DisplayName: 裁决
 	DecreeWave.DisplayName: Frost Wave
 	FrigidOrb.DisplayName: Frigid Orb
-	FrigidSpike.DisplayName: Frigid Spike
+	FrigidSpike.DisplayName: 霜寒尖刺
 	FollowerKnife1.DisplayName: Umbral Follower Knife
 	FollowerShadow.DisplayName: Umbral Follower Shadow
 	Groundpound.DisplayName: Shockfrost
