@@ -1,11 +1,31 @@
-Modify this file with a description of your mod.
-Modify this file with a description of your mod.
-Modify this file with a description of your mod.
-Modify this file with a description of your mod.
-Modify this file with a description of your mod.
-Modify this file with a description of your mod.
-Modify this file with a description of your mod.
-Modify this file with a description of your mod.
-Modify this file with a description of your mod.
-Modify this file with a description of your mod.
-Modify this file with a description of your mod.
+(~~Strikethrough~~ means the bug is fixed for the next patch)
+
+**General**
+- Marstech armor spawns more than one aura and thus, more than one shockwave. This causes WAY too much damage on screen and the amount of projectiles could crash your game
+- Blazes are broken and don't shoot anything
+- Blightbone armor does not affect Bone Glove anymore since it's now an accessory, and the logic still applies to "using" the item, which you cannot do anymore
+- ~~Pets show up weirdly on character select~~
+
+**Multiplayer**
+- Nihilus arena might kick players out permanently if any respawn mods are loaded
+
+**Tiles**
+- Lapis and Bismuth deco tiles can be mined despite not having enough pickaxe power for the ore tiles themselves
+
+**Worldgen**
+
+**Graphics**
+- Shadowflare Vortex background breaks when forced minimum zoom setting is enabled (TML bug, dunno if we can fix it)
+- It can also sometimes break due to assets not loading correctly, still looking into that (you can temporarily fix this by reloading mods/the game)
+- LCS Vanity turns you into NAMELESS DEITY OF LIGHT
+- ~~Jensen, Draconic Crusher and Zombie Piglin Bruiser have a missing asset, and will pause the game process until continued when the texture attempts to load~~
+
+**Mod Conflicts**
+- ~~Fargo: the thing that causes bosses to drop 5x loot makes Novaniel spawn 5 times (what a surprise return!~~ (Fixed for 1.2.004
+- Who would've thought, The Stars Above: Shock and Awe will ***A L S O*** break Nether Portals
+- ~~Fargo: Gutted Heart, Pure Heart, and anything else that destroys hostile projectiles on contact causes Nihilus to despawn~~
+
+**Not Bugs**
+- Erazor and Nuba are missing (they are somewhere else you can't get to yet)
+- Stargazer summons Crimini (not implemented)
+- Pseudo-revenant weapons (Throwing weapons that were just changed to Kinetic) cannot get modifiers (because they were not coded to have any)

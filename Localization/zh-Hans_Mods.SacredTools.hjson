@@ -80,28 +80,28 @@ CrossMod: {
 		NameOverride: {
 			UnknownBoss: ???
 			LostSiblings: The Lost Siblings
-			PiglinArmy: The Piglin Army
+			PiglinArmy: 猪灵军团
 		}
 
 		SpawnInfo: {
 			// Bosses
 			Decree: 在雪原使用[i:SacredTools/DecreeSummon]以召唤
-			Ralnek: Use a [i:SacredTools/PumpkinLantern] at night
-			Jensen: Use a [i:SacredTools/JensenSummon] at night
+			Ralnek: 在夜晚使用[i:SacredTools/PumpkinLantern]以召唤
+			Jensen: 在夜晚使用[i:SacredTools/JensenSummon]以召唤
 			Araneas: Break a Mysterious Statue in the Empress' Den
-			Raynare: Use a [i:SacredTools/RaynareSummon] at night
-			Primordia: Use a [i:SacredTools/PrimordiaSummon] in the desert
-			Abaddon: Use a [i:SacredTools/AbaddonSummon] at night
-			Araghur: Use a [i:SacredTools/SerpentSummon] in the Cinder Forest
+			Raynare: 在夜晚使用[i:SacredTools/RaynareSummon]以召唤
+			Primordia: 在沙漠使用[i:SacredTools/PrimordiaSummon]以召唤
+			Abaddon: 在夜晚使用[i:SacredTools/AbaddonSummon]以召唤
+			Araghur: 在Cinder Forest使用[i:SacredTools/SerpentSummon]以召唤
 			LostSiblings:
 				'''
-				Use a [i:SacredTools/SoranEmblem] at any time
+				在任意时间使用[i:SacredTools/SoranEmblem]
 				Alternatively, use an [i:SacredTools/HeirsAuthority] to summon only Novaniel
 				'''
 			Erazor: Give Erazor 10 [i:SacredTools/ErosionSample]
 			Nihilus: Right-click the [i:SacredTools/NihilusObelisk] with a proper arena set up
 			// Events
-			PiglinArmy: Use a [i:SacredTools/PigmanBanner] on the surface
+			PiglinArmy: 在地表使用[i:SacredTools/PigmanBanner]以召唤
 		}
 	}
 
@@ -109,7 +109,7 @@ CrossMod: {
 		// Note: Currently unused since Census doesn't support localization.
 		Condition: {
 			ShrineCommon: Can only appear at the Starlight Shrine
-			Scavenger: 击败裁决, 惧焰拉内克或Jensen
+			Scavenger: 击败裁决, 惧焰拉内克或风暴女妖詹森
 			Decorationalist: Defeat the Eye of Cthulhu
 			RalnekShrine:
 				'''
@@ -364,7 +364,7 @@ Keybinds: {
 }
 
 UI: {
-	PiglinArmy: Piglin Army
+	PiglinArmy: 猪灵军团
 	LahronCleared: Cleared {0}%
 	DimensionalRift: Dimensional Rift
 
@@ -420,8 +420,8 @@ BossMessage: {
 	FlariumMessage: The force of flame has weakened.
 	FragmentMessage: The festive moons shine down.
 	PiglinBruteEnter: The army's brute enters the battlefield.
-	PiglinRetreatMessage: The Piglin Army retreats to its domain.
-	PiglinDefeatMessage: The Piglin Army has been defeated!
+	PiglinRetreatMessage: 猪灵军团撤回到了自己的领地.
+	PiglinDefeatMessage: 猪灵军团已被击退!
 	SyrusEnd: The Dimensional Rift has been closed!
 	NovanielSpawnMessage: It's not over yet...
 	NovanielCelestialJudgementMessage: This isn't personal, but don't stand in our way.
@@ -2143,7 +2143,7 @@ Items: {
 	}
 
 	FlightFeather: {
-		DisplayName: Flight Feather
+		DisplayName: 风暴飞羽
 		Tooltip: Take no fall damage and glide into safety
 	}
 
@@ -2238,8 +2238,8 @@ Items: {
 	}
 
 	PumpkinAmulet: {
-		DisplayName: Pumpkin Amulet
-		Tooltip: Getting struck has a 33% chance to erupt flames from your body
+		DisplayName: 南瓜护身符
+		Tooltip: 受到攻击时有33%的几率从身体中喷出火焰
 	}
 
 	RadiantAmulet: {
@@ -3048,22 +3048,22 @@ Items: {
 	}
 
 	AbaddonBag: {
-		DisplayName: Treasure Bag (Abaddon)
+		DisplayName: 宝藏袋(Abaddon)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	AraghurBag: {
-		DisplayName: Treasure Bag (Araghur)
+		DisplayName: 宝藏袋(Araghur)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	AraneasBag: {
-		DisplayName: Treasure Bag (Araneas)
+		DisplayName: 宝藏袋(Araneas)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	BruteBag: {
-		DisplayName: Treasure Bag (Piglin Brute)
+		DisplayName: 宝藏袋(猪灵蛮兵)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
@@ -3073,27 +3073,27 @@ Items: {
 	}
 
 	ErazorBag: {
-		DisplayName: Treasure Bag (Erazor)
+		DisplayName: 宝藏袋(Erazor)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	JensenBag: {
-		DisplayName: Treasure Bag (Jensen)
+		DisplayName: 宝藏袋(风暴女妖詹森)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	LostSiblingsBag: {
-		DisplayName: Treasure Bag (Lost Siblings)
+		DisplayName: 宝藏袋(Lost Siblings)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	NihilusBag: {
-		DisplayName: Treasure Bag (Nihilus)
+		DisplayName: 宝藏袋(Nihilus)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	PrimordiaBag: {
-		DisplayName: Treasure Bag (Primordia)
+		DisplayName: 宝藏袋(Primordia)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
@@ -3103,7 +3103,7 @@ Items: {
 	}
 
 	RaynareBag: {
-		DisplayName: Treasure Bag (Raynare)
+		DisplayName: 宝藏袋(Raynare)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
@@ -3228,12 +3228,12 @@ Items: {
 	}
 
 	BlazePowder: {
-		DisplayName: Blaze Powder
+		DisplayName: 烈焰粉
 		Tooltip: ""
 	}
 
 	BlazeRod: {
-		DisplayName: Blaze Rod
+		DisplayName: 烈焰棒
 		Tooltip: ""
 	}
 
@@ -3258,8 +3258,8 @@ Items: {
 	}
 
 	DreadFlame: {
-		DisplayName: Dread Flame
-		Tooltip: "'The ever burning life essence of 惧焰拉内克'"
+		DisplayName: 恐惧之焰
+		Tooltip: “惧焰拉内克永远燃烧的生命本质
 	}
 
 	EldritchSpark: {
@@ -3348,8 +3348,8 @@ Items: {
 	}
 
 	GrandHarpyFeather: {
-		DisplayName: Storm Feather
-		Tooltip: "'Attuned to the howling winds of Valnuu'"
+		DisplayName: 风暴之羽
+		Tooltip: “已然适应了Valnuu咆哮的风”
 	}
 
 	Illumifern: {
@@ -3383,8 +3383,8 @@ Items: {
 	}
 
 	LifeEmber: {
-		DisplayName: Life Ember
-		Tooltip: "'A fragment of a burning soul'"
+		DisplayName: 生命余烬
+		Tooltip: “燃烧将逝灵魂的最后一缕”
 	}
 
 	LihzahrdBar: {
@@ -3473,7 +3473,7 @@ Items: {
 	}
 
 	Welkinbell: {
-		DisplayName: Welkinbell
+		DisplayName: 云海之蕊
 		Tooltip: ""
 	}
 
@@ -4257,12 +4257,12 @@ Items: {
 	}
 
 	FlamingPumpkinMask: {
-		DisplayName: Flaming Pumpkin Mask
+		DisplayName: 南瓜焰面具
 		Tooltip: ""
 	}
 
 	HarpyMask: {
-		DisplayName: Jensen Mask
+		DisplayName: 风暴女妖詹森面具
 		Tooltip: "'Lets hope you're not allergic to feathers'"
 	}
 
@@ -4567,8 +4567,8 @@ Items: {
 	}
 
 	PandolarMask: {
-		DisplayName: Pandolar Mask
-		Tooltip: "'Cute cuddly Pandolar'"
+		DisplayName: 潘多拉面具
+		Tooltip: “超级可爱的潘多拉星人”
 	}
 
 	PandolarPaws: {
@@ -4906,8 +4906,8 @@ Items: {
 	}
 
 	PumpkinFlare: {
-		DisplayName: Pumpkin Flare
-		Tooltip: Turns musket balls into flaming seeds
+		DisplayName: 南瓜怒焰
+		Tooltip: 将火枪子弹转化为燃烧的种子
 	}
 
 	Pumpnade: {
@@ -5372,12 +5372,12 @@ Items: {
 	}
 
 	JensenSummon: {
-		DisplayName: Tempest Shards
+		DisplayName: 风暴碎片
 		Tooltip:
 			'''
-			The shards resonate with the power of the wind,
-			calling upon the attention of those attuned to it
-			Not consumable
+			碎片与风的力量产生了共鸣
+			这引起了那些适应天空之人的注意
+			非消耗品
 			'''
 	}
 
@@ -5387,8 +5387,8 @@ Items: {
 	}
 
 	PumpkinLantern: {
-		DisplayName: Dread Lantern
-		Tooltip: Summons the burning horror of the night
+		DisplayName: 恐焰南瓜灯
+		Tooltip: 在夜晚唤醒燃烧的恐惧
 	}
 
 	RaynareSummon: {
@@ -5974,7 +5974,7 @@ Items: {
 	}
 
 	WelkinbellSeeds: {
-		DisplayName: Welkinbell Seeds
+		DisplayName: 云海之蕊种子
 		Tooltip: ""
 	}
 
@@ -6185,8 +6185,8 @@ Items: {
 		DisplayName: 腐朽之契
 		Tooltip:
 			'''
-			“真实往往比谎言更懂得如何刺痛人心。遵循此句箴言，或许你能窥见其后的真实……”
-			使用以启用「真实模式」, 释放出Syru的真正力量。也将为你敞开接触更深层内容的大门
+			“真实往往比谎言更懂得如何刺痛人心. 遵循此句箴言，或许你能窥见其后的真实……”
+			使用以启用「真实模式」, 释放出Syru的真正力量. 也将为你敞开接触更深层内容的大门
 			注意：此！效！果！不！可！逆！请一定确保您做好了足够的准备后再开启此模式
 			'''
 	}
@@ -6226,7 +6226,7 @@ Items: {
 	}
 
 	PigmanBanner: {
-		DisplayName: Piglin Army Banner
+		DisplayName: 猪灵军团战旗
 		Tooltip: Marks the location of the attack
 	}
 
@@ -6973,27 +6973,27 @@ Items: {
 	}
 
 	Featherbook: {
-		DisplayName: Harpy Tome
+		DisplayName: 鹰身女妖巨著
 		Tooltip: "'It shall rain feathers from the Sky!!'"
 	}
 
 	Feathergun: {
-		DisplayName: Harpy Gun
+		DisplayName: 鹰身女妖枪
 		Tooltip: ""
 	}
 
 	Featherstaff: {
-		DisplayName: Harpy Staff
-		Tooltip: Summons a Harpy to fight for you
+		DisplayName: 鹰身女妖法杖
+		Tooltip: Summons a 鹰身女妖 to fight for you
 	}
 
 	Featherstorm: {
-		DisplayName: Harpy Daze
+		DisplayName: 女妖之惘
 		Tooltip: Rapidly throw feathers
 	}
 
 	Feathersword: {
-		DisplayName: Harpy Blade
+		DisplayName: 鹰身女妖之刃
 		Tooltip: Shoots a feather on swing
 	}
 
@@ -7970,7 +7970,7 @@ Items: {
 	}
 
 	JensenRelicItem: {
-		DisplayName: Jensen Relic
+		DisplayName: 风暴女妖詹森圣物
 		Tooltip: ""
 	}
 
@@ -8025,7 +8025,7 @@ Items: {
 	}
 
 	HangingWelkinbell: {
-		DisplayName: Hanging Welkinbell
+		DisplayName: Hanging 云海之蕊
 		Tooltip: ""
 	}
 
@@ -8447,7 +8447,7 @@ NPCs: {
 	SeekingShadow.DisplayName: Seeking Shadow
 
 	JensenLegacy: {
-		DisplayName: Jensen (Outdated)
+		DisplayName: 风暴女妖詹森(Outdated)
 
 		BossChecklistIntegration: {
 			EntryName: "{$NPCs.JensenLegacy.DisplayName}"
@@ -8456,7 +8456,7 @@ NPCs: {
 	}
 
 	Jensen: {
-		DisplayName: Jensen
+		DisplayName: 风暴女妖詹森
 
 		BossChecklistIntegration: {
 			EntryName: "{$NPCs.Jensen.DisplayName}"
@@ -8537,7 +8537,7 @@ NPCs: {
 	Primordia2.DisplayName: Primordia
 	PrimordiaBody.DisplayName: Primordia
 	PrimordiaShield.DisplayName: Shield Orbital
-	DreadCore.DisplayName: Dread Core
+	DreadCore.DisplayName: 恐惧内核
 
 	Ralnek: {
 		DisplayName: 惧焰拉内克
@@ -8554,7 +8554,7 @@ NPCs: {
 	Pumpslime.DisplayName: Pumpslime
 	RalnekDefeat.DisplayName: 惧焰拉内克
 	Ralnek2.DisplayName: 惧焰拉内克
-	RalnekPhase3.DisplayName: Spirit of the Pumpkin
+	RalnekPhase3.DisplayName: 南瓜之灵
 
 	RalnekShrine: {
 		DisplayName: 惧焰拉内克
@@ -8645,13 +8645,13 @@ NPCs: {
 	ErodedTunnelerHead.DisplayName: Eroded Tunneler
 	ErodedTunnelerTail.DisplayName: Eroded Tunneler
 	ErodedWingedFuria.DisplayName: Eroded Winged Furia
-	Blaze.DisplayName: Blaze
-	NetherPortal.DisplayName: Nether Portal
-	NetherPortalBig.DisplayName: Nether Portal
+	Blaze.DisplayName: 烈焰人
+	NetherPortal.DisplayName: 地狱传送门
+	NetherPortalBig.DisplayName: 地狱传送门
 	PigmanBanner.DisplayName: Piglin Banner
 	SkeleChicken.DisplayName: Chicken Jockey
 	WitherSkeletonStart.DisplayName: Withered Carrier
-	ZombiePigmanBrute.DisplayName: Zombie Piglin Brute
+	ZombiePigmanBrute.DisplayName: 僵尸猪灵蛮兵
 	ZombiePigmanCrossbow.DisplayName: Zombie Piglin Crossbower
 	ZombiePigmanSword.DisplayName: Zombie Piglin
 	AntiBlackCoat.DisplayName: Anti Black Coat Nightmare
@@ -9995,7 +9995,7 @@ Tiles: {
 	Enduflora.MapEntry: Enduflora
 	Illumifern.MapEntry: Illumifern
 	LivingRoot.MapEntry: Living Root
-	Welkinbell.MapEntry: Welkinbell
+	Welkinbell.MapEntry: 云海之蕊
 	AsthralBedTile.MapEntry: MapObject.AsthralBedTile
 	AraneasTrophyTile.MapEntry: MapObject.AraneasTrophyTile
 	PrimordiaTrophyTile.MapEntry: MapObject.PrimordiaTrophyTile
