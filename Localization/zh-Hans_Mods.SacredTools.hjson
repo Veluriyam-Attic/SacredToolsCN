@@ -7,8 +7,8 @@ ArenaSystem: {
 
 Biomes: {
 	CinderForestBiome: {
-		DisplayName: Cinder Forest
-		TownNPCDialogueName: the Cinder Forest
+		DisplayName: 黑烬森林
+		TownNPCDialogueName: 黑烬森林
 	}
 
 	DreamscapeStormBiome: {
@@ -57,16 +57,16 @@ CommonItemTooltip: {
 	PercentIncreasedLanceRecallVelocity: "{0}% increased lance recall velocity"
 	PercentIncreasedLanceReadySpeed: "{0}% increased lance ready speed"
 	PercentIncreasedSuppression: "{0}% increased suppression"
-	PercentIncreasedBossDamage: "{0}% increased boss damage"
-	PercentIncreasedCritDamage: "{0}% increased critical strike damage"
+	PercentIncreasedBossDamage: 提高{0}%Boss伤害
+	PercentIncreasedCritDamage: 提高{0}%暴击伤害
 	PercentIncreasedPolarization: "{0}% increased polarization"
-	MinorLifeRegen: Slightly increases life regeneration
-	MinorManaRegen: Slightly increases mana regeneration
-	MediumLifeRegen: Increases life regeneration
-	MediumManaRegen: Increases mana regeneration
+	MinorLifeRegen: 轻微提高生命再生速度
+	MinorManaRegen: 轻微提高魔力再生速度
+	MediumLifeRegen: 提高生命再生速度
+	MediumManaRegen: 提高魔力再生速度
 	MajorLifeRegen: Significantly increases life regeneration
 	MajorManaRegen: Significantly increases mana regeneration
-	PercentIncreasedManaCost: "{0}% increased mana cost"
+	PercentIncreasedManaCost: 提高{0}%魔力消耗
 	DecreasedMaxLifeByPercent: Decreases maximum life by {0}%
 	DecreasedMaxManaByPercent: Decreases maximum mana by {0}%
 	PercentDecreasedMovementSpeed: "{0}% decreased movement speed"
@@ -79,7 +79,7 @@ CrossMod: {
 	BossChecklist: {
 		NameOverride: {
 			UnknownBoss: ???
-			LostSiblings: The Lost Siblings
+			LostSiblings: 失落族裔
 			PiglinArmy: 猪灵军团
 		}
 
@@ -95,7 +95,7 @@ CrossMod: {
 			Araghur: 在Cinder Forest使用[i:SacredTools/SerpentSummon]以召唤
 			LostSiblings:
 				'''
-				在任意时间使用[i:SacredTools/SoranEmblem]
+				在任意时间使用[i:SacredTools/SoranEmblem]以召唤
 				Alternatively, use an [i:SacredTools/HeirsAuthority] to summon only Novaniel
 				'''
 			Erazor: Give Erazor 10 [i:SacredTools/ErosionSample]
@@ -109,26 +109,26 @@ CrossMod: {
 		// Note: Currently unused since Census doesn't support localization.
 		Condition: {
 			ShrineCommon: Can only appear at the Starlight Shrine
-			Scavenger: 击败裁决, 惧焰拉内克或风暴女妖詹森
-			Decorationalist: Defeat the Eye of Cthulhu
+			Scavenger: 击败「裁决」, 「惧焰拉内克」或「风暴女妖詹森」
+			Decorationalist: 击败克苏鲁之眼
 			RalnekShrine:
 				'''
-				Defeat him, then talk to him in the Underworld
+				击败他, 然后在地下和他交谈
 				{$ShrineCommon}
 				'''
 			NeilShrine:
 				'''
-				Defeat Abaddon in Expert Mode
+				在专家模式下击败「亚巴顿」
 				{$ShrineCommon}
 				'''
 			NubaShrine:
 				'''
-				Defeat the Lost Siblings
+				击败「失落族裔」
 				{$ShrineCommon}
 				'''
 			ErazorShrine:
 				'''
-				Defeat the Lost Siblings in Expert Mode
+				在专家模式下击败「失落族裔」
 				{$ShrineCommon}
 				'''
 		}
@@ -137,11 +137,11 @@ CrossMod: {
 	ROR2HealthBars: {
 		BossName: {
 			// Most of these are here because the normal name already contains the title.
-			Abaddon: Abaddon
+			Abaddon: 亚巴顿
 			AraghurHead: Araghur
 			Novaniel: Novaniel
 			Nihilus2: Nihilus
-			SiblingCommon: The Lost Siblings
+			SiblingCommon: 失落族裔
 			Solarius: "{$SiblingCommon}"
 			Voxa: "{$SiblingCommon}"
 			Nuba: "{$SiblingCommon}"
@@ -150,7 +150,7 @@ CrossMod: {
 		}
 
 		BossTitle: {
-			Abaddon: Source of the Affliction
+			Abaddon: 苦厄之始
 			AraghurHead: Flare Serpent
 			Araneas: The Witness
 			Decree: Frigid Predator
@@ -395,26 +395,26 @@ UI: {
 		Enhance: Enhance
 	}
 
-	DamageFalloff: Damage falloff
+	DamageFalloff: 距离衰减
 	//Not sure if needed
 	DamageFalloff_Accuracy: Effects lessened by {0}
 
 	ChallengeSlot: {
-		FunctionalHoverName: Challenge Slot
-		VanityHoverName: "{$UI.ChallengeSlot.FunctionalHoverName}"
-		DyeHoverName: "{$UI.ChallengeSlot.FunctionalHoverName} Dye"
+		FunctionalHoverName: 挑战饰品栏
+		VanityHoverName: 挑战时装栏
+		DyeHoverName: 染料
 	}
 }
 
 WorldGen: {
 	SetupPass: Setting up the world
 	TileFillPass: Filling up the world
-	PlaceStructuresSequentiallyPass: Placing structures
+	PlaceStructuresSequentiallyPass: 正在放置结构
 }
 
 BossMessage: {
-	AbaddonDeathMessage: The dark energy of Abaddon has been released...
-	FlameMessage: ... and reality is shifting.
+	AbaddonDeathMessage: 亚巴顿的黑暗能量再也不被束缚...
+	FlameMessage: ... 现实也正在发生变化
 	MoonLordMessage: The brightest light casts the darkest shadow.
 	QueenBeeMessage: 一团微弱的火焰在夜里徘徊...
 	FlariumMessage: The force of flame has weakened.
@@ -507,14 +507,14 @@ TooltipLabel: {
 }
 
 DropConditions: {
-	TrueMode: Requires True Mode
-	TrueOrMaster: True Mode or Master
+	TrueMode: 需要开启「真实模式」
+	TrueOrMaster: 「真实模式」或「大师模式」
 	Dealmaker: "'Return to sender.'"
 	GlassSoul: Emerge victorious with any Glass Soul active
-	Golem: Requires Golem to be defeated
-	Araneas: Requires Araneas to be defeated
-	Araghur: Requires Araghur to be defeated
-	Siblings: Requires the Lost Siblings to be defeated
+	Golem: 需要击败「石巨人」
+	Araneas: 需要击败「Araneas」
+	Araghur: 需要击败「Araghur」
+	Siblings: 需要击败「失落族裔」
 }
 
 ChallengeItemHints: {
@@ -527,59 +527,59 @@ ChallengeItemHints: {
 ExtraTooltip: {
 	ChallengeWarning: A challenge item is already equipped.
 	MageCrystalWorth: Can be used if you are worthy enough
-	NiceEffects: Have some nice effects
-	LuxMeleeDamage: Melee damage increased by {0}%
-	LuxMeleeCrit: Melee crit increased by {0}%
-	LuxMeleeSpeed: Melee speed increased by {0}%
-	LuxContactDamage: Contact damage reduced by {0}%
-	LuxMagicDamage: Magic damage increased by {0}%
-	LuxMagicCrit: Magic crit increased by {0}%
-	LuxManaRegen: Mana regen increased by {0}%
-	LuxMaxMana: Maximum mana increased by {0}
-	LuxRangedDamage: Ranged damage increased by {0}%
-	LuxRangedCrit: Ranged crit increased by {0}%
-	LuxRangedAmmoChance: Chance to not consume ammo increased by {0}%
-	LuxProjectileDamage: Projectile damage reduced by {0}%
-	LuxSummonDamage: Summon damage increased by {0}%
-	LuxMaxMinions: Maximum minions increased by {0}
-	LuxMinionKnockback: Minion knockback increased by {0}%
-	LuxMaxSentries: Max sentries increased by {0}
-	LuxThrowingDamage: Throwing damage increased by {0}%
-	LuxThrowingCrit: Throwing crit increased by {0}%
-	LuxThrownItemChance: Chance to not consume thrown item increased by {0}%
-	LuxThrowingSpeed: Throwing speed increased by {0}%
+	NiceEffects: 有一些不错的效果
+	LuxMeleeDamage: 提高{0}%近战伤害
+	LuxMeleeCrit: 提高{0}%近战暴击率
+	LuxMeleeSpeed: 提高{0}%近战攻速
+	LuxContactDamage: 减少{0}%接触伤害
+	LuxMagicDamage: 提高{0}%魔法伤害
+	LuxMagicCrit: 提高{0}%魔法暴击率
+	LuxManaRegen: 提高{0}%魔力再生速度
+	LuxMaxMana: 提高{0}最大魔力值
+	LuxRangedDamage: 提高{0}%远程伤害
+	LuxRangedCrit: 提高{0}%远程暴击率
+	LuxRangedAmmoChance: 提高{0}%弹药不消耗概率
+	LuxProjectileDamage: 减少{0}%弹幕伤害
+	LuxSummonDamage: 提高{0}%召唤伤害
+	LuxMaxMinions: 增加{0}最大仆从栏
+	LuxMinionKnockback: 提高{0}%仆从击退
+	LuxMaxSentries: 增加{0}最大哨兵栏
+	LuxThrowingDamage: 提高{0}%投掷伤害
+	LuxThrowingCrit: 提高{0}%投掷暴击率
+	LuxThrownItemChance: 提高{0}%投掷不消耗概率
+	LuxThrowingSpeed: 提高{0}%投掷速度
 	LuxEmptySocket: Empty Socket Slot
 	ManaFruitAmount: "{0} out of 20 {$Items.ManaFruit.DisplayName} used"
 	OblivionRodCap: Bosses and enemies with over {0} health are unaffected
-	FishSwordBonus1: "[Enhancement Stage 1: +15 Damage]"
-	FishSwordBonus2: "[Enhancement Stage 2: +10 Damage]"
-	FishSwordBonus3: "[Enhancement Stage 3: +10 Damage, direct hits inflict toxic]"
-	FishSwordBonus4: "[Enhancement Stage 4: +15 Damage, direct hits inflict on fire]"
-	FishSwordBonus5: "[Enhancement Stage 5: +20 Damage]"
-	FishSwordBonus6: "[Enhancement Stage 6: +25 Damage, fires a projectile on swing]"
-	FishSwordBonus7: "[Enhancement Stage 7: +40 Damage, chance to lifesteal on direct hits]"
-	FishSwordBonus8: "[Enhancement Stage 8: +70 Damage, + 4% crit chance]"
-	FishSwordBonus9: "[Enhancement Stage 9: +80 Damage, fires flarium projectiles and inflicts flarium inferno on direct hits]"
-	FishSwordBonus10: "[Enhancement Stage 10: +100 Damage, + 4% crit chance, fires luminous projectiles]"
-	FishSwordBonus11: "[Enhancement Stage 11: +120 Damage, + 4% crit chance, fires asthral projectiles]"
-	CoralGunBonus1: "[Enhancement Stage 1: +25 Damage]"
-	CoralGunBonus2: "[Enhancement Stage 2: +10 Damage]"
-	CoralGunBonus3: "[Enhancement Stage 3: +15 Damage]"
-	CoralGunBonus4: "[Enhancement Stage 4: +15 Damage]"
-	CoralGunBonus5: "[Enhancement Stage 5: +20 Damage]"
-	CoralGunBonus6: "[Enhancement Stage 6: +30 Damage, fires additional sharp coral shards that inflict static]"
-	CoralGunBonus7: "[Enhancement Stage 7: +40 Damage]"
-	CoralGunBonus8: "[Enhancement Stage 8: +70 Damage, + 4% crit chance]"
-	CoralGunBonus9: "[Enhancement Stage 9: +80 Damage, fires additional deep-sea lava rocks which inflict flarium inferno]"
-	CoralGunBonus10: "[Enhancement Stage 10: +100 Damage, + 4% crit chance, calls prismarine shards from the sky that stick to the ground and explode]"
-	CoralGunBonus11: "[Enhancement Stage 11: +120 Damage, + 4% crit chance, can summon a juvenile dango that swims through enemies]"
+	FishSwordBonus1: "[Enhancement Stage 1: +15伤害]"
+	FishSwordBonus2: "[Enhancement Stage 2: +10伤害]"
+	FishSwordBonus3: "[Enhancement Stage 3: +10伤害, direct hits inflict toxic]"
+	FishSwordBonus4: "[Enhancement Stage 4: +15伤害, direct hits inflict on fire]"
+	FishSwordBonus5: "[Enhancement Stage 5: +20伤害]"
+	FishSwordBonus6: "[Enhancement Stage 6: +25伤害, fires a projectile on swing]"
+	FishSwordBonus7: "[Enhancement Stage 7: +40伤害, chance to lifesteal on direct hits]"
+	FishSwordBonus8: "[Enhancement Stage 8: +70伤害, + 4%暴击率]"
+	FishSwordBonus9: "[Enhancement Stage 9: +80伤害, fires flarium projectiles and inflicts flarium inferno on direct hits]"
+	FishSwordBonus10: "[Enhancement Stage 10: +100伤害, + 4%暴击率, fires luminous projectiles]"
+	FishSwordBonus11: "[Enhancement Stage 11: +120伤害, + 4%暴击率, fires asthral projectiles]"
+	CoralGunBonus1: "[Enhancement Stage 1: +25伤害]"
+	CoralGunBonus2: "[Enhancement Stage 2: +10伤害]"
+	CoralGunBonus3: "[Enhancement Stage 3: +15伤害]"
+	CoralGunBonus4: "[Enhancement Stage 4: +15伤害]"
+	CoralGunBonus5: "[Enhancement Stage 5: +20伤害]"
+	CoralGunBonus6: "[Enhancement Stage 6: +30伤害, fires additional sharp coral shards that inflict static]"
+	CoralGunBonus7: "[Enhancement Stage 7: +40伤害]"
+	CoralGunBonus8: "[Enhancement Stage 8: +70伤害, + 4%暴击率]"
+	CoralGunBonus9: "[Enhancement Stage 9: +80伤害, fires additional deep-sea lava rocks which inflict flarium inferno]"
+	CoralGunBonus10: "[Enhancement Stage 10: +100伤害, + 4%暴击率, calls prismarine shards from the sky that stick to the ground and explode]"
+	CoralGunBonus11: "[Enhancement Stage 11: +120伤害, + 4%暴击率, can summon a juvenile dango that swims through enemies]"
 }
 
 Revenant: {
 	KnifeAmount: Throws out {0} knives
 	SpreadAngle: Spread cone: {0:0} degrees
 	TileRange: "{0:0.##} tile range"
-	NoGravity: Not affected by gravity
+	NoGravity: 不受重力影响
 	ChargeTime: "{0} seconds ready time"
 	PerfectStrikeWindow: "{0} seconds perfect strike window"
 	PenetrateTargetCount: Pierces through {0} targets
@@ -597,6 +597,7 @@ Sanguine: {
 SetBonus: {
 	AsthralMagic:
 		'''
+
 		{$CommonItemTooltip.PercentIncreasedMagicDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
 		Press [{$Keybinds.AbilityPrimary.DisplayName}] to parry incoming attacks in the direction of the cursor
@@ -608,6 +609,7 @@ SetBonus: {
 		'''
 	AsthralMelee:
 		'''
+
 		{$CommonItemTooltip.PercentIncreasedMeleeDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
 		Press [{$Keybinds.AbilityPrimary.DisplayName}] to parry incoming attacks in the direction of the cursor
@@ -619,6 +621,7 @@ SetBonus: {
 		'''
 	AsthralRanged:
 		'''
+
 		{$CommonItemTooltip.PercentIncreasedRangedDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
 		Press [{$Keybinds.AbilityPrimary.DisplayName}] to parry incoming attacks in the direction of the cursor
@@ -630,6 +633,7 @@ SetBonus: {
 		'''
 	AsthralSummon:
 		'''
+
 		{$CommonItemTooltip.PercentIncreasedSummonDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
 		Press [{$Keybinds.AbilityPrimary.DisplayName}] to parry incoming attacks in the direction of the cursor
@@ -641,6 +645,7 @@ SetBonus: {
 		'''
 	AsthraltiteRevenant:
 		'''
+
 		{$CommonItemTooltip.PercentIncreasedKineticDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
 		Press [{$Keybinds.AbilityPrimary.DisplayName}] to parry incoming attacks in the direction of the cursor
@@ -650,54 +655,81 @@ SetBonus: {
 		Certain special attacks and contact damage cannot be parried
 		This ability disables shadow dodge and similar effects
 		'''
-	Bismuth: Hitting enemies has a chance to summon a bismuth hammer for extra damage
-	Blightbone: Empowers certain bone-related weapons
+	Bismuth:
+		'''
+		         
+		Hitting enemies has a chance to summon a bismuth hammer for extra damage
+		'''
+	Blightbone:
+		'''
+		   
+		Empowers certain bone-related weapons
+		'''
 	CairoCrusader:
 		'''
+
 		{$CommonItemTooltip.PercentChanceToSaveThrownItems}
 		Awakens Eternal Oasis to aid you in battle
 		Double tap down to switch between active and passive
 		'''
 	Frosthunter:
 		'''
-		
+
 		在雪原时增加15%伤害
 		远程弹幕会造成霜冻减益
 		'''
 	Flarium:
 		'''
+
 		Taking fatal damage will revive you with 1/3rd of your max health
 		You will have one minute of increased strength after rebirth
 		5 minute cooldown
 		'''
-	Eerie: Minion damage grants increased life regeneration
+	Eerie:
+		'''
+		    
+		Minion damage grants increased life regeneration
+		'''
 	Lapis:
 		'''
+		         
 		{$CommonItemTooltip.PercentIncreasedMovementSpeed}
 		在受到伤害后的短时间内提高20%移速
 		'''
 	BlazingBrute:
 		'''
+
 		Standing still for 5 seconds charges a shield that increases damage reduction by 25% per level (max of 4)
 		Getting hit or moving resets the counter
 		Taking a hit reduces the shield level by 1
 		'''
-	Nuba: Attacking enemies may sometimes release buff wisps which can be picked up for different stacking buffs
+	Nuba:
+		'''
+		              
+		Attacking enemies may sometimes release buff wisps which can be picked up for different stacking buffs
+		'''
 	VortexCommander:
 		'''
+
 		Pressing [{$Keybinds.AbilityPrimary.DisplayName}] puts you in 'Sniper State'
 		Your damage is upped in this state however you are frozen in place and have reduced defense
 		State is toggled upon button press and has a cooldown of 5 seconds after switching
 		'''
-	StellarPriest: Summons a stellar guardian behind you that attacks enemies
+	StellarPriest:
+		'''
+		             
+		Summons a stellar guardian behind you that attacks enemies
+		'''
 	FallenPrince:
 		'''
+
 		Hitting enemies has a chance to summon a energy blade behind you (Max of 5)
 		Every newly acquired blade increases the damage of pre-existing ones by 20%
 		Pressing [{$Keybinds.AbilityPrimary.DisplayName}] will launch the blades at nearby enemies
 		'''
 	Marstech:
 		'''
+
 		Dealing damage charges up an energy forcefield around you that damages enemies and decays over time
 		Can be instantly discharged by pressing [{$Keybinds.AbilityPrimary.DisplayName}], which will cause a shockwave to damage all nearby enemies
 		Damage, range and debuff duration are increased by forcefield strength
@@ -705,33 +737,46 @@ SetBonus: {
 		'''
 	Nova:
 		'''
+
 		Kinetic damage creates surges of energy around you
 		Energy surges attempt to home into enemies
 		'''
 	VoidWarden:
 		'''
+
 		Taking damage has a chance to freeze all enemies nearby
 		Bosses and enemies with over 8000 HP are unaffected
 		Cooldown of 10 seconds
 		'''
 	VoidWardenOffense:
 		'''
+
 		Attacking has a 5% chance to make nearby enemies take double damage
 		Cooldown of 10 seconds
 		'''
-	Prairie: "{0}% increased ranged and kinetic damage"
+	Prairie:
+		'''
+		          
+		{0}% increased ranged and kinetic damage
+		'''
 	Dreadfire:
 		'''
+
 		Pressing [{$Keybinds.AbilityPrimary.DisplayName}] will activate 'Dreadfire Aura'.
 		'Dreadfire Aura' increases minion damage greatly for a minute.
 		3 minute cooldown
 		'''
 	SpaceJunk:
 		'''
+
 		{$CommonItemTooltip.PercentChanceToSaveThrownItems}
 		Damaging enemies will occasionally call upon a meteor to fall from the sky
 		'''
-	VulcanReaper: Provides immunity to Flarium Inferno and Obsidian Curse
+	VulcanReaper:
+		'''
+
+		Provides immunity to Flarium Inferno and Obsidian Curse
+		'''
 }
 
 Town: {
@@ -3493,7 +3538,6 @@ Items: {
 	CharmOfH: {
 		DisplayName: H的魅力
 		Tooltip: 召唤一个喵喵史莱姆（来自《史莱姆农场》）
-		#（来自《史莱姆农场》）
 	}
 
 	CrimsonSigil: {
@@ -6412,7 +6456,7 @@ Items: {
 
 	Needler: {
 		DisplayName: 针刺枪
-		Tooltip: 
+		Tooltip:
 			'''
 			发射仙人掌针
 			使用仙人掌作为弹药
@@ -6421,7 +6465,7 @@ Items: {
 
 	NeedlerCorruption: {
 		DisplayName: 腐烂针刺枪
-		Tooltip: 
+		Tooltip:
 			'''
 			发射仙人掌针
 			使用仙人掌作为弹药
@@ -6430,7 +6474,7 @@ Items: {
 
 	NeedlerCrimson: {
 		DisplayName: 血染针刺枪
-		Tooltip: 
+		Tooltip:
 			'''
 			发射仙人掌针
 			使用仙人掌作为弹药
@@ -7945,17 +7989,17 @@ Items: {
 	}
 
 	AbaddonRelicItem: {
-		DisplayName: Abaddon Relic
+		DisplayName: 亚巴顿圣物
 		Tooltip: ""
 	}
 
 	AraghurRelicItem: {
-		DisplayName: Araghur Relic
+		DisplayName: Araghur圣物
 		Tooltip: ""
 	}
 
 	AraneasRelicItem: {
-		DisplayName: Araneas Relic
+		DisplayName: Araneas圣物
 		Tooltip: ""
 	}
 
@@ -7965,7 +8009,7 @@ Items: {
 	}
 
 	ErazorRelicItem: {
-		DisplayName: Erazor Relic
+		DisplayName: Erazor圣物
 		Tooltip: ""
 	}
 
@@ -7975,12 +8019,12 @@ Items: {
 	}
 
 	NihilusRelicItem: {
-		DisplayName: Nihilus Relic
+		DisplayName: Nihilus圣物
 		Tooltip: ""
 	}
 
 	PrimordiaRelicItem: {
-		DisplayName: Primordia Relic
+		DisplayName: Primordia圣物
 		Tooltip: ""
 	}
 
@@ -7990,12 +8034,12 @@ Items: {
 	}
 
 	RaynareRelicItem: {
-		DisplayName: Raynare Relic
+		DisplayName: Raynare圣物
 		Tooltip: ""
 	}
 
 	SiblingsRelicItem: {
-		DisplayName: Siblings Relic
+		DisplayName: Siblings圣物
 		Tooltip: ""
 	}
 
@@ -8051,19 +8095,19 @@ Items: {
 
 	Shrine1MusicBox: {
 		Tooltip: ""
-		DisplayName: Music Box (A Stranded Place)
+		DisplayName: 音乐盒(A Stranded Place)
 	}
 }
 
 TooltipTrueMode: {
-	BaseTooltip: "[True Mode Effect] "
-	BaseTooltipInfo: "[True Mode Effect - {0}] "
+	BaseTooltip: "[真实模式效果]"
+	BaseTooltipInfo: "[真实模式效果 - {0}] "
 	NightmareBlindfold: "{$CommonItemTooltip.PercentIncreasedPolarization}"
 	RodofDiscordInfo: Enraged Chaos
 	RodofHarmonyInfo: Denied Harmony
 	RodofDiscord: Teleporting will make bosses more aggressive, and will leave you wounded during certain attacks
 	ChlorophyteBulletInfo: Floral Myopia
-	ChlorophyteBullet: Damage Falloff multiplied by 2.5x
+	ChlorophyteBullet: 「距离衰减」效果变为原来的2.5倍
 }
 
 TooltipVanillaModify: {
@@ -8090,10 +8134,10 @@ TooltipSimple: {
 TooltipDetail: {
 	ComboPotion:
 		'''
-		Defense increased by 18, Life regen increased by 6
-		Damage increased by 15%, Crit increased by 10%
-		Damage reduction increased by 10%, Max life increased by 100
-		Movement speed increased by 30%
+		防御力增加18, 生命再生速度增加6
+		提高15%伤害, 提高10%暴击率
+		提高10%伤害减免, 增加100最大生命值
+		提高30%移动速度
 		'''
 	CorruptedSigil:
 		'''
@@ -8176,7 +8220,7 @@ NPCs: {
 			Princess_LovesNPC: I like {NPCName}.
 		}
 
-		Census.SpawnCondition:"{$Mods.SacredTools.CrossMod.Census.Condition.Decorationist}"
+		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.Decorationist}"
 	}
 
 	Erazor.DisplayName: Fallen Monarch
@@ -8202,8 +8246,8 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-		
-		Census.SpawnCondition:"{$Mods.SacredTools.CrossMod.Census.Condition.RNGNymph}"
+
+		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.RNGNymph}"
 	}
 
 	FeatherShield.DisplayName: Feather Shield
@@ -8230,8 +8274,8 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-		
-		Census.SpawnCondition:"{$Mods.SacredTools.CrossMod.Census.Condition.Neil}"
+
+		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.Neil}"
 	}
 
 	Pandolar: {
@@ -8255,8 +8299,8 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-		
-		Census.SpawnCondition:"{$Mods.SacredTools.CrossMod.Census.Condition.Pandolar}"
+
+		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.Pandolar}"
 	}
 
 	PandolarFrozen.DisplayName: Frozen Pandolar
@@ -8282,8 +8326,8 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-		
-		Census.SpawnCondition:"{$Mods.SacredTools.CrossMod.Census.Condition.PandolarUnconscious}"
+
+		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.PandolarUnconscious}"
 	}
 
 	Scavenger: {
@@ -8307,8 +8351,8 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-		
-		Census.SpawnCondition:"{$Mods.SacredTools.CrossMod.Census.Condition.Scavenger}"
+
+		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.Scavenger}"
 	}
 
 	Serpent_Minion.DisplayName: Flare Elemental
@@ -8335,12 +8379,12 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-		
-		Census.SpawnCondition:"{$Mods.SacredTools.CrossMod.Census.Condition.NubaShrine}"
+
+		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.NubaShrine}"
 	}
 
 	Abaddon: {
-		DisplayName: Abaddon, the Source of the Affliction
+		DisplayName: 亚巴顿，苦厄之始
 
 		BossChecklistIntegration: {
 			EntryName: "{$NPCs.Abaddon.DisplayName}"
@@ -8429,8 +8473,8 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-		
-		Census.SpawnCondition:"{$Mods.SacredTools.CrossMod.Census.Condition.ErazorShrine}"
+
+		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.ErazorShrine}"
 	}
 
 	ErazorBoss: {
@@ -8548,8 +8592,8 @@ NPCs: {
 		}
 	}
 
-	PumpFlame.DisplayName: Pumpkin Flame
-	PumpFlame2.DisplayName: Pumpkin Flame
+	PumpFlame.DisplayName: 南瓜焰
+	PumpFlame2.DisplayName: 南瓜焰
 	Pumpfly.DisplayName: Pumpfly
 	Pumpslime.DisplayName: Pumpslime
 	RalnekDefeat.DisplayName: 惧焰拉内克
@@ -8577,8 +8621,8 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-		
-		Census.SpawnCondition:"{$Mods.SacredTools.CrossMod.Census.Condition.RalnekShrine}"
+
+		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.RalnekShrine}"
 	}
 
 	FeatherShieldShoot.DisplayName: Feather
@@ -8692,8 +8736,8 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-		
-		Census.SpawnCondition:"{$Mods.SacredTools.CrossMod.Census.Condition.ReggieShip}"
+
+		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.ReggieShip}"
 	}
 
 	SparringPlatform.DisplayName: Sparring Platform
@@ -10046,16 +10090,16 @@ MissionUI: {
 }
 
 Cutscene: {
-	SkipCutscene: Press ESC to skip
-	WaitingForSkip: Waiting for other players.
-	RemainingPlayers: ({Remaining}/{Total} players remaining)
+	SkipCutscene: 按下Esc来跳过
+	WaitingForSkip: 正在等待其他玩家
+	RemainingPlayers: ({Remaining}/{Total}玩家正在等候)
 }
 
 RaidNames.Araghur: ARAGHUR, THE FLARE SERPENT
 
 Configs: {
 	SoAConfig: {
-		DisplayName: So A Config
+		DisplayName: 亚巴顿之影配置
 
 		NubaUIOffset: {
 			Label: Nuba U I Offset
