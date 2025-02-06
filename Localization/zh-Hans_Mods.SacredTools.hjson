@@ -6811,7 +6811,7 @@ Items: {
 	}
 
 	TheCluster: {
-		DisplayName: The Cluster
+		DisplayName: 链簇
 		Tooltip: ""
 	}
 
