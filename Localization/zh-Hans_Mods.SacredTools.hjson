@@ -482,12 +482,12 @@ DeathMessage: {
 }
 
 TooltipLabel: {
-	ChallengeItemLabel: "[Challenge Item]"
+	ChallengeItemLabel: "[挑战物品]"
 	ChallengeItemNotSoulboundWarning:
 		'''
 		{$ChallengeItemLabel}
-		This item is not soulbound and will not function!
-		Obtain the item legitimately in order to soulbind it!
+		此道具未绑定灵魂!
+		请通过正常途径获得该道具以绑定灵魂!
 		'''
 	ChallengeItemSoulbound: "{$ChallengeItemLabel} Soulbound to: {0}"
 	Developer: "[Developer Item: {0}]"
@@ -1895,7 +1895,7 @@ Buffs: {
 
 Items: {
 	AraghurScarf: {
-		DisplayName: Scarf of the Undying Flame
+		DisplayName: 不朽焰巾
 		Tooltip:
 			'''
 			'Formed from the embers emanating from Araghur's soul, which bring life to the forest's inhabitants.'
@@ -3128,7 +3128,7 @@ Items: {
 	}
 
 	LostSiblingsBag: {
-		DisplayName: 宝藏袋(Lost Siblings)
+		DisplayName: 宝藏袋(失落族裔)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
@@ -8157,7 +8157,7 @@ TooltipDetail: {
 
 		Boss会掉落新的奖励, 包括玻璃之心和挑战物品:
 		   - “玻璃之心”需要在启用“玻璃之魂”后通过击败特定的月亮领主后Boss获得，并且将增加你的最大生命值
-		   - 挑战物品需要再特定的条件下击败对应Boss获得，在生物图鉴中将会显示对应提示，您可以将他们装备在指定栏位上
+		   - 挑战物品需要在特定的条件下击败对应Boss获得，在生物图鉴中将会显示对应提示，您可以将他们装备在指定栏位上
 
 		这个物品在使用后不会消失，当你需要阅读有关机制时可以随时来查看
 		不过，如果你需要更多详细信息，请查阅官方Wiki(Wiki.gg)上的内容
@@ -8491,19 +8491,19 @@ NPCs: {
 	SeekingShadow.DisplayName: Seeking Shadow
 
 	JensenLegacy: {
-		DisplayName: 风暴女妖詹森(Outdated)
+		DisplayName: 詹森(Outdated)
 
 		BossChecklistIntegration: {
-			EntryName: "{$NPCs.JensenLegacy.DisplayName}"
+			EntryName: "风暴女妖{$NPCs.JensenLegacy.DisplayName}"
 			SpawnInfo: "{$CrossMod.BossChecklist.SpawnInfo.Jensen}"
 		}
 	}
 
 	Jensen: {
-		DisplayName: 风暴女妖詹森
+		DisplayName: 詹森
 
 		BossChecklistIntegration: {
-			EntryName: "{$NPCs.Jensen.DisplayName}"
+			EntryName: 风暴女妖{$NPCs.Jensen.DisplayName}
 			SpawnInfo: "{$CrossMod.BossChecklist.SpawnInfo.Jensen}"
 		}
 	}
@@ -8631,7 +8631,7 @@ NPCs: {
 		DisplayName: 蕊娜蕾
 
 		BossChecklistIntegration: {
-			EntryName: "{$NPCs.Raynare.DisplayName}"
+			EntryName: 鹰身女皇{$NPCs.Raynare.DisplayName}
 			SpawnInfo: "{$CrossMod.BossChecklist.SpawnInfo.Raynare}"
 		}
 	}
