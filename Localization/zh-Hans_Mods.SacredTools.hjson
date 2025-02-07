@@ -39,7 +39,7 @@ Biomes: {
 
 CommonItemTooltip: {
 	RageSuppression: Allows you to carry up to 50 {$Items.AsthraltiteChunks.DisplayName} without getting eroded
-	PaladinsShieldEffect: Absorbs 25% of damage done to players on your team when above 25% life
+	PaladinsShieldEffect: 生命值大于25%时，可以替队友抵挡25%伤害
 	FlariumInfernoImmunity: Immune to extreme heat
 	PercentIncreasedKineticDamage: "{0}% increased kinetic damage"
 	PercentIncreasedKineticCritChance: "{0}% increased kinetic critical strike chance"
@@ -64,12 +64,12 @@ CommonItemTooltip: {
 	MinorManaRegen: 轻微提高魔力再生速度
 	MediumLifeRegen: 提高生命再生速度
 	MediumManaRegen: 提高魔力再生速度
-	MajorLifeRegen: Significantly increases life regeneration
-	MajorManaRegen: Significantly increases mana regeneration
+	MajorLifeRegen: 极大提高生命再生速度
+	MajorManaRegen: 极大提高魔力再生速度
 	PercentIncreasedManaCost: 提高{0}%魔力消耗
-	DecreasedMaxLifeByPercent: Decreases maximum life by {0}%
-	DecreasedMaxManaByPercent: Decreases maximum mana by {0}%
-	PercentDecreasedMovementSpeed: "{0}% decreased movement speed"
+	DecreasedMaxLifeByPercent: 减少{0}%最大生命值
+	DecreasedMaxManaByPercent: 减少{0}%最大魔力值
+	PercentDecreasedMovementSpeed: 减少{0}%移动速度
 	ExitumLuxSlots: Can be enhanced with up to 4 lux shards
 	LuxiteUpgradeLevel: Used to upgrade luxite equipment to stage {0}
 	LuxiteUpgradeableItem: Can be enhanced using Mystic Stones when shown to Reggie
@@ -92,7 +92,7 @@ CrossMod: {
 			Raynare: 在夜晚使用[i:SacredTools/RaynareSummon]以召唤
 			Primordia: 在沙漠使用[i:SacredTools/PrimordiaSummon]以召唤
 			Abaddon: 在夜晚使用[i:SacredTools/AbaddonSummon]以召唤
-			Araghur: 在Cinder Forest使用[i:SacredTools/SerpentSummon]以召唤
+			Araghur: 在黑烬森林使用[i:SacredTools/SerpentSummon]以召唤
 			LostSiblings:
 				'''
 				在任意时间使用[i:SacredTools/SoranEmblem]以召唤
@@ -110,7 +110,7 @@ CrossMod: {
 		Condition: {
 			ShrineCommon: Can only appear at the Starlight Shrine
 			Scavenger: 击败「裁决」, 「惧焰拉内克」或「风暴女妖詹森」
-			Decorationalist: 击败克苏鲁之眼
+			Decorationalist: 击败「克苏鲁之眼」
 			RalnekShrine:
 				'''
 				击败他, 然后在地下和他交谈
@@ -118,7 +118,7 @@ CrossMod: {
 				'''
 			NeilShrine:
 				'''
-				在专家模式下击败「亚巴顿」
+				在专家模式下击败「亚巴顿，苦厄之始」
 				{$ShrineCommon}
 				'''
 			NubaShrine:
@@ -137,7 +137,7 @@ CrossMod: {
 	ROR2HealthBars: {
 		BossName: {
 			// Most of these are here because the normal name already contains the title.
-			Abaddon: 亚巴顿
+			Abaddon: 亚巴顿，苦厄之始
 			AraghurHead: Araghur
 			Novaniel: Novaniel
 			Nihilus2: Nihilus
@@ -163,7 +163,7 @@ CrossMod: {
 			Ralnek: Scouting Flame
 			Ralnek2: "{$Ralnek}"
 			RalnekPhase3: Lonely Flame
-			Raynare: Harpy Queen
+			Raynare: 鹰身女皇
 		}
 	}
 }
@@ -512,7 +512,7 @@ DropConditions: {
 	Dealmaker: "'Return to sender.'"
 	GlassSoul: Emerge victorious with any Glass Soul active
 	Golem: 需要击败「石巨人」
-	Araneas: 需要击败「Araneas」
+	Araneas: 需要击败「阿菈涅丝」
 	Araghur: 需要击败「Araghur」
 	Siblings: 需要击败「失落族裔」
 }
@@ -1227,7 +1227,7 @@ Buffs: {
 	}
 
 	CasterSacrificeDebuff: {
-		DisplayName: Caster's Sacrifice
+		DisplayName: 施法者的牲礼
 		Description: "{$CommonItemTooltip.PercentIncreasedManaCost}"
 	}
 
@@ -2109,22 +2109,22 @@ Items: {
 	}
 
 	AsthralRing: {
-		DisplayName: Ring of the Fallen
-		Tooltip: Points into the direction of eroded beings
+		DisplayName: 堕落之戒
+		Tooltip: 指向被标记生物的地方
 	}
 
 	CasterArcanum: {
-		DisplayName: Arcanum of the Caster
+		DisplayName: 施法者秘器
 		Tooltip:
 			'''
-			'You sacrifice everything to keep your magic powerful'
-			Using mana potions will apply 'Caster's Sacrifice' instead of Mana Sickness
-			'Caster's Sacrifice' stacks up to 5 and each stack increases mana usage by 20%
+			“牺牲一切，信仰魔法”
+			使用魔力药水将造成「施法者的牲礼」效果而不是「魔力病」
+			「施法者的牲礼」最多叠加五层，每层将会增加20%魔力消耗
 			'''
 	}
 
 	CelestialShield: {
-		DisplayName: Celestial Shield
+		DisplayName: 天幕护印
 		Tooltip:
 			'''
 			{$ItemTooltip.AnkhShield}
@@ -3093,7 +3093,7 @@ Items: {
 	}
 
 	AbaddonBag: {
-		DisplayName: 宝藏袋(Abaddon)
+		DisplayName: 宝藏袋(亚巴顿)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
@@ -3103,7 +3103,7 @@ Items: {
 	}
 
 	AraneasBag: {
-		DisplayName: 宝藏袋(Araneas)
+		DisplayName: 宝藏袋(阿菈涅丝)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
@@ -3148,7 +3148,7 @@ Items: {
 	}
 
 	RaynareBag: {
-		DisplayName: 宝藏袋(Raynare)
+		DisplayName: 宝藏袋(蕊娜蕾)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
@@ -3514,7 +3514,7 @@ Items: {
 
 	VenomSample: {
 		DisplayName: Venom Sample
-		Tooltip: "'A deadly venom extracted from Araneas' discarded armor'"
+		Tooltip: "'A deadly venom extracted from 蛛影阿菈涅丝' discarded armor'"
 	}
 
 	Welkinbell: {
@@ -3751,87 +3751,87 @@ Items: {
 	}
 
 	AbaddonMusicBox: {
-		DisplayName: Music Box (Insomnia)
+		DisplayName: 音乐盒(Insomnia)
 		Tooltip: ""
 	}
 
 	AraghurMusicBox: {
-		DisplayName: Music Box (The Dark Guardian of Flames)
+		DisplayName: 音乐盒(The Dark Guardian of Flames)
 		Tooltip: ""
 	}
 
 	AraneasMusicBox: {
-		DisplayName: Music Box (Arachnophobia)
+		DisplayName: 音乐盒(Arachnophobia)
 		Tooltip: ""
 	}
 
 	CinderForestMusicBox: {
-		DisplayName: Music Box (Phoenixlands)
+		DisplayName: 音乐盒(Phoenixlands)
 		Tooltip: ""
 	}
 
 	CinderForestUndergroundMusicBox: {
-		DisplayName: Music Box (Thermal Beat)
+		DisplayName: 音乐盒(Thermal Beat)
 		Tooltip: ""
 	}
 
 	CinderSandstormMusicBox: {
-		DisplayName: Music Box (Firestorm)
+		DisplayName: 音乐盒(Firestorm)
 		Tooltip: ""
 	}
 
 	DecreeMusicBox: {
-		DisplayName: Music Box (Feral Frost)
+		DisplayName: 音乐盒(Feral Frost)
 		Tooltip: ""
 	}
 
 	Dreamscape1MusicBox: {
-		DisplayName: Music Box (Before the Storm)
+		DisplayName: 音乐盒(Before the Storm)
 		Tooltip: ""
 	}
 
 	EmpressDenMusicBox: {
-		DisplayName: Music Box (Tomb of Fear)
+		DisplayName: 音乐盒(Tomb of Fear)
 		Tooltip: ""
 	}
 
 	ErazorMusicBox: {
-		DisplayName: Music Box (Duel of the Dark Flame)
+		DisplayName: 音乐盒(Duel of the Dark Flame)
 		Tooltip: ""
 	}
 
 	JensenMusicBox: {
-		DisplayName: Music Box (Winged Wrath)
+		DisplayName: 音乐盒(Winged Wrath)
 		Tooltip: ""
 	}
 
 	LostSiblingsMusicBox: {
-		DisplayName: Music Box (High on Selenium)
+		DisplayName: 音乐盒(High on Selenium)
 		Tooltip: ""
 	}
 
 	NovanielMusicBox: {
-		DisplayName: Music Box (Celestial Judgement)
+		DisplayName: 音乐盒(Celestial Judgement)
 		Tooltip: ""
 	}
 
 	PiglinArmy1MusicBox: {
-		DisplayName: Music Box (Infernal Assault)
+		DisplayName: 音乐盒(Infernal Assault)
 		Tooltip: ""
 	}
 
 	PrimordiaMusicBox: {
-		DisplayName: Music Box (Altera Solem)
+		DisplayName: 音乐盒(Altera Solem)
 		Tooltip: ""
 	}
 
 	RalnekMusicBox: {
-		DisplayName: Music Box (Embers in the Night Sky)
+		DisplayName: 音乐盒(Embers in the Night Sky)
 		Tooltip: ""
 	}
 
 	RaynareMusicBox: {
-		DisplayName: Music Box (Red-Winged Menace)
+		DisplayName: 音乐盒(Red-Winged Menace)
 		Tooltip: ""
 	}
 
@@ -4276,7 +4276,7 @@ Items: {
 	}
 
 	AraneasMask: {
-		DisplayName: Araneas Mask
+		DisplayName: 阿菈涅丝面具
 		Tooltip: ""
 	}
 
@@ -4311,7 +4311,7 @@ Items: {
 	}
 
 	HarpyMask2: {
-		DisplayName: Raynare Mask
+		DisplayName: 蕊娜蕾面具
 		Tooltip: "'You feel royal'"
 	}
 
@@ -5436,12 +5436,12 @@ Items: {
 	}
 
 	RaynareSummon: {
-		DisplayName: Queen's Bouquet
+		DisplayName: 女皇花羽束
 		Tooltip:
 			'''
-			Infused with a strong floral aura, this assortment of flowers
-			will attract a powerful, royal presence
-			Not consumable
+			这束花散发着浓郁的欣香……
+			会吸引一个强大的皇室成员
+			不消耗
 			'''
 	}
 
@@ -5668,7 +5668,7 @@ Items: {
 	}
 
 	AraneasTrophy: {
-		DisplayName: Araneas Trophy
+		DisplayName: 蛛影阿菈涅丝 Trophy
 		Tooltip: ""
 	}
 
@@ -5923,7 +5923,7 @@ Items: {
 	}
 
 	TrophyHarpy2: {
-		DisplayName: Raynare Trophy
+		DisplayName: 蕊娜蕾Trophy
 		Tooltip: ""
 	}
 
@@ -5978,7 +5978,7 @@ Items: {
 	}
 
 	WeaverEggAraneas: {
-		DisplayName: Araneas' Statue
+		DisplayName: 蛛影阿菈涅丝' Statue
 		Tooltip: ""
 	}
 
@@ -7999,7 +7999,7 @@ Items: {
 	}
 
 	AraneasRelicItem: {
-		DisplayName: Araneas圣物
+		DisplayName: 阿菈涅丝圣物
 		Tooltip: ""
 	}
 
@@ -8034,7 +8034,7 @@ Items: {
 	}
 
 	RaynareRelicItem: {
-		DisplayName: Raynare圣物
+		DisplayName: 蕊娜蕾圣物
 		Tooltip: ""
 	}
 
@@ -8420,7 +8420,7 @@ NPCs: {
 	AraghurTailNew.DisplayName: Araghur
 
 	Araneas: {
-		DisplayName: Araneas
+		DisplayName: 蛛影阿菈涅丝
 
 		BossChecklistIntegration: {
 			EntryName: "{$NPCs.Araneas.DisplayName}"
@@ -8428,7 +8428,7 @@ NPCs: {
 		}
 	}
 
-	AraneasLeg.DisplayName: Araneas
+	AraneasLeg.DisplayName: 蛛影阿菈涅丝
 
 	DecreeLegacy: {
 		DisplayName: 裁决(Outdated)
@@ -8628,7 +8628,7 @@ NPCs: {
 	FeatherShieldShoot.DisplayName: Feather
 
 	Raynare: {
-		DisplayName: Raynare
+		DisplayName: 蕊娜蕾
 
 		BossChecklistIntegration: {
 			EntryName: "{$NPCs.Raynare.DisplayName}"
@@ -9326,7 +9326,7 @@ Projectiles: {
 	ExplosionTelegraph.DisplayName: Dreadflame Explosion Telegraph
 	FeatherShieldShoot.DisplayName: Red Spirit Feather
 	HarpyCircle.DisplayName: Red Magic
-	RaynarePowerUp.DisplayName: Technical Projectile: Visual Effect for Raynare
+	RaynarePowerUp.DisplayName: Technical Projectile: Visual Effect for 蕊娜蕾
 	RedFeather.DisplayName: Feather
 	RedSpell.DisplayName: Red Spell
 	RedSpellCircle.DisplayName: Red Magic
@@ -9441,7 +9441,7 @@ Projectiles: {
 	NovaSpawn2.DisplayName: Technical Projectile: Summons Novaniel
 	PumpkinSpawn.DisplayName: Technical Projectile: Summons the Flaming Pumpkin
 	RainSpawn.DisplayName: Technical Projectile: Summons Rain/Sandstorm
-	RaynareSpawn.DisplayName: Technical Projectile: Summons Raynare
+	RaynareSpawn.DisplayName: Technical Projectile: Summons 蕊娜蕾
 	SerpentSpawn.DisplayName: Technical Projectile: Summon Araghur
 	SpookboiSpawn.DisplayName: Technical Projectile: Summons the Abyssal Pumpkin
 	RoseChakram.DisplayName: Rose Chakram
