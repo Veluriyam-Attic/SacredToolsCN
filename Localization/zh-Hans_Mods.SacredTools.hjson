@@ -5426,8 +5426,8 @@ Items: {
 	}
 
 	PrimordiaSummon: {
-		DisplayName: Forgotten Insignia
-		Tooltip: Summons the forgotten deity of the ancient lizkin
+		DisplayName: 遗域印玺
+		Tooltip: 召唤遗忘的远古女神「莉姿沁」
 	}
 
 	PumpkinLantern: {
