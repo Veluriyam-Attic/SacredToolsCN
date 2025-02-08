@@ -40,12 +40,12 @@ Biomes: {
 CommonItemTooltip: {
 	RageSuppression: Allows you to carry up to 50 {$Items.AsthraltiteChunks.DisplayName} without getting eroded
 	PaladinsShieldEffect: 生命值大于25%时，可以替队友抵挡25%伤害
-	FlariumInfernoImmunity: Immune to extreme heat
-	PercentIncreasedKineticDamage: "{0}% increased kinetic damage"
-	PercentIncreasedKineticCritChance: "{0}% increased kinetic critical strike chance"
-	PercentIncreasedKineticDamageCritChance: "{0}% increased kinetic damage and critical strike chance"
-	PercentIncreasedKineticSpeed: "{0}% increased kinetic velocity"
-	PercentChanceToSaveThrownItems: "{0}% chance to save thrown items"
+	FlariumInfernoImmunity: 免疫高温
+	PercentIncreasedKineticDamage: 提高{0}%动能伤害
+	PercentIncreasedKineticCritChance: 提高{0}%动能暴击率
+	PercentIncreasedKineticDamageCritChance: 提高{0}%动能伤害和暴击率
+	PercentIncreasedKineticSpeed: 提高{0}%运动速度
+	PercentChanceToSaveThrownItems: 有{0}%几率回收投出的物品
 	IncreasesKnifeStashBy: Increases knife stash by {0}
 	IncreasesKnifeStashByPercent: Increases knife stash by {0}%
 	PercentIncreasedKnifeRecoveryRate: "{0}% increased knife stash recovery rate"
@@ -56,10 +56,10 @@ CommonItemTooltip: {
 	PercentIncreasedLanceRecallSpeed: "{0}% increased lance recall speed"
 	PercentIncreasedLanceRecallVelocity: "{0}% increased lance recall velocity"
 	PercentIncreasedLanceReadySpeed: "{0}% increased lance ready speed"
-	PercentIncreasedSuppression: "{0}% increased suppression"
+	PercentIncreasedSuppression: 提高{0}%抑制度
 	PercentIncreasedBossDamage: 提高{0}%Boss伤害
 	PercentIncreasedCritDamage: 提高{0}%暴击伤害
-	PercentIncreasedPolarization: "{0}% increased polarization"
+	PercentIncreasedPolarization: 提高{0}%极化
 	MinorLifeRegen: 轻微提高生命再生速度
 	MinorManaRegen: 轻微提高魔力再生速度
 	MediumLifeRegen: 提高生命再生速度
@@ -96,9 +96,9 @@ CrossMod: {
 			LostSiblings:
 				'''
 				在任意时间使用[i:SacredTools/SoranEmblem]以召唤
-				Alternatively, use an [i:SacredTools/HeirsAuthority] to summon only Novaniel
+				或者, 使用[i:SacredTools/HeirsAuthority]仅召唤「诺瓦尼埃尔」
 				'''
-			Erazor: Give 伊拉佐 10 [i:SacredTools/ErosionSample]
+			Erazor: 给予伊拉佐10个[i:SacredTools/ErosionSample]
 			Nihilus: Right-click the [i:SacredTools/NihilusObelisk] with a proper arena set up
 			// Events
 			PiglinArmy: 在地表使用[i:SacredTools/PigmanBanner]以召唤
@@ -139,7 +139,7 @@ CrossMod: {
 			// Most of these are here because the normal name already contains the title.
 			Abaddon: 亚巴顿，苦厄之始
 			AraghurHead: 阿加尔
-			Novaniel: Novaniel
+			Novaniel: 诺瓦尼埃尔
 			Nihilus2: 尼希勒斯
 			SiblingCommon: 失落族裔
 			Solarius: "{$SiblingCommon}"
@@ -156,7 +156,7 @@ CrossMod: {
 			Decree: Frigid Predator
 			ErazorBoss: 空城之君
 			Jensen: The Sister
-			Nihilus2: 深渊之火
+			Nihilus2: 虚妄之焰
 			Novaniel: 皇位继承人
 			Primordia: 古代构造体
 			Primordia2: "{$Primordia}"
@@ -276,7 +276,7 @@ Other: {
 		'''
 
 	Currency: {
-		LunarCoin: Lunidium Coins
+		LunarCoin: 殇月硬币
 		AsthralPlating: Asthraltite Plating
 		GoldNugget: Gold Nuggets
 	}
@@ -355,8 +355,8 @@ DamageClasses: {
 }
 
 Keybinds: {
-	AbilityPrimary.DisplayName: Ability (Primary)
-	AbilitySecondary.DisplayName: Ability (Secondary)
+	AbilityPrimary.DisplayName: 能力(主)
+	AbilitySecondary.DisplayName: 能力(副)
 	Reload.DisplayName: Reload
 	AltMelee.DisplayName: Alt Melee
 	LanceRecovery.DisplayName: Lance recovery/recall
@@ -423,7 +423,7 @@ BossMessage: {
 	PiglinRetreatMessage: 猪灵军团撤回到了自己的领地.
 	PiglinDefeatMessage: 猪灵军团已被击退!
 	SyrusEnd: The Dimensional Rift has been closed!
-	NovanielSpawnMessage: It's not over yet...
+	NovanielSpawnMessage: 你在想什么？还没有结束呢...
 	NovanielCelestialJudgementMessage: This isn't personal, but don't stand in our way.
 	NihilusHint1: To say *that* puny display was the end would be doing it an injustice, Mortal.
 	NihilusHint2: The true fight has only just begun. You will suffer. Suffering that you endure solely because you helped those... Outsiders that you call your friends.
@@ -489,15 +489,15 @@ TooltipLabel: {
 		此道具未绑定灵魂!
 		请通过正常途径获得该道具以绑定灵魂!
 		'''
-	ChallengeItemSoulbound: "{$ChallengeItemLabel} Soulbound to: {0}"
-	Developer: "[Developer Item: {0}]"
-	DeveloperVanity: "[Developer Vanity: {0}]"
-	SacredTool: "[Sacred Tool]"
-	RelicPursuit: "[Relic Weapon - Pursuit] "
-	RelicHorde: "[Relic Weapon - Horde]"
-	RelicTerritory: "[Relic Weapon - Territory]"
-	RelicUtility: "[Relic Weapon - Utility]"
-	Replica: "[Replica Weapon]"
+	ChallengeItemSoulbound: "{$ChallengeItemLabel}灵魂已绑定到: {0}"
+	Developer: "[开发者物品: {0}]"
+	DeveloperVanity: "[开发者时装: {0}]"
+	SacredTool: "[圣洁工具]"
+	RelicPursuit: "[遗器 - Pursuit] "
+	RelicHorde: "[遗器 - Horde]"
+	RelicTerritory: "[遗器 - Territory]"
+	RelicUtility: "[遗器 - Utility]"
+	Replica: "[遗器]"
 	DarkRemnantBoost: "[Current Damage Boost: {0}%]"
 	FishWeaponLevel: "[Enhancement Stage {0}]"
 	MagazineCurrent: "[Magazine {0}/{1}]"
@@ -526,7 +526,7 @@ ChallengeItemHints: {
 
 ExtraTooltip: {
 	ChallengeWarning: A challenge item is already equipped.
-	MageCrystalWorth: Can be used if you are worthy enough
+	MageCrystalWorth: 若尔足具资格，便可启用此物
 	NiceEffects: 有一些不错的效果
 	LuxMeleeDamage: 提高{0}%近战伤害
 	LuxMeleeCrit: 提高{0}%近战暴击率
@@ -1766,8 +1766,8 @@ Buffs: {
 	}
 
 	Toxic: {
-		DisplayName: Toxic Sickness
-		Description: Losing life
+		DisplayName: 毒素
+		Description: 生命在流失
 	}
 
 	Wither: {
@@ -1898,33 +1898,33 @@ Items: {
 		DisplayName: 不朽焰巾
 		Tooltip:
 			'''
-			'Formed from the embers emanating from Araghur's soul, which bring life to the forest's inhabitants.'
-			10% damage boost against enemies above 50% life, 10% damage decrease against enemies below 50% life
-			When struck by an attack a protective barrier is summoned that reduces damage taken for 5 seconds,
-			after which the barrier is shot out as homing missiles
-			30 second cooldown
+			“由阿加尔灵魂中散发出的余烬化成，为森林中的居民带来生机”
+			当敌人生命值高于50%时，获得10%伤害加成；当敌人生命值小于50%时，减少10%伤害加成
+			当受到攻击时，会召唤一个保护屏障，减少5秒内受到的伤害，
+			随后屏障将化作追踪导弹发射出去
+			30秒冷却
 			'''
 	}
 
 	ScarletScarf: {
-		DisplayName: Scarf of the Scarlet Inferno
+		DisplayName: 绯红狱巾
 		Tooltip:
 			'''
-			'The Scarlet Flame is known to bring both prosperity and ruin. Which path will you choose?'
-			10% damage boost against enemies below 50% life, 10% damage decrease against enemies above 50% life
-			When struck by an attack a protective barrier is summoned that reduces damage taken for 5 seconds,
-			after which the barrier is shot out as homing missiles
-			30 second cooldown
+			“绯红烈焰，既可带来繁荣，亦可招致毁灭. 你要踏上何途？”
+			当敌人生命值高于50%时，获得10%伤害加成；当敌人生命值小于50%时，减少10%伤害加成
+			当受到攻击时，会召唤一个保护屏障，减少5秒内受到的伤害，
+			随后屏障将化作追踪导弹发射出去
+			30秒冷却
 			'''
 	}
 
 	NovanielResolve: {
-		DisplayName: Novaniel's Resolve
+		DisplayName: 诺瓦尼埃尔的决心
 		Tooltip:
 			'''
-			'The physical manifestation of Novaniel's determination and will'
-			Hitting enemies has a chance to unleash one of Novaniel's devastating attacks
-			30 second cooldown
+			“诺瓦尼埃尔的决心与意志物质化的产物”
+			击中敌人有概率触发「诺瓦尼埃尔」的技能之一
+			30秒冷却
 			'''
 	}
 
@@ -2135,8 +2135,8 @@ Items: {
 	}
 
 	Dealmaker: {
-		DisplayName: Dealmaker
-		Tooltip: Increases amount of [KROMER] obtained
+		DisplayName: 缔约者
+		Tooltip: 增加获得的[KROMER]量
 	}
 
 	DecreeCharm: {
@@ -2149,28 +2149,28 @@ Items: {
 	}
 
 	DefendersBulwark: {
-		DisplayName: Defender's Bulwark
+		DisplayName: 守护者壁垒
 		Tooltip:
 			'''
 			{$CommonItemTooltip.IncreasesMaxSentriesBy}
 			{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
-			Sentries have a chance to cause a devastating stardust explosion on enemy hits
-			'They will not break us, they will break upon us'
+			哨兵有几率在击中敌方时造成毁灭性的星尘爆炸
+			“他们休想击溃我们，他们终将在我们面前分崩离析！”
 			'''
 	}
 
 	DistanceVisor: {
-		DisplayName: Fighter's Visor
-		Tooltip: Displays the amount of damage falloff on the current target
+		DisplayName: 斗士眼罩
+		Tooltip: 显示当前的「距离衰减」
 	}
 
 	DreadflameEmblem: {
-		DisplayName: Dreadflame Emblem
-		Tooltip: Dealing damage with throwing weapons has a chance to release flaming embers
+		DisplayName: 惧焰徽章
+		Tooltip: 使用投掷武器造成伤害时有概率释放火焰余烬
 	}
 
 	FeatherHairpin: {
-		DisplayName: Feather Hairpin
+		DisplayName: 凤羽发夹
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2179,7 +2179,7 @@ Items: {
 	}
 
 	FlamingHeart: {
-		DisplayName: Flaming Heart
+		DisplayName: 炽烈的心
 		Tooltip:
 			'''
 			{$CommonItemTooltip.FlariumInfernoImmunity}
@@ -2189,82 +2189,82 @@ Items: {
 
 	FlightFeather: {
 		DisplayName: 风暴飞羽
-		Tooltip: Take no fall damage and glide into safety
+		Tooltip: 免疫衰落伤害并且可以滑翔
 	}
 
 	FloraFist: {
-		DisplayName: Fist of Flora
+		DisplayName: 芙罗拉之拳
 		Tooltip:
 			'''
-			90% increased melee knockback
-			12% increased melee damage and speed
-			Melee attacks inflict enemies with toxic
-			When hitting enemies with melee attacks there is a chance that you fire a green energy fist
+			提高90%近战击退
+			提高12%近战伤害和近战攻速
+			近战攻击会施加「毒素」减益
+			近战攻击击中敌人时有概率额外发射一个绿色能量拳
 			'''
 	}
 
 	HeartMagnet: {
-		DisplayName: Heart Magnet
-		Tooltip: Increases pickup range for life hearts
+		DisplayName: 心脏磁石
+		Tooltip: 扩大生命心的拾取范围
 	}
 
 	HeartOfTheCaverns: {
-		DisplayName: Heart of the Caverns
+		DisplayName: 洞穴之心
 		Tooltip: "{$CommonItemTooltip.PercentIncreasedKineticSpeed}"
 	}
 
 	HeartOfThePlough: {
-		DisplayName: Heart of the Plough
-		Tooltip: Increases movement speed the lower your health gets
+		DisplayName: 犁之心
+		Tooltip: 生命值越低移速越高
 	}
 
 	LapisPendant: {
 		DisplayName: 青金石吊坠
 		Tooltip:
 			'''
-			近战攻击有概率造成效果「青金石盾」
+			近战攻击有概率造成「青金石盾」效果
 			「青金石盾」可以堆叠3次，同时会增加你的防御
 			'''
 	}
 
 	LunarResonator: {
-		DisplayName: Lunar Resonator
-		Tooltip: Gives an additional chance of obtaining lunidium coins on enemy kills
+		DisplayName: 月球谐振器
+		Tooltip: 击杀敌人时可以额外获得「殇月硬币」
 	}
 
 	LunarRing: {
-		DisplayName: Celestial Ring
+		DisplayName: 靖天之戒
 		Tooltip:
 			'''
-			Gives an additional chance of obtaining lunidium coins on enemy kills
-			Increases coin and lunidium coin pickup range and shops have lower prices
-			Hitting enemies will sometimes drop extra coins
+			击杀敌人时可以额外获得「殇月硬币」
+			提高原版硬币与「殇月硬币」的掉落概率，降低商店的物品价格
+			击中敌人有时会掉落额外的硬币
 			'''
 	}
 
 	MageCrystal: {
-		DisplayName: Crystal of Dragons
-		Tooltip: "'Only usable by those who are worthy'"
+		DisplayName: 龙魄凝晶
+		Tooltip: “唯真龙之裔，方能驾驭此物”
 	}
 
 	MilinticaDash: {
-		DisplayName: Advanced Dash Tech
-		Tooltip: Press [{$Keybinds.AbilitySecondary.DisplayName}] and UP/DOWN to dash vertically
+		DisplayName: 进阶冲刺技术
+		Tooltip: 按下[{$Keybinds.AbilitySecondary.DisplayName}]键和{$LegacyMenu.148}/{$LegacyMenu.149}键来向一个地方冲刺
 	}
 
 	NightmareBlindfold: {
-		DisplayName: Nightmare Blindfold
+		DisplayName: 噩梦遮目
 		Tooltip:
 			'''
-			'I see the void, and through this gaze, I learn to covet no goal.'
-			Immunity to Darkness, Blackout and Obstructed
-			You can see better in the dark
+			“我凝视着虚无，而在这凝视中，我学会不再觊觎任何目标”
+			免疫黑暗，黑视和遮挡减益
+			在黑暗中能看得更清晰
 			{$CommonItemTooltip.PercentIncreasedSuppression}
 			'''
 	}
 
 	NinjaEmblem: {
-		DisplayName: Ninja Emblem
+		DisplayName: 忍者徽章
 		Tooltip: "{$CommonItemTooltip.PercentIncreasedKineticDamage}"
 	}
 
@@ -3138,7 +3138,7 @@ Items: {
 	}
 
 	PrimordiaBag: {
-		DisplayName: 宝藏袋(原基金尖塔)
+		DisplayName: 宝藏袋(原基)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
@@ -4326,7 +4326,7 @@ Items: {
 	}
 
 	NovanielMask: {
-		DisplayName: Novaniel Mask
+		DisplayName: 诺瓦尼埃尔面具
 		Tooltip: "'I will not fail you, father...'"
 	}
 
@@ -4341,7 +4341,7 @@ Items: {
 	}
 
 	PrimordiaMask: {
-		DisplayName: 原基金尖塔面具
+		DisplayName: 原基面具
 		Tooltip: “ 我 因 何 而 生 ？ 又 何 去 何 从 ？ ”
 	}
 
@@ -6251,8 +6251,8 @@ Items: {
 	}
 
 	LunarCoin: {
-		DisplayName: Lunidium Coin
-		Tooltip: An otherworldly kind of currency...
+		DisplayName: 殇月硬币
+		Tooltip: 一种超凡脱俗的货币...
 	}
 
 	MysteriousGem: {
@@ -8024,7 +8024,7 @@ Items: {
 	}
 
 	PrimordiaRelicItem: {
-		DisplayName: 原基金尖塔圣物
+		DisplayName: 原基圣物
 		Tooltip: ""
 	}
 
@@ -8494,7 +8494,7 @@ NPCs: {
 		DisplayName: 詹森(Outdated)
 
 		BossChecklistIntegration: {
-			EntryName: "风暴女妖{$NPCs.JensenLegacy.DisplayName}"
+			EntryName: 风暴女妖{$NPCs.JensenLegacy.DisplayName}
 			SpawnInfo: "{$CrossMod.BossChecklist.SpawnInfo.Jensen}"
 		}
 	}
@@ -8508,13 +8508,13 @@ NPCs: {
 		}
 	}
 
-	Dustite.DisplayName: Dustite
-	Novaniel.DisplayName: Heir to the Throne, Novaniel
-	Nuba.DisplayName: Nuba
+	Dustite.DisplayName: 尘
+	Novaniel.DisplayName: 皇位继承人,诺瓦尼埃尔
+	Nuba.DisplayName: 云
 	ShadowNuba.DisplayName: Nuba's Shadow
 
 	Solarius: {
-		DisplayName: Solarius
+		DisplayName: 耀
 
 		BossChecklistIntegration: {
 			EntryName: "{$CrossMod.BossChecklist.NameOverride.LostSiblings}"
@@ -8522,9 +8522,9 @@ NPCs: {
 		}
 	}
 
-	Voxa.DisplayName: Voxa
+	Voxa.DisplayName: 旋
 	DustiteDefeat.DisplayName: Dustite
-	NovanielDefeat.DisplayName: Novaniel
+	NovanielDefeat.DisplayName: 诺瓦尼埃尔
 	NubaDefeat.DisplayName: Nuba
 	SolariusDefeat.DisplayName: Solarius
 	VoxaDefeat.DisplayName: Voxa
@@ -8570,7 +8570,7 @@ NPCs: {
 	SpookboiSpiritHand.DisplayName: Nihilus' Claw
 
 	Primordia: {
-		DisplayName: 原基金尖塔
+		DisplayName: 原基
 
 		BossChecklistIntegration: {
 			EntryName: "{$NPCs.Primordia.DisplayName}"
@@ -8578,8 +8578,8 @@ NPCs: {
 		}
 	}
 
-	Primordia2.DisplayName: 原基金尖塔
-	PrimordiaBody.DisplayName: 原基金尖塔
+	Primordia2.DisplayName: 原基
+	PrimordiaBody.DisplayName: 原基
 	PrimordiaShield.DisplayName: Shield Orbital
 	DreadCore.DisplayName: 恐惧内核
 
@@ -9305,7 +9305,7 @@ Projectiles: {
 	VinePillar.DisplayName: Vine Pillar
 	VinePillarTelegraph.DisplayName: Vine Pillar Telegraph
 	VinePillarTelegraph2.DisplayName: Vine Pillar Telegraph
-	EyeEffect.DisplayName: 原基金尖塔之眼
+	EyeEffect.DisplayName: 原基之眼
 	EyeOfRa.DisplayName: Eye of Ra
 	EyeOfRa2.DisplayName: Eye of Ra
 	PrimordiaBeam.DisplayName: Primordial Beam
