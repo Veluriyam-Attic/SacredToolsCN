@@ -12,8 +12,8 @@ Biomes: {
 	}
 
 	DreamscapeStormBiome: {
-		DisplayName: Shadowflare Vortex
-		TownNPCDialogueName: the Shadowflare Vortex
+		DisplayName: 影耀星旋
+		TownNPCDialogueName: 影耀星旋
 	}
 
 	CinderDesertBiome: {
