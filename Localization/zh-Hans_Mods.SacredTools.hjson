@@ -98,7 +98,7 @@ CrossMod: {
 				在任意时间使用[i:SacredTools/SoranEmblem]以召唤
 				Alternatively, use an [i:SacredTools/HeirsAuthority] to summon only Novaniel
 				'''
-			Erazor: Give Erazor 10 [i:SacredTools/ErosionSample]
+			Erazor: Give 伊拉佐 10 [i:SacredTools/ErosionSample]
 			Nihilus: Right-click the [i:SacredTools/NihilusObelisk] with a proper arena set up
 			// Events
 			PiglinArmy: 在地表使用[i:SacredTools/PigmanBanner]以召唤
@@ -138,9 +138,9 @@ CrossMod: {
 		BossName: {
 			// Most of these are here because the normal name already contains the title.
 			Abaddon: 亚巴顿，苦厄之始
-			AraghurHead: Araghur
+			AraghurHead: 阿加尔
 			Novaniel: Novaniel
-			Nihilus2: Nihilus
+			Nihilus2: 尼希勒斯
 			SiblingCommon: 失落族裔
 			Solarius: "{$SiblingCommon}"
 			Voxa: "{$SiblingCommon}"
@@ -154,15 +154,15 @@ CrossMod: {
 			AraghurHead: Flare Serpent
 			Araneas: The Witness
 			Decree: Frigid Predator
-			ErazorBoss: Fallen Monarch
+			ErazorBoss: 空城之君
 			Jensen: The Sister
-			Nihilus2: Abyssal Flame
-			Novaniel: Heir to the Throne
-			Primordia: Ancient Construct
+			Nihilus2: 深渊之火
+			Novaniel: 皇位继承人
+			Primordia: 古代构造体
 			Primordia2: "{$Primordia}"
 			Ralnek: Scouting Flame
 			Ralnek2: "{$Ralnek}"
-			RalnekPhase3: Lonely Flame
+			RalnekPhase3: 孤魂之焰
 			Raynare: 鹰身女皇
 		}
 	}
@@ -831,7 +831,7 @@ Town: {
 	Neil3: Ever seen giant red-eyed cyborg chickens around here? Good, thank me for that
 	Neil4: Is it liz-ack-hurd or.. lih-zak-ard?
 	Neil5: despaircito- wait huh? oh nothing, nothing. Keep going about your day
-	Neil6: You probably wonder what I do with all these ingredients huh? Well, I am not sure myself, we don't have those on Syrus. Guess I am just throwing stuff together to see what works haha.
+	Neil6: You probably wonder what I do with all these ingredients huh? Well, I am not sure myself, we don't have those on 赛勒斯. Guess I am just throwing stuff together to see what works haha.
 	Neil7: I am not sure if I am hallucinating or not, but earlier I saw some flying eyeballs outside, right after saying hi to the rocket-powered icecream man with oversized jeans
 	Neil8: Hey man there's an uhh.... hand on your shoulder- Haha got ya
 	Neil9: Ya might think us Sareliants have a hard time with doors, but... dude, that ain't true. Don't believe their lies.
@@ -845,7 +845,7 @@ Town: {
 	Neil17: They call me the drug machine- No they don't stop lying
 	Neil18: I have seven tongues in the back of my head.
 	Neil19: Yeah I am currently on a heavy dosage of wednesdays
-	Neil20: I studied alchemy in the highest academy on Syrus, so I can get a drink whenever I feel like it.
+	Neil20: I studied alchemy in the highest academy on 赛勒斯, so I can get a drink whenever I feel like it.
 	Neil21: No I am not high, you are high! How did you even get into my room?
 	Neil22: Y'know, despite how potent my Mix is, the burning memories of my days at the academy keep resurfacing. Perhaps I'll never find a way to block them out. Perhaps I shouldn't...
 	Neil23: My hair? Oh yeah it's a scythe. Can you guys not shape your hair the way you want?
@@ -881,10 +881,10 @@ Town: {
 	Pandolar13: Pandas? Oh I know about them. I was told that's what the term "Pandolar" is based off of. Personally, I prefer to refer to our kin in our native tongue, which would be 'Olaar'.
 	Pandolar14: Arguuth doing alright?
 	Pandolar15: You look... tired. Stop it. Get some help.
-	PandolarNuba: It's nice to see Nuba has finally accepted that there is yet no way to bring their father back, she'll help us a lot in trying to find a way back to Syrus.
+	PandolarNuba: It's nice to see Nuba has finally accepted that there is yet no way to bring their father back, she'll help us a lot in trying to find a way back to 赛勒斯.
 	PandolarPreSiblings: Novaniel and his siblings, the lost siblings and children of Nahlaár. I see that they have fallen into the rift as well. Not sure what they are up to here, but it seems to have to do with this world's moon.
-	PandolarPreAraghur: Along with me a couple other people from Syrus were thrown into the rift. We should find them to figure out how to return
-	PandolarPreAbaddon: I was about to return to Ariketik, to bring back the captured Decree, when suddenly the sky above Syrus turned dark and I found myself in a strange world, I was not able to land in time and crashed into the tundra
+	PandolarPreAraghur: Along with me a couple other people from 赛勒斯 were thrown into the rift. We should find them to figure out how to return
+	PandolarPreAbaddon: I was about to return to Ariketik, to bring back the captured Decree, when suddenly the sky above 赛勒斯 turned dark and I found myself in a strange world, I was not able to land in time and crashed into the tundra
 	PandolarParty: Parties are great. Balloons, blinking lights, music... the only thing that it’s missing is a giant ice statue.
 	PandolarEnhancement: Claymarine Enhancement
 	PandolarSalvageButton: Salvaged Items
@@ -947,7 +947,7 @@ Town: {
 	Nuba8: I keep on getting these weird messages from people such as 'you're hot' and 'nuba best girl', I must say that this definitely makes me feel like you people really are that evil...
 	Nuba9: Oh dear, mutants! They scare me, they look an amalgamation of all those creatures they've killed! Not that us Soraniti are much better, I must say...
 	Nuba10: Oh, so you're {0}? Uh, yeah! Hi! Nice to erm, meet you!
-	NubaGuide: This is a strange world you live in, {0} has been telling me a lot about it, it seems to be similar to our homeworld Soran, however it is not a moon but an actual planet, just like Syrus.
+	NubaGuide: This is a strange world you live in, {0} has been telling me a lot about it, it seems to be similar to our homeworld Soran, however it is not a moon but an actual planet, just like 赛勒斯.
 	NubaPandolar: I hope {0} doesn't mind my presence, me and my siblings are infamous for disobeying the Elite Guardians' orders to not visit Soran multiple times and conducting forbidden research with Asthraltite.
 	NubaNovanielPresent: I knew Novaniel would come back! I must say, I did miss him. I'm glad he made the decision to join us, he was the one we all looked up to, the fabled prince of Soran.
 	NubaNovanielAbsent: When I left my home, my eldest brother was filled with sadness. He said we'd meet again another day, maybe he'll even come here.
@@ -1090,7 +1090,7 @@ Buffs: {
 	}
 
 	NeilSpeedBuff: {
-		DisplayName: Serious Syrusian Syrup
+		DisplayName: Serious Syrusian（赛勒斯人？） Syrup
 		Description:
 			'''
 			'I am speed'
@@ -3098,7 +3098,7 @@ Items: {
 	}
 
 	AraghurBag: {
-		DisplayName: 宝藏袋(Araghur)
+		DisplayName: 宝藏袋(阿加尔)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
@@ -3118,7 +3118,7 @@ Items: {
 	}
 
 	ErazorBag: {
-		DisplayName: 宝藏袋(Erazor)
+		DisplayName: 宝藏袋(伊拉佐)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
@@ -3138,7 +3138,7 @@ Items: {
 	}
 
 	PrimordiaBag: {
-		DisplayName: 宝藏袋(Primordia)
+		DisplayName: 宝藏袋(原基金尖塔)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
@@ -3494,7 +3494,7 @@ Items: {
 
 	TiridiumBar: {
 		DisplayName: Tiridium Bar
-		Tooltip: "'A pink and silver material mined on Syrus' moon Aron'"
+		Tooltip: "'A pink and silver material mined on 赛勒斯' moon Aron'"
 	}
 
 	TraceOfChaos: {
@@ -3661,7 +3661,7 @@ Items: {
 	}
 
 	NeilBrewer: {
-		DisplayName: Syrusian Brewing Station
+		DisplayName: Syrusian（赛勒斯人？） Brewing Station
 		Tooltip: Allows the creation of otherworldly mixtures
 	}
 
@@ -3947,7 +3947,7 @@ Items: {
 	}
 
 	NeilSpeedPotion: {
-		DisplayName: Serious Syrusian Syrup
+		DisplayName: Serious Syrusian（赛勒斯人？） Syrup
 		Tooltip:
 			'''
 			'What did that madman put in this?'
@@ -4296,7 +4296,7 @@ Items: {
 	}
 
 	ErazorMask: {
-		DisplayName: Erazor Mask
+		DisplayName: 伊拉佐面具
 		Tooltip: "'Nari, Yaria, Anthee... I am sorry.'"
 	}
 
@@ -4341,8 +4341,8 @@ Items: {
 	}
 
 	PrimordiaMask: {
-		DisplayName: Primordia Mask
-		Tooltip: "'WHY WAS I CREATED, WHAT IS MY PURPOSE'"
+		DisplayName: 原基金尖塔面具
+		Tooltip: “ 我 因 何 而 生 ？ 又 何 去 何 从 ？ ”
 	}
 
 	RalnekMask: {
@@ -5603,7 +5603,7 @@ Items: {
 	}
 
 	AbaddonHeart: {
-		DisplayName: 玻璃之心
+		DisplayName: 玻璃之心 - 「亚巴顿」
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PermanentlyIncreasesMaxLifeBy}
@@ -5612,7 +5612,7 @@ Items: {
 	}
 
 	AraghurHeart: {
-		DisplayName: 玻璃之心
+		DisplayName: 玻璃之心 - 「阿加尔」
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PermanentlyIncreasesMaxLifeBy}
@@ -5621,7 +5621,7 @@ Items: {
 	}
 
 	ErazorHeart: {
-		DisplayName: 玻璃之心
+		DisplayName: 玻璃之心 - 「伊拉佐」
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PermanentlyIncreasesMaxLifeBy}
@@ -5630,7 +5630,7 @@ Items: {
 	}
 
 	LunarianHeart: {
-		DisplayName: 玻璃之心
+		DisplayName: 玻璃之心 - 「失落族裔」
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PermanentlyIncreasesMaxLifeBy}
@@ -5938,7 +5938,7 @@ Items: {
 	}
 
 	TrophyNihilus: {
-		DisplayName: Nihilus Trophy
+		DisplayName: 尼希勒斯 Trophy
 		Tooltip: ""
 	}
 
@@ -7013,7 +7013,7 @@ Items: {
 
 	SerpentChain: {
 		DisplayName: Serpent Flare Chain
-		Tooltip: "'Strike your enemy with the force of Araghur!'"
+		Tooltip: "'Strike your enemy with the force of 「阿加尔」!'"
 	}
 
 	Featherbook: {
@@ -7994,7 +7994,7 @@ Items: {
 	}
 
 	AraghurRelicItem: {
-		DisplayName: Araghur圣物
+		DisplayName: 阿加尔圣物
 		Tooltip: ""
 	}
 
@@ -8009,7 +8009,7 @@ Items: {
 	}
 
 	ErazorRelicItem: {
-		DisplayName: Erazor圣物
+		DisplayName: 伊拉佐圣物
 		Tooltip: ""
 	}
 
@@ -8019,12 +8019,12 @@ Items: {
 	}
 
 	NihilusRelicItem: {
-		DisplayName: Nihilus圣物
+		DisplayName: 尼希勒斯圣物
 		Tooltip: ""
 	}
 
 	PrimordiaRelicItem: {
-		DisplayName: Primordia圣物
+		DisplayName: 原基金尖塔圣物
 		Tooltip: ""
 	}
 
@@ -8039,7 +8039,7 @@ Items: {
 	}
 
 	SiblingsRelicItem: {
-		DisplayName: Siblings圣物
+		DisplayName: 失落族裔圣物
 		Tooltip: ""
 	}
 
@@ -8190,7 +8190,7 @@ TooltipParryPerfect: {
 
 NPCs: {
 	NihilusAwaken: {
-		DisplayName: Nihilus
+		DisplayName: 尼希勒斯
 
 		BossChecklistIntegration: {
 			EntryName: "{$NPCs.Nihilus.DisplayName}"
@@ -8397,10 +8397,10 @@ NPCs: {
 	NightmareSoul.DisplayName: Nightmare Soul
 	NightmareSoul2.DisplayName: Nightmare Soul
 	NightmareWraithMinion.DisplayName: Nightmare Adherent
-	AraghurBody.DisplayName: Araghur, the Flare Serpent
+	AraghurBody.DisplayName: 阿加尔, 焰蛇之主
 
 	AraghurHead: {
-		DisplayName: Araghur, the Flare Serpent
+		DisplayName: 阿加尔, 焰蛇之主
 
 		BossChecklistIntegration: {
 			EntryName: "{$NPCs.AraghurHead.DisplayName}"
@@ -8409,15 +8409,15 @@ NPCs: {
 	}
 
 	AraghurMinion.DisplayName: Flare Orbiter
-	AraghurTail.DisplayName: Araghur, the Flare Serpent
+	AraghurTail.DisplayName: 阿加尔, 焰蛇之主
 	SerpentBody.DisplayName: Serpentling
 	SerpentHead.DisplayName: Serpentling
 	SerpentTail.DisplayName: Serpentling
-	AraghurBody1.DisplayName: Araghur
-	AraghurBody2.DisplayName: Araghur
-	AraghurBody3.DisplayName: Araghur
-	AraghurHeadNew.DisplayName: Araghur
-	AraghurTailNew.DisplayName: Araghur
+	AraghurBody1.DisplayName: 阿加尔
+	AraghurBody2.DisplayName: 阿加尔
+	AraghurBody3.DisplayName: 阿加尔
+	AraghurHeadNew.DisplayName: 阿加尔
+	AraghurTailNew.DisplayName: 阿加尔
 
 	Araneas: {
 		DisplayName: 蛛影阿菈涅丝
@@ -8453,7 +8453,7 @@ NPCs: {
 	DecreeTransition.DisplayName: 裁决
 
 	ErazorShrine: {
-		DisplayName: Erazor
+		DisplayName: 伊拉佐
 
 		TownNPCMood: {
 			Content: I am content.
@@ -8478,7 +8478,7 @@ NPCs: {
 	}
 
 	ErazorBoss: {
-		DisplayName: Erazor
+		DisplayName: 伊拉佐
 
 		BossChecklistIntegration: {
 			EntryName: "{$NPCs.ErazorBoss.DisplayName}"
@@ -8487,7 +8487,7 @@ NPCs: {
 	}
 
 	ErazorEnergySphere.DisplayName: Darkflame Energy Sphere
-	ErazorExtinctionRay.DisplayName: Erazor
+	ErazorExtinctionRay.DisplayName: 伊拉佐
 	SeekingShadow.DisplayName: Seeking Shadow
 
 	JensenLegacy: {
@@ -8542,7 +8542,7 @@ NPCs: {
 	Naalu.DisplayName: Naalu
 
 	Nihilus: {
-		DisplayName: Nihilus
+		DisplayName: 尼希勒斯
 
 		BossChecklistIntegration: {
 			EntryName: "{$NPCs.Nihilus.DisplayName}"
@@ -8565,12 +8565,12 @@ NPCs: {
 	AbyssFlame3.DisplayName: Abyssal Ember
 	AbyssFlameStationary.DisplayName: Abyssal Lantern
 	RelicShieldNihilus.DisplayName: Aura of Suppression
-	Spookboi.DisplayName: Nihilus
-	SpookboiSpirit.DisplayName: Nihilus, the Abyssal Flame
+	Spookboi.DisplayName: 尼希勒斯
+	SpookboiSpirit.DisplayName: 尼希勒斯,深渊之火
 	SpookboiSpiritHand.DisplayName: Nihilus' Claw
 
 	Primordia: {
-		DisplayName: Primordia
+		DisplayName: 原基金尖塔
 
 		BossChecklistIntegration: {
 			EntryName: "{$NPCs.Primordia.DisplayName}"
@@ -8578,8 +8578,8 @@ NPCs: {
 		}
 	}
 
-	Primordia2.DisplayName: Primordia
-	PrimordiaBody.DisplayName: Primordia
+	Primordia2.DisplayName: 原基金尖塔
+	PrimordiaBody.DisplayName: 原基金尖塔
 	PrimordiaShield.DisplayName: Shield Orbital
 	DreadCore.DisplayName: 恐惧内核
 
@@ -9305,7 +9305,7 @@ Projectiles: {
 	VinePillar.DisplayName: Vine Pillar
 	VinePillarTelegraph.DisplayName: Vine Pillar Telegraph
 	VinePillarTelegraph2.DisplayName: Vine Pillar Telegraph
-	EyeEffect.DisplayName: Eye of Primordia
+	EyeEffect.DisplayName: 原基金尖塔之眼
 	EyeOfRa.DisplayName: Eye of Ra
 	EyeOfRa2.DisplayName: Eye of Ra
 	PrimordiaBeam.DisplayName: Primordial Beam
@@ -9442,7 +9442,7 @@ Projectiles: {
 	PumpkinSpawn.DisplayName: Technical Projectile: Summons the Flaming Pumpkin
 	RainSpawn.DisplayName: Technical Projectile: Summons Rain/Sandstorm
 	RaynareSpawn.DisplayName: Technical Projectile: Summons 蕊娜蕾
-	SerpentSpawn.DisplayName: Technical Projectile: Summon Araghur
+	SerpentSpawn.DisplayName: Technical Projectile: Summon 阿加尔
 	SpookboiSpawn.DisplayName: Technical Projectile: Summons the Abyssal Pumpkin
 	RoseChakram.DisplayName: Rose Chakram
 	AbyssEmber.DisplayName: Abyssal Ember
@@ -9624,7 +9624,7 @@ Projectiles: {
 	FaithsRewardArmillary.DisplayName: Starlight Armillary
 	StarScourgeBeam.DisplayName: Star Beam
 	EternalOasisKnife.DisplayName: Eternal Oasis
-	NihilusMinion.DisplayName: Nihilus
+	NihilusMinion.DisplayName: 尼希勒斯
 	NihilusMinionClaw.DisplayName: Nihilus' Claw
 	NihilusMinionSeed.DisplayName: Abyssal Seed
 	SerpentShot.DisplayName: Flarium Fireball
@@ -9906,7 +9906,7 @@ Tiles: {
 	BendyCutoutTile.MapEntry: Bendy Cutout
 	BoneThroneTile.MapEntry: Bone Throne
 	CatLampTile.MapEntry: Cat Lamp
-	NeilBrewerTile.MapEntry: Syrusian Brewing Station
+	NeilBrewerTile.MapEntry: Syrusian（赛勒斯人？） Brewing Station
 	ShrineBrazierTile.MapEntry: Shrine Brazier
 	ShrineLampSmallTile.MapEntry: Small Shrine Lamp
 	ShrineLampTile.MapEntry: Shrine Lamp
@@ -10062,10 +10062,10 @@ Missions: {
 
 	BaseOfOperationsMission: {
 		Title: Base of Operations
-		Description: Find a suitable location where Reggie can set up camp and find the other lost syrusians.
+		Description: Find a suitable location where Reggie can set up camp and find the other lost syrusians（赛勒斯人？）.
 		FindBase: Reach the Starlight Shrine.
 		ReggieText: Reggie appears at the Shrine
-		ConsoleText: Syrusian Console
+		ConsoleText: Syrusian（赛勒斯人？） Console
 	}
 
 	TestMission: {
@@ -10095,7 +10095,7 @@ Cutscene: {
 	RemainingPlayers: ({Remaining}/{Total}玩家正在等候)
 }
 
-RaidNames.Araghur: ARAGHUR, THE FLARE SERPENT
+RaidNames.Araghur: 阿 加 尔 , 焰 蛇 之 主
 
 Configs: {
 	SoAConfig: {
