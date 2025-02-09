@@ -38,9 +38,9 @@ Biomes: {
 }
 
 CommonItemTooltip: {
-	RageSuppression: Allows you to carry up to 50 {$Items.AsthraltiteChunks.DisplayName} without getting eroded
+	RageSuppression: 允许你携带50个「{$Items.AsthraltiteChunks.DisplayName}」而不被侵蚀
 	PaladinsShieldEffect: 生命值大于25%时，可以替队友抵挡25%伤害
-	FlariumInfernoImmunity: 免疫高温
+	FlariumInfernoImmunity: 免疫「高温」
 	PercentIncreasedKineticDamage: 提高{0}%动能伤害
 	PercentIncreasedKineticCritChance: 提高{0}%动能暴击率
 	PercentIncreasedKineticDamageCritChance: 提高{0}%动能伤害和暴击率
@@ -277,7 +277,7 @@ Other: {
 
 	Currency: {
 		LunarCoin: 殇月硬币
-		AsthralPlating: Asthraltite Plating
+		AsthralPlating: 龙愠晶Plating
 		GoldNugget: Gold Nuggets
 	}
 
@@ -799,7 +799,7 @@ Town: {
 	Erazor2: When the two crystal guardians along with their homes disappeared from the map, I decided to investigate, and I stumbled across a dimensional rift created by a powerful being. It connects this realm with mine, and that's why I am here.
 	Erazor3: Would you consider yourself to be master of this world? If so, what makes you so sure you’ve earned that title?
 	Erazor4: Make sure to keep some of the samples for later use, I could make use of the data and create new kinds of weapons using it.
-	Erazor5: I can create a multitude of weapons and armor from Asthraltite plating. If you prove to me you’re worth it, I could make you some.
+	Erazor5: I can create a multitude of weapons and armor from 龙愠晶plating. If you prove to me you’re worth it, I could make you some.
 	Erazor6: Those creatures flying around deep below us; In a way, they remind me of my father's warriors.
 	Erazor7: Antheé.. my old friend.. I must complete our research...
 	Erazor8: Have you talked to Neil yet? I was told there's more erosion spreading around.
@@ -810,8 +810,8 @@ Town: {
 	ErazorObelisk1: Make sure to take that relic with you, warrior. It is the only way to break through the defense of these beings.
 	ErazorNeedRelic0: The first step is done, but you will need a relic if you want to finish these beings off.
 	ErazorNeedRelic1: Without a relic you won't be able to do much harm to these beings.
-	ErazorNeedAsthral0: You have bested me, but you are not ready quite yet. You need to train more and acquire a full suit of Asthraltite for your protection.
-	ErazorNeedAsthral1: If you want to stop Abaddon's plans you will need Asthraltite armor, it is the only way to withstand the destructive energy created by these beings.
+	ErazorNeedAsthral0: You have bested me, but you are not ready quite yet. You need to train more and acquire a full suit of 龙愠晶for your protection.
+	ErazorNeedAsthral1: If you want to stop Abaddon's plans you will need 龙愠晶armor, it is the only way to withstand the destructive energy created by these beings.
 	ErazorDeclineFight:
 		'''
 		You're too weak to train with me yet, come back when you can stand your ground against eroded beings.
@@ -1366,7 +1366,7 @@ Buffs: {
 	}
 
 	AsthralShip: {
-		DisplayName: Asthraltite Ship
+		DisplayName: 龙愠晶Ship
 		Description: FIRE
 	}
 
@@ -2014,7 +2014,7 @@ Items: {
 	}
 
 	AsthraltiteWings: {
-		DisplayName: Asthraltite Wings
+		DisplayName: 龙愠晶Wings
 		Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 	}
 
@@ -2269,17 +2269,17 @@ Items: {
 	}
 
 	NubasBlessing: {
-		DisplayName: Nuba's Blessing
+		DisplayName: Nuba之赐
 		Tooltip:
 			'''
-			Magic critical strikes absorb mana
-			This item's effects are only active in True Mode
+			魔法伤害暴击将吸取魔力
+			该物品仅在「真实模式」下生效
 			'''
 	}
 
 	PrimordialCore: {
-		DisplayName: Primordial Core
-		Tooltip: Summons pyramid orbitals that attack nearby enemies
+		DisplayName: 原基内核
+		Tooltip: 召唤金尖塔攻击附近的敌人
 	}
 
 	PumpkinAmulet: {
@@ -2288,23 +2288,23 @@ Items: {
 	}
 
 	RadiantAmulet: {
-		DisplayName: Radiant Amulet
+		DisplayName: 辉光护身符
 		Tooltip:
 			'''
 			{$CommonItemTooltip.IncreasesMaxMinionsBy}
-			Increases minion knockback and damage by 15%
-			Minion attacks inflict Cursed Inferno and Shadowflame
-			Sentry attacks inflict Ichor
+			提高15%召唤物击退和伤害
+			仆从攻击会施加「诅咒狱火」和「暗影焰」减益
+			哨兵攻击会施加「灵液」减益
 			'''
 	}
 
 	RageSuppressor: {
-		DisplayName: Rage Suppressor
+		DisplayName: 暴怒抑制器
 		Tooltip: "{$CommonItemTooltip.RageSuppression}"
 	}
 
 	ReflectionShield: {
-		DisplayName: Shield of Reflections
+		DisplayName: 镜光宝盾
 		Tooltip:
 			'''
 			{$ItemTooltip.AnkhShield}
@@ -2312,9 +2312,9 @@ Items: {
 			{$CommonItemTooltip.FlariumInfernoImmunity}
 			{$CommonItemTooltip.MinorStats}
 			{$CommonItemTooltip.PaladinsShieldEffect}
-			Has a 10% chance of blocking a hostile projectile
+			有10%的概率抵挡地方弹幕
 			{$CommonItemTooltip.IncreasesMaxLifeBy}
-			This item's effects are only active in True Mode
+			该物品仅在「真实模式」下生效
 			'''
 	}
 
@@ -2407,10 +2407,10 @@ Items: {
 	}
 
 	BindsOfVeracity: {
-		DisplayName: Binds of Veracity
+		DisplayName: 真实桎梏
 		Tooltip:
 			'''
-			'Truth is a funny thing'
+			“真相，往往荒诞不经”
 			{$CommonItemTooltip.PercentIncreasedLancePerfectStrikeDamage}
 			{$CommonItemTooltip.PercentIncreasedLanceRecoveryMoveDamage@1}
 			{$CommonItemTooltip.IncreasesLancePerfectStrikeWindowByPercent@2}
@@ -2429,7 +2429,7 @@ Items: {
 	}
 
 	AsthralChest: {
-		DisplayName: Asthraltite Breastplate
+		DisplayName: 龙愠晶Breastplate
 		Tooltip:
 			'''
 			{$CommonItemTooltip.IncreasesMaxLifeBy}
@@ -2438,7 +2438,7 @@ Items: {
 	}
 
 	AsthralLegs: {
-		DisplayName: Asthraltite Robes
+		DisplayName: 龙愠晶Robes
 		Tooltip:
 			'''
 			{$CommonItemTooltip.IncreasesMaxLifeBy}
@@ -2447,7 +2447,7 @@ Items: {
 	}
 
 	AsthralMage: {
-		DisplayName: Asthraltite Hood
+		DisplayName: 龙愠晶Hood
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentReducedManaCost}
@@ -2459,7 +2459,7 @@ Items: {
 	}
 
 	AsthralMelee: {
-		DisplayName: Asthraltite Helmet
+		DisplayName: 龙愠晶Helmet
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMeleeSpeed}
@@ -2469,7 +2469,7 @@ Items: {
 	}
 
 	AsthralRanged: {
-		DisplayName: Asthraltite Visor
+		DisplayName: 龙愠晶Visor
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentChanceToSaveAmmo}
@@ -2479,7 +2479,7 @@ Items: {
 	}
 
 	AsthralSummon: {
-		DisplayName: Asthraltite Mask
+		DisplayName: 龙愠晶Mask
 		Tooltip:
 			'''
 			{$CommonItemTooltip.IncreasesMaxMinionsBy}
@@ -2489,7 +2489,7 @@ Items: {
 	}
 
 	AsthraltiteHelmetRevenant: {
-		DisplayName: Asthraltite Cowl
+		DisplayName: 龙愠晶Cowl
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedLanceReadySpeed}
@@ -3248,12 +3248,12 @@ Items: {
 	}
 
 	AsthraltiteChunks: {
-		DisplayName: Asthraltite Shards
+		DisplayName: 龙愠晶碎片
 		Tooltip: "'A manifestation of concentrated dragon rage'"
 	}
 
 	AsthraltitePowerCell: {
-		DisplayName: Asthraltite Power Cell
+		DisplayName: 龙愠晶Power Cell
 		Tooltip: Used to power special equipment
 	}
 
@@ -4117,7 +4117,7 @@ Items: {
 	}
 
 	AsthraltitePickaxeAxe: {
-		DisplayName: Asthraltite Picksaw
+		DisplayName: 龙愠晶Picksaw
 		Tooltip: ""
 	}
 
@@ -4161,7 +4161,7 @@ Items: {
 	}
 
 	AsthraltiteHammer: {
-		DisplayName: Asthraltite Hammer
+		DisplayName: 龙愠晶Hammer
 		Tooltip: ""
 	}
 
@@ -4171,7 +4171,7 @@ Items: {
 	}
 
 	AsthraltiteHook: {
-		DisplayName: Asthraltite Energy Movement Gear
+		DisplayName: 龙愠晶Energy Movement Gear
 		Tooltip: ""
 	}
 
@@ -4251,7 +4251,7 @@ Items: {
 	}
 
 	AsthraltiteHeadset: {
-		DisplayName: Asthraltite Headset
+		DisplayName: 龙愠晶Headset
 		Tooltip: ""
 	}
 
@@ -5044,11 +5044,11 @@ Items: {
 	}
 
 	AsthralBrickBox: {
-		DisplayName: Asthraltite Brick Containment Unit
+		DisplayName: 龙愠晶Brick Containment Unit
 		Tooltip:
 			'''
 			{$CommonItemTooltip.RightClickToOpen}
-			Contains 999 Asthraltite Bricks
+			Contains 999 龙愠晶Bricks
 			'''
 	}
 
@@ -6023,87 +6023,87 @@ Items: {
 	}
 
 	AsthralBed: {
-		DisplayName: Asthraltite Bed
+		DisplayName: 龙愠晶Bed
 		Tooltip: ""
 	}
 
 	AsthralBookshelf: {
-		DisplayName: Asthraltite Bookcase
+		DisplayName: 龙愠晶Bookcase
 		Tooltip: ""
 	}
 
 	AsthralCandelabra: {
-		DisplayName: Asthraltite Candelabra
+		DisplayName: 龙愠晶Candelabra
 		Tooltip: ""
 	}
 
 	AsthralCandle: {
-		DisplayName: Asthraltite Candle
+		DisplayName: 龙愠晶Candle
 		Tooltip: ""
 	}
 
 	AsthralChair: {
-		DisplayName: Asthraltite Chair
+		DisplayName: 龙愠晶Chair
 		Tooltip: ""
 	}
 
 	AsthralChandelier: {
-		DisplayName: Asthraltite Chandelier
+		DisplayName: 龙愠晶Chandelier
 		Tooltip: ""
 	}
 
 	AsthralChestItem: {
-		DisplayName: Asthraltite Chest
+		DisplayName: 龙愠晶Chest
 		Tooltip: ""
 	}
 
 	AsthralDoor: {
-		DisplayName: Asthraltite Door
+		DisplayName: 龙愠晶Door
 		Tooltip: ""
 	}
 
 	AsthralDresser: {
-		DisplayName: Asthraltite Dresser
+		DisplayName: 龙愠晶Dresser
 		Tooltip: ""
 	}
 
 	AsthralLamp: {
-		DisplayName: Asthraltite Lamp
+		DisplayName: 龙愠晶Lamp
 		Tooltip: ""
 	}
 
 	AsthralLantern: {
-		DisplayName: Asthraltite Lantern
+		DisplayName: 龙愠晶Lantern
 		Tooltip: ""
 	}
 
 	AsthralPlatform: {
-		DisplayName: Asthraltite Platform
+		DisplayName: 龙愠晶Platform
 		Tooltip: ""
 	}
 
 	AsthralSofa: {
-		DisplayName: Asthraltite Sofa
+		DisplayName: 龙愠晶Sofa
 		Tooltip: ""
 	}
 
 	AsthralTable: {
-		DisplayName: Asthraltite Table
+		DisplayName: 龙愠晶Table
 		Tooltip: ""
 	}
 
 	AsthralWall: {
-		DisplayName: Asthraltite Wall
+		DisplayName: 龙愠晶Wall
 		Tooltip: ""
 	}
 
 	AsthralWorkbench: {
-		DisplayName: Asthraltite Workbench
+		DisplayName: 龙愠晶Workbench
 		Tooltip: ""
 	}
 
 	BricksAsthral: {
-		DisplayName: Asthraltite Brick
+		DisplayName: 龙愠晶Brick
 		Tooltip: ""
 	}
 
@@ -6246,7 +6246,7 @@ Items: {
 	}
 
 	IDontExist: {
-		DisplayName: Asthraltite Plating
+		DisplayName: 龙愠晶Plating
 		Tooltip: Can be exchanged for powerful equipment
 	}
 
@@ -6663,12 +6663,12 @@ Items: {
 	}
 
 	AsthralArrow: {
-		DisplayName: Asthraltite Arrow
+		DisplayName: 龙愠晶Arrow
 		Tooltip: Hit targets are struck by beam arrows
 	}
 
 	AsthralArrowPack: {
-		DisplayName: Asthraltite Arrow Pack
+		DisplayName: 龙愠晶Arrow Pack
 		Tooltip:
 			'''
 			{$CommonItemTooltip.RightClickToOpen}
@@ -6677,12 +6677,12 @@ Items: {
 	}
 
 	AsthralBullet: {
-		DisplayName: Asthraltite Bullet
+		DisplayName: 龙愠晶Bullet
 		Tooltip: Ignites targets with Draconic Blaze
 	}
 
 	AsthralBulletPack: {
-		DisplayName: Asthraltite Bullet Pack
+		DisplayName: 龙愠晶Bullet Pack
 		Tooltip:
 			'''
 			{$CommonItemTooltip.RightClickToOpen}
@@ -6691,12 +6691,12 @@ Items: {
 	}
 
 	AsthralBurst: {
-		DisplayName: Asthraltite Rocket
+		DisplayName: 龙愠晶Rocket
 		Tooltip: Explodes into a violent inferno
 	}
 
 	AsthralBurstPack: {
-		DisplayName: Asthraltite Rocket Pack
+		DisplayName: 龙愠晶Rocket Pack
 		Tooltip:
 			'''
 			{$CommonItemTooltip.RightClickToOpen}
@@ -7899,7 +7899,7 @@ Items: {
 	}
 
 	AsthralCollar: {
-		DisplayName: Asthraltite Collar
+		DisplayName: 龙愠晶Collar
 		Tooltip: Calls forth an Asthral Hound
 	}
 
@@ -8803,16 +8803,16 @@ Projectiles: {
 	ApostasySwing3.DisplayName: "{$Items.AsthralBlade.DisplayName}"
 	ApostasySwing4.DisplayName: "{$Items.AsthralBlade.DisplayName}"
 	ApostasySwing5.DisplayName: "{$Items.AsthralBlade.DisplayName}"
-	AsthralChainBlade.DisplayName: Asthraltite Chain Blades
+	AsthralChainBlade.DisplayName: 龙愠晶Chain Blades
 	AsthralChainBladeDrag.DisplayName: "{$Projectiles.AsthralChainBlade.DisplayName}"
 	AsthralChainBladeExplosion.DisplayName: "{$Projectiles.AsthralChainBlade.DisplayName}"
-	AsthralDrone.DisplayName: Asthraltite Drone
-	AsthralDrone2.DisplayName: Asthraltite Beam
-	AsthralFlameThrow.DisplayName: Asthraltite Incinerator
+	AsthralDrone.DisplayName: 龙愠晶Drone
+	AsthralDrone2.DisplayName: 龙愠晶Beam
+	AsthralFlameThrow.DisplayName: 龙愠晶Incinerator
 	AsthralGunBeam.DisplayName: Asthral Beam
-	AsthralKnife.DisplayName: Asthraltite Knife
-	AsthralKnife2.DisplayName: Asthraltite Knife
-	AsthralPartisan2.DisplayName: Asthraltite Beam
+	AsthralKnife.DisplayName: 龙愠晶Knife
+	AsthralKnife2.DisplayName: 龙愠晶Knife
+	AsthralPartisan2.DisplayName: 龙愠晶Beam
 	AsthralPartisanProjectile.DisplayName: "{$Items.AsthralPartisan.DisplayName}"
 	AsthralSwordBeam.DisplayName: Asthral Sword Beam
 	AsthralYoyo2.DisplayName: "{$Projectiles.AsthralYoyoProjectile.DisplayName}"
@@ -9097,7 +9097,7 @@ Projectiles: {
 	NihilusDeathEffect.DisplayName: Shockwave
 	NihilusFlameSpit.DisplayName: Dread Mortar
 	NihilusFallingRock.DisplayName: Falling Abyssal Rock
-	AsthralWave.DisplayName: Asthraltite Wave
+	AsthralWave.DisplayName: 龙愠晶Wave
 	AwakenedJustice.DisplayName: Awakened Justice
 	AwakenedJustice2.DisplayName: "{$Projectiles.AwakenedJustice.DisplayName}"
 	BlindJusticeMK2.DisplayName: Blind Justice MK2
@@ -9356,22 +9356,22 @@ Projectiles: {
 	ShadowBlade.DisplayName: Shadowflare Blade
 	ShadowHome.DisplayName: Shadowflare Mist Surge
 	ShadowMeteor.DisplayName: Shadow Meteor
-	AsthralArrow.DisplayName: Asthraltite Arrow
-	AsthralArrow2.DisplayName: Asthraltite Beam Arrow
+	AsthralArrow.DisplayName: 龙愠晶Arrow
+	AsthralArrow2.DisplayName: 龙愠晶Beam Arrow
 	AsthralBeamArrow.DisplayName: Asthral Beam Arrow
-	AsthralBullet.DisplayName: Asthraltite Bullet
-	AsthralBurst.DisplayName: Asthraltite Rocket
+	AsthralBullet.DisplayName: 龙愠晶Bullet
+	AsthralBurst.DisplayName: 龙愠晶Rocket
 	AsthralBurst2.DisplayName: Asthral Inferno
-	AsthralCircle.DisplayName: Asthraltite Circle
-	AsthraltiteBlock.DisplayName: Asthraltite Block
+	AsthralCircle.DisplayName: 龙愠晶Circle
+	AsthraltiteBlock.DisplayName: 龙愠晶Block
 	AsthralLaser.DisplayName: Asthral Laser
 	AsthralMagic.DisplayName: Asthral Spear
 	AsthralMagic2.DisplayName: Asthral Spear
-	AsthralPartisan.DisplayName: Asthraltite Beam Partisan
-	AsthralSaber.DisplayName: Asthraltite Saber
+	AsthralPartisan.DisplayName: 龙愠晶Beam Partisan
+	AsthralSaber.DisplayName: 龙愠晶Saber
 	AsthralSaber2.DisplayName: Asthral Wisp
-	AsthralTome.DisplayName: Asthraltite Spell
-	AsthralTome2.DisplayName: Asthraltite Spell
+	AsthralTome.DisplayName: 龙愠晶Spell
+	AsthralTome2.DisplayName: 龙愠晶Spell
 	CircleSpawn.DisplayName: Technical Projectile: Spawns Asthral Circles
 	Darkflame.DisplayName: Darkflame Charge
 	DoomCircle.DisplayName: Doem Circle
@@ -9610,8 +9610,8 @@ Projectiles: {
 	PrismaticSurge2.DisplayName: Prismatic Surge
 	PrismaticSurge3.DisplayName: Prismatic Surge
 	PumpMinion2.DisplayName: Burning Seed
-	PyramidOrbital.DisplayName: Pyramid Orbital
-	PyramidOrbital2.DisplayName: Primordial Shot
+	PyramidOrbital.DisplayName: 金尖塔
+	PyramidOrbital2.DisplayName: 金尖塔
 	Sandnado.DisplayName: Sandnado
 	SandnadoBig.DisplayName: Giant Sandnado
 	SandnadoSpawn.DisplayName: Sandnado
@@ -9731,10 +9731,10 @@ Projectiles: {
 	MalevolenceGrenadeReload.DisplayName: Malevolence Grenade Reload
 	MalevolenceReload.DisplayName: Malevolence Reload
 	SharpshooterSnipeBolt.DisplayName: Sharpshooter Snipe Bolt
-	AsthraltiteBlock2.DisplayName: Asthraltite Block2
-	AsthraltiteBlockRetaliate.DisplayName: Asthraltite Block Retaliate
-	AsthraltiteParry.DisplayName: Asthraltite Parry
-	AsthraltiteParryPerfect.DisplayName: Asthraltite Parry Perfect
+	AsthraltiteBlock2.DisplayName: 龙愠晶Block2
+	AsthraltiteBlockRetaliate.DisplayName: 龙愠晶Block Retaliate
+	AsthraltiteParry.DisplayName: 龙愠晶Parry
+	AsthraltiteParryPerfect.DisplayName: 龙愠晶Parry Perfect
 	ScorchedSandBall.DisplayName: Scorched Sand Ball
 	ShrineSolution.DisplayName: Shrine Solution
 	ChainBombTelegraph.DisplayName: Chain Bomb Telegraph
@@ -9850,31 +9850,31 @@ Tiles: {
 	WeaverStalactitesSmall.MapEntry: Weaver Stalactites Small
 	WeaverStalagmitesBig.MapEntry: Weaver Stalagmites Big
 	WeaverStalagmitesSmall.MapEntry: Weaver Stalagmites Small
-	AsthralBed.MapEntry: Asthraltite Bed
-	AsthralBookshelf.MapEntry: Asthraltite Bookcase
-	AsthralCandelabra.MapEntry: Asthraltite Candelabra
+	AsthralBed.MapEntry: 龙愠晶Bed
+	AsthralBookshelf.MapEntry: 龙愠晶Bookcase
+	AsthralCandelabra.MapEntry: 龙愠晶Candelabra
 	AsthralCandle.MapEntry: Asthral Candle
-	AsthralChair.MapEntry: Asthraltite Chair
-	AsthralChandelier.MapEntry: Asthraltite Chandelier
+	AsthralChair.MapEntry: 龙愠晶Chair
+	AsthralChandelier.MapEntry: 龙愠晶Chandelier
 
 	AsthralChestTile: {
-		MapEntry: Asthraltite Chest
+		MapEntry: 龙愠晶Chest
 		ContainerName: MapObject.AsthralChest
 	}
 
-	AsthralDoorClosed.MapEntry: Asthraltite Door
-	AsthralDoorOpen.MapEntry: Asthraltite Door
+	AsthralDoorClosed.MapEntry: 龙愠晶Door
+	AsthralDoorOpen.MapEntry: 龙愠晶Door
 
 	AsthralDresser: {
-		MapEntry: Asthraltite Dresser
+		MapEntry: 龙愠晶Dresser
 		ContainerName: MapObject.AsthralDresser
 	}
 
-	AsthralLamp.MapEntry: Asthraltite Lamp
-	AsthralLantern.MapEntry: Asthraltite Lantern
+	AsthralLamp.MapEntry: 龙愠晶Lamp
+	AsthralLantern.MapEntry: 龙愠晶Lantern
 	AsthralPlatform.MapEntry: Asthral Platform
-	AsthralSofa.MapEntry: Asthraltite Sofa
-	AsthralTable.MapEntry: Asthraltite Table
+	AsthralSofa.MapEntry: 龙愠晶Sofa
+	AsthralTable.MapEntry: 龙愠晶Table
 	AsthralWorkbench.MapEntry: Asthral Work Bench
 
 	FlareChest: {
@@ -9969,7 +9969,7 @@ Tiles: {
 	ShrineSaplingTile.MapEntry: "{$MapObject.Sapling}"
 	ShrineTallGrassTile.MapEntry: ""
 	ShrineVineTile.MapEntry: ""
-	BricksAsthralTile.MapEntry: Asthraltite Bricks
+	BricksAsthralTile.MapEntry: 龙愠晶Bricks
 	BricksEmberTile.MapEntry: Ember Bricks
 	BricksThermalTile.MapEntry: Thermal Bricks
 	Chalk.MapEntry: Chalk
