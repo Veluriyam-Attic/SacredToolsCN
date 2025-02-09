@@ -12,28 +12,28 @@ Biomes: {
 	}
 
 	DreamscapeStormBiome: {
-		DisplayName: Shadowflare Vortex
-		TownNPCDialogueName: the Shadowflare Vortex
+		DisplayName: 影耀星旋
+		TownNPCDialogueName: 影耀星旋
 	}
 
 	CinderDesertBiome: {
-		DisplayName: Cinder Dunes
-		TownNPCDialogueName: the Cinder Dunes
+		DisplayName: 黑烬沙丘
+		TownNPCDialogueName: 黑烬沙丘
 	}
 
 	CinderForestUndergroundBiome: {
-		DisplayName: Infernal Depths
-		TownNPCDialogueName: the Infernal Depths
+		DisplayName: 渊狱
+		TownNPCDialogueName: 渊狱
 	}
 
 	RestlessNightBiome: {
-		DisplayName: Restless Night
-		TownNPCDialogueName: the Restless Night
+		DisplayName: 难眠夜
+		TownNPCDialogueName: 难眠夜
 	}
 
 	ShrineBiome: {
-		DisplayName: Elder Valley
-		TownNPCDialogueName: the Elder Valley
+		DisplayName: 古老溪谷
+		TownNPCDialogueName: 古老溪谷
 	}
 }
 
