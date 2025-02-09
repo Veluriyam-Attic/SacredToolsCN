@@ -38,7 +38,7 @@ Biomes: {
 }
 
 CommonItemTooltip: {
-	RageSuppression: 允许你携带50个「{$Items.AsthraltiteChunks.DisplayName}」而不被侵蚀
+	RageSuppression: 允许你最多携带50个{$Items.AsthraltiteChunks.DisplayName}而不被侵蚀
 	PaladinsShieldEffect: 生命值大于25%时，可以替队友抵挡25%伤害
 	FlariumInfernoImmunity: 免疫「高温」
 	PercentIncreasedKineticDamage: 提高{0}%动能伤害
@@ -2257,7 +2257,7 @@ Items: {
 		Tooltip:
 			'''
 			“我凝视着虚无，而在这凝视中，我学会不再觊觎任何目标”
-			免疫黑暗，黑视和遮挡减益
+			免疫「黑暗」，「黑视」和「遮挡」减益
 			在黑暗中能看得更清晰
 			{$CommonItemTooltip.PercentIncreasedSuppression}
 			'''
@@ -2269,17 +2269,17 @@ Items: {
 	}
 
 	NubasBlessing: {
-		DisplayName: Nuba之赐
+		DisplayName: Nuba之泽
 		Tooltip:
 			'''
-			魔法伤害暴击将吸取魔力
-			该物品仅在「真实模式」下生效
+			魔法伤害暴击会吸取魔力
+			此道具仅在「真实模式」下生效
 			'''
 	}
 
 	PrimordialCore: {
 		DisplayName: 原基内核
-		Tooltip: 召唤金尖塔攻击附近的敌人
+		Tooltip: 召唤自动攻击附近敌人的金尖塔
 	}
 
 	PumpkinAmulet: {
@@ -2292,7 +2292,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.IncreasesMaxMinionsBy}
-			提高15%召唤物击退和伤害
+			提高15%仆从击退和伤害
 			仆从攻击会施加「诅咒狱火」和「暗影焰」减益
 			哨兵攻击会施加「灵液」减益
 			'''
