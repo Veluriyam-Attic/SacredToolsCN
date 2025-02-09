@@ -50,7 +50,7 @@ CommonItemTooltip: {
 	IncreasesKnifeStashByPercent: Increases knife stash by {0}%
 	PercentIncreasedKnifeRecoveryRate: "{0}% increased knife stash recovery rate"
 	PercentIncreasedKnifeVelocity: "{0}% increased knife velocity"
-	PercentIncreasedLancePerfectStrikeDamage: "{0}% increased lance perfect strike damage"
+	PercentIncreasedLancePerfectStrikeDamage: 提高{0}%长矛完美一击伤害
 	IncreasesLancePerfectStrikeWindowByPercent: Increases lance perfect strike window by {0}%
 	PercentIncreasedLanceRecoveryMoveDamage: "{0}% increased lance recovery move damage"
 	PercentIncreasedLanceRecallSpeed: "{0}% increased lance recall speed"
@@ -2319,16 +2319,16 @@ Items: {
 	}
 
 	RoyalGuard: {
-		DisplayName: Royal Guard
+		DisplayName: 近卫军
 		Tooltip:
 			'''
-			Creates a ring of feathers around you
-			Feather damage is increased by minion damage
+			召唤环羽围绕着你
+			羽毛伤害根据仆从伤害增长
 			'''
 	}
 
 	RoyalRunners: {
-		DisplayName: Royal Runners
+		DisplayName: 帝驰
 		Tooltip:
 			'''
 			Allows flight, super fast running, and extra mobility on ice
@@ -2410,7 +2410,7 @@ Items: {
 		DisplayName: 真实桎梏
 		Tooltip:
 			'''
-			“真相，往往荒诞不经”
+			“现实，往往荒诞不经”
 			{$CommonItemTooltip.PercentIncreasedLancePerfectStrikeDamage}
 			{$CommonItemTooltip.PercentIncreasedLanceRecoveryMoveDamage@1}
 			{$CommonItemTooltip.IncreasesLancePerfectStrikeWindowByPercent@2}
