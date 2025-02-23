@@ -469,7 +469,7 @@ DeathMessage: {
 	Erosion1: "{0} forgot themselves."
 	NoDen: "{0} died of ligma."
 	TrulyAnExpert: "{0} bit the dust."
-	ErazorTimer: "{0} failed."
+	ErazorTimer: "{0}失败了"
 	Judgement: "{0} was judged."
 	Revenge: "{0} messed with the Pandolar."
 
