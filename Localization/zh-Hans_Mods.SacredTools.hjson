@@ -38,7 +38,7 @@ Biomes: {
 }
 
 CommonItemTooltip: {
-	RageSuppression: 允许你最多携带50个{$Items.AsthraltiteChunks.DisplayName}而不被侵蚀
+	RageSuppression: 允许你最多携带50个「{$Items.AsthraltiteChunks.DisplayName}」而不被侵蚀
 	PaladinsShieldEffect: 生命值大于25%时，可以替队友抵挡25%伤害
 	FlariumInfernoImmunity: 免疫「高温」
 	PercentIncreasedKineticDamage: 提高{0}%动能伤害
@@ -50,9 +50,9 @@ CommonItemTooltip: {
 	IncreasesKnifeStashByPercent: Increases knife stash by {0}%
 	PercentIncreasedKnifeRecoveryRate: "{0}% increased knife stash recovery rate"
 	PercentIncreasedKnifeVelocity: "{0}% increased knife velocity"
-	PercentIncreasedLancePerfectStrikeDamage: 提高{0}%长矛完美一击伤害
-	IncreasesLancePerfectStrikeWindowByPercent: Increases lance perfect strike window by {0}%
-	PercentIncreasedLanceRecoveryMoveDamage: "{0}% increased lance recovery move damage"
+	PercentIncreasedLancePerfectStrikeDamage: 提高{0}%长矛「完美一击」伤害
+	IncreasesLancePerfectStrikeWindowByPercent: 提高{0}%长矛「完美掷出」伤害
+	PercentIncreasedLanceRecoveryMoveDamage: 提高{0}%长矛回收伤害
 	PercentIncreasedLanceRecallSpeed: "{0}% increased lance recall speed"
 	PercentIncreasedLanceRecallVelocity: "{0}% increased lance recall velocity"
 	PercentIncreasedLanceReadySpeed: "{0}% increased lance ready speed"
@@ -2397,8 +2397,8 @@ Items: {
 		DisplayName: Blind Wraith's Sheath
 		Tooltip:
 			'''
-			'You may assume my aim to be luck. In that case, I agree.
-			I am simply lucky that you are too loud for your own good.'
+			“你或许认为我只是在追求幸运. 如果是这样的话，那么我同意
+			我只是单纯的很幸运而已. 安静一些吧，过分的聒噪对你没有好处”
 			{$CommonItemTooltip.IncreasesKnifeStashBy}
 			{$CommonItemTooltip.PercentIncreasedKnifeRecoveryRate@1}
 			You gain 2 more knives each recovery
