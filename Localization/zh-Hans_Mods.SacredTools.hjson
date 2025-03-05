@@ -414,7 +414,7 @@ WorldGen: {
 
 BossMessage: {
 	AbaddonDeathMessage: 亚巴顿的黑暗能量再也不被束缚...
-	FlameMessage: ... 现实也正在发生变化
+	FlameMessage: ... 真实也正在发生变化
 	MoonLordMessage: The brightest light casts the darkest shadow.
 	QueenBeeMessage: 一团微弱的火焰在夜里徘徊...
 	FlariumMessage: The force of flame has weakened.
@@ -436,29 +436,29 @@ BossMessage: {
 }
 
 DeathMessage: {
-	FleshWound: "{0} was eviscerated."
-	Solarius: "{0} BURNED TO THE GROUND"
-	GlassSoul: "{0}'s soul shattered."
-	Sume: "{0} couldn't reconstruct in time."
-	end: "{0} game ended."
-	LunarFlee: "{0} accepted death with open arms."
-	Nightmare0: "{0} tried to leave the battlefield."
-	Nightmare1: "{0} didn't wake up."
-	Nightmare2: "{0} was unable to deal with insomnia."
-	Nightmare3: "{0} failed to escape."
-	Nightmare4: "{0} was a puny mortal."
-	Serpent0: "{0} was consumed by flames."
-	Serpent1: "{0} was turned to ash by hot plasma."
-	Serpent2: "{0} couldn't resist the heat."
-	Serpent3: "{0} was obliterated by intense heat."
-	Cerena0: "{0} shattered into a million pieces."
-	Cerena1: "{0} was turned into an icicle."
-	Cerena2: "{0} shivered to death."
-	Cerena3: "{0} learned how it feels inside a fridge."
-	Water0: "{0} forgot that water is lethal."
-	Water1: "{0} was killed by water."
-	Water2: "{0} forgot Shadow Sareliants dont like water."
-	Water3: "{0} didn't drown but still died."
+	FleshWound: "{0}被残忍地剥开腹腔"
+	Solarius: "{0}仅存下来了地面上的一撮余烬"
+	GlassSoul: "{0}的灵魂破碎不复"
+	Sume: "{0}无法及时再塑肉身"
+	end: "{0}的游戏结束了"
+	LunarFlee: "{0}张开双臂，最后紧紧拥抱了死亡"
+	Nightmare0: "{0}试图当个逃兵"
+	Nightmare1: "{0}没有醒来"
+	Nightmare2: "{0}良好的解决了失眠难题"
+	Nightmare3: "{0}的大逃脱失败了"
+	Nightmare4: "{0}意识到自己的渺小"
+	Serpent0: "{0}被焰海吞噬身形"
+	Serpent1: "{0}被高温等离子体照射成了灰烬"
+	Serpent2: "{0}无法抵御炎热"
+	Serpent3: "{0}被高温烧毁了"
+	Cerena0: "{0}被百万大分尸了"
+	Cerena1: "{0}变成了冰柱"
+	Cerena2: "{0}死于恐惧"
+	Cerena3: "{0}深刻体会到了被锁在冰箱的感受"
+	Water0: "{0}忘记了水是致命的"
+	Water1: "{0}被水杀死了"
+	Water2: "{0}忘记了Shadow Sareliants不喜欢水"
+	Water3: "{0}死于水下窒息的心理阴影"
 	Shadowflare0: "{0} left behind nothing but a black stain on the ground."
 	Shadowflare1: "{0}'s lifeforce was burned away."
 	Shadowflare2: "{0} ran out of lifeforce."
@@ -469,7 +469,7 @@ DeathMessage: {
 	Erosion1: "{0} forgot themselves."
 	NoDen: "{0} died of ligma."
 	TrulyAnExpert: "{0} bit the dust."
-	ErazorTimer: "{0} failed."
+	ErazorTimer: "{0}失败了"
 	Judgement: "{0} was judged."
 	Revenge: "{0} messed with the Pandolar."
 
