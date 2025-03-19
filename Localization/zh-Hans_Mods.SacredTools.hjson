@@ -493,11 +493,11 @@ TooltipLabel: {
 	Developer: "[开发者物品: {0}]"
 	DeveloperVanity: "[开发者时装: {0}]"
 	SacredTool: "[圣洁工具]"
-	RelicPursuit: "[遗器 - Pursuit] "
-	RelicHorde: "[遗器 - Horde]"
-	RelicTerritory: "[遗器 - Territory]"
-	RelicUtility: "[遗器 - Utility]"
-	Replica: "[遗器]"
+	RelicPursuit: "[圣遗 - Pursuit] "
+	RelicHorde: "[圣遗 - Horde]"
+	RelicTerritory: "[圣遗 - Territory]"
+	RelicUtility: "[圣遗 - Utility]"
+	Replica: "[圣遗]"
 	DarkRemnantBoost: "[Current Damage Boost: {0}%]"
 	FishWeaponLevel: "[Enhancement Stage {0}]"
 	MagazineCurrent: "[Magazine {0}/{1}]"
@@ -3073,7 +3073,7 @@ Items: {
 		DisplayName: 挑战者的玻璃之魂
 		Tooltip:
 			'''
-			“成为毁灭之神，但是你将失去保命的手段”
+			“接受成为毁灭之神的代价，放弃一切搏命的机会”
 			永久启用「挑战者的玻璃之魂模式」，这会导致任何类型的伤害杀死你，并禁用所有闪避和复活效果
 			使用生命水晶将增加1%伤害
 			使用生命果将增加0.5%伤害
