@@ -277,7 +277,7 @@ Other: {
 
 	Currency: {
 		LunarCoin: 殇月硬币
-		AsthralPlating: 龙愠晶Plating
+		AsthralPlating: 龙愠晶镀板
 		GoldNugget: Gold Nuggets
 	}
 
@@ -793,13 +793,13 @@ Town: {
 	Decorationalist9: 哦?看起来你是为了另一个装饰品而来
 	Decorationalist10: 难得啊,想来买幅画吗?
 	Decorationalist11: 试过把太阳变成黑洞吗?
-	DecorationalistParty: 让我们彻夜歌舞吧! 我们现在需要的是那几幅顶级画作!
-	Erazor0: Being a warrior isn't all about strength; you'll need defense and agility as well to survive in these lands.
-	Erazor1: The blood of a true warrior surely flows through your veins.
-	Erazor2: When the two crystal guardians along with their homes disappeared from the map, I decided to investigate, and I stumbled across a dimensional rift created by a powerful being. It connects this realm with mine, and that's why I am here.
-	Erazor3: Would you consider yourself to be master of this world? If so, what makes you so sure you’ve earned that title?
-	Erazor4: Make sure to keep some of the samples for later use, I could make use of the data and create new kinds of weapons using it.
-	Erazor5: I can create a multitude of weapons and armor from 龙愠晶plating. If you prove to me you’re worth it, I could make you some.
+	DecorationalistParty: 让我们彻夜歌舞吧! 我们现在只需要那几幅顶级画作!
+	Erazor0: 一名战士不能是仅有蛮力的野人; 想要在这片土地上生存，你还需要速度和敏捷
+	Erazor1: 你身中的战士之血必定在沸腾着
+	Erazor2: 秩晶神卫随着他们守护的家园从地图上消失后，我决定调查此事，结果意外发现了一个由强大生物制造的次元裂隙. 它将我和它的领域链接起来，这也是为什么我会出现在这里
+	Erazor3: 你自觉可为世界之主？倘若如此，何因使你确信已获此殊荣？
+	Erazor4: 一定要保留一些样本来备用，因为我可以利用这些数据，并据此制造新型武器. 
+	Erazor5: 我可以使用龙愠晶镀板制作大量强有力的装备，你想要的话至少也需要掏出足够的龙愠晶镀板来向我证明你的能力. 
 	Erazor6: Those creatures flying around deep below us; In a way, they remind me of my father's warriors.
 	Erazor7: Antheé.. my old friend.. I must complete our research...
 	Erazor8: Have you talked to Neil yet? I was told there's more erosion spreading around.
@@ -6246,8 +6246,8 @@ Items: {
 	}
 
 	IDontExist: {
-		DisplayName: 龙愠晶Plating
-		Tooltip: Can be exchanged for powerful equipment
+		DisplayName: 龙愠晶镀板
+		Tooltip: 可以兑换一些强大的装备
 	}
 
 	LunarCoin: {
