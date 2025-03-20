@@ -799,13 +799,13 @@ Town: {
 	Erazor2: 秩晶神卫随着他们守护的家园从地图上消失后，我决定调查此事，结果意外发现了一个由强大生物制造的次元裂隙. 它将我和它的领域链接起来，这也是为什么我会出现在这里
 	Erazor3: 你自觉可为世界之主？倘若如此，何因使你确信已获此殊荣？
 	Erazor4: 一定要保留一些样本来备用，因为我可以利用这些数据，并据此制造新型武器. 
-	Erazor5: 我可以使用龙愠晶镀板制作大量强有力的装备，你想要的话至少也需要掏出足够的龙愠晶镀板来向我证明你的能力. 
-	Erazor6: Those creatures flying around deep below us; In a way, they remind me of my father's warriors.
-	Erazor7: Antheé.. my old friend.. I must complete our research...
-	Erazor8: Have you talked to Neil yet? I was told there's more erosion spreading around.
-	Erazor9: This sword I carry... it is named after my daughter, which I lost in a tragic event approximately 50 years ago. Her name was Yaria.
+	Erazor5: 我可以使用龙愠晶镀板制作大量强有力的装备，但是你想要的话需要付得起足够的龙愠晶镀板来向我证明你的能力. 
+	Erazor6: 那些生物在我们下方的深处飞来飞去；有时候，它们会让我想起父亲的战士们. 
+	Erazor7: 安泰.. 我的老朋友.. 我一定会完成我们的研究...
+	Erazor8: 你和尼尔谈过了吗? 我听说那些恶臭的腐化又在蔓延了
+	Erazor9: 我一直随身佩戴此剑... 它有着和我女儿一样的名字, 大约五十年前的一场悲剧中我永远地失去了我的爱女，雅瑞娅.
 	Erazor10: I've noted several powerful beings with the telltale signs of an infliction brought on by asthral erosion. If you're feeling risky and want to find some erosion samples, I suppose you could seek them out. As a general rule, the more... magically dynamic places in this world are likely to hold more of these eroded beings.
-	ErazorNuba: It is unfortunate that Nuba and her siblings seem to find themselves in trouble so much. I feel... guilty, since I am somewhat responsible for their sorrow.
+	ErazorNuba: It is unfortunate that 云珀 and her siblings seem to find themselves in trouble so much. I feel... guilty, since I am somewhat responsible for their sorrow.
 	ErazorObelisk0: It looks like you are ready young one. Abaddon has already begun with his plans, so get that relic ready and stop him!
 	ErazorObelisk1: Make sure to take that relic with you, warrior. It is the only way to break through the defense of these beings.
 	ErazorNeedRelic0: The first step is done, but you will need a relic if you want to finish these beings off.
@@ -881,7 +881,7 @@ Town: {
 	Pandolar13: Pandas? Oh I know about them. I was told that's what the term "Pandolar" is based off of. Personally, I prefer to refer to our kin in our native tongue, which would be 'Olaar'.
 	Pandolar14: Arguuth doing alright?
 	Pandolar15: You look... tired. Stop it. Get some help.
-	PandolarNuba: It's nice to see Nuba has finally accepted that there is yet no way to bring their father back, she'll help us a lot in trying to find a way back to 赛勒斯.
+	PandolarNuba: It's nice to see 云珀 has finally accepted that there is yet no way to bring their father back, she'll help us a lot in trying to find a way back to 赛勒斯.
 	PandolarPreSiblings: Novaniel and his siblings, the lost siblings and children of Nahlaár. I see that they have fallen into the rift as well. Not sure what they are up to here, but it seems to have to do with this world's moon.
 	PandolarPreAraghur: Along with me a couple other people from 赛勒斯 were thrown into the rift. We should find them to figure out how to return
 	PandolarPreAbaddon: I was about to return to Ariketik, to bring back the captured Decree, when suddenly the sky above 赛勒斯 turned dark and I found myself in a strange world, I was not able to land in time and crashed into the tundra
@@ -904,7 +904,7 @@ Town: {
 	PandolarSalvageCelestial: Man, that was a lot of celestial aliens. I think they come from this world's moon well, anyways, I managed to salvage a few fragments that I think you missed.
 	PandolarSalvageOblivion: After you defeated Abaddon, all those nightmares of being on the sun went away! I'm shivering just thinking about it... however, I did dream about a specific location underground. When I went there, I found some of this ore. Take some of it, I don't have an inkling on what it's for.
 	PandolarSalvageFlarium: I visited the Infernal Depths after you defeated Araghur, and managed to collect some samples while I was there. Maybe they could be of use to you?
-	PandolarSalvageLunarCoins: I spoke to Nuba earlier, and I mast say, the civilization of Soran seems quite interesting! She thanked me for having a conversation with her, and gave me these coins. She said they're a special currency on Soran. I have no use for them, so you should take them.
+	PandolarSalvageLunarCoins: I spoke to 云珀 earlier, and I mast say, the civilization of Soran seems quite interesting! She thanked me for having a conversation with her, and gave me these coins. She said they're a special currency on Soran. I have no use for them, so you should take them.
 	PandolarWake: How many years have passed? None? 1000? 400,000? Oh, excuse me, my name is {0}, thank you for saving me. Is there any way I can help you?
 	PandolarHaunt: Turn off autopause or I will haunt your dreams.
 	Ralnek0: I didn't ask to be here, I hope we can get back home soon...
@@ -931,7 +931,7 @@ Town: {
 	ScavengerPrimordia: L I Z A R D S
 	ScavengerAbaddon: Ah ye, Abaddon! Emissary of Nightmares! Demonic Shadow Wraith of when y’all are havin’ a nanna’s! Do the bee’s knees to watch out for him, he’s the last one you’d want to have a blue with!
 	ScavengerAraghur: That snake hips settle petal ol’ magma serpent? That’d most certainly be the old cobber Araghur, the Flare Serpent! Quite the chap he is, more than just a cute ol’ serpent with a temper bad enough to gag a maggot! Maybe he’ll decide to move here one day!
-	ScavengerSiblings: That ol’ Nuba sheila you fought was quite the good sort, sweet Aussie accent! That Voxa sheila though, she got a bit of a face of a smashed crab, sheepshagger at that!
+	ScavengerSiblings: That ol’ 云珀 sheila you fought was quite the good sort, sweet Aussie accent! That Voxa sheila though, she got a bit of a face of a smashed crab, sheepshagger at that!
 	ScavengerErazor: E R A Z O R   I S   H A N D S O M E
 	ScavengerMale: "{0} is it? My oh my, what a fine ol’ bloke you are! Ye seem like kind of a cruiseling and as cool as a cucumber!"
 	ScavengerFemale: Well you’re a fine lookin’ sheila {0}! You’re the good sort, got a sweet ol’ personality as well!
@@ -944,7 +944,7 @@ Town: {
 	Nuba5: What exactly do you people call yourself? Would 'Terrarian' work?
 	Nuba6: Is there... actually something beyond the oceans? I've been at the beach quite a few times and I can only see water.
 	Nuba7: "'My wares are out of this world!' Like my catchphrase? No? Oh..."
-	Nuba8: I keep on getting these weird messages from people such as 'you're hot' and 'nuba best girl', I must say that this definitely makes me feel like you people really are that evil...
+	Nuba8: I keep on getting these weird messages from people such as 'you're hot' and '云珀 best girl', I must say that this definitely makes me feel like you people really are that evil...
 	Nuba9: Oh dear, mutants! They scare me, they look an amalgamation of all those creatures they've killed! Not that us Soraniti are much better, I must say...
 	Nuba10: Oh, so you're {0}? Uh, yeah! Hi! Nice to erm, meet you!
 	NubaGuide: This is a strange world you live in, {0} has been telling me a lot about it, it seems to be similar to our homeworld Soran, however it is not a moon but an actual planet, just like 赛勒斯.
@@ -2269,7 +2269,7 @@ Items: {
 	}
 
 	NubasBlessing: {
-		DisplayName: Nuba之泽
+		DisplayName: 云珀之泽
 		Tooltip:
 			'''
 			魔法伤害暴击会吸取魔力
@@ -4331,7 +4331,7 @@ Items: {
 	}
 
 	NubaMask: {
-		DisplayName: Nuba Mask
+		DisplayName: 云珀 Mask
 		Tooltip: "'There is always hope.'"
 	}
 
@@ -7978,7 +7978,7 @@ Items: {
 		DisplayName: Beta Coupon
 		Tooltip:
 			'''
-			Erazor and Nuba are not available in this beta, exchange this coupon for some of the reworked content!
+			Erazor and 云珀 are not available in this beta, exchange this coupon for some of the reworked content!
 			This item will be removed with the addition of the Erazor rework and related things
 			'''
 	}
@@ -8359,7 +8359,7 @@ NPCs: {
 	ShadowWrath_Minion.DisplayName: Nightmare Guardian
 
 	NubaShrine: {
-		DisplayName: Nuba
+		DisplayName: 云珀
 
 		TownNPCMood: {
 			Content: I am content.
@@ -8510,8 +8510,8 @@ NPCs: {
 
 	Dustite.DisplayName: 尘
 	Novaniel.DisplayName: 皇位继承人,诺瓦尼埃尔
-	Nuba.DisplayName: 云
-	ShadowNuba.DisplayName: Nuba's Shadow
+	Nuba.DisplayName: 云珀
+	ShadowNuba.DisplayName: 云珀之影
 
 	Solarius: {
 		DisplayName: 耀
@@ -8525,7 +8525,7 @@ NPCs: {
 	Voxa.DisplayName: 旋
 	DustiteDefeat.DisplayName: Dustite
 	NovanielDefeat.DisplayName: 诺瓦尼埃尔
-	NubaDefeat.DisplayName: Nuba
+	NubaDefeat.DisplayName: 云珀
 	SolariusDefeat.DisplayName: Solarius
 	VoxaDefeat.DisplayName: Voxa
 	DustiteClone.DisplayName: Stellar Projection
@@ -8704,7 +8704,7 @@ NPCs: {
 	Dogma.DisplayName: Dogma
 	Gote.DisplayName: Gote of Hyperdeath
 	NihilusHint.DisplayName: ???
-	ShuraTest.DisplayName: Shura
+	ShuraTest.DisplayName: 影珀
 	TestWormBody.DisplayName: Test Worm
 	TestWormHead.DisplayName: Test Worm
 	TestWormTail.DisplayName: Test Worm
@@ -8761,7 +8761,7 @@ Projectiles: {
 	AraghurBarrierHoming.DisplayName: Undying Will
 	AraghurBarrierStatic.DisplayName: "{$Projectiles.AraghurBarrierHoming.DisplayName}"
 	DreadEmber.DisplayName: Dread Ember
-	NubaMana.DisplayName: Nuba's Blessing
+	NubaMana.DisplayName: 云珀's Blessing
 	DreamscapeArenaMarker.DisplayName: Dreamscape Arena Marker
 	DreamscapeBarrier.DisplayName: ""
 	DreamscapeFailMarker.DisplayName: Dreamscape Fail Marker
@@ -9008,8 +9008,8 @@ Projectiles: {
 	NaturesBetrayer.DisplayName: Nature's Betrayer
 	NovaKnife.DisplayName: Interdiction
 	NovaShard.DisplayName: Quasar Shard
-	NubaSpell.DisplayName: Nuba's Spell
-	NubaSpellSpawner.DisplayName: Nuba's Spell
+	NubaSpell.DisplayName: 云珀's Spell
+	NubaSpellSpawner.DisplayName: 云珀's Spell
 	OblivionArrow.DisplayName: Oblivion Arrow
 	OblivionArrow2.DisplayName: Oblivion Arrow
 	OblivionSpear.DisplayName: Phantom's Razor
@@ -9582,8 +9582,8 @@ Projectiles: {
 	StellarGuardianStar2.DisplayName: Stardust Shower
 	Vortex.DisplayName: Vortex Bolt
 	VortexPortal.DisplayName: Vortex Portal
-	NubaSplit.DisplayName: Nuba's Mist
-	NubaSplitSmall.DisplayName: Nuba's Mist
+	NubaSplit.DisplayName: 云珀's Mist
+	NubaSplitSmall.DisplayName: 云珀's Mist
 	Crimini.DisplayName: Crimini
 	CrystalSplit.DisplayName: Technical Projectile: Bursts into nebula blazes
 	DespairObserver.DisplayName: Silent Observer
@@ -9789,7 +9789,7 @@ Projectiles: {
 	DecrepitSupremeChaserBeam.DisplayName: Decrepit Supreme Chaser Beam
 	GraspOfTheAncientsProjectile.DisplayName: Grasp Of The Ancients Projectile
 	DraconicRune.DisplayName: Draconic Rune
-	NubaWisp.DisplayName: Nuba Wisp
+	NubaWisp.DisplayName: 云珀 Wisp
 	Dragonrend1.DisplayName: Dragonrend1
 	CondemnationSwing.DisplayName: Condemnation Swing
 	DragonrendFinal.DisplayName: Dragonrend Final
@@ -10095,14 +10095,14 @@ Cutscene: {
 	RemainingPlayers: ({Remaining}/{Total}玩家正在等候)
 }
 
-RaidNames.Araghur: 阿 加 尔 , 焰 蛇 之 主
+RaidNames.Araghur: -阿-加-尔-, -焰-蛇-之-主-
 
 Configs: {
 	SoAConfig: {
 		DisplayName: 亚巴顿之影配置
 
 		NubaUIOffset: {
-			Label: Nuba U I Offset
+			Label: 云珀 U I Offset
 			Tooltip: ""
 		}
 	}
