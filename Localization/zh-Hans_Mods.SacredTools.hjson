@@ -3751,87 +3751,87 @@ Items: {
 	}
 
 	AbaddonMusicBox: {
-		DisplayName: 音乐盒(Insomnia)
+		DisplayName: 音乐盒(不眠之厄)
 		Tooltip: ""
 	}
 
 	AraghurMusicBox: {
-		DisplayName: 音乐盒(The Dark Guardian of Flames)
+		DisplayName: 音乐盒(业火的漆黑守护者)
 		Tooltip: ""
 	}
 
 	AraneasMusicBox: {
-		DisplayName: 音乐盒(Arachnophobia)
+		DisplayName: 音乐盒(幽冥蛛噬)
 		Tooltip: ""
 	}
 
 	CinderForestMusicBox: {
-		DisplayName: 音乐盒(Phoenixlands)
+		DisplayName: 音乐盒(炽烬涅槃)
 		Tooltip: ""
 	}
 
 	CinderForestUndergroundMusicBox: {
-		DisplayName: 音乐盒(Thermal Beat)
+		DisplayName: 音乐盒(炼狱狂响)
 		Tooltip: ""
 	}
 
 	CinderSandstormMusicBox: {
-		DisplayName: 音乐盒(Firestorm)
+		DisplayName: 音乐盒(炽息炎暴)
 		Tooltip: ""
 	}
 
 	DecreeMusicBox: {
-		DisplayName: 音乐盒(Feral Frost)
+		DisplayName: 音乐盒(不拘之霜)
 		Tooltip: ""
 	}
 
 	Dreamscape1MusicBox: {
-		DisplayName: 音乐盒(Before the Storm)
+		DisplayName: 音乐盒(风暴来临前)
 		Tooltip: ""
 	}
 
 	EmpressDenMusicBox: {
-		DisplayName: 音乐盒(Tomb of Fear)
+		DisplayName: 音乐盒(恶惧之末)
 		Tooltip: ""
 	}
 
 	ErazorMusicBox: {
-		DisplayName: 音乐盒(Duel of the Dark Flame)
+		DisplayName: 音乐盒(漆黑业火的命运一战)
 		Tooltip: ""
 	}
 
 	JensenMusicBox: {
-		DisplayName: 音乐盒(Winged Wrath)
+		DisplayName: 音乐盒(苍翼之怒)
 		Tooltip: ""
 	}
 
 	LostSiblingsMusicBox: {
-		DisplayName: 音乐盒(High on Selenium)
+		DisplayName: 音乐盒(高纯度硒)
 		Tooltip: ""
 	}
 
 	NovanielMusicBox: {
-		DisplayName: 音乐盒(Celestial Judgement)
+		DisplayName: 音乐盒(天庭的审判)
 		Tooltip: ""
 	}
 
 	PiglinArmy1MusicBox: {
-		DisplayName: 音乐盒(Infernal Assault)
+		DisplayName: 音乐盒(地狱狂袭)
 		Tooltip: ""
 	}
 
 	PrimordiaMusicBox: {
-		DisplayName: 音乐盒(Altera Solem)
+		DisplayName: 音乐盒(旭日之终)
 		Tooltip: ""
 	}
 
 	RalnekMusicBox: {
-		DisplayName: 音乐盒(Embers in the Night Sky)
+		DisplayName: 音乐盒(空留余烬)
 		Tooltip: ""
 	}
 
 	RaynareMusicBox: {
-		DisplayName: 音乐盒(Red-Winged Menace)
+		DisplayName: 音乐盒(赤翼之威)
 		Tooltip: ""
 	}
 
@@ -8095,7 +8095,7 @@ Items: {
 
 	Shrine1MusicBox: {
 		Tooltip: ""
-		DisplayName: 音乐盒(A Stranded Place)
+		DisplayName: 音乐盒(失落城垣)
 	}
 }
 
