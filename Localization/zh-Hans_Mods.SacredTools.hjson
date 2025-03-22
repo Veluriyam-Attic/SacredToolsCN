@@ -931,7 +931,7 @@ Town: {
 	ScavengerPrimordia: L I Z A R D S
 	ScavengerAbaddon: Ah ye, Abaddon! Emissary of Nightmares! Demonic Shadow Wraith of when y’all are havin’ a nanna’s! Do the bee’s knees to watch out for him, he’s the last one you’d want to have a blue with!
 	ScavengerAraghur: That snake hips settle petal ol’ magma serpent? That’d most certainly be the old cobber Araghur, the Flare Serpent! Quite the chap he is, more than just a cute ol’ serpent with a temper bad enough to gag a maggot! Maybe he’ll decide to move here one day!
-	ScavengerSiblings: That ol’ 云珀 sheila you fought was quite the good sort, sweet Aussie accent! That Voxa sheila though, she got a bit of a face of a smashed crab, sheepshagger at that!
+	ScavengerSiblings: That ol’ 云珀 sheila you fought was quite the good sort, sweet Aussie accent! That 涡旋 sheila though, she got a bit of a face of a smashed crab, sheepshagger at that!
 	ScavengerErazor: E R A Z O R   I S   H A N D S O M E
 	ScavengerMale: "{0} is it? My oh my, what a fine ol’ bloke you are! Ye seem like kind of a cruiseling and as cool as a cucumber!"
 	ScavengerFemale: Well you’re a fine lookin’ sheila {0}! You’re the good sort, got a sweet ol’ personality as well!
@@ -996,7 +996,7 @@ Buffs: {
 	}
 
 	ChibiVoxaPetBuff: {
-		DisplayName: Chibi Voxa
+		DisplayName: Chibi 涡旋
 		Description: Make sure to bring cake
 	}
 
@@ -3567,7 +3567,7 @@ Items: {
 
 	GlowingSock: {
 		DisplayName: Luminous Sock
-		Tooltip: Summons Chibi Voxa to follow you around
+		Tooltip: Summons Chibi 涡旋 to follow you around
 	}
 
 	MothPet: {
@@ -4286,7 +4286,7 @@ Items: {
 	}
 
 	DustiteMask: {
-		DisplayName: Dustite Mask
+		DisplayName: 尘彗 Mask
 		Tooltip: "'My people shall fear no longer...'"
 	}
 
@@ -4366,7 +4366,7 @@ Items: {
 	}
 
 	VoxaMask: {
-		DisplayName: Voxa Mask
+		DisplayName: 涡旋 Mask
 		Tooltip: "'I will protect Soran with my life.'"
 	}
 
@@ -8508,7 +8508,7 @@ NPCs: {
 		}
 	}
 
-	Dustite.DisplayName: 尘
+	Dustite.DisplayName: 尘彗
 	Novaniel.DisplayName: 皇位继承人,诺瓦尼埃尔
 	Nuba.DisplayName: 云珀
 	ShadowNuba.DisplayName: 云珀之影
@@ -8522,12 +8522,12 @@ NPCs: {
 		}
 	}
 
-	Voxa.DisplayName: 旋
-	DustiteDefeat.DisplayName: Dustite
+	Voxa.DisplayName: 涡旋
+	DustiteDefeat.DisplayName: 尘彗
 	NovanielDefeat.DisplayName: 诺瓦尼埃尔
 	NubaDefeat.DisplayName: 云珀
 	SolariusDefeat.DisplayName: Solarius
-	VoxaDefeat.DisplayName: Voxa
+	VoxaDefeat.DisplayName: 涡旋
 	DustiteClone.DisplayName: Stellar Projection
 	DustiteDragonHead.DisplayName: Stellar Skull
 	DustiteStarReaver.DisplayName: Star Reaver
@@ -8777,7 +8777,7 @@ Projectiles: {
 	CerlaPetProjectile.DisplayName: Cerla
 	ChibiAraghurPetProjectile.DisplayName: Chibi Araghur
 	ChibiJensenPetProjectile.DisplayName: Chibi Jensen
-	ChibiVoxaPetProjectile.DisplayName: Chibi Voxa
+	ChibiVoxaPetProjectile.DisplayName: Chibi 涡旋
 	CrimsonSigilLightPetProjectile.DisplayName: Crimson Mark
 	DarkStarLightPetProjectile.DisplayName: Dark Star
 	HaldezPetProjectile.DisplayName: Haldez
