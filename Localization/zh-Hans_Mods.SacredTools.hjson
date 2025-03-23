@@ -96,7 +96,7 @@ CrossMod: {
 			LostSiblings:
 				'''
 				在任意时间使用[i:SacredTools/SoranEmblem]以召唤
-				或者, 使用[i:SacredTools/HeirsAuthority]仅召唤「诺瓦尼埃尔」
+				或者, 使用[i:SacredTools/HeirsAuthority]仅召唤「诺瓦尼尔」
 				'''
 			Erazor: 给予「伊拉佐」10个[i:SacredTools/ErosionSample]
 			Nihilus: Right-click the [i:SacredTools/NihilusObelisk] with a proper arena set up
@@ -137,9 +137,9 @@ CrossMod: {
 	ROR2HealthBars: {
 		BossName: {
 			// Most of these are here because the normal name already contains the title.
-			Abaddon: 亚巴顿，苦厄之始
+			Abaddon: 苦厄之始 亚巴顿
 			AraghurHead: 阿加尔
-			Novaniel: 诺瓦尼埃尔
+			Novaniel: 诺瓦尼尔
 			Nihilus2: 尼希勒斯
 			SiblingCommon: 失落族裔
 			Solarius: "{$SiblingCommon}"
@@ -157,7 +157,7 @@ CrossMod: {
 			ErazorBoss: 末路之君
 			Jensen: 鹰身公主
 			Nihilus2: 虚妄之焰
-			Novaniel: 皇位继承人
+			Novaniel: 新星准王
 			Primordia: 远古造物
 			Primordia2: "{$Primordia}"
 			Ralnek: 斥探之焰
@@ -276,9 +276,9 @@ Other: {
 		'''
 
 	Currency: {
-		LunarCoin: 殇月硬币
+		LunarCoin: 明月币
 		AsthralPlating: 龙愠晶镀板
-		GoldNugget: Gold Nuggets
+		GoldNugget: 金粒
 	}
 
 	UnknownNet: Unknown message type: {0}
@@ -365,8 +365,8 @@ Keybinds: {
 
 UI: {
 	PiglinArmy: 猪灵军团
-	LahronCleared: Cleared {0}%
-	DimensionalRift: Dimensional Rift
+	LahronCleared: 已清除 {0}%
+	DimensionalRift: 次元裂缝
 
 	Neil: {
 		NoInput: NO INPUT FOUND: {0}
@@ -525,7 +525,7 @@ ChallengeItemHints: {
 }
 
 ExtraTooltip: {
-	ChallengeWarning: A challenge item is already equipped.
+	ChallengeWarning: 已装备挑战者物品.
 	MageCrystalWorth: 若尔足具资格，便可启用此物
 	NiceEffects: 有一些不错的效果
 	LuxMeleeDamage: 提高{0}%近战伤害
@@ -782,7 +782,7 @@ SetBonus: {
 Town: {
 	Pause: 你要是再开自动暂停我就把你的膝盖捏可捏可捏断了
 	Decorationalist0: 旅途中你听闻过圣巢吗？? 真希望我有一天能够去到那里.
-	Decorationalist1: （发出德特茅斯里伊塞尔达的神秘叫声）
+	Decorationalist1: 哎~巴巴拿哒~
 	Decorationalist2: 没有必要为你的订单发愁，我的货源是无尽的！
 	Decorationalist3: 别小瞧了骨钉！如果用对了威力可是巨大的！
 	Decorationalist4: 我发誓我见过这个地方……
@@ -3253,7 +3253,7 @@ Items: {
 	}
 
 	AsthraltitePowerCell: {
-		DisplayName: 龙愠晶Power Cell
+		DisplayName: 龙愠晶储能单元
 		Tooltip: Used to power special equipment
 	}
 
@@ -3304,7 +3304,7 @@ Items: {
 
 	DreadFlame: {
 		DisplayName: 恐惧之焰
-		Tooltip: “惧焰拉内克永远燃烧的生命本质
+		Tooltip: 惧焰拉内克永远燃烧的生命本质
 	}
 
 	EldritchSpark: {
@@ -3852,11 +3852,11 @@ Items: {
 
 	RawLapis: {
 		DisplayName: 粗青金石
-		Tooltip: “粗糙到了无用的地步”
+		Tooltip: 太过粗糙，无法直接使用
 	}
 
 	Emberbark: {
-		DisplayName: Emberbark
+		DisplayName: 焦烬树干
 		Tooltip: ""
 	}
 
