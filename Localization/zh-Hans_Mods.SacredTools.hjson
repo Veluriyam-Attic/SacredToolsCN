@@ -137,7 +137,7 @@ CrossMod: {
 	ROR2HealthBars: {
 		BossName: {
 			// Most of these are here because the normal name already contains the title.
-			Abaddon: 苦厄之始 亚巴顿
+			Abaddon: 苦厄之始，亚巴顿
 			AraghurHead: 阿加尔
 			Novaniel: 诺瓦尼尔
 			Nihilus2: 尼希勒斯
