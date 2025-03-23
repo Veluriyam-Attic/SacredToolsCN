@@ -98,7 +98,7 @@ CrossMod: {
 				在任意时间使用[i:SacredTools/SoranEmblem]以召唤
 				或者, 使用[i:SacredTools/HeirsAuthority]仅召唤「诺瓦尼埃尔」
 				'''
-			Erazor: 给予伊拉佐10个[i:SacredTools/ErosionSample]
+			Erazor: 给予「伊拉佐」10个[i:SacredTools/ErosionSample]
 			Nihilus: Right-click the [i:SacredTools/NihilusObelisk] with a proper arena set up
 			// Events
 			PiglinArmy: 在地表使用[i:SacredTools/PigmanBanner]以召唤
