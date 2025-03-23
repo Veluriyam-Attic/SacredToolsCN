@@ -12,8 +12,8 @@ Biomes: {
 	}
 
 	DreamscapeStormBiome: {
-		DisplayName: 影耀星旋
-		TownNPCDialogueName: 影耀星旋
+		DisplayName: 黯炎风暴
+		TownNPCDialogueName: 黯炎风暴
 	}
 
 	CinderDesertBiome: {
@@ -44,18 +44,18 @@ CommonItemTooltip: {
 	PercentIncreasedKineticDamage: 提高{0}%动能伤害
 	PercentIncreasedKineticCritChance: 提高{0}%动能暴击率
 	PercentIncreasedKineticDamageCritChance: 提高{0}%动能伤害和暴击率
-	PercentIncreasedKineticSpeed: 提高{0}%运动速度
+	PercentIncreasedKineticSpeed: 提高{0}%投掷物速度
 	PercentChanceToSaveThrownItems: 有{0}%几率回收投出的物品
 	IncreasesKnifeStashBy: Increases knife stash by {0}
 	IncreasesKnifeStashByPercent: Increases knife stash by {0}%
 	PercentIncreasedKnifeRecoveryRate: "{0}% increased knife stash recovery rate"
 	PercentIncreasedKnifeVelocity: "{0}% increased knife velocity"
 	PercentIncreasedLancePerfectStrikeDamage: 提高{0}%长矛「完美一击」伤害
-	IncreasesLancePerfectStrikeWindowByPercent: 提高{0}%长矛「完美掷出」伤害
+	IncreasesLancePerfectStrikeWindowByPercent: 提高{0}%长矛「完美一击」伤害
 	PercentIncreasedLanceRecoveryMoveDamage: 提高{0}%长矛回收伤害
-	PercentIncreasedLanceRecallSpeed: "{0}% increased lance recall speed"
-	PercentIncreasedLanceRecallVelocity: "{0}% increased lance recall velocity"
-	PercentIncreasedLanceReadySpeed: "{0}% increased lance ready speed"
+	PercentIncreasedLanceRecallSpeed: "减少{0}% 长矛回收时间"
+	PercentIncreasedLanceRecallVelocity: "提高{0}% 长矛回收速度"
+	PercentIncreasedLanceReadySpeed: "减少{0}% 长矛蓄力时间"
 	PercentIncreasedSuppression: 提高{0}%抑制度
 	PercentIncreasedBossDamage: 提高{0}%Boss伤害
 	PercentIncreasedCritDamage: 提高{0}%暴击伤害
@@ -88,7 +88,7 @@ CrossMod: {
 			Decree: 在雪原使用[i:SacredTools/DecreeSummon]以召唤
 			Ralnek: 在夜晚使用[i:SacredTools/PumpkinLantern]以召唤
 			Jensen: 在夜晚使用[i:SacredTools/JensenSummon]以召唤
-			Araneas: Break a Mysterious Statue in the Empress' Den
+			Araneas: 在蛛后之巢中打破神秘塑像
 			Raynare: 在夜晚使用[i:SacredTools/RaynareSummon]以召唤
 			Primordia: 在沙漠使用[i:SacredTools/PrimordiaSummon]以召唤
 			Abaddon: 在夜晚使用[i:SacredTools/AbaddonSummon]以召唤
@@ -151,16 +151,16 @@ CrossMod: {
 
 		BossTitle: {
 			Abaddon: 苦厄之始
-			AraghurHead: Flare Serpent
-			Araneas: The Witness
-			Decree: Frigid Predator
-			ErazorBoss: 空城之君
-			Jensen: The Sister
+			AraghurHead: 耀炎巨蟒
+			Araneas: 隐匿的见证者
+			Decree: 寒风猎手
+			ErazorBoss: 末路之君
+			Jensen: 鹰身公主
 			Nihilus2: 虚妄之焰
 			Novaniel: 皇位继承人
-			Primordia: 古代构造体
+			Primordia: 远古造物
 			Primordia2: "{$Primordia}"
-			Ralnek: Scouting Flame
+			Ralnek: 斥探之焰
 			Ralnek2: "{$Ralnek}"
 			RalnekPhase3: 孤魂之焰
 			Raynare: 鹰身女皇
@@ -3756,12 +3756,12 @@ Items: {
 	}
 
 	AraghurMusicBox: {
-		DisplayName: 音乐盒(业火的漆黑守护者)
+		DisplayName: 音乐盒(焦烬守护者)
 		Tooltip: ""
 	}
 
 	AraneasMusicBox: {
-		DisplayName: 音乐盒(幽冥蛛噬)
+		DisplayName: 音乐盒(颤栗惧兽)
 		Tooltip: ""
 	}
 
@@ -3786,12 +3786,12 @@ Items: {
 	}
 
 	Dreamscape1MusicBox: {
-		DisplayName: 音乐盒(风暴来临前)
+		DisplayName: 音乐盒(风暴前夕)
 		Tooltip: ""
 	}
 
 	EmpressDenMusicBox: {
-		DisplayName: 音乐盒(恶惧之末)
+		DisplayName: 音乐盒(恶惧之陵)
 		Tooltip: ""
 	}
 
@@ -3811,7 +3811,7 @@ Items: {
 	}
 
 	NovanielMusicBox: {
-		DisplayName: 音乐盒(天庭的审判)
+		DisplayName: 音乐盒(天界审判)
 		Tooltip: ""
 	}
 
