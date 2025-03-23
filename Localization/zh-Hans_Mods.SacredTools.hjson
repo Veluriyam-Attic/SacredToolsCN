@@ -7,7 +7,7 @@ ArenaSystem: {
 
 Biomes: {
 	CinderForestBiome: {
-		DisplayName: 黑烬森林
+		DisplayName: 焦烬森林
 		TownNPCDialogueName: 黑烬森林
 	}
 
@@ -17,7 +17,7 @@ Biomes: {
 	}
 
 	CinderDesertBiome: {
-		DisplayName: 黑烬沙丘
+		DisplayName: 焦烬沙丘
 		TownNPCDialogueName: 黑烬沙丘
 	}
 
