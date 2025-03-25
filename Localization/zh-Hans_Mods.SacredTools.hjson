@@ -53,9 +53,9 @@ CommonItemTooltip: {
 	PercentIncreasedLancePerfectStrikeDamage: 提高{0}%长矛「完美一击」伤害
 	IncreasesLancePerfectStrikeWindowByPercent: 提高{0}%长矛「完美一击」伤害
 	PercentIncreasedLanceRecoveryMoveDamage: 提高{0}%长矛回收伤害
-	PercentIncreasedLanceRecallSpeed: "减少{0}% 长矛回收时间"
-	PercentIncreasedLanceRecallVelocity: "提高{0}% 长矛回收速度"
-	PercentIncreasedLanceReadySpeed: "减少{0}% 长矛蓄力时间"
+	PercentIncreasedLanceRecallSpeed: 减少{0}% 长矛回收时间
+	PercentIncreasedLanceRecallVelocity: 提高{0}% 长矛回收速度
+	PercentIncreasedLanceReadySpeed: 减少{0}% 长矛蓄力时间
 	PercentIncreasedSuppression: 提高{0}%抑制度
 	PercentIncreasedBossDamage: 提高{0}%Boss伤害
 	PercentIncreasedCritDamage: 提高{0}%暴击伤害
@@ -798,9 +798,9 @@ Town: {
 	Erazor1: 你身中的战士之血必定在沸腾着
 	Erazor2: 秩晶神卫随着他们守护的家园从地图上消失后，我决定调查此事，结果意外发现了一个由强大生物制造的次元裂隙. 它将我和它的领域链接起来，这也是为什么我会出现在这里
 	Erazor3: 你自觉可为世界之主？倘若如此，何因使你确信已获此殊荣？
-	Erazor4: 一定要保留一些样本来备用，因为我可以利用这些数据，并据此制造新型武器. 
-	Erazor5: 我可以使用龙愠晶镀板制作大量强有力的装备，但是你想要的话需要付得起足够的龙愠晶镀板来向我证明你的能力. 
-	Erazor6: 那些生物在我们下方的深处飞来飞去；有时候，它们会让我想起父亲的战士们. 
+	Erazor4: 一定要保留一些样本来备用，因为我可以利用这些数据，并据此制造新型武器.
+	Erazor5: 我可以使用龙愠晶镀板制作大量强有力的装备，但是你想要的话需要付得起足够的龙愠晶镀板来向我证明你的能力.
+	Erazor6: 那些生物在我们下方的深处飞来飞去；有时候，它们会让我想起父亲的战士们.
 	Erazor7: 安泰.. 我的老朋友.. 我一定会完成我们的研究...
 	Erazor8: 你和尼尔谈过了吗? 我听说那些恶臭的腐化又在蔓延了
 	Erazor9: 我一直随身佩戴此剑... 它有着和我女儿一样的名字, 大约五十年前的一场悲剧中我永远地失去了我的爱女，雅瑞娅.
@@ -2394,7 +2394,7 @@ Items: {
 	}
 
 	BlindWraithsSheath: {
-		DisplayName: Blind Wraith's Sheath
+		DisplayName: 盲魂之鞘
 		Tooltip:
 			'''
 			“你或许认为我只是在追求幸运. 如果是这样的话，那么我同意
@@ -6399,13 +6399,13 @@ Items: {
 	}
 
 	HornetNeedle: {
-		DisplayName: Needle
+		DisplayName: 骨针
 		Tooltip:
 			'''
 			'Garama!'
-			Throws a giant returning needle
-			Pressing down and using the item while midair initiates a flurry attack
-			Pressing up and throwing the needle will act as a grapple
+			掷出一个强力的骨针
+			在空中使用时按[下]会进行连击
+			在空中使用时按[上]可以像钩爪一样使用
 			'''
 	}
 
