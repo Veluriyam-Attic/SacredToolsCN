@@ -27,8 +27,8 @@ Biomes: {
 	}
 
 	RestlessNightBiome: {
-		DisplayName: 不息之夜
-		TownNPCDialogueName: 不息之夜
+		DisplayName: 难眠夜
+		TownNPCDialogueName: 难眠夜
 	}
 
 	ShrineBiome: {
