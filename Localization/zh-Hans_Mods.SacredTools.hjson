@@ -48,14 +48,14 @@ CommonItemTooltip: {
 	PercentChanceToSaveThrownItems: 有{0}%几率回收投出的物品
 	IncreasesKnifeStashBy: 提高{0}飞刀储备
 	IncreasesKnifeStashByPercent: 提高{0}%飞刀储备
-	PercentIncreasedKnifeRecoveryRate: "提高{0}%飞刀储备回复速度"
+	PercentIncreasedKnifeRecoveryRate: "提高{0}%飞刀回复速度"
 	PercentIncreasedKnifeVelocity: "提高{0}%飞刀速度"
 	PercentIncreasedLancePerfectStrikeDamage: 提高{0}%长矛「完美一击」伤害
 	IncreasesLancePerfectStrikeWindowByPercent: 提高{0}%长矛「完美一击」伤害
 	PercentIncreasedLanceRecoveryMoveDamage: 提高{0}%长矛回收伤害
-	PercentIncreasedLanceRecallSpeed: 减少{0}% 长矛回收时间
-	PercentIncreasedLanceRecallVelocity: 提高{0}% 长矛回收速度
-	PercentIncreasedLanceReadySpeed: 减少{0}% 长矛蓄力时间
+	PercentIncreasedLanceRecallSpeed: 减少{0}%长矛回收时间
+	PercentIncreasedLanceRecallVelocity: 提高{0}%长矛回收速度
+	PercentIncreasedLanceReadySpeed: 减少{0}%长矛蓄力时间
 	PercentIncreasedSuppression: 提高{0}%抑制度
 	PercentIncreasedBossDamage: 提高{0}%Boss伤害
 	PercentIncreasedCritDamage: 提高{0}%暴击伤害
