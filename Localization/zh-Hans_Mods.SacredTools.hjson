@@ -206,7 +206,7 @@ PrefixTooltip: {
 		'''
 		Throw count increased by 50%
 		Knife velocity reduced by 25%
-		Use time increased by 50%
+		提高50%使用时间
 		'''
 	LonePrefix:
 		'''
@@ -281,7 +281,7 @@ Other: {
 		GoldNugget: 金粒
 	}
 
-	UnknownNet: Unknown message type: {0}
+	UnknownNet: Unknown message type未知消息类型: {0}
 	WorldGen.Shinies: Scattering Lapis and Bismuth across the world...
 
 	Spread: {
