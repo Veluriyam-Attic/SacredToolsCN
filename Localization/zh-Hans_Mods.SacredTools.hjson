@@ -46,10 +46,10 @@ CommonItemTooltip: {
 	PercentIncreasedKineticDamageCritChance: 提高{0}%动能伤害和暴击率
 	PercentIncreasedKineticSpeed: 提高{0}%投掷物速度
 	PercentChanceToSaveThrownItems: 有{0}%几率回收投出的物品
-	IncreasesKnifeStashBy: Increases knife stash by {0}
-	IncreasesKnifeStashByPercent: Increases knife stash by {0}%
-	PercentIncreasedKnifeRecoveryRate: "{0}% increased knife stash recovery rate"
-	PercentIncreasedKnifeVelocity: "{0}% increased knife velocity"
+	IncreasesKnifeStashBy: 提高{0}飞刀储备
+	IncreasesKnifeStashByPercent: 提高{0}%飞刀储备
+	PercentIncreasedKnifeRecoveryRate: "提高{0}%飞刀储备回复速度"
+	PercentIncreasedKnifeVelocity: "提高{0}%飞刀速度"
 	PercentIncreasedLancePerfectStrikeDamage: 提高{0}%长矛「完美一击」伤害
 	IncreasesLancePerfectStrikeWindowByPercent: 提高{0}%长矛「完美一击」伤害
 	PercentIncreasedLanceRecoveryMoveDamage: 提高{0}%长矛回收伤害
@@ -70,9 +70,9 @@ CommonItemTooltip: {
 	DecreasedMaxLifeByPercent: 减少{0}%最大生命值
 	DecreasedMaxManaByPercent: 减少{0}%最大魔力值
 	PercentDecreasedMovementSpeed: 减少{0}%移动速度
-	ExitumLuxSlots: Can be enhanced with up to 4 lux shards
-	LuxiteUpgradeLevel: Used to upgrade luxite equipment to stage {0}
-	LuxiteUpgradeableItem: Can be enhanced using Mystic Stones when shown to Reggie
+	ExitumLuxSlots: 可被最多4个流光碎片增幅
+	LuxiteUpgradeLevel: 用于将流光石装备提升至{0}阶
+	LuxiteUpgradeableItem: 展示给雷吉时可使用神秘石增幅
 }
 
 CrossMod: {
