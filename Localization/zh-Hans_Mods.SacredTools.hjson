@@ -171,26 +171,26 @@ CrossMod: {
 Prefixes: {
 	//Revenant
 	
-	UnseenPrefix.DisplayName: Unseen
-	AbundantPrefix.DisplayName: Abundant
-	LonePrefix.DisplayName: Lone
-	FocusedPrefix.DisplayName: Focused
-	RecklessPrefix.DisplayName: Reckless
-	SerratedPrefix.DisplayName: Serrated
-	IncandescentPrefix.DisplayName: Incandescent
-	WeightedPrefix.DisplayName: Weighted
-	MagneticPrefix.DisplayName: Magnetic
-	ReboundPrefix.DisplayName: Rebound
-	SpectralPrefix.DisplayName: Spectral
+	UnseenPrefix.DisplayName: Unseen隐匿
+	AbundantPrefix.DisplayName: Abundant富裕
+	LonePrefix.DisplayName: Lone孤独
+	FocusedPrefix.DisplayName: Focused专注
+	RecklessPrefix.DisplayName: Reckless粗莽
+	SerratedPrefix.DisplayName: Serrated棘齿
+	IncandescentPrefix.DisplayName: Incandescent炽烈
+	WeightedPrefix.DisplayName: Weighted配重
+	MagneticPrefix.DisplayName: Magnetic魅力
+	ReboundPrefix.DisplayName: Rebound弹力
+	SpectralPrefix.DisplayName: Spectral虚灵
 	//Challenge
 	
-	HeadHunterPrefix.DisplayName: Head Hunter
-	UnrelentingPrefix.DisplayName: Unrelenting
-	SilverGazePrefix.DisplayName: Silver Gaze
-	MagnetizedPrefix.DisplayName: Magnetized
-	PenetratingPrefix.DisplayName: Penetrating
-	FortifiedPrefix.DisplayName: Fortified
-	PrecisePrefix.DisplayName: Precise Prefix
+	HeadHunterPrefix.DisplayName: Head Hunter斩首
+	UnrelentingPrefix.DisplayName: Unrelenting不屈
+	SilverGazePrefix.DisplayName: Silver Gaze银睨
+	MagnetizedPrefix.DisplayName: Magnetized磁化
+	PenetratingPrefix.DisplayName: Penetrating穿刺
+	FortifiedPrefix.DisplayName: Fortified强固
+	PrecisePrefix.DisplayName: Precise Prefix精密
 }
 
 PrefixTooltip: {
@@ -198,35 +198,35 @@ PrefixTooltip: {
 	
 	UnseenPrefix:
 		'''
-		Throw count reduced by 50%
-		Knife velocity increased by 25%
-		Use time reduced by 50%
+		减少50%投掷数量
+		提高25%飞刀速度
+		减少50%使用时间
 		'''
 	AbundantPrefix:
 		'''
-		Throw count increased by 50%
-		Knife velocity reduced by 25%
+		提高50%投掷数量
+		减少25%飞刀速度
 		提高50%使用时间
 		'''
 	LonePrefix:
 		'''
-		Throw count set to 1
-		Damage reduced by 20%
-		Use time reduced by 75%
+		投掷数量设为1
+		减少20%伤害
+		提高75%使用时间
 		'''
 	FocusedPrefix:
 		'''
-		Increases damage by 7%
-		Spread cone reduced by 50%
+		提高7%伤害
+		减少50%锥形扩散
 		'''
 	RecklessPrefix:
 		'''
-		Increases damage by 15%
-		Spread cone increased by 50%
+		提高15%伤害
+		提高50%锥形扩散
 		'''
 	SerratedPrefix:
 		'''
-		Knives stick into enemies and tiles and deal rapid damage
+		飞刀会刺入敌人和物块并短造成高频伤害
 		Knives embedded into the ground can be picked up to replenish knife stash
 		Damage decays over time when embedded
 		'''
