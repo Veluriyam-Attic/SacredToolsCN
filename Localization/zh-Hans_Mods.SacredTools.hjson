@@ -41,42 +41,35 @@ CommonItemTooltip: {
 	RageSuppression: 允许你最多携带50个「{$Items.AsthraltiteChunks.DisplayName}」而不被侵蚀
 	PaladinsShieldEffect: 生命值大于25%时，可以替队友抵挡25%伤害
 	FlariumInfernoImmunity: 免疫「高温」
-	PercentIncreasedKineticDamage: 提高{0}%动能伤害
-	PercentIncreasedKineticCritChance: 提高{0}%动能暴击率
-	PercentIncreasedKineticDamageCritChance: 提高{0}%动能伤害和暴击率
-	PercentIncreasedKineticSpeed: 提高{0}%投掷物速度
+	PercentIncreasedKineticDamage: +{0}%动能伤害
+	PercentIncreasedKineticCritChance: +{0}%动能暴击率
+	PercentIncreasedKineticDamageCritChance: +{0}%动能伤害和暴击率
+	PercentIncreasedKineticSpeed: +{0}%投掷物速度
 	PercentChanceToSaveThrownItems: 有{0}%几率回收投出的物品
-<<<<<<< HEAD
-	IncreasesKnifeStashBy: 提高{0}飞刀储备
-	IncreasesKnifeStashByPercent: 提高{0}%飞刀储备
-	PercentIncreasedKnifeRecoveryRate: 提高{0}%飞刀回复速度
-	PercentIncreasedKnifeVelocity: 提高{0}%飞刀速度
-=======
-	IncreasesKnifeStashBy: 提高{0}最大飞刀储备
-	IncreasesKnifeStashByPercent: 提高{0}%最大飞刀储备
-	PercentIncreasedKnifeRecoveryRate: "提高{0}%飞刀储备回复速度"
-	PercentIncreasedKnifeVelocity: "提高{0}%飞刀速度"
->>>>>>> d713310531f168bc910b8755e9855b84c17ea751
-	PercentIncreasedLancePerfectStrikeDamage: 提高{0}%长矛「完美一击」伤害
-	IncreasesLancePerfectStrikeWindowByPercent: 提高{0}%长矛「完美一击」伤害
-	PercentIncreasedLanceRecoveryMoveDamage: 提高{0}%长矛回收伤害
-	PercentIncreasedLanceRecallSpeed: 减少{0}%长矛回收时间
-	PercentIncreasedLanceRecallVelocity: 提高{0}%长矛回收速度
-	PercentIncreasedLanceReadySpeed: 减少{0}%长矛蓄力时间
-	PercentIncreasedSuppression: 提高{0}%抑制度
-	PercentIncreasedBossDamage: 提高{0}%Boss伤害
-	PercentIncreasedCritDamage: 提高{0}%暴击伤害
-	PercentIncreasedPolarization: 提高{0}%极化
+	IncreasesKnifeStashBy: +{0}最大飞刀储备
+	IncreasesKnifeStashByPercent: +{0}%最大飞刀储备
+	PercentIncreasedKnifeRecoveryRate: +{0}%飞刀储备回复速度
+	PercentIncreasedKnifeVelocity: +{0}%飞刀速度
+	PercentIncreasedLancePerfectStrikeDamage: +{0}%长矛「完美一击」伤害
+	IncreasesLancePerfectStrikeWindowByPercent: +{0}%长矛「完美一击」伤害
+	PercentIncreasedLanceRecoveryMoveDamage: +{0}%长矛回收伤害
+	PercentIncreasedLanceRecallSpeed: -{0}%长矛回收时间
+	PercentIncreasedLanceRecallVelocity: +{0}%长矛回收速度
+	PercentIncreasedLanceReadySpeed: -{0}%长矛蓄力时间
+	PercentIncreasedSuppression: +{0}%抑制度
+	PercentIncreasedBossDamage: +{0}%Boss伤害
+	PercentIncreasedCritDamage: +{0}%暴击伤害
+	PercentIncreasedPolarization: +{0}%极化
 	MinorLifeRegen: 轻微提高生命再生速度
 	MinorManaRegen: 轻微提高魔力再生速度
 	MediumLifeRegen: 提高生命再生速度
 	MediumManaRegen: 提高魔力再生速度
 	MajorLifeRegen: 极大提高生命再生速度
 	MajorManaRegen: 极大提高魔力再生速度
-	PercentIncreasedManaCost: 提高{0}%魔力消耗
-	DecreasedMaxLifeByPercent: 减少{0}%最大生命值
-	DecreasedMaxManaByPercent: 减少{0}%最大魔力值
-	PercentDecreasedMovementSpeed: 减少{0}%移动速度
+	PercentIncreasedManaCost: +{0}%魔力消耗
+	DecreasedMaxLifeByPercent: -{0}%最大生命值
+	DecreasedMaxManaByPercent: -{0}%最大魔力值
+	PercentDecreasedMovementSpeed: -{0}%移动速度
 	ExitumLuxSlots: 可被最多4个「流光碎片」增幅
 	LuxiteUpgradeLevel: 用于将「流光石装备」提升至{0}阶
 	LuxiteUpgradeableItem: 展示给「雷吉」时可使用「神秘石」增幅
@@ -233,30 +226,30 @@ PrefixTooltip: {
 		'''
 	SerratedPrefix:
 		'''
-		飞刀会刺入敌怪和物块并造成高频伤害
-		刺入物块的飞刀可被捡起以补充飞刀储备
-		伤害随刺入时间衰减
+		飞刀会刺入敌人和物块并短造成高频伤害
+		Knives embedded into the ground can be picked up to replenish knife stash
+		Damage decays over time when embedded
 		'''
 	IncandescentPrefix:
 		'''
-		飞刀会粘在敌怪上并在短暂延迟后爆炸
-		命中伤害-30%，爆炸伤害为1.5x
+		Knives will stick to enemies and explode shortly after
+		Impact damage is reduced by 30%, in exchange for 1.5x explosion damage
 		'''
-	WeightedPrefix: 飞刀可在物块上反弹两次
+	WeightedPrefix: Knives can bounce off of tiles twice
 	MagneticPrefix:
 		'''
-		飞刀会在物块上反弹一次，反弹后寻路至附近的敌怪
-		反弹后伤害+50%"
+		Knives can bounce off of tiles once, flinging themselves at enemies if nearby
+		Increases damage by 50% on bounce"
 		'''
 	ReboundPrefix:
 		'''
-		飞刀会从敌怪弹开并掉落在地上
-		反弹后的飞刀可被捡起以补充飞刀储备
+		Knives bounce off enemies and fall to the ground
+		Knives can be caught after bouncing to replenish knife stash
 		'''
 	SpectralPrefix:
 		'''
-		飞刀穿透数+2
-		每次击中+10%伤害
+		Knives pierce 2 additional times
+		Knife damage increases by 10% each hit
 		'''
 }
 
@@ -289,7 +282,7 @@ Other: {
 	}
 
 	UnknownNet: 未知消息类型: {0}
-	WorldGen.Shinies: Scattering Lapis and Bismuth across the world...
+	WorldGen.Shinies: 青金石和铋正在散布到世界各地...
 
 	Spread: {
 		Even: {
@@ -358,7 +351,7 @@ SubworldName.ShrineSubworld: Starlight Shrine
 
 DamageClasses: {
 	SanguineDamageClass.DisplayName: sanguine damage
-	KineticDamageClass.DisplayName:动能伤害
+	KineticDamageClass.DisplayName: 动能伤害
 }
 
 Keybinds: {
@@ -376,20 +369,20 @@ UI: {
 	DimensionalRift: 次元裂缝
 
 	Neil: {
-		NoInput: NO INPUT FOUND: {0}
-		NoOutput: NO OUTPUT FOUND: {0}
+		NoInput: 未发现输入: {0}
+		NoOutput: 未发现输出: {0}
 	}
 
 	Nuba: {
-		CapTitle: Capped Values:
+		CapTitle: 上限值:
 		Caps:
 			'''
-			Damage: 60% Crit: 40%
-			Melee speed: 50% Throwing velocity: 70%
-			Contact/Projectile DR: 45%
-			Mana regen: 30% Max Mana: 300
-			Thrown/Ranged consume chance reduction: 50%
-			Max Minions: 6 Max Sentries: 4
+			伤害: 60% 暴击率: 40%
+			近战攻速: 50% 投掷速度: 70%
+			对 碰撞/弹幕 的伤害减免: 45%
+			魔力再生速度: 30% 最大生命值: 300
+			投掷/远程不消耗率: 50%
+			最大仆从栏: 6 最大哨兵栏: 4
 			'''
 		Gem: Insert Lux Shard to dismantle it into dust
 		Assemble: Assemble
@@ -535,26 +528,26 @@ ExtraTooltip: {
 	ChallengeWarning: 已装备挑战者物品.
 	MageCrystalWorth: 若尔足具资格，便可启用此物
 	NiceEffects: 有一些不错的效果
-	LuxMeleeDamage: 提高{0}%近战伤害
-	LuxMeleeCrit: 提高{0}%近战暴击率
-	LuxMeleeSpeed: 提高{0}%近战攻速
-	LuxContactDamage: 减少{0}%接触伤害
-	LuxMagicDamage: 提高{0}%魔法伤害
-	LuxMagicCrit: 提高{0}%魔法暴击率
-	LuxManaRegen: 提高{0}%魔力再生速度
-	LuxMaxMana: 提高{0}最大魔力值
-	LuxRangedDamage: 提高{0}%远程伤害
-	LuxRangedCrit: 提高{0}%远程暴击率
-	LuxRangedAmmoChance: 提高{0}%弹药不消耗概率
-	LuxProjectileDamage: 减少{0}%弹幕伤害
-	LuxSummonDamage: 提高{0}%召唤伤害
-	LuxMaxMinions: 增加{0}最大仆从栏
-	LuxMinionKnockback: 提高{0}%仆从击退
-	LuxMaxSentries: 增加{0}最大哨兵栏
-	LuxThrowingDamage: 提高{0}%投掷伤害
-	LuxThrowingCrit: 提高{0}%投掷暴击率
-	LuxThrownItemChance: 提高{0}%投掷不消耗概率
-	LuxThrowingSpeed: 提高{0}%投掷速度
+	LuxMeleeDamage: +{0}%近战伤害
+	LuxMeleeCrit: +{0}%近战暴击率
+	LuxMeleeSpeed: +{0}%近战攻速
+	LuxContactDamage: -{0}%接触伤害
+	LuxMagicDamage: +{0}%魔法伤害
+	LuxMagicCrit: +{0}%魔法暴击率
+	LuxManaRegen: +{0}%魔力再生速度
+	LuxMaxMana: +{0}最大魔力值
+	LuxRangedDamage: +{0}%远程伤害
+	LuxRangedCrit: +{0}%远程暴击率
+	LuxRangedAmmoChance: +{0}%弹药不消耗概率
+	LuxProjectileDamage: -{0}%弹幕伤害
+	LuxSummonDamage: +{0}%召唤伤害
+	LuxMaxMinions: +{0}最大仆从栏
+	LuxMinionKnockback: +{0}%仆从击退
+	LuxMaxSentries: +{0}最大哨兵栏
+	LuxThrowingDamage: +{0}%投掷伤害
+	LuxThrowingCrit: +{0}%投掷暴击率
+	LuxThrownItemChance: +{0}%投掷不消耗概率
+	LuxThrowingSpeed: +{0}%投掷速度
 	LuxEmptySocket: Empty Socket Slot
 	ManaFruitAmount: "{0} out of 20 {$Items.ManaFruit.DisplayName} used"
 	OblivionRodCap: Bosses and enemies with over {0} health are unaffected
@@ -641,7 +634,7 @@ SetBonus: {
 	AsthralSummon:
 		'''
 
-		{$CommonItemTooltip.PercentIncreasedSummonDamage}
+		{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
 		Press [{$Keybinds.AbilityPrimary.DisplayName}] to parry incoming attacks in the direction of the cursor
 		Successfully parrying an attack will grant 1 second of invincibility and knock the player backwards
@@ -682,7 +675,7 @@ SetBonus: {
 	Frosthunter:
 		'''
 
-		在雪原时增加15%伤害
+		在雪原时+15%伤害
 		远程弹幕会造成霜冻减益
 		'''
 	Flarium:
@@ -701,7 +694,7 @@ SetBonus: {
 		'''
 		         
 		{$CommonItemTooltip.PercentIncreasedMovementSpeed}
-		在受到伤害后的短时间内提高20%移速
+		在受到伤害后的短时间内+20%移速
 		'''
 	BlazingBrute:
 		'''
@@ -1143,7 +1136,7 @@ Buffs: {
 			{$CommonItemTooltip.PercentIncreasedDamage@2}
 			{$CommonItemTooltip.PercentIncreasedCritChance@3}
 			{$CommonItemTooltip.ReducesDamageTakenByPercent@4}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@5}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@5}
 			{$CommonItemTooltip.PercentIncreasedMovementSpeed@6}
 			'''
 	}
@@ -1270,7 +1263,7 @@ Buffs: {
 
 	LapisShieldBuff: {
 		DisplayName: 青金石盾
-		Description: 增加{0}防御力
+		Description: +{0}防御力
 	}
 
 	NubaArmorDamageBuff: {
@@ -1906,7 +1899,7 @@ Items: {
 		Tooltip:
 			'''
 			“由阿加尔灵魂中散发出的余烬化成，为森林中的居民带来生机”
-			当敌人生命值高于50%时，获得10%伤害加成；当敌人生命值小于50%时，减少10%伤害加成
+			当敌人生命值高于50%时，+10%伤害；当敌人生命值小于50%时，-10%伤害
 			当受到攻击时，会召唤一个保护屏障，减少5秒内受到的伤害，
 			随后屏障将化作追踪导弹发射出去
 			30秒冷却
@@ -1918,7 +1911,7 @@ Items: {
 		Tooltip:
 			'''
 			“绯红烈焰，既可带来繁荣，亦可招致毁灭. 你要踏上何途？”
-			当敌人生命值高于50%时，获得10%伤害加成；当敌人生命值小于50%时，减少10%伤害加成
+			当敌人生命值高于50%时，+10%伤害加成；当敌人生命值小于50%时，-10%伤害加成
 			当受到攻击时，会召唤一个保护屏障，减少5秒内受到的伤害，
 			随后屏障将化作追踪导弹发射出去
 			30秒冷却
@@ -1926,11 +1919,11 @@ Items: {
 	}
 
 	NovanielResolve: {
-		DisplayName: 诺瓦尼埃尔的决心
+		DisplayName: 诺瓦尼尔的决心
 		Tooltip:
 			'''
-			“诺瓦尼埃尔的决心与意志物质化的产物”
-			击中敌人有概率触发「诺瓦尼埃尔」的技能之一
+			“诺瓦尼尔的决心与意志物质化的产物”
+			击中敌人有概率触发「诺瓦尼尔」的技能之一
 			30秒冷却
 			'''
 	}
@@ -1978,7 +1971,7 @@ Items: {
 		DisplayName: Stardust Sigil
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedSummonDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
 			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
 			{$CommonItemTooltip.IncreasesMaxSentriesBy@2}
 			'''
@@ -2126,7 +2119,7 @@ Items: {
 			'''
 			“牺牲一切，信仰魔法”
 			使用魔力药水将造成「施法者的牲礼」效果而不是「魔力病」
-			「施法者的牲礼」最多叠加五层，每层将会增加20%魔力消耗
+			「施法者的牲礼」最多叠加5层，每层将会+20%魔力消耗
 			'''
 	}
 
@@ -2143,7 +2136,7 @@ Items: {
 
 	Dealmaker: {
 		DisplayName: 缔约者
-		Tooltip: 增加获得的[KROMER]量
+		Tooltip: +获得的[KROMER]量
 	}
 
 	DecreeCharm: {
@@ -2160,7 +2153,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.IncreasesMaxSentriesBy}
-			{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage@1}
 			哨兵有几率在击中敌方时造成毁灭性的星尘爆炸
 			“他们休想击溃我们，他们终将在我们面前分崩离析！”
 			'''
@@ -2190,7 +2183,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.FlariumInfernoImmunity}
-			{$CommonItemTooltip.IncreasesMaxLifeBy}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy}
 			'''
 	}
 
@@ -2203,8 +2196,8 @@ Items: {
 		DisplayName: 芙罗拉之拳
 		Tooltip:
 			'''
-			提高90%近战击退
-			提高12%近战伤害和近战攻速
+			+90%近战击退
+			+12%近战伤害和近战攻速
 			近战攻击会施加「毒素」减益
 			近战攻击击中敌人时有概率额外发射一个绿色能量拳
 			'''
@@ -2230,7 +2223,7 @@ Items: {
 		Tooltip:
 			'''
 			近战攻击有概率造成「青金石盾」效果
-			「青金石盾」可以堆叠3次，同时会增加你的防御
+			「青金石盾」可以堆叠3次，同时会提高你的防御
 			'''
 	}
 
@@ -2299,7 +2292,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.IncreasesMaxMinionsBy}
-			提高15%仆从击退和伤害
+			+15%仆从击退和伤害
 			仆从攻击会施加「诅咒狱火」和「暗影焰」减益
 			哨兵攻击会施加「灵液」减益
 			'''
@@ -2320,7 +2313,7 @@ Items: {
 			{$CommonItemTooltip.MinorStats}
 			{$CommonItemTooltip.PaladinsShieldEffect}
 			有10%的概率抵挡地方弹幕
-			{$CommonItemTooltip.IncreasesMaxLifeBy}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy}
 			该物品仅在「真实模式」下生效
 			'''
 	}
@@ -2354,7 +2347,7 @@ Items: {
 			'''
 			{$CommonItemTooltip.IncreasesMaxMinionsBy}
 			{$CommonItemTooltip.IncreasesMaxSentriesBy@1}
-			{$CommonItemTooltip.PercentIncreasedSummonDamage@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage@2}
 			Minion attacks inflict Lunar Burn
 			Sentry attacks inflict Ichor and have a chance to cause a devastating stardust explosion
 			'Show caution, a dead warrior wins no battles'
@@ -2439,7 +2432,7 @@ Items: {
 		DisplayName: 龙愠晶Breastplate
 		Tooltip:
 			'''
-			{$CommonItemTooltip.IncreasesMaxLifeBy}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy}
 			{$CommonItemTooltip.MajorLifeRegen}
 			'''
 	}
@@ -2448,7 +2441,7 @@ Items: {
 		DisplayName: 龙愠晶Robes
 		Tooltip:
 			'''
-			{$CommonItemTooltip.IncreasesMaxLifeBy}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy}
 			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
@@ -2460,7 +2453,7 @@ Items: {
 			{$CommonItemTooltip.PercentReducedManaCost}
 			{$CommonItemTooltip.MajorManaRegen}
 			{$CommonItemTooltip.PercentIncreasedMagicCritChance@1}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			{$CommonItemTooltip.IncreasesMaxManaBy@3}
 			'''
 	}
@@ -2471,7 +2464,7 @@ Items: {
 			'''
 			{$CommonItemTooltip.PercentIncreasedMeleeSpeed}
 			{$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			'''
 	}
 
@@ -2481,7 +2474,7 @@ Items: {
 			'''
 			{$CommonItemTooltip.PercentChanceToSaveAmmo}
 			{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			'''
 	}
 
@@ -2491,7 +2484,7 @@ Items: {
 			'''
 			{$CommonItemTooltip.IncreasesMaxMinionsBy}
 			{$CommonItemTooltip.IncreasesMaxSentriesBy@1}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			'''
 	}
 
@@ -2502,7 +2495,7 @@ Items: {
 			{$CommonItemTooltip.PercentIncreasedLanceReadySpeed}
 			{$CommonItemTooltip.PercentIncreasedKnifeVelocity@1}
 			{$CommonItemTooltip.PercentIncreasedKineticCritChance@2}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@3}
 			'''
 	}
 
@@ -2602,7 +2595,7 @@ Items: {
 		DisplayName: Flarium Breastplate
 		Tooltip:
 			'''
-			{$CommonItemTooltip.IncreasesMaxLifeBy}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy}
 			{$CommonItemTooltip.MajorLifeRegen}
 			'''
 	}
@@ -2615,7 +2608,7 @@ Items: {
 			{$CommonItemTooltip.PercentIncreasedKineticCritChance@1}
 			{$CommonItemTooltip.PercentIncreasedKineticSpeed@2}
 			{$CommonItemTooltip.PercentChanceToSaveThrownItems@3}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@4}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@4}
 			'''
 	}
 
@@ -2623,10 +2616,10 @@ Items: {
 		DisplayName: Flarium Crown
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedSummonDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
 			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
 			{$CommonItemTooltip.IncreasesMaxSentriesBy@2}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@3}
 			'''
 	}
 
@@ -2637,7 +2630,7 @@ Items: {
 			{$CommonItemTooltip.PercentIncreasedMeleeDamage}
 			{$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
 			{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@3}
 			'''
 	}
 
@@ -2648,7 +2641,7 @@ Items: {
 			{$CommonItemTooltip.PercentIncreasedMagicDamage}
 			{$CommonItemTooltip.PercentIncreasedMagicCritChance@1}
 			{$CommonItemTooltip.PercentReducedManaCost@2}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@3}
 			{$CommonItemTooltip.IncreasesMaxManaBy@4}
 			'''
 	}
@@ -2658,7 +2651,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMovementSpeed}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@1}
 			'''
 	}
 
@@ -2669,7 +2662,7 @@ Items: {
 			{$CommonItemTooltip.PercentIncreasedRangedDamage}
 			{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
 			{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@3}
 			'''
 	}
 
@@ -2677,7 +2670,7 @@ Items: {
 		DisplayName: Dreadfire Mask
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedSummonDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
 			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
 			'''
 	}
@@ -2686,21 +2679,21 @@ Items: {
 		DisplayName: Dreadfire Plate
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedSummonDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
 			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
 			'''
 	}
 
 	DreadfireBoots: {
 		DisplayName: Dreadfire Boots
-		Tooltip: "{$CommonItemTooltip.PercentIncreasedSummonDamage}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}"
 	}
 
 	EerieChest: {
 		DisplayName: Eerie Chestpiece
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedSummonDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
 			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
 			'''
 	}
@@ -2709,14 +2702,14 @@ Items: {
 		DisplayName: Eerie Helmet
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedSummonDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
 			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
 			'''
 	}
 
 	EerieLegs: {
 		DisplayName: Eerie Greaves
-		Tooltip: "{$CommonItemTooltip.PercentIncreasedSummonDamage}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}"
 	}
 
 	ExodusChest: {
@@ -2763,7 +2756,7 @@ Items: {
 			'''
 			{$CommonItemTooltip.PercentIncreasedMagicDamage}
 			{$CommonItemTooltip.PercentIncreasedMagicCritChance@1}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			{$CommonItemTooltip.MajorLifeRegen}
 			{$CommonItemTooltip.IncreasesMaxManaBy@3}
 			'''
@@ -2805,7 +2798,7 @@ Items: {
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
 			{$CommonItemTooltip.PercentIncreasedKineticCritChance@1}
 			{$CommonItemTooltip.PercentIncreasedKineticSpeed@2}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@3}
 			{$CommonItemTooltip.MajorLifeRegen}
 			'''
 	}
@@ -2843,7 +2836,7 @@ Items: {
 			'''
 			{$CommonItemTooltip.PercentIncreasedMeleeDamage}
 			{$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			{$CommonItemTooltip.MajorLifeRegen}
 			'''
 	}
@@ -2852,9 +2845,9 @@ Items: {
 		DisplayName: Spirit Medium's Garb
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedSummonDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
 			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			{$CommonItemTooltip.MajorLifeRegen}
 			'''
 	}
@@ -2863,7 +2856,7 @@ Items: {
 		DisplayName: Spirit Medium's Circlet
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedSummonDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
 			{$CommonItemTooltip.IncreasesMaxSentriesBy@1}
 			'''
 	}
@@ -2872,7 +2865,7 @@ Items: {
 		DisplayName: Spirit Medium's Robes
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedSummonDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
 			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
@@ -2901,7 +2894,7 @@ Items: {
 			'''
 			{$CommonItemTooltip.PercentIncreasedRangedDamage}
 			{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			{$CommonItemTooltip.MajorLifeRegen}
 			'''
 	}
@@ -2940,7 +2933,7 @@ Items: {
 			'''
 			{$CommonItemTooltip.PercentIncreasedDamage}
 			{$CommonItemTooltip.ReducesDamageTakenByPercent@1}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			'''
 	}
 
@@ -2949,7 +2942,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedDamage}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@1}
 			'''
 	}
 
@@ -3082,9 +3075,9 @@ Items: {
 			'''
 			“接受成为毁灭之神的代价，放弃一切搏命的机会”
 			永久启用「挑战者的玻璃之魂模式」，这会导致任何类型的伤害杀死你，并禁用所有闪避和复活效果
-			使用「生命水晶」将增加1%伤害
-			使用「生命果」将增加0.5%伤害
-			使用「玻璃之心」将增加5%伤害
+			使用「生命水晶」将+1%伤害
+			使用「生命果」将+0.5%伤害
+			使用「玻璃之心」将+5%伤害
 			只能在玩家拥有至少100生命值时候使用
 			'''
 	}
@@ -4080,7 +4073,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedDamage}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@1}
 			{$CommonItemTooltip.MinorLifeRegen}
 			'''
 	}
@@ -4333,7 +4326,7 @@ Items: {
 	}
 
 	NovanielMask: {
-		DisplayName: 诺瓦尼埃尔面具
+		DisplayName: 诺瓦尼尔面具
 		Tooltip: "'I will not fail you, father...'"
 	}
 
@@ -8141,10 +8134,10 @@ TooltipSimple: {
 TooltipDetail: {
 	ComboPotion:
 		'''
-		防御力增加18, 生命再生速度增加6
-		提高15%伤害, 提高10%暴击率
-		提高10%伤害减免, 增加100最大生命值
-		提高30%移动速度
+		+18防御力, +6生命再生速度
+		+15%伤害, +10%暴击率
+		+10%伤害减免, +100最大生命值
+		+30%移动速度
 		'''
 	CorruptedSigil:
 		'''
@@ -8163,7 +8156,7 @@ TooltipDetail: {
 		   - 暴击伤害: 提高暴击率
 
 		Boss会掉落新的奖励, 包括「玻璃之心」和「挑战物品」:
-		   - 「玻璃之心」需要在启用「玻璃之魂」后通过击败特定的月亮领主后Boss获得，并且将增加你的最大生命值
+		   - 「玻璃之心」需要在启用「玻璃之魂」后通过击败特定的月亮领主后Boss获得，并且将提高你的最大生命值
 		   - 「挑战物品」需要在特定的条件下击败对应Boss获得，在生物图鉴中将会显示对应提示，您可以将他们装备在指定栏位上
 
 		这个物品在使用后不会消失，当你需要阅读有关机制时可以随时来查看
@@ -8226,8 +8219,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.Decorationist}"
 	}
 
 	Erazor.DisplayName: Fallen Monarch
@@ -8253,8 +8244,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.RNGNymph}"
 	}
 
 	FeatherShield.DisplayName: Feather Shield
@@ -8281,8 +8270,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.Neil}"
 	}
 
 	Pandolar: {
@@ -8306,8 +8293,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.Pandolar}"
 	}
 
 	PandolarFrozen.DisplayName: Frozen Pandolar
@@ -8333,8 +8318,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.PandolarUnconscious}"
 	}
 
 	Scavenger: {
@@ -8358,8 +8341,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.Scavenger}"
 	}
 
 	Serpent_Minion.DisplayName: Flare Elemental
@@ -8386,8 +8367,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.NubaShrine}"
 	}
 
 	Abaddon: {
@@ -8480,8 +8459,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.ErazorShrine}"
 	}
 
 	ErazorBoss: {
@@ -8516,7 +8493,7 @@ NPCs: {
 	}
 
 	Dustite.DisplayName: 尘彗
-	Novaniel.DisplayName: 皇位继承人,诺瓦尼埃尔
+	Novaniel.DisplayName: 皇位继承人,诺瓦尼尔
 	Nuba.DisplayName: 云珀
 	ShadowNuba.DisplayName: 云珀之影
 
@@ -8531,7 +8508,7 @@ NPCs: {
 
 	Voxa.DisplayName: 涡旋
 	DustiteDefeat.DisplayName: 尘彗
-	NovanielDefeat.DisplayName: 诺瓦尼埃尔
+	NovanielDefeat.DisplayName: 诺瓦尼尔
 	NubaDefeat.DisplayName: 云珀
 	SolariusDefeat.DisplayName: Solarius
 	VoxaDefeat.DisplayName: 涡旋
@@ -8628,8 +8605,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.RalnekShrine}"
 	}
 
 	FeatherShieldShoot.DisplayName: Feather
@@ -8743,8 +8718,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.ReggieShip}"
 	}
 
 	SparringPlatform.DisplayName: Sparring Platform

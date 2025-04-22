@@ -8160,8 +8160,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.Decorationist}"
 	}
 
 	Erazor.DisplayName: Fallen Monarch
@@ -8187,8 +8185,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.RNGNymph}"
 	}
 
 	FeatherShield.DisplayName: Feather Shield
@@ -8215,8 +8211,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.Neil}"
 	}
 
 	Pandolar: {
@@ -8240,8 +8234,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.Pandolar}"
 	}
 
 	PandolarFrozen.DisplayName: Frozen Pandolar
@@ -8267,8 +8259,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.PandolarUnconscious}"
 	}
 
 	Scavenger: {
@@ -8292,8 +8282,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.Scavenger}"
 	}
 
 	Serpent_Minion.DisplayName: Flare Elemental
@@ -8320,8 +8308,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.NubaShrine}"
 	}
 
 	Abaddon: {
@@ -8414,8 +8400,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.ErazorShrine}"
 	}
 
 	ErazorBoss: {
@@ -8562,8 +8546,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.RalnekShrine}"
 	}
 
 	FeatherShieldShoot.DisplayName: Feather
@@ -8677,8 +8659,6 @@ NPCs: {
 			LikeNPC_Princess: I like {NPCName}.
 			Princess_LovesNPC: I like {NPCName}.
 		}
-
-		Census.SpawnCondition: "{$Mods.SacredTools.CrossMod.Census.Condition.ReggieShip}"
 	}
 
 	SparringPlatform.DisplayName: Sparring Platform

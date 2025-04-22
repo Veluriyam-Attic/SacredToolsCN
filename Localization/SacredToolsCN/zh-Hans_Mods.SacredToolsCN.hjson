@@ -1,0 +1,10 @@
+CommonItemTooltip: {
+    # 由于圣域使用了原版本地化键，但是汉化格式不同
+    # 所以在这重新写了所有用到原版本地化键的文本
+    # 每行下面都有附上搜索并替换的文本
+    # 按着替换就能消除所有原版本地化键
+	IncreasesMaxLifeBy: +{0}最大生命值
+    # {$CommonItemTooltip.IncreasesMaxLifeBy -> {$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy
+	PercentIncreasedSummonDamage: +{0}%召唤伤害
+    # {$CommonItemTooltip.PercentIncreasedSummonDamage -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage
+}
