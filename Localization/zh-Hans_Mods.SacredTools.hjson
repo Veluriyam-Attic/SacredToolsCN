@@ -46,9 +46,9 @@ CommonItemTooltip: {
 	PercentIncreasedKineticDamageCritChance: 提高{0}%动能伤害和暴击率
 	PercentIncreasedKineticSpeed: 提高{0}%投掷物速度
 	PercentChanceToSaveThrownItems: 有{0}%几率回收投出的物品
-	IncreasesKnifeStashBy: 提高{0}飞刀储备
-	IncreasesKnifeStashByPercent: 提高{0}%飞刀储备
-	PercentIncreasedKnifeRecoveryRate: "提高{0}%飞刀回复速度"
+	IncreasesKnifeStashBy: 提高{0}最大飞刀储备
+	IncreasesKnifeStashByPercent: 提高{0}%最大飞刀储备
+	PercentIncreasedKnifeRecoveryRate: "提高{0}%飞刀储备回复速度"
 	PercentIncreasedKnifeVelocity: "提高{0}%飞刀速度"
 	PercentIncreasedLancePerfectStrikeDamage: 提高{0}%长矛「完美一击」伤害
 	IncreasesLancePerfectStrikeWindowByPercent: 提高{0}%长矛「完美一击」伤害
@@ -198,58 +198,58 @@ PrefixTooltip: {
 	
 	UnseenPrefix:
 		'''
-		减少50%投掷数量
-		提高25%飞刀速度
-		减少50%使用时间
+		-50%投掷数量
+		+25%飞刀速度
+		-50%使用时间
 		'''
 	AbundantPrefix:
 		'''
-		提高50%投掷数量
-		减少25%飞刀速度
-		提高50%使用时间
+		+50%投掷数量
+		-25%飞刀速度
+		+50%使用时间
 		'''
 	LonePrefix:
 		'''
 		投掷数量设为1
-		减少20%伤害
-		提高75%使用时间
+		-20%伤害
+		+75%使用时间
 		'''
 	FocusedPrefix:
 		'''
-		提高7%伤害
-		减少50%锥形扩散
+		+7%伤害
+		-50%锥形扩散
 		'''
 	RecklessPrefix:
 		'''
-		提高15%伤害
-		提高50%锥形扩散
+		+15%伤害
+		+50%锥形扩散
 		'''
 	SerratedPrefix:
 		'''
-		飞刀会刺入敌人和物块并短造成高频伤害
-		Knives embedded into the ground can be picked up to replenish knife stash
-		Damage decays over time when embedded
+		飞刀会刺入敌怪和物块并造成高频伤害
+		刺入物块的飞刀可被捡起以补充飞刀储备
+		伤害随刺入时间衰减
 		'''
 	IncandescentPrefix:
 		'''
-		Knives will stick to enemies and explode shortly after
-		Impact damage is reduced by 30%, in exchange for 1.5x explosion damage
+		飞刀会粘在敌怪上并在短暂延迟后爆炸
+		命中伤害-30%，爆炸伤害为1.5x
 		'''
-	WeightedPrefix: Knives can bounce off of tiles twice
+	WeightedPrefix: 飞刀可在物块上反弹两次
 	MagneticPrefix:
 		'''
-		Knives can bounce off of tiles once, flinging themselves at enemies if nearby
-		Increases damage by 50% on bounce"
+		飞刀会在物块上反弹一次，反弹后寻路至附近的敌怪
+		反弹后伤害+50%"
 		'''
 	ReboundPrefix:
 		'''
-		Knives bounce off enemies and fall to the ground
-		Knives can be caught after bouncing to replenish knife stash
+		飞刀会从敌怪弹开并掉落在地上
+		反弹后的飞刀可被捡起以补充飞刀储备
 		'''
 	SpectralPrefix:
 		'''
-		Knives pierce 2 additional times
-		Knife damage increases by 10% each hit
+		飞刀穿透数+2
+		每次击中+10%伤害
 		'''
 }
 
