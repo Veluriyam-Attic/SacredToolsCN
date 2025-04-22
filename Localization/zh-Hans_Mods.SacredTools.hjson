@@ -48,8 +48,8 @@ CommonItemTooltip: {
 	PercentChanceToSaveThrownItems: 有{0}%几率回收投出的物品
 	IncreasesKnifeStashBy: 提高{0}飞刀储备
 	IncreasesKnifeStashByPercent: 提高{0}%飞刀储备
-	PercentIncreasedKnifeRecoveryRate: "提高{0}%飞刀回复速度"
-	PercentIncreasedKnifeVelocity: "提高{0}%飞刀速度"
+	PercentIncreasedKnifeRecoveryRate: 提高{0}%飞刀回复速度
+	PercentIncreasedKnifeVelocity: 提高{0}%飞刀速度
 	PercentIncreasedLancePerfectStrikeDamage: 提高{0}%长矛「完美一击」伤害
 	IncreasesLancePerfectStrikeWindowByPercent: 提高{0}%长矛「完美一击」伤害
 	PercentIncreasedLanceRecoveryMoveDamage: 提高{0}%长矛回收伤害
@@ -99,7 +99,7 @@ CrossMod: {
 				或者, 使用[i:SacredTools/HeirsAuthority]仅召唤「诺瓦尼尔」
 				'''
 			Erazor: 给予「伊拉佐」10个[i:SacredTools/ErosionSample]
-			Nihilus: Right-click the [i:SacredTools/NihilusObelisk] with a proper arena set up
+			Nihilus: Right-click the [i:SacredTools/NihilusObelisk] with a proper arena set up*
 			// Events
 			PiglinArmy: 在地表使用[i:SacredTools/PigmanBanner]以召唤
 		}
@@ -108,7 +108,7 @@ CrossMod: {
 	Census: {
 		// Note: Currently unused since Census doesn't support localization.
 		Condition: {
-			ShrineCommon: Can only appear at the Starlight Shrine
+			ShrineCommon: Can only appear at the Starlight Shrine*
 			Scavenger: 击败「裁决」, 「惧焰拉内克」或「风暴女妖詹森」
 			Decorationalist: 击败「克苏鲁之眼」
 			RalnekShrine:
@@ -173,13 +173,13 @@ Prefixes: {
 	
 	UnseenPrefix.DisplayName: Unseen隐匿
 	AbundantPrefix.DisplayName: Abundant富裕
-	LonePrefix.DisplayName: Lone孤独
+	LonePrefix.DisplayName: Lone孤锋
 	FocusedPrefix.DisplayName: Focused专注
 	RecklessPrefix.DisplayName: Reckless粗莽
 	SerratedPrefix.DisplayName: Serrated棘齿
 	IncandescentPrefix.DisplayName: Incandescent炽烈
 	WeightedPrefix.DisplayName: Weighted配重
-	MagneticPrefix.DisplayName: Magnetic魅力
+	MagneticPrefix.DisplayName: Magnetic魅力*
 	ReboundPrefix.DisplayName: Rebound弹力
 	SpectralPrefix.DisplayName: Spectral虚灵
 	//Challenge
@@ -187,7 +187,7 @@ Prefixes: {
 	HeadHunterPrefix.DisplayName: Head Hunter斩首
 	UnrelentingPrefix.DisplayName: Unrelenting不屈
 	SilverGazePrefix.DisplayName: Silver Gaze银睨
-	MagnetizedPrefix.DisplayName: Magnetized磁化
+	MagnetizedPrefix.DisplayName: Magnetized磁化*
 	PenetratingPrefix.DisplayName: Penetrating穿刺
 	FortifiedPrefix.DisplayName: Fortified强固
 	PrecisePrefix.DisplayName: Precise Prefix精密
@@ -281,7 +281,7 @@ Other: {
 		GoldNugget: 金粒
 	}
 
-	UnknownNet: Unknown message type未知消息类型: {0}
+	UnknownNet: 未知消息类型: {0}
 	WorldGen.Shinies: Scattering Lapis and Bismuth across the world...
 
 	Spread: {
@@ -351,12 +351,12 @@ SubworldName.ShrineSubworld: Starlight Shrine
 
 DamageClasses: {
 	SanguineDamageClass.DisplayName: sanguine damage
-	KineticDamageClass.DisplayName: 动能伤害
+	KineticDamageClass.DisplayName:动能伤害
 }
 
 Keybinds: {
-	AbilityPrimary.DisplayName: 能力(主)
-	AbilitySecondary.DisplayName: 能力(副)
+	AbilityPrimary.DisplayName: 能力「主」
+	AbilitySecondary.DisplayName: 能力「副」
 	Reload.DisplayName: Reload
 	AltMelee.DisplayName: Alt Melee
 	LanceRecovery.DisplayName: Lance recovery/recall
@@ -498,7 +498,7 @@ TooltipLabel: {
 	RelicTerritory: "[圣遗 - Territory]"
 	RelicUtility: "[圣遗 - Utility]"
 	Replica: "[圣遗]"
-	DarkRemnantBoost: "[Current Damage Boost: {0}%]"
+	DarkRemnantBoost: "[当前伤害提升: {0}%]"
 	FishWeaponLevel: "[Enhancement Stage {0}]"
 	MagazineCurrent: "[Magazine {0}/{1}]"
 	MagazineReserve: "[Reserves {0}]"
