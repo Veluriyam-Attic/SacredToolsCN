@@ -1,8 +1,8 @@
 ArenaSystem: {
-	OutOfWorld: The arena cannot form beyond the world's edge. The obelisk does not react.
-	Obstruction: The area is obstructed. The obelisk does not react.
-	Gap: The area lacks a solid floor. The obelisk does not react.
-	SummonType_Obelisk: obelisk
+	OutOfWorld: 竞技场无法在世界边界之外生成. 方尖碑没有反应.
+	Obstruction: 该区域被堵塞. 方尖碑没有反应.
+	Gap: 该区域没有完整地面. 方尖碑没有反应
+	SummonType_Obelisk: 方尖碑
 }
 
 Biomes: {
@@ -226,30 +226,30 @@ PrefixTooltip: {
 		'''
 	SerratedPrefix:
 		'''
-		飞刀会刺入敌人和物块并短造成高频伤害
-		Knives embedded into the ground can be picked up to replenish knife stash
-		Damage decays over time when embedded
+		飞刀会刺入敌人或嵌入物块并在短时间内造成高频伤害
+		飞刀嵌入地面时可以捡起以补充当前飞刀储备
+		刺入敌人时伤害随着时间减少
 		'''
 	IncandescentPrefix:
 		'''
-		Knives will stick to enemies and explode shortly after
-		Impact damage is reduced by 30%, in exchange for 1.5x explosion damage
+		飞刀会刺入敌人，并在不久后爆炸
+		-30%命中伤害，换取1.5倍爆炸伤害
 		'''
-	WeightedPrefix: Knives can bounce off of tiles twice
+	WeightedPrefix: 飞刀接触到物块时可以进行至多2次的反弹
 	MagneticPrefix:
 		'''
-		Knives can bounce off of tiles once, flinging themselves at enemies if nearby
-		Increases damage by 50% on bounce"
+		飞刀接触到物块时可以进行1次反弹, 当附近存在敌人时会将自己掷向附近敌人
+		+50%反弹后伤害
 		'''
 	ReboundPrefix:
 		'''
-		Knives bounce off enemies and fall to the ground
-		Knives can be caught after bouncing to replenish knife stash
+		飞刀会从敌怪弹开并掉落在地上
+		反弹后的飞刀可被捡起以补充飞刀储备
 		'''
 	SpectralPrefix:
 		'''
-		Knives pierce 2 additional times
-		Knife damage increases by 10% each hit
+		+2飞刀穿透数
+		每次击中时+10%伤害
 		'''
 }
 
@@ -286,23 +286,23 @@ Other: {
 
 	Spread: {
 		Even: {
-			Name: Even
-			Description: Even spread
+			Name: 平均
+			Description: 平均方向扩散
 		}
 
 		Random: {
-			Name: Random
-			Description: Random spread
+			Name: 随机
+			Description: 随机方向扩散
 		}
 
 		Expanding: {
-			Name: Expanding
-			Description: Expanding spread
+			Name: 扩展
+			Description: 更大扩散范围
 		}
 
 		Shrinking: {
-			Name: Shrinking
-			Description: Shrinking spread
+			Name: 收缩
+			Description: 收缩扩散范围
 		}
 	}
 }
@@ -312,38 +312,38 @@ Conversations are linked by key and array position. For example, Conversations.N
 */
 Conversations: {
 	NihilusSpawn_First: {
-		0: A massive amount of spiritual energy is beginning to concentrate around the obelisk, take caution.
-		1: I will be securing the area around the sidelines and assist you if needed. Good luck out there.
+		0: 庞大到渗人的精神能量开始凝聚在方尖碑周围，此行务必谨慎！
+		1: 我会在边界外围戒备，必要时可以为你提供协助. 天佑英魂，望君凯旋.
 	}
 
 	Nihilus_PhaseChange: {
-		0: The battle is far from over, the creature has shown its true form and distorted the area even more.
-		1: Prepare your relic weapon to destroy the distortion and take that thing down!
+		0: 战斗还未结束! 这个生物终于露出了真面目，周围变得更加扭曲了.
+		1: 准备好你的「圣遗」武器了吗! 打破扭曲，而后踏着它的尸体走过去!
 	}
 
-	Nihilus_Stun.0: I got a free line of sight. Go all out on him!
+	Nihilus_Stun.0: 我替你争取到了输出的机会! 把你的毕生所学都使出来吧!
 
 	Nihilus_ExtinctionRay: {
-		0: You're not gonna survive that one.
-		1: Quick, make your way to the other side, I will be assisting you.
+		0: 你撑不住的!
+		1: 快! 撤到另一边! 我会帮助你的!
 	}
 
 	Nihilus_RisenLanternWarning: {
-		0: The creature appears to have become more unstable, and has manifested this unstable energy into a catalyst of some sort.
-		1: Watch out, if it manages to focus this energy into a direct attack, the effects will be devastating.
+		0: 这个生物似乎变得更加不稳定了, 并将这种不稳定的能量变成某种催化剂.
+		1: 当心! 如果它设法将这种能量集中到直接攻击中, 其效果将是毁灭性的.
 	}
 
 	Nihilus_CondemnationWarning: {
-		0: Watch out, he is preparing a focused attack.
-		1: Make haste and take cover behind one of those rocks! But beware, I sense a volatile force slumbering within them.
+		0: 集中精神! 它正准备打算进行一次强力的攻击!
+		1: 快点，躲到那些石头后面! 但是不要松懈，我感觉到它们里面潜伏着不稳定的力量.
 	}
 
 	FirstDreamscapeDefeat: {
-		0: Ahhh... it appears one of my constructs has fallen, so this world does have significant threats after all.
-		1: Listen well, whoever you are. This matter is none of your concern. I have previously paid not much attention to your meddling, despite your attack on my weakened being.
-		2: But now, it appears as if you have chosen a side opposing the likes of mine, and as such I cannot let you continue unnoticed.
-		3: You may think you have disrupted my plans, but you are nothing more than an extra variable to add to the equation.
-		4: Go ahead then, and pretend like you have any weight on the outcome. Go ahead and try to change what cannot be changed.
+		0: 啊呵呵呵...我的造物之一陨落了, 看来这个世界还是有一定的威胁.
+		1: 听好了，不管你是谁, 这事与你无关. 我以前对你的干扰并不在意，尽管你攻击了我虚弱的身体.
+		2: 但现在，你似乎已经决定了要站在我的对立面，因此我不能在任由你继续这样下去了.
+		3: 你可能自认为你打乱了我的计划，但你只不过是方程式中增加的一个额外变量.
+		4: 那么，继续下去吧，假装你能对结果有任何影响. 继续下去，试着改变那些无法改变的事情.
 	}
 }
 
@@ -379,7 +379,7 @@ UI: {
 			'''
 			伤害: 60% 暴击率: 40%
 			近战攻速: 50% 投掷速度: 70%
-			对 碰撞/弹幕 的伤害减免: 45%
+			对 接触/弹幕 的伤害减免: 45%
 			魔力再生速度: 30% 最大生命值: 300
 			投掷/远程不消耗率: 50%
 			最大仆从栏: 6 最大哨兵栏: 4
@@ -576,9 +576,9 @@ ExtraTooltip: {
 }
 
 Revenant: {
-	KnifeAmount: Throws out {0} knives
-	SpreadAngle: Spread cone: {0:0} degrees
-	TileRange: "{0:0.##} tile range"
+	KnifeAmount: 一次掷出{0}把
+	SpreadAngle: 锥形扩散角度: {0:0}°
+	TileRange: "{0:0.##}物块范围"
 	NoGravity: 不受重力影响
 	ChargeTime: "{0} seconds ready time"
 	PerfectStrikeWindow: "{0} seconds perfect strike window"
@@ -1935,7 +1935,7 @@ Items: {
 			{$CommonItemTooltip.PercentIncreasedDamage}
 			{$CommonItemTooltip.PercentIncreasedCritChance@1}
 			{$CommonItemTooltip.IncreasesMaxMinionsBy@2}
-			{$CommonItemTooltip.IncreasesMaxSentriesBy@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxSentriesBy@3}
 			{$CommonItemTooltip.RageSuppression}
 			'''
 	}
@@ -1973,7 +1973,7 @@ Items: {
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
 			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
-			{$CommonItemTooltip.IncreasesMaxSentriesBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxSentriesBy@2}
 			'''
 	}
 
@@ -2144,7 +2144,7 @@ Items: {
 		Tooltip:
 			'''
 			“捕食者需要变得无情，你也不例外”
-			在雪原时持有者将变为裁决
+			在雪原时持有者将化身为裁决
 			'''
 	}
 
@@ -2152,7 +2152,7 @@ Items: {
 		DisplayName: 守护者壁垒
 		Tooltip:
 			'''
-			{$CommonItemTooltip.IncreasesMaxSentriesBy}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxSentriesBy}
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage@1}
 			哨兵有几率在击中敌方时造成毁灭性的星尘爆炸
 			“他们休想击溃我们，他们终将在我们面前分崩离析！”
@@ -2346,7 +2346,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.IncreasesMaxMinionsBy}
-			{$CommonItemTooltip.IncreasesMaxSentriesBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxSentriesBy@1}
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage@2}
 			Minion attacks inflict Lunar Burn
 			Sentry attacks inflict Ichor and have a chance to cause a devastating stardust explosion
@@ -2483,7 +2483,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.IncreasesMaxMinionsBy}
-			{$CommonItemTooltip.IncreasesMaxSentriesBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxSentriesBy@1}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			'''
 	}
@@ -2618,7 +2618,7 @@ Items: {
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
 			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
-			{$CommonItemTooltip.IncreasesMaxSentriesBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxSentriesBy@2}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@3}
 			'''
 	}
@@ -2857,7 +2857,7 @@ Items: {
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
-			{$CommonItemTooltip.IncreasesMaxSentriesBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxSentriesBy@1}
 			'''
 	}
 
@@ -3836,7 +3836,7 @@ Items: {
 	}
 
 	NihilusObelisk: {
-		DisplayName: Dread Obelisk
+		DisplayName: 悚厄方尖碑
 		Tooltip: ""
 	}
 
@@ -4090,7 +4090,7 @@ Items: {
 
 	SentryPotion: {
 		DisplayName: Commanding Potion
-		Tooltip: "{$CommonItemTooltip.IncreasesMaxSentriesBy}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxSentriesBy}"
 	}
 
 	SkeletonMinionPotion: {
@@ -4361,7 +4361,7 @@ Items: {
 	}
 
 	SolariusMask: {
-		DisplayName: Solarius Mask
+		DisplayName: 索耀斯 Mask
 		Tooltip: "'Someday I'll beat you, Derall.'"
 	}
 
@@ -4791,13 +4791,13 @@ Items: {
 	}
 
 	ReachfortheDeep: {
-		DisplayName: Reach for the Deep
+		DisplayName: 窥渊者谶
 		Tooltip:
 			'''
-			'According to legend, the entire kin of dragons - apart from a meager few survivors - had been massacred during the rule of the Order, ages ago.
-			And yet, to think, the crystals had still been plagued by that very same hatred and sorrow...
-			We should never have dared to disturb them.'
-			After hitting an enemy, a projection of the knife is created that will auto-aim at nearby targets
+			“旷古传说言道, 龙族被屠戮殆尽，仅有一息得以传承. 
+			我不禁开始思索，这些水晶仍被同样的血恨与悲哀缠绕着
+			我们尚且不够格侵扰它们. ”
+			击中敌人后，会生成一把刀的虚影，并自动瞄准附近的敌人
 			'''
 	}
 
@@ -8116,12 +8116,12 @@ TooltipVanillaModify: {
 	RodofHarmonyInfo: Dissonant Harmony
 	RodofDiscordCooldown: Has a {0} second cooldown while a boss is alive, and cannot be used in restricted areas
 	RodofDiscordBoss: Can only be used off cooldown while a boss is alive
-	SoaringInsigniaInfo: Icarus' Folly
+	SoaringInsigniaInfo: 伊卡洛斯之愚
 	SoaringInsignia:
 		'''
-		After expending your original flight time, every second in the air while a boss is alive will weaken you,
-		reducing flight speed and making you deal less damage and take more damage
-		Your flight time is increased by 50%
+		当飞行时间耗尽时，如果当前场上有Boss存活将会每秒削弱装备者
+		减少飞行速度，减少伤害，增加受到的伤害
+		+50%飞行时间
 		'''
 }
 
@@ -8493,12 +8493,12 @@ NPCs: {
 	}
 
 	Dustite.DisplayName: 尘彗
-	Novaniel.DisplayName: 皇位继承人,诺瓦尼尔
+	Novaniel.DisplayName: 新星准王,诺瓦尼尔
 	Nuba.DisplayName: 云珀
 	ShadowNuba.DisplayName: 云珀之影
 
 	Solarius: {
-		DisplayName: 耀
+		DisplayName: 索耀斯
 
 		BossChecklistIntegration: {
 			EntryName: "{$CrossMod.BossChecklist.NameOverride.LostSiblings}"
@@ -8510,7 +8510,7 @@ NPCs: {
 	DustiteDefeat.DisplayName: 尘彗
 	NovanielDefeat.DisplayName: 诺瓦尼尔
 	NubaDefeat.DisplayName: 云珀
-	SolariusDefeat.DisplayName: Solarius
+	SolariusDefeat.DisplayName: 索耀斯
 	VoxaDefeat.DisplayName: 涡旋
 	DustiteClone.DisplayName: Stellar Projection
 	DustiteDragonHead.DisplayName: Stellar Skull
@@ -8537,7 +8537,7 @@ NPCs: {
 	NihilusAbyssRock.DisplayName: Abyssal Rock
 	NihilusBarricade.DisplayName: Thorn Barricade
 	NihilusAwakenSpirit.DisplayName: Shadowflare Adherent
-	Nihilus2.DisplayName: Nihilus, the Abyssal Flame
+	Nihilus2.DisplayName: 尼希勒斯,深渊之火
 	Nihilus2Hand.DisplayName: Nihilus' Claw
 	NihilusHandBeam.DisplayName: Abyssal Crystal
 	NihilusCrystal.DisplayName: Abyssal Agate
@@ -9923,7 +9923,7 @@ Tiles: {
 	RalnekMusicBoxTile.MapEntry: "{$MusicBoxCommon.MapEntry}"
 	RaynareMusicBoxTile.MapEntry: "{$MusicBoxCommon.MapEntry}"
 	DecreeObelisk.MapEntry: Decree Obelisk
-	NihilusObeliskTile.MapEntry: Dread Obelisk
+	NihilusObeliskTile.MapEntry: 悚厄方尖碑
 	BismuthOre.MapEntry: Bismuth
 	Cernium.MapEntry: Cernium
 	FlariumCrystalTile.MapEntry: Flarium
