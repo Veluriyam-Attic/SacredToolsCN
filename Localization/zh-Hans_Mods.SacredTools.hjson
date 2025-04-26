@@ -384,15 +384,15 @@ UI: {
 			投掷/远程不消耗率: 50%
 			最大仆从栏: 6 最大哨兵栏: 4
 			'''
-		Gem: Insert Lux Shard to dismantle it into dust
-		Assemble: Assemble
-		Dismantle: Dismantle
-		ArmorPrompt: Place an Exitum Lux armor piece here
+		Gem: 插入「流光碎片」，将其分解为粉尘
+		Assemble: 组装
+		Dismantle: 拆卸
+		ArmorPrompt: 请在此放置一件Exitum Lux盔甲
 	}
 
 	Pandolar: {
-		Gem: Upgrade Luxite weapons using Mystic Stones
-		Enhance: Enhance
+		Gem: 使用「神秘石」以强化「流光」武器
+		Enhance: 强化
 	}
 
 	DamageFalloff: 距离衰减
@@ -415,24 +415,24 @@ WorldGen: {
 BossMessage: {
 	AbaddonDeathMessage: 亚巴顿的黑暗能量挣脱了束缚...
 	FlameMessage: ... 现实正在扭曲...
-	MoonLordMessage: The brightest light casts the darkest shadow.
+	MoonLordMessage: 圣光之下，必投最暗之影
 	QueenBeeMessage: 一团微弱的火焰在夜里徘徊...
-	FlariumMessage: The force of flame has weakened.
-	FragmentMessage: The festive moons shine down.
-	PiglinBruteEnter: The army's brute enters the battlefield.
-	PiglinRetreatMessage: 猪灵军团撤回到了自己的领地.
+	FlariumMessage: 焰火逐渐变得微弱...
+	FragmentMessage: 节庆之月熠熠生辉
+	PiglinBruteEnter: 猪灵军团野蛮的进入了战场
+	PiglinRetreatMessage: 猪灵军团撤回到了自己的领地
 	PiglinDefeatMessage: 猪灵军团已被击退!
-	SyrusEnd: The Dimensional Rift has been closed!
+	SyrusEnd: 次元裂隙已经关闭!
 	NovanielSpawnMessage: 你在想什么？还没有结束呢...
-	NovanielCelestialJudgementMessage: This isn't personal, but don't stand in our way.
-	NihilusHint1: To say *that* puny display was the end would be doing it an injustice, Mortal.
-	NihilusHint2: The true fight has only just begun. You will suffer. Suffering that you endure solely because you helped those... Outsiders that you call your friends.
-	NihilusHint3: You will pay with blood, with soul, with life, and with death. My plans will not remain meddled with. A word of warning, Mortal. Stay awake.
-	NihilusHint4: You never know when your next nightmare might sneak in...
-	TempleMessage: The jungle is engulfed in a blinding light...
-	RVGMessage: Creatures from another dimension are entering our plane of reality!
-	FrostMessage: The spirits of frost have been unleashed onto the world!
-	CerniumMessage: Cernium Crystals have formed in the depths of the caverns.
+	NovanielCelestialJudgementMessage: 这并非针对个人，但不要阻挡我们的去路
+	NihilusHint1: 若说那般拙劣的表演竟是终章，简直是对它的侮辱，凡人. 
+	NihilusHint2: 真正的战斗这才刚刚开始。你将会受到不可名状的苦难. 而你所承受的苦难，仅仅是因为你帮助了那些……你称之为朋友的外人. 
+	NihilusHint3: 你将要用鲜血、灵魂、生命，以及死亡来付出代价. 我的计划不容他人干涉. 凡人，这是一则警告：保持警醒. 
+	NihilusHint4: 你永远不知道下一个噩梦何时会悄然来袭……
+	TempleMessage: 丛林被刺目强光所笼罩……
+	RVGMessage: 来自另一个维度的生物正在进入我们的现实世界！
+	FrostMessage: 霜之灵已降临人间！
+	CerniumMessage: Cernium Crystals在洞穴深处析出
 }
 
 DeathMessage: {
@@ -459,25 +459,25 @@ DeathMessage: {
 	Water1: "{0}被水杀死了"
 	Water2: "{0}忘记了Shadow Sareliants不喜欢水"
 	Water3: "{0}死于水下窒息的心理阴影"
-	Shadowflare0: "{0} left behind nothing but a black stain on the ground."
-	Shadowflare1: "{0}'s lifeforce was burned away."
-	Shadowflare2: "{0} ran out of lifeforce."
-	Shadowflare3: "{0} succumbed to the flames of the abyss."
-	AraAra: "{0} tried to run."
-	Wither: "{0} withered away."
-	Erosion0: "{0}'s mind was lost to unending rage."
-	Erosion1: "{0} forgot themselves."
-	NoDen: "{0} died of ligma."
-	TrulyAnExpert: "{0} bit the dust."
+	Shadowflare0: "{0}只在地面上留下了一个黑色污点"
+	Shadowflare1: "{0}的生命力被焚烧殆尽"
+	Shadowflare2: "{0}生命力流逝而去了"
+	Shadowflare3: "{0}被深渊的咒焰吞噬"
+	AraAra: "{0}试图逃离"
+	Wither: "{0}凋零了"
+	Erosion0: "{0}的头脑被无尽的愤怒吞噬"
+	Erosion1: "{0}忘记了自己"
+	NoDen: "{0}死于ligma."
+	TrulyAnExpert: "{0}败者食尘"
 	ErazorTimer: "{0}失败了"
-	Judgement: "{0} was judged."
+	Judgement: "{0}被评价了"
 	Revenge: "{0} messed with the Pandolar."
 
 	FlariumInferno: {
-		0: "{Name} was consumed by flames"
-		1: "{Name} was turned to ash by hot plasma"
-		2: "{Name} couldn't resist the heat"
-		3: "{Name} was obliterated by intense heat"
+		0: "{Name}被业火吞噬"
+		1: "{Name}被等离子体烧成灰烬"
+		2: "{Name}无法抵御炎热"
+		3: "{Name}被高温破坏了"
 	}
 }
 
@@ -499,11 +499,11 @@ TooltipLabel: {
 	RelicUtility: "[圣遗 - Utility]"
 	Replica: "[圣遗]"
 	DarkRemnantBoost: "[当前伤害提升: {0}%]"
-	FishWeaponLevel: "[Enhancement Stage {0}]"
+	FishWeaponLevel: "[强化阶段{0}]"
 	MagazineCurrent: "[Magazine {0}/{1}]"
 	MagazineReserve: "[Reserves {0}]"
-	ReservesSpecial: " (Special)"
-	ReservesHeavy: " (Heavy)"
+	ReservesSpecial: " (特别)"
+	ReservesHeavy: "(重)"
 }
 
 DropConditions: {
@@ -513,7 +513,7 @@ DropConditions: {
 	GlassSoul: Emerge victorious with any Glass Soul active
 	Golem: 需要击败「石巨人」
 	Araneas: 需要击败「阿菈涅丝」
-	Araghur: 需要击败「Araghur」
+	Araghur: 需要击败「阿加尔」
 	Siblings: 需要击败「失落族裔」
 }
 
@@ -551,28 +551,28 @@ ExtraTooltip: {
 	LuxEmptySocket: Empty Socket Slot
 	ManaFruitAmount: "{0} out of 20 {$Items.ManaFruit.DisplayName} used"
 	OblivionRodCap: Bosses and enemies with over {0} health are unaffected
-	FishSwordBonus1: "[Enhancement Stage 1: +15伤害]"
-	FishSwordBonus2: "[Enhancement Stage 2: +10伤害]"
-	FishSwordBonus3: "[Enhancement Stage 3: +10伤害, direct hits inflict toxic]"
-	FishSwordBonus4: "[Enhancement Stage 4: +15伤害, direct hits inflict on fire]"
-	FishSwordBonus5: "[Enhancement Stage 5: +20伤害]"
-	FishSwordBonus6: "[Enhancement Stage 6: +25伤害, fires a projectile on swing]"
-	FishSwordBonus7: "[Enhancement Stage 7: +40伤害, chance to lifesteal on direct hits]"
-	FishSwordBonus8: "[Enhancement Stage 8: +70伤害, + 4%暴击率]"
-	FishSwordBonus9: "[Enhancement Stage 9: +80伤害, fires flarium projectiles and inflicts flarium inferno on direct hits]"
-	FishSwordBonus10: "[Enhancement Stage 10: +100伤害, + 4%暴击率, fires luminous projectiles]"
-	FishSwordBonus11: "[Enhancement Stage 11: +120伤害, + 4%暴击率, fires asthral projectiles]"
-	CoralGunBonus1: "[Enhancement Stage 1: +25伤害]"
-	CoralGunBonus2: "[Enhancement Stage 2: +10伤害]"
-	CoralGunBonus3: "[Enhancement Stage 3: +15伤害]"
-	CoralGunBonus4: "[Enhancement Stage 4: +15伤害]"
-	CoralGunBonus5: "[Enhancement Stage 5: +20伤害]"
-	CoralGunBonus6: "[Enhancement Stage 6: +30伤害, fires additional sharp coral shards that inflict static]"
-	CoralGunBonus7: "[Enhancement Stage 7: +40伤害]"
-	CoralGunBonus8: "[Enhancement Stage 8: +70伤害, + 4%暴击率]"
-	CoralGunBonus9: "[Enhancement Stage 9: +80伤害, fires additional deep-sea lava rocks which inflict flarium inferno]"
-	CoralGunBonus10: "[Enhancement Stage 10: +100伤害, + 4%暴击率, calls prismarine shards from the sky that stick to the ground and explode]"
-	CoralGunBonus11: "[Enhancement Stage 11: +120伤害, + 4%暴击率, can summon a juvenile dango that swims through enemies]"
+	FishSwordBonus1: "[强化阶段1: +15伤害]"
+	FishSwordBonus2: "[强化阶段2: +10伤害]"
+	FishSwordBonus3: "[强化阶段3: +10伤害, direct hits inflict toxic]"
+	FishSwordBonus4: "[强化阶段4: +15伤害, 直接命中施加「着火了！ 」]"
+	FishSwordBonus5: "[强化阶段5: +20伤害]"
+	FishSwordBonus6: "[强化阶段6: +25伤害, fires a projectile on swing]"
+	FishSwordBonus7: "[强化阶段7: +40伤害, chance to lifesteal on direct hits]"
+	FishSwordBonus8: "[强化阶段8: +70伤害, + 4%暴击率]"
+	FishSwordBonus9: "[强化阶段9: +80伤害, fires flarium projectiles and inflicts flarium inferno on direct hits]"
+	FishSwordBonus10: "[强化阶段10: +100伤害, + 4%暴击率, fires luminous projectiles]"
+	FishSwordBonus11: "[强化阶段11: +120伤害, + 4%暴击率, fires asthral projectiles]"
+	CoralGunBonus1: "[强化阶段1: +25伤害]"
+	CoralGunBonus2: "[强化阶段2: +10伤害]"
+	CoralGunBonus3: "[强化阶段3: +15伤害]"
+	CoralGunBonus4: "[强化阶段4: +15伤害]"
+	CoralGunBonus5: "[强化阶段5: +20伤害]"
+	CoralGunBonus6: "[强化阶段6: +30伤害, fires additional sharp coral shards that inflict static]"
+	CoralGunBonus7: "[强化阶段7: +40伤害]"
+	CoralGunBonus8: "[强化阶段8: +70伤害, + 4%暴击率]"
+	CoralGunBonus9: "[强化阶段9: +80伤害, fires additional deep-sea lava rocks which inflict flarium inferno]"
+	CoralGunBonus10: "[强化阶段10: +100伤害, + 4%暴击率, calls prismarine shards from the sky that stick to the ground and explode]"
+	CoralGunBonus11: "[强化阶段11: +120伤害, + 4%暴击率, can summon a juvenile dango that swims through enemies]"
 }
 
 Revenant: {
@@ -5332,57 +5332,57 @@ Items: {
 	}
 
 	UpgradeGem1: {
-		DisplayName: Stage 1 Mystic Stone
+		DisplayName: 神秘石 - 阶段1
 		Tooltip: "{$CommonItemTooltip.LuxiteUpgradeLevel}"
 	}
 
 	UpgradeGem10: {
-		DisplayName: Stage 10 Mystic Stone
+		DisplayName: 神秘石 - 阶段10
 		Tooltip: "{$CommonItemTooltip.LuxiteUpgradeLevel}"
 	}
 
 	UpgradeGem11: {
-		DisplayName: Stage 11 Mystic Stone
+		DisplayName: 神秘石 - 阶段11
 		Tooltip: "{$CommonItemTooltip.LuxiteUpgradeLevel}"
 	}
 
 	UpgradeGem2: {
-		DisplayName: Stage 2 Mystic Stone
+		DisplayName: 神秘石 - 阶段2
 		Tooltip: "{$CommonItemTooltip.LuxiteUpgradeLevel}"
 	}
 
 	UpgradeGem3: {
-		DisplayName: Stage 3 Mystic Stone
+		DisplayName: 神秘石 - 阶段3
 		Tooltip: "{$CommonItemTooltip.LuxiteUpgradeLevel}"
 	}
 
 	UpgradeGem4: {
-		DisplayName: Stage 4 Mystic Stone
+		DisplayName: 神秘石 - 阶段4
 		Tooltip: "{$CommonItemTooltip.LuxiteUpgradeLevel}"
 	}
 
 	UpgradeGem5: {
-		DisplayName: Stage 5 Mystic Stone
+		DisplayName: 神秘石 - 阶段5
 		Tooltip: "{$CommonItemTooltip.LuxiteUpgradeLevel}"
 	}
 
 	UpgradeGem6: {
-		DisplayName: Stage 6 Mystic Stone
+		DisplayName: 神秘石 - 阶段6
 		Tooltip: "{$CommonItemTooltip.LuxiteUpgradeLevel}"
 	}
 
 	UpgradeGem7: {
-		DisplayName: Stage 7 Mystic Stone
+		DisplayName: 神秘石 - 阶段7
 		Tooltip: "{$CommonItemTooltip.LuxiteUpgradeLevel}"
 	}
 
 	UpgradeGem8: {
-		DisplayName: Stage 8 Mystic Stone
+		DisplayName: 神秘石 - 阶段8
 		Tooltip: "{$CommonItemTooltip.LuxiteUpgradeLevel}"
 	}
 
 	UpgradeGem9: {
-		DisplayName: Stage 9 Mystic Stone
+		DisplayName: 神秘石 - 阶段9
 		Tooltip: "{$CommonItemTooltip.LuxiteUpgradeLevel}"
 	}
 
