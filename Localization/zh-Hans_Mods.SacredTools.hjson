@@ -580,7 +580,7 @@ Revenant: {
 	SpreadAngle: 锥形扩散角度: {0:0}°
 	TileRange: "{0:0.##}物块范围"
 	NoGravity: 不受重力影响
-	ChargeTime: "{0} seconds ready time"
+	ChargeTime: "{0}秒准备时间"
 	PerfectStrikeWindow: "{0} seconds perfect strike window"
 	PenetrateTargetCount: Pierces through {0} targets
 	PierceBounce: Bounces off of its target
@@ -597,10 +597,10 @@ Sanguine: {
 SetBonus: {
 	AsthralMagic:
 		'''
-
+		
 		{$CommonItemTooltip.PercentIncreasedMagicDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
-		Press [{$Keybinds.AbilityPrimary.DisplayName}] to parry incoming attacks in the direction of the cursor
+		按下[{$Keybinds.AbilityPrimary.DisplayName}] to parry incoming attacks in the direction of the cursor
 		Successfully parrying an attack will grant 1 second of invincibility and knock the player backwards
 		If an attack is parried the moment it hits the player, you receive 2 seconds of invincibility instead
 		Cooldown depends on the action (Missed parry: 5 seconds, Taking damage: 2 seconds, Successful parry: 3 seconds, Perfect parry: 2 seconds)
