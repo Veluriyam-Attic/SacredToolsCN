@@ -493,10 +493,10 @@ TooltipLabel: {
 	Developer: "[开发者物品: {0}]"
 	DeveloperVanity: "[开发者时装: {0}]"
 	SacredTool: "[圣洁工具]"
-	RelicPursuit: "[圣遗 - Pursuit] "
-	RelicHorde: "[圣遗 - Horde]"
-	RelicTerritory: "[圣遗 - Territory]"
-	RelicUtility: "[圣遗 - Utility]"
+	RelicPursuit: "[圣遗 - 逐影] "
+	RelicHorde: "[圣遗 - 破阵]"
+	RelicTerritory: "[圣遗 - 卫疆]"
+	RelicUtility: "[圣遗 - 天工]"
 	Replica: "[圣遗]"
 	DarkRemnantBoost: "[当前伤害提升: {0}%]"
 	FishWeaponLevel: "[强化阶段{0}]"
@@ -832,9 +832,9 @@ Town: {
 	Neil2: 我可能获得了某个药水的效果……但是我还没有完麻醉掉，你可以帮我个忙吗，让那个喋喋不休的岩石闭上嘴
 	Neil3: 你在附近看见过一只巨大的红眼生化鸡吗？很好，你可以感谢我
 	Neil4: 蜥蜴人是蜥蜴还是人？
-	Neil5: despaircito- wait huh? oh nothing, nothing. Keep going about your day
-	Neil6: You probably wonder what I do with all these ingredients huh? Well, I am not sure myself, we don't have those on 赛勒斯. Guess I am just throwing stuff together to see what works haha.
-	Neil7: I am not sure if I am hallucinating or not, but earlier I saw some flying eyeballs outside, right after saying hi to the rocket-powered icecream man with oversized jeans
+	Neil5: 你是内个内个内个内- 等等，嗯？哦没事，没事. 你继续忙你的事情吧
+	Neil6: 你可能在好奇我会拿这些材料做什么吗？唔，我自己也不知道，赛勒斯上可没有这些. 我想我可能会把他们扔到一起然后看看会发生什么吧哈哈. 
+	Neil7: 我不确定我是不是出现了什么幻觉，但是就在我和一个穿着超大牛仔裤的火箭冰淇淋人打完招呼后，看到了外面有一些飞着的眼球
 	Neil8: Hey man there's an uhh.... hand on your shoulder- Haha got ya
 	Neil9: Ya might think us Sareliants have a hard time with doors, but... dude, that ain't true. Don't believe their lies.
 	Neil10: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
@@ -3135,7 +3135,7 @@ Items: {
 	}
 
 	NihilusBag: {
-		DisplayName: 宝藏袋(Nihilus)
+		DisplayName: 宝藏袋(尼希勒斯)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
