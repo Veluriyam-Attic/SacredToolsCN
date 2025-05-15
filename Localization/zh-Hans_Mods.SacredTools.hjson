@@ -2336,7 +2336,7 @@ Items: {
 			可飞行、飞速奔跑，并提供额外冰面行动力
 			{$CommonItemTooltip.PercentIncreasedMovementSpeed}
 			可让人在水、蜂蜜和熔岩上行走
-			对火块免疫并在7秒内对熔岩免疫
+			对火块免疫并在10秒内对熔岩免疫
 			减少因触碰熔岩而受到的伤害
 			增加20%飞行时间
 			增加100%跳跃速度和跳跃高度，消除掉落伤害
@@ -2373,26 +2373,27 @@ Items: {
 		DisplayName: Void Spurs
 		Tooltip:
 			'''
-			'If Abaddon had feet, he'd probably wear these'
-			Allows flight, incredibly fast running, and extra mobility on ice
+			“如果亚巴顿有脚，大概也会穿这个”
+			可飞行、飞速奔跑，并提供额外冰面行动力
 			{$CommonItemTooltip.PercentIncreasedMovementSpeed}
-			Provides the ability to walk on water, honey & lava
-			Grants immunity to fire blocks and 15 seconds of immunity to lava
-			Reduces damage from touching lava
-			Increases flight time by 30%
-			Increases jump speed and height by 200% and prevents fall damage
+			可让人在水、蜂蜜和熔岩上行走
+			对火块免疫并在15秒内对熔岩免疫
+			减少因触碰熔岩而受到的伤害
+			增加30%飞行时间
+			增加200%跳跃速度和跳跃高度，消除掉落伤害
 			{$ItemTooltip.MasterNinjaGear}
 			'''
 	}
 
 	WildGemstone: {
 		DisplayName: Wild Gemstone
-		Tooltip: Life regen increased when health is below 33%
+		Tooltip: 生命值低于33%时提高生命再生
 	}
 
 	YataMirror: {
 		DisplayName: 八咫镜
-		Tooltip: "'A shattered piece that reflects the whole. The storm rages around the knowing eye.'"
+		Tooltip: "'A shattered piece that reflects the whole. The storm rages around the knowing eye.
+		deepseek：残镜窥世，万相俱现。狂澜怒卷，慧目如渊。'"
 	}
 
 	BlindWraithsSheath: {
@@ -2426,12 +2427,12 @@ Items: {
 			'A Weapon Sheath Talisman tailored specifically for lances. It stores them in a makeshift pocket space within the gem'
 			{$CommonItemTooltip.PercentIncreasedLanceRecallSpeed}
 			{$CommonItemTooltip.PercentIncreasedLanceRecallVelocity@1}
-			If you are not currently holding a lance, you can recall all thrown lances for a longer channel time and no travel time (2 minute cooldown)
+			未手持长矛时可通过进行一段较长时间的引导来召回所有长矛，此次召回无飞行时间(2分钟冷却时间)
 			'''
 	}
 
 	AsthralChest: {
-		DisplayName: 龙愠晶Breastplate
+		DisplayName: 龙愠晶胸甲
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy}
@@ -2440,7 +2441,7 @@ Items: {
 	}
 
 	AsthralLegs: {
-		DisplayName: 龙愠晶Robes
+		DisplayName: 龙愠晶长袍
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy}
@@ -2449,7 +2450,7 @@ Items: {
 	}
 
 	AsthralMage: {
-		DisplayName: 龙愠晶Hood
+		DisplayName: 龙愠晶兜帽
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentReducedManaCost}
@@ -2461,7 +2462,7 @@ Items: {
 	}
 
 	AsthralMelee: {
-		DisplayName: 龙愠晶Helmet
+		DisplayName: 龙愠晶头盔
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMeleeSpeed}
@@ -2471,7 +2472,7 @@ Items: {
 	}
 
 	AsthralRanged: {
-		DisplayName: 龙愠晶Visor
+		DisplayName: 龙愠晶帽舌
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentChanceToSaveAmmo}
@@ -2481,7 +2482,7 @@ Items: {
 	}
 
 	AsthralSummon: {
-		DisplayName: 龙愠晶Mask
+		DisplayName: 龙愠晶面具
 		Tooltip:
 			'''
 			{$CommonItemTooltip.IncreasesMaxMinionsBy}
@@ -2491,7 +2492,7 @@ Items: {
 	}
 
 	AsthraltiteHelmetRevenant: {
-		DisplayName: 龙愠晶Cowl
+		DisplayName: 龙愠晶有角风帽
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedLanceReadySpeed}
@@ -2525,12 +2526,12 @@ Items: {
 	}
 
 	BlightChest: {
-		DisplayName: Blightbone Breastplate
+		DisplayName: Blightbone胸甲
 		Tooltip: "{$CommonItemTooltip.PercentIncreasedKineticDamage}"
 	}
 
 	BlightLegs: {
-		DisplayName: Blightbone Greaves
+		DisplayName: Blightbone护胫
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2539,7 +2540,7 @@ Items: {
 	}
 
 	BlightMask: {
-		DisplayName: Blightbone Mask
+		DisplayName: Blightbone面具
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticCritChance}
@@ -2557,7 +2558,7 @@ Items: {
 	}
 
 	CairoCrusaderRobe: {
-		DisplayName: Cairo Crusader Robe
+		DisplayName: Cairo Crusader长袍
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2566,7 +2567,7 @@ Items: {
 	}
 
 	CairoCrusaderTurban: {
-		DisplayName: Cairo Crusader Turban
+		DisplayName: Cairo Crusader头巾
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2594,7 +2595,7 @@ Items: {
 	}
 
 	FlariumChest: {
-		DisplayName: Flarium Breastplate
+		DisplayName: Flarium胸甲
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy}
@@ -2603,7 +2604,7 @@ Items: {
 	}
 
 	FlariumCowl: {
-		DisplayName: Flarium Cowl
+		DisplayName: Flarium有角风帽
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2615,7 +2616,7 @@ Items: {
 	}
 
 	FlariumCrown: {
-		DisplayName: Flarium Crown
+		DisplayName: Flarium冠
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
@@ -2626,7 +2627,7 @@ Items: {
 	}
 
 	FlariumHelmet: {
-		DisplayName: Flarium Helmet
+		DisplayName: Flarium头盔
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMeleeDamage}
@@ -2637,7 +2638,7 @@ Items: {
 	}
 
 	FlariumHood: {
-		DisplayName: Flarium Hood
+		DisplayName: Flarium兜帽
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMagicDamage}
@@ -2649,7 +2650,7 @@ Items: {
 	}
 
 	FlariumLeggings: {
-		DisplayName: Flarium Leg Plates
+		DisplayName: Flarium护腿
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMovementSpeed}
