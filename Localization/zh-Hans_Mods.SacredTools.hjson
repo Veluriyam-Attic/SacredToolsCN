@@ -226,19 +226,19 @@ PrefixTooltip: {
 		'''
 	SerratedPrefix:
 		'''
-		飞刀会刺入敌人或嵌入物块并在短时间内造成高频伤害
+		飞刀会刺入敌怪或嵌入物块并在短时间内造成高频伤害
 		飞刀嵌入地面时可以捡起以补充当前飞刀储备
 		刺入敌人时伤害随着时间减少
 		'''
 	IncandescentPrefix:
 		'''
-		飞刀会刺入敌人，并在不久后爆炸
+		飞刀会刺入敌怪，并在不久后爆炸
 		-30%命中伤害，换取1.5倍爆炸伤害
 		'''
-	WeightedPrefix: 飞刀接触到物块时可以进行至多2次的反弹
+	WeightedPrefix: 飞刀击中物块时可以进行至多2次的反弹
 	MagneticPrefix:
 		'''
-		飞刀接触到物块时可以进行1次反弹, 当附近存在敌人时会将自己掷向附近敌人
+		飞刀击中物块时可以进行1次反弹,弹向附近的敌怪
 		+50%反弹后伤害
 		'''
 	ReboundPrefix:
@@ -581,11 +581,11 @@ Revenant: {
 	TileRange: "{0:0.##}物块范围"
 	NoGravity: 不受重力影响
 	ChargeTime: "{0}秒准备时间"
-	PerfectStrikeWindow: "{0} seconds perfect strike window"
-	PenetrateTargetCount: Pierces through {0} targets
-	PierceBounce: Bounces off of its target
-	PierceEmbed: Embeds itself into enemies
-	PierceRecall: Automatically recalls after hitting its targets
+	PerfectStrikeWindow: "{0}秒「完美一击」窗口"
+	PenetrateTargetCount: 穿透{0}个目标
+	PierceBounce: 击中目标时反弹
+	PierceEmbed: 嵌入敌怪
+	PierceRecall:命中敌怪后自动返回
 	IntrinsicRecall: Intrinsic Recall
 }
 
@@ -2333,13 +2333,13 @@ Items: {
 		DisplayName: 帝驰
 		Tooltip:
 			'''
-			Allows flight, super fast running, and extra mobility on ice
+			可飞行、飞速奔跑，并提供额外冰面行动力
 			{$CommonItemTooltip.PercentIncreasedMovementSpeed}
-			Provides the ability to walk on water, honey & lava
-			Grants immunity to fire blocks and 10 seconds of immunity to lava
-			Reduces damage from touching lava
-			Increases flight time by 20%
-			Increases jump speed and height by 100% and prevents fall damage
+			可让人在水、蜂蜜和熔岩上行走
+			对火块免疫并在7秒内对熔岩免疫
+			减少因触碰熔岩而受到的伤害
+			增加20%飞行时间
+			增加100%跳跃速度和跳跃高度，消除掉落伤害
 			'''
 	}
 
@@ -2350,9 +2350,9 @@ Items: {
 			{$CommonItemTooltip.IncreasesMaxMinionsBy}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxSentriesBy@1}
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage@2}
-			Minion attacks inflict Lunar Burn
-			Sentry attacks inflict Ichor and have a chance to cause a devastating stardust explosion
-			'Show caution, a dead warrior wins no battles'
+			仆从攻击会施加「Lunar Burn」减益
+			哨兵攻击会施加「灵液」减益并有概率引发毁灭性的星尘爆炸
+			'Show caution, a dead warrior wins no battles灯：出师未捷身先死，长使英雄泪满襟'
 			'''
 	}
 
@@ -2363,8 +2363,8 @@ Items: {
 			{$ItemTooltip.FrozenTurtleShell}
 			{$ItemTooltip.CharmofMyths}
 			{$ItemTooltip.ShinyStone}
-			Restores mana when damaged
-			Increases pickup range for life hearts and mana stars
+			受到伤害时恢复魔力
+			扩大生命心和魔力星的拾取范围
 			{$WildGemstone.Tooltip}
 			'''
 	}
@@ -2391,7 +2391,7 @@ Items: {
 	}
 
 	YataMirror: {
-		DisplayName: Yata Mirror
+		DisplayName: 八咫镜
 		Tooltip: "'A shattered piece that reflects the whole. The storm rages around the knowing eye.'"
 	}
 
