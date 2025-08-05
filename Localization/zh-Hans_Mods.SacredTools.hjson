@@ -681,14 +681,14 @@ SetBonus: {
 	Flarium:
 		'''
 
-		Taking fatal damage will revive you with 1/3rd of your max health
-		You will have one minute of increased strength after rebirth
-		5 minute cooldown
+		受到致命伤害时会回复1/3生命值
+		在你复活后的1分钟内将会提升力量
+		5分钟冷却
 		'''
 	Eerie:
 		'''
 		    
-		Minion damage grants increased life regeneration
+		仆从伤害会提高生命再生速度
 		'''
 	Lapis:
 		'''
@@ -699,14 +699,15 @@ SetBonus: {
 	BlazingBrute:
 		'''
 
-		Standing still for 5 seconds charges a shield that increases damage reduction by 25% per level (max of 4)
-		Getting hit or moving resets the counter
-		Taking a hit reduces the shield level by 1
+		站立不动5秒后会为护盾充能
+		每级护盾可以提高25%伤害减免，最高四级
+		受到攻击或移动将会重置充能进度
+		受到攻击将会降低1级护盾等级
 		'''
 	Nuba:
 		'''
 		              
-		Attacking enemies may sometimes release buff wisps which can be picked up for different stacking buffs
+		攻击敌方有几率生成增益强化道具，拾取强化道具可获得可堆叠的增益. 
 		'''
 	VortexCommander:
 		'''
@@ -826,7 +827,7 @@ Town: {
 
 		(需要10样本)
 		'''
-	ErazorStart: 在shrine后面的庭院见Meet me at the courtyard behind the shrine.
+	ErazorStart: 在圣地后面的庭院来见我
 	Neil0: 我十分好奇那些「鱼鳃药水」是怎么在你身上生效的. 真的……会让你变成一条鱼？或者部分变成？只有腮的部分起作用？或者像Syranox那样在水下呼吸？
 	Neil1: 我有多高? 呃, 我想大概有6英尺
 	Neil2: 我可能获得了某个药水的效果……但是我还没有完麻醉掉，你可以帮我个忙吗，让那个喋喋不休的岩石闭上嘴
@@ -8123,7 +8124,7 @@ TooltipVanillaModify: {
 	SoaringInsignia:
 		'''
 		当飞行时间耗尽时，如果当前场上有Boss存活将会每秒削弱装备者
-		减少飞行速度，减少伤害，增加受到的伤害
+		减少飞行速度，减少伤害，提高受到的伤害
 		+50%飞行时间
 		'''
 }
