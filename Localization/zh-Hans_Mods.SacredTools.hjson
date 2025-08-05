@@ -99,7 +99,7 @@ CrossMod: {
 				或者, 使用[i:SacredTools/HeirsAuthority]仅召唤「诺瓦尼尔」
 				'''
 			Erazor: 给予「伊拉佐」10个[i:SacredTools/ErosionSample]
-			Nihilus: Right-click the [i:SacredTools/NihilusObelisk] with a proper arena set up*
+			Nihilus: 在准备好合适的区域后右键[i:SacredTools/NihilusObelisk]
 			// Events
 			PiglinArmy: 在地表使用[i:SacredTools/PigmanBanner]以召唤
 		}
@@ -108,7 +108,7 @@ CrossMod: {
 	Census: {
 		// Note: Currently unused since Census doesn't support localization.
 		Condition: {
-			ShrineCommon: Can only appear at the Starlight Shrine*
+			ShrineCommon: 只出现在在星光圣地
 			Scavenger: 击败「裁决」, 「惧焰拉内克」或「风暴女妖詹森」
 			Decorationalist: 击败「克苏鲁之眼」
 			RalnekShrine:
@@ -172,14 +172,14 @@ Prefixes: {
 	//Revenant
 	
 	UnseenPrefix.DisplayName: Unseen隐匿
-	AbundantPrefix.DisplayName: Abundant富裕
+	AbundantPrefix.DisplayName: Abundant充裕
 	LonePrefix.DisplayName: Lone孤锋
 	FocusedPrefix.DisplayName: Focused专注
 	RecklessPrefix.DisplayName: Reckless粗莽
 	SerratedPrefix.DisplayName: Serrated棘齿
 	IncandescentPrefix.DisplayName: Incandescent炽烈
 	WeightedPrefix.DisplayName: Weighted配重
-	MagneticPrefix.DisplayName: Magnetic魅力*
+	MagneticPrefix.DisplayName: Magnetic磁化
 	ReboundPrefix.DisplayName: Rebound弹力
 	SpectralPrefix.DisplayName: Spectral虚灵
 	//Challenge
@@ -187,7 +187,7 @@ Prefixes: {
 	HeadHunterPrefix.DisplayName: Head Hunter斩首
 	UnrelentingPrefix.DisplayName: Unrelenting不屈
 	SilverGazePrefix.DisplayName: Silver Gaze银睨
-	MagnetizedPrefix.DisplayName: Magnetized磁化*
+	MagnetizedPrefix.DisplayName: Magnetized磁性
 	PenetratingPrefix.DisplayName: Penetrating穿刺
 	FortifiedPrefix.DisplayName: Fortified强固
 	PrecisePrefix.DisplayName: Precise Prefix精密
@@ -313,7 +313,7 @@ Conversations are linked by key and array position. For example, Conversations.N
 Conversations: {
 	NihilusSpawn_First: {
 		0: 庞大到渗人的精神能量开始凝聚在方尖碑周围，此行务必谨慎！
-		1: 我会在边界外围戒备，必要时可以为你提供协助. 天佑英魂，望君凯旋.
+		1: 我会在边界外围戒备，必要时可以为你提供协助. 祝你好运. 
 	}
 
 	Nihilus_PhaseChange: {
@@ -329,8 +329,8 @@ Conversations: {
 	}
 
 	Nihilus_RisenLanternWarning: {
-		0: 这个生物似乎变得更加不稳定了, 并将这种不稳定的能量变成某种催化剂.
-		1: 当心! 如果它设法将这种能量集中到直接攻击中, 其效果将是毁灭性的.
+		0: 这个生物似乎变得更加不稳定了, 并在将这种不稳定的能量变成某种催化剂.
+		1: 当心! 如果它设法将这种能量集中到攻击中, 效果将会是毁灭性的.
 	}
 
 	Nihilus_CondemnationWarning: {
@@ -339,15 +339,15 @@ Conversations: {
 	}
 
 	FirstDreamscapeDefeat: {
-		0: 啊呵呵呵...我的造物之一陨落了, 看来这个世界还是有一定的威胁.
-		1: 听好了，不管你是谁, 这事与你无关. 我以前对你的干扰并不在意，尽管你攻击了我虚弱的身体.
+		0: 啊呵呵呵...我的造物之一陨落了, 看来这个世界还是有一定的威胁性.
+		1: 听好了，不管你是谁, 这事与你无关. 我以前对你的行为并不在意，尽管你攻击了我虚弱的身体.
 		2: 但现在，你似乎已经决定了要站在我的对立面，因此我不能在任由你继续这样下去了.
 		3: 你可能自认为你打乱了我的计划，但你只不过是方程式中增加的一个额外变量.
-		4: 那么，继续下去吧，假装你能对结果有任何影响. 继续下去，试着改变那些无法改变的事情.
+		4: 那么，继续下去吧，装作你能对结果有任何影响. 继续下去，试着改变那些无法改变的事情.
 	}
 }
 
-SubworldName.ShrineSubworld: Starlight Shrine
+SubworldName.ShrineSubworld: 星光圣地
 
 DamageClasses: {
 	SanguineDamageClass.DisplayName: sanguine damage
@@ -360,7 +360,7 @@ Keybinds: {
 	Reload.DisplayName: Reload
 	AltMelee.DisplayName: Alt Melee
 	LanceRecovery.DisplayName: Lance recovery/recall
-	Menu.DisplayName: SoA Menu
+	Menu.DisplayName: SoA菜单
 }
 
 UI: {
@@ -407,8 +407,8 @@ UI: {
 }
 
 WorldGen: {
-	SetupPass: Setting up the world
-	TileFillPass: Filling up the world
+	SetupPass: 正在创建世界
+	TileFillPass: 正在填充世界
 	PlaceStructuresSequentiallyPass: 正在放置结构
 }
 
@@ -500,8 +500,8 @@ TooltipLabel: {
 	Replica: "[圣遗]"
 	DarkRemnantBoost: "[当前伤害提升: {0}%]"
 	FishWeaponLevel: "[强化阶段{0}]"
-	MagazineCurrent: "[Magazine {0}/{1}]"
-	MagazineReserve: "[Reserves {0}]"
+	MagazineCurrent: "[弹药 {0}/{1}]"
+	MagazineReserve: "[储备 {0}]"
 	ReservesSpecial: " (特别)"
 	ReservesHeavy: "(重)"
 }
@@ -518,15 +518,15 @@ DropConditions: {
 }
 
 ChallengeItemHints: {
-	Decree: "'Barefoot through the tundra...'"
-	Jensen: "'One with the wind, unbound by the earth...'"
-	Araghur: "'The depths resonate with radiant energy...'"
-	Novaniel: "'Untouched, at peak strength... Make haste.'"
+	Decree: "“直面凛寒，无需庇护……”*"
+	Jensen: "“清风为伴，快然于大地……”*"
+	Araghur: "“深处回荡着灿烂能量……”"
+	Novaniel: "“无暇的，巅峰之时……速战速决. ”"
 }
 
 ExtraTooltip: {
 	ChallengeWarning: 已装备挑战者物品.
-	MageCrystalWorth: 若尔足具资格，便可启用此物
+	MageCrystalWorth: 若你足具资格，便可启用此物
 	NiceEffects: 有一些不错的效果
 	LuxMeleeDamage: +{0}%近战伤害
 	LuxMeleeCrit: +{0}%近战暴击率
@@ -548,15 +548,15 @@ ExtraTooltip: {
 	LuxThrowingCrit: +{0}%投掷暴击率
 	LuxThrownItemChance: +{0}%投掷不消耗概率
 	LuxThrowingSpeed: +{0}%投掷速度
-	LuxEmptySocket: Empty Socket Slot
+	LuxEmptySocket: 空插槽
 	ManaFruitAmount: "{0} out of 20 {$Items.ManaFruit.DisplayName} used"
 	OblivionRodCap: Bosses and enemies with over {0} health are unaffected
 	FishSwordBonus1: "[强化阶段1: +15伤害]"
 	FishSwordBonus2: "[强化阶段2: +10伤害]"
-	FishSwordBonus3: "[强化阶段3: +10伤害, direct hits inflict toxic]"
+	FishSwordBonus3: "[强化阶段3: +10伤害, 直接命中施加「毒素」]"
 	FishSwordBonus4: "[强化阶段4: +15伤害, 直接命中施加「着火了！ 」]"
 	FishSwordBonus5: "[强化阶段5: +20伤害]"
-	FishSwordBonus6: "[强化阶段6: +25伤害, fires a projectile on swing]"
+	FishSwordBonus6: "[强化阶段6: +25伤害, 挥舞时发射弹幕]"
 	FishSwordBonus7: "[强化阶段7: +40伤害, chance to lifesteal on direct hits]"
 	FishSwordBonus8: "[强化阶段8: +70伤害, + 4%暴击率]"
 	FishSwordBonus9: "[强化阶段9: +80伤害, fires flarium projectiles and inflicts flarium inferno on direct hits]"
@@ -581,7 +581,7 @@ Revenant: {
 	TileRange: "{0:0.##}物块范围"
 	NoGravity: 不受重力影响
 	ChargeTime: "{0}秒准备时间"
-	PerfectStrikeWindow: "{0}秒「完美一击」窗口"
+	PerfectStrikeWindow: "{0}秒「完美一击」时机"
 	PenetrateTargetCount: 穿透{0}个目标
 	PierceBounce: 击中目标时反弹
 	PierceEmbed: 嵌入敌怪
@@ -600,83 +600,83 @@ SetBonus: {
 		
 		{$CommonItemTooltip.PercentIncreasedMagicDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
-		按下[{$Keybinds.AbilityPrimary.DisplayName}] to parry incoming attacks in the direction of the cursor
-		Successfully parrying an attack will grant 1 second of invincibility and knock the player backwards
-		If an attack is parried the moment it hits the player, you receive 2 seconds of invincibility instead
-		Cooldown depends on the action (Missed parry: 5 seconds, Taking damage: 2 seconds, Successful parry: 3 seconds, Perfect parry: 2 seconds)
-		Certain special attacks and contact damage cannot be parried
-		This ability disables shadow dodge and similar effects
+		按下[{$Keybinds.AbilityPrimary.DisplayName}]以格挡光标方向的弹幕
+		成功格挡攻击会给予穿戴者1秒的无敌并向后击退玩家
+		如果在命中玩家的瞬间格挡弹幕将会给予2秒的无敌
+		冷却取决于行为(格挡失败:5秒, 受到伤害: 2秒, 成格挡成功: 3秒, 完美格挡: 2秒)
+		某些特殊攻击和接触伤害无法被格挡
+		此能力禁用了「神圣防护」等类似效果
 		'''
 	AsthralMelee:
 		'''
 
 		{$CommonItemTooltip.PercentIncreasedMeleeDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
-		Press [{$Keybinds.AbilityPrimary.DisplayName}] to parry incoming attacks in the direction of the cursor
-		Successfully parrying an attack will grant 1 second of invincibility and knock the player backwards
-		If an attack is parried the moment it hits the player, you receive 2 seconds of invincibility instead
-		Cooldown depends on the action (Missed parry: 5 seconds, Taking damage: 2 seconds, Successful parry: 3 seconds, Perfect parry: 2 seconds)
-		Certain special attacks and contact damage cannot be parried
-		This ability disables shadow dodge and similar effects
+		按下[{$Keybinds.AbilityPrimary.DisplayName}]以格挡光标方向的弹幕
+		成功格挡攻击会给予穿戴者1秒的无敌并向后击退玩家
+		如果在命中玩家的瞬间格挡弹幕将会给予2秒的无敌
+		冷却取决于行为(格挡失败:5秒, 受到伤害: 2秒, 成格挡成功: 3秒, 完美格挡: 2秒)
+		某些特殊攻击和接触伤害无法被格挡
+		此能力禁用了「神圣防护」等类似效果
 		'''
 	AsthralRanged:
 		'''
 
 		{$CommonItemTooltip.PercentIncreasedRangedDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
-		Press [{$Keybinds.AbilityPrimary.DisplayName}] to parry incoming attacks in the direction of the cursor
-		Successfully parrying an attack will grant 1 second of invincibility and knock the player backwards
-		If an attack is parried the moment it hits the player, you receive 2 seconds of invincibility instead
-		Cooldown depends on the action (Missed parry: 5 seconds, Taking damage: 2 seconds, Successful parry: 3 seconds, Perfect parry: 2 seconds)
-		Certain special attacks and contact damage cannot be parried
-		This ability disables shadow dodge and similar effects
+		按下[{$Keybinds.AbilityPrimary.DisplayName}]以格挡光标方向的弹幕
+		成功格挡攻击会给予穿戴者1秒的无敌并向后击退玩家
+		如果在命中玩家的瞬间格挡弹幕将会给予2秒的无敌
+		冷却取决于行为(格挡失败:5秒, 受到伤害: 2秒, 成格挡成功: 3秒, 完美格挡: 2秒)
+		某些特殊攻击和接触伤害无法被格挡
+		此能力禁用了「神圣防护」等类似效果
 		'''
 	AsthralSummon:
 		'''
 
 		{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
-		Press [{$Keybinds.AbilityPrimary.DisplayName}] to parry incoming attacks in the direction of the cursor
-		Successfully parrying an attack will grant 1 second of invincibility and knock the player backwards
-		If an attack is parried the moment it hits the player, you receive 2 seconds of invincibility instead
-		Cooldown depends on the action (Missed parry: 5 seconds, Taking damage: 2 seconds, Successful parry: 3 seconds, Perfect parry: 2 seconds)
-		Certain special attacks and contact damage cannot be parried
-		This ability disables shadow dodge and similar effects
+		按下[{$Keybinds.AbilityPrimary.DisplayName}]以格挡光标方向的弹幕
+		成功格挡攻击会给予穿戴者1秒的无敌并向后击退玩家
+		如果在命中玩家的瞬间格挡弹幕将会给予2秒的无敌
+		冷却取决于行为(格挡失败:5秒, 受到伤害: 2秒, 成格挡成功: 3秒, 完美格挡: 2秒)
+		某些特殊攻击和接触伤害无法被格挡
+		此能力禁用了「神圣防护」等类似效果
 		'''
 	AsthraltiteRevenant:
 		'''
 
 		{$CommonItemTooltip.PercentIncreasedKineticDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
-		Press [{$Keybinds.AbilityPrimary.DisplayName}] to parry incoming attacks in the direction of the cursor
-		Successfully parrying an attack will grant 1 second of invincibility and knock the player backwards
-		If an attack is parried the moment it hits the player, you receive 2 seconds of invincibility instead
-		Cooldown depends on the action (Missed parry: 5 seconds, Taking damage: 2 seconds, Successful parry: 3 seconds, Perfect parry: 2 seconds)
-		Certain special attacks and contact damage cannot be parried
-		This ability disables shadow dodge and similar effects
+		按下[{$Keybinds.AbilityPrimary.DisplayName}]以格挡光标方向的弹幕
+		成功格挡攻击会给予穿戴者1秒的无敌并向后击退玩家
+		如果在命中玩家的瞬间格挡弹幕将会给予2秒的无敌
+		冷却取决于行为(格挡失败:5秒, 受到伤害: 2秒, 成格挡成功: 3秒, 完美格挡: 2秒)
+		某些特殊攻击和接触伤害无法被格挡
+		此能力禁用了「神圣防护」等类似效果
 		'''
 	Bismuth:
 		'''
 		         
-		Hitting enemies has a chance to summon a bismuth hammer for extra damage
+		击中敌人后有概率生成一个铋锤造成额外伤害
 		'''
 	Blightbone:
 		'''
 		   
-		Empowers certain bone-related weapons
+	    增强特定焦黑枯骨相关武器
 		'''
 	CairoCrusader:
 		'''
 
 		{$CommonItemTooltip.PercentChanceToSaveThrownItems}
-		Awakens Eternal Oasis to aid you in battle
-		Double tap down to switch between active and passive
+	    唤醒「永恒绿洲」加入到你的战斗
+		双击[下]来在「主动模式」与「被动模式」切换
 		'''
 	Frosthunter:
 		'''
 
 		在雪原时+15%伤害
-		远程弹幕会造成霜冻减益
+		远程弹幕会造成「霜冻」减益
 		'''
 	Flarium:
 		'''
@@ -2492,7 +2492,7 @@ Items: {
 	}
 
 	AsthraltiteHelmetRevenant: {
-		DisplayName: 龙愠晶有角风帽
+		DisplayName: 龙愠晶角风帽
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedLanceReadySpeed}
@@ -2526,12 +2526,12 @@ Items: {
 	}
 
 	BlightChest: {
-		DisplayName: Blightbone胸甲
+		DisplayName: 焦黑枯骨胸甲
 		Tooltip: "{$CommonItemTooltip.PercentIncreasedKineticDamage}"
 	}
 
 	BlightLegs: {
-		DisplayName: Blightbone护胫
+		DisplayName: 焦黑枯骨护胫
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2540,7 +2540,7 @@ Items: {
 	}
 
 	BlightMask: {
-		DisplayName: Blightbone面具
+		DisplayName: 焦黑枯骨面具
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticCritChance}
@@ -3286,8 +3286,8 @@ Items: {
 	}
 
 	Blightbone: {
-		DisplayName: Blightbone
-		Tooltip: "'All life withers away'"
+		DisplayName: 焦黑枯骨
+		Tooltip: "“一切生命都已凋零”"
 	}
 
 	DarkMist: {
@@ -6583,7 +6583,7 @@ Items: {
 			'''
 			Fires 2 arrows in a random spread
 			Occasionally fires a bone arrow which defies gravity
-			Can be empowered by Blightbone armor
+			可以被焦黑枯骨盔甲增强
 			'''
 	}
 
@@ -6597,7 +6597,7 @@ Items: {
 		Tooltip:
 			'''
 			'Rattle the bones of your opponents!'
-			Can be empowered by Blightbone armor
+			可以焦黑枯骨盔甲增强
 			'''
 	}
 
@@ -8853,7 +8853,7 @@ Projectiles: {
 	Ainfijarnar2.DisplayName: Ainfijarnar
 	Armageddon.DisplayName: Dark Comet
 	BismuthChakram.DisplayName: Bismuth Chakram
-	BismuthHammer.DisplayName: Bismuth Hammer
+	BismuthHammer.DisplayName: 铋锤
 	BlightXBone.DisplayName: Blight X-Bone
 	Bloodbath.DisplayName: Blood Shot
 	BloodKunai.DisplayName: Bloodlust Kunai
@@ -9606,7 +9606,7 @@ Projectiles: {
 	Spooktime.DisplayName: Spooky Scary Skeletal
 	FaithsRewardArmillary.DisplayName: Starlight Armillary
 	StarScourgeBeam.DisplayName: Star Beam
-	EternalOasisKnife.DisplayName: Eternal Oasis
+	EternalOasisKnife.DisplayName: 永恒绿洲飞刀
 	NihilusMinion.DisplayName: 尼希勒斯
 	NihilusMinionClaw.DisplayName: Nihilus' Claw
 	NihilusMinionSeed.DisplayName: Abyssal Seed
@@ -9757,8 +9757,8 @@ Projectiles: {
 	TenebrisLink2.DisplayName: Tenebris Link2
 	IlleanBeam.DisplayName: Illean Beam
 	PlasmaPistols.DisplayName: Plasma Pistols
-	EternalOasis.DisplayName: Eternal Oasis
-	EternalOasisMuda.DisplayName: Eternal Oasis Muda
+	EternalOasis.DisplayName: 永恒绿洲
+	EternalOasisMuda.DisplayName: 永恒绿洲拳击
 	AttackTelegraph.DisplayName: Attack Telegraph
 	GravityZone.DisplayName: Gravity Zone
 	Scream.DisplayName: Scream
