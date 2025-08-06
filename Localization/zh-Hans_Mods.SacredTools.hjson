@@ -226,24 +226,24 @@ PrefixTooltip: {
 		'''
 	SerratedPrefix:
 		'''
-		飞刀会刺入敌怪或嵌入物块并在短时间内造成高频伤害
+		飞刀会刺入敌人或嵌入物块并在短时间内造成高频伤害
 		飞刀嵌入地面时可以捡起以补充当前飞刀储备
 		刺入敌人时伤害随着时间减少
 		'''
 	IncandescentPrefix:
 		'''
-		飞刀会刺入敌怪，并在不久后爆炸
+		飞刀会刺入敌人，并在不久后爆炸
 		-30%命中伤害，换取1.5倍爆炸伤害
 		'''
 	WeightedPrefix: 飞刀击中物块时可以进行至多2次的反弹
 	MagneticPrefix:
 		'''
-		飞刀击中物块时可以进行1次反弹,弹向附近的敌怪
+		飞刀击中物块时可以进行1次反弹,弹向附近的敌人
 		+50%反弹后伤害
 		'''
 	ReboundPrefix:
 		'''
-		飞刀会从敌怪弹开并掉落在地上
+		飞刀会从敌人弹开并掉落在地上
 		反弹后的飞刀可被捡起以补充飞刀储备
 		'''
 	SpectralPrefix:
@@ -559,7 +559,7 @@ ExtraTooltip: {
 	FishSwordBonus6: "[强化阶段6: +25伤害, 挥舞时发射弹幕]"
 	FishSwordBonus7: "[强化阶段7: +40伤害, chance to lifesteal on direct hits]"
 	FishSwordBonus8: "[强化阶段8: +70伤害, + 4%暴击率]"
-	FishSwordBonus9: "[强化阶段9: +80伤害, fires flarium projectiles and inflicts flarium inferno on direct hits]"
+	FishSwordBonus9: "[强化阶段9: +80伤害, fires flarium projectiles and inflicts 「炎流炼狱」 on direct hits]"
 	FishSwordBonus10: "[强化阶段10: +100伤害, + 4%暴击率, fires luminous projectiles]"
 	FishSwordBonus11: "[强化阶段11: +120伤害, + 4%暴击率, fires asthral projectiles]"
 	CoralGunBonus1: "[强化阶段1: +25伤害]"
@@ -570,7 +570,7 @@ ExtraTooltip: {
 	CoralGunBonus6: "[强化阶段6: +30伤害, fires additional sharp coral shards that inflict static]"
 	CoralGunBonus7: "[强化阶段7: +40伤害]"
 	CoralGunBonus8: "[强化阶段8: +70伤害, + 4%暴击率]"
-	CoralGunBonus9: "[强化阶段9: +80伤害, fires additional deep-sea lava rocks which inflict flarium inferno]"
+	CoralGunBonus9: "[强化阶段9: +80伤害, fires additional deep-sea lava rocks which inflict 「炎流炼狱」]"
 	CoralGunBonus10: "[强化阶段10: +100伤害, + 4%暴击率, calls prismarine shards from the sky that stick to the ground and explode]"
 	CoralGunBonus11: "[强化阶段11: +120伤害, + 4%暴击率, can summon a juvenile dango that swims through enemies]"
 }
@@ -584,8 +584,8 @@ Revenant: {
 	PerfectStrikeWindow: "{0}秒「完美一击」时机"
 	PenetrateTargetCount: 穿透{0}个目标
 	PierceBounce: 击中目标时反弹
-	PierceEmbed: 嵌入敌怪
-	PierceRecall:命中敌怪后自动返回
+	PierceEmbed: 嵌入敌人
+	PierceRecall:命中敌人后自动返回
 	IntrinsicRecall: Intrinsic Recall
 }
 
@@ -707,83 +707,84 @@ SetBonus: {
 	Nuba:
 		'''
 		              
-		攻击敌方有几率生成增益强化道具，拾取强化道具可获得可堆叠的增益. 
+		攻击敌人有几率生成增益强化道具，拾取强化道具可获得可堆叠的增益. 
 		'''
 	VortexCommander:
 		'''
 
-		Pressing [{$Keybinds.AbilityPrimary.DisplayName}] puts you in 'Sniper State'
-		Your damage is upped in this state however you are frozen in place and have reduced defense
-		State is toggled upon button press and has a cooldown of 5 seconds after switching
+		按下[{$Keybinds.AbilityPrimary.DisplayName}]以进入「狙击状态」
+		提高你的伤害但是你会被冻在原地同时减少一定的防御
+		按下后以切换形态, 5s冷却
 		'''
 	StellarPriest:
 		'''
 		             
-		Summons a stellar guardian behind you that attacks enemies
+		在你身后召唤一个「巡星守卫」攻击敌人
 		'''
 	FallenPrince:
 		'''
 
-		Hitting enemies has a chance to summon a energy blade behind you (Max of 5)
-		Every newly acquired blade increases the damage of pre-existing ones by 20%
-		Pressing [{$Keybinds.AbilityPrimary.DisplayName}] will launch the blades at nearby enemies
+		命中敌人时有概率在你身后生成一把能量剑(至多五把)
+		每获得新的能量剑将会增加已经存在的能量剑20%伤害
+		按下[{$Keybinds.AbilityPrimary.DisplayName}]以将能量剑射向附近敌人
 		'''
 	Marstech:
 		'''
 
-		Dealing damage charges up an energy forcefield around you that damages enemies and decays over time
-		Can be instantly discharged by pressing [{$Keybinds.AbilityPrimary.DisplayName}], which will cause a shockwave to damage all nearby enemies
-		Damage, range and debuff duration are increased by forcefield strength
-		Has a cooldown of 1 minute
+		造成伤害会为你围绕着你的能量力场充能
+		能量场会攻击敌人并随着时间衰弱
+		可以按下[{$Keybinds.AbilityPrimary.DisplayName}]以立即释放能量, 造成冲击波攻击附近的敌人
+		伤害、范围和减益持续时间随着立场强度增加而增加
+		1分钟冷却
 		'''
 	Nova:
 		'''
 
-		Kinetic damage creates surges of energy around you
-		Energy surges attempt to home into enemies
+		动能伤害会在你周围生成涌动的能量
+		涌动的能量会尝试追踪敌人
 		'''
 	VoidWarden:
 		'''
 
-		Taking damage has a chance to freeze all enemies nearby
-		Bosses and enemies with over 8000 HP are unaffected
-		Cooldown of 10 seconds
+		受到伤害时有概率冻结附近敌人
+		对Boss和血量超过8000的敌人无效
+		10秒冷却
 		'''
 	VoidWardenOffense:
 		'''
 
-		Attacking has a 5% chance to make nearby enemies take double damage
-		Cooldown of 10 seconds
+		攻击有5%概率使附近的敌人受到双倍伤害
+		10秒冷却
 		'''
 	Prairie:
 		'''
 		          
-		{0}% increased ranged and kinetic damage
+		+{0}% 远程和动能伤害
 		'''
 	Dreadfire:
 		'''
 
-		Pressing [{$Keybinds.AbilityPrimary.DisplayName}] will activate 'Dreadfire Aura'.
-		'Dreadfire Aura' increases minion damage greatly for a minute.
-		3 minute cooldown
+		按下[{$Keybinds.AbilityPrimary.DisplayName}]以激活「骇焰光环」
+		「骇焰光环」会在1分钟内极大提高仆从伤害
+		3分钟冷却
 		'''
 	SpaceJunk:
 		'''
 
 		{$CommonItemTooltip.PercentChanceToSaveThrownItems}
-		Damaging enemies will occasionally call upon a meteor to fall from the sky
+		攻击敌人时有概率降下流星
 		'''
 	VulcanReaper:
 		'''
 
-		Provides immunity to Flarium Inferno and Obsidian Curse
+		免疫「炎流炼狱」和「黑曜石诅咒」
 		'''
 }
 
 Town: {
 	Pause: 你要是再开自动暂停我就把你的腿捏可捏可捏断了
 	Decorationalist0: 旅途中你听闻过圣巢吗？? 真希望我有一天能够去到那里.
-	Decorationalist1: 哎~巴巴拿哒~
+	Decorationalist1: 嗯~巴夫呐呐~
 	Decorationalist2: 没有必要为你的订单发愁，我的货源是无尽的！
 	Decorationalist3: 别小瞧了骨钉！如果用对了威力可是巨大的！
 	Decorationalist4: 我发誓我见过这个地方……
@@ -797,7 +798,7 @@ Town: {
 	DecorationalistParty: 让我们彻夜歌舞吧! 我们现在只需要那几幅顶级画作!
 	Erazor0: 一名战士不能是仅有蛮力的野人; 想要在这片土地上生存，你还需要速度和敏捷
 	Erazor1: 你身中的战士之血必定在沸腾着
-	Erazor2: 「秩晶神卫」随着他们守护的家园从地图上消失后，我决定调查此事，结果意外发现了一个由强大生物制造的「次元裂隙」. 它将我和它的领域链接起来，这也是为什么我会出现在这里
+	Erazor2: 「秩晶守卫」随着他们守护的家园从地图上消失后，我决定调查此事，结果意外发现了一个由强大生物制造的「次元裂隙」. 它将我和它的领域链接起来，这也是为什么我会出现在这里
 	Erazor3: 你自觉可为世界之主？倘若如此，何因使你确信已获此殊荣？
 	Erazor4: 一定要保留一些样本来备用，因为我可以利用这些数据，并据此制造新型武器.
 	Erazor5: 我可以使用「龙愠晶镀板」制作大量强有力的装备，但是你想要的话需要付得起足够的「龙愠晶镀板」来向我证明你的能力.
@@ -831,23 +832,24 @@ Town: {
 	Neil0: 我十分好奇那些「鱼鳃药水」是怎么在你身上生效的. 真的……会让你变成一条鱼？或者部分变成？只有腮的部分起作用？或者像Syranox那样在水下呼吸？
 	Neil1: 我有多高? 呃, 我想大概有6英尺
 	Neil2: 我可能获得了某个药水的效果……但是我还没有完麻醉掉，你可以帮我个忙吗，让那个喋喋不休的岩石闭上嘴
-	Neil3: 你在附近看见过一只巨大的红眼生化鸡吗？很好，你可以感谢我
+	Neil3: 你在附近看见过一只巨大的红眼生化鸡吗？很好，你应该感谢我
 	Neil4: 蜥蜴人是蜥蜴还是人？
 	Neil5: 你是内个内个内个内- 等等，嗯？哦没事，没事. 你继续忙你的事情吧
 	Neil6: 你可能在好奇我会拿这些材料做什么吗？唔，我自己也不知道，赛勒斯上可没有这些. 我想我可能会把他们扔到一起然后看看会发生什么吧哈哈. 
 	Neil7: 我不确定我是不是出现了什么幻觉，但是就在我和一个穿着超大牛仔裤的火箭冰淇淋人打完招呼后，看到了外面有一些飞着的眼球
-	Neil8: Hey man there's an uhh.... hand on your shoulder- Haha got ya
-	Neil9: Ya might think us Sareliants have a hard time with doors, but... dude, that ain't true. Don't believe their lies.
-	Neil10: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-	Neil11: Open the door, get on the floor, everybody do the stegosaurus
-	Neil12: I checked your reports recently, you spelled 'Abaddon' wrong again. It's one B and two Ds in case you forgot, not 'Abbadon'.
-	Neil13: New potion who dis
-	Neil14: GAAAA ZING PEW PEW POW BAM BAM BOOM AAAAAAAHHHHH- oh hi.
-	Neil15: Does the... number of lines on your healing elixirs actually mean anything? Is there like.. a mathematical equation they correspond to? Is there some kind of authority that enforces labeling potions in your world?
-	Neil16: h. hhhh. hhhhhhh. hhhhhhhhhhhh.
-	Neil17: They call me the drug machine- No they don't stop lying
-	Neil18: I have seven tongues in the back of my head.
-	Neil19: Yeah I am currently on a heavy dosage of wednesdays
+	Neil8: 嘿, 兄弟. 你肩膀上有一个，呃……手——哈哈吓到你了吧
+	Neil9: 你可能认为我们赛尔里安特人
+对门很头疼, 但是... 兄弟, 那不是真的. 别信他们的谎言.
+	Neil10: 啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+	Neil11: 开门爬进来，趴地别乱动，一起模仿剑龙甩尾巴！
+	Neil12: 我最近检查你的报告了, 你又把“亚巴顿”拼错了，不是“阿巴顿”
+	Neil13: 新药水，你是？
+	Neil14: 砰! 砰! 嘣! 嘣! 啊哈哈哈哈哈哈- 哦, 嗨!.
+	Neil15: 治疗药水上的线条数……真的有实际意义吗?它们是和某个数学公式对应吗?在你的世界里，有没有某种权威机构专门负责监督这个标签?
+	Neil16: 哈. 哈哈哈. 哈哈哈哈哈. 哈哈哈哈哈哈哈. 
+	Neil17: 他们称我为毒品机器——不他们没有停止撒谎
+	Neil18: 我的头后面有七个舌头
+	Neil19: 是的我现在每周三都复用大剂量药物
 	Neil20: I studied alchemy in the highest academy on 赛勒斯, so I can get a drink whenever I feel like it.
 	Neil21: No I am not high, you are high! How did you even get into my room?
 	Neil22: Y'know, despite how potent my Mix is, the burning memories of my days at the academy keep resurfacing. Perhaps I'll never find a way to block them out. Perhaps I shouldn't...
@@ -1255,8 +1257,8 @@ Buffs: {
 	}
 
 	FlariumInfernoDebuff: {
-		DisplayName: Flarium Inferno
-		Description: Set ablaze by extreme heat
+		DisplayName: 炎流炼狱
+		Description: 被炎热点燃
 	}
 
 	FleshWoundDebuff: {
@@ -1644,7 +1646,7 @@ Buffs: {
 	}
 
 	ObsidianCurse: {
-		DisplayName: Obsidian Curse
+		DisplayName: 黑曜石诅咒
 		Description: Your hands have turned to obsidian
 	}
 
@@ -2157,7 +2159,7 @@ Items: {
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxSentriesBy}
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage@1}
-			哨兵有几率在击中敌方时造成毁灭性的星尘爆炸
+			哨兵有几率在击中敌人时造成毁灭性的星尘爆炸
 			“他们休想击溃我们，他们终将在我们面前分崩离析！”
 			'''
 	}
@@ -2374,7 +2376,7 @@ Items: {
 		DisplayName: Void Spurs
 		Tooltip:
 			'''
-			“如果亚巴顿有脚，大概也会觉穿这个”
+			“如果亚巴顿有脚，大概也会去穿这个”
 			可飞行、飞速奔跑，并提供额外冰面行动力
 			{$CommonItemTooltip.PercentIncreasedMovementSpeed}
 			可让人在水、蜂蜜和熔岩上行走
@@ -2394,7 +2396,7 @@ Items: {
 	YataMirror: {
 		DisplayName: 八咫镜
 		Tooltip: "'A shattered piece that reflects the whole. The storm rages around the knowing eye.
-		deepseek：残镜窥世，万相俱现。狂澜怒卷，慧目如渊。'"
+		deepseek：“残镜窥世，万相俱现。狂澜怒卷，慧目如渊。”
 	}
 
 	BlindWraithsSheath: {
@@ -2473,7 +2475,7 @@ Items: {
 	}
 
 	AsthralRanged: {
-		DisplayName: 龙愠晶帽舌
+		DisplayName: 龙愠晶战术盔
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentChanceToSaveAmmo}
@@ -2493,7 +2495,7 @@ Items: {
 	}
 
 	AsthraltiteHelmetRevenant: {
-		DisplayName: 龙愠晶角风帽
+		DisplayName: 龙愠晶风帽
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedLanceReadySpeed}
@@ -2596,7 +2598,7 @@ Items: {
 	}
 
 	FlariumChest: {
-		DisplayName: Flarium胸甲
+		DisplayName: 炎流胸甲
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy}
@@ -2605,7 +2607,7 @@ Items: {
 	}
 
 	FlariumCowl: {
-		DisplayName: Flarium有角风帽
+		DisplayName: 炎流斗篷
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2617,7 +2619,7 @@ Items: {
 	}
 
 	FlariumCrown: {
-		DisplayName: Flarium冠
+		DisplayName: 炎流冠
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
@@ -2628,7 +2630,7 @@ Items: {
 	}
 
 	FlariumHelmet: {
-		DisplayName: Flarium头盔
+		DisplayName: 炎流头盔
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMeleeDamage}
@@ -2639,7 +2641,7 @@ Items: {
 	}
 
 	FlariumHood: {
-		DisplayName: Flarium兜帽
+		DisplayName: 炎流兜帽
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMagicDamage}
@@ -2651,7 +2653,7 @@ Items: {
 	}
 
 	FlariumLeggings: {
-		DisplayName: Flarium护腿
+		DisplayName: 炎流护腿
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMovementSpeed}
@@ -6715,7 +6717,7 @@ Items: {
 
 	FlariumBullet: {
 		DisplayName: Flarium Bullet
-		Tooltip: Hitscan bullet that inflicts Flarium Inferno
+		Tooltip: Hitscan bullet that inflicts 「炎流炼狱」
 	}
 
 	FlariumRocket: {
@@ -9560,7 +9562,7 @@ Projectiles: {
 	RainbowExplosion.DisplayName: Rainbow Explosion
 	ShadowPicture.DisplayName: Quasar Rift
 	SolarProjectile.DisplayName: Flame Bolt
-	StellarGuardian.DisplayName: Stellar Guardian
+	StellarGuardian.DisplayName: 巡星守卫
 	StellarGuardianShot.DisplayName: Stardust Breath
 	StellarGuardianStar.DisplayName: Stellar Bomb
 	StellarGuardianStar2.DisplayName: Stardust Shower
