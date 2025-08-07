@@ -883,17 +883,17 @@ Town: {
 	Pandolar10: Danim Zedonibēùs
 	Pandolar11: 我有许多毛皮. 如果你有足够多的钱的话
 	Pandolar12: Je lowù all teshat bomus
-	Pandolar13: Pandas(熊猫)? 哦我知道它们. 据我所知"Pandolar(潘多拉人)"就是根据这个词来的. 但个人而言,我更喜欢用母语来称呼我的亲戚们 I , 叫做'Olaar'.
+	Pandolar13: Pandas(熊猫)? 哦我知道它们. 据我所知"Pandolar(潘多拉人)"就是根据这个词来的. 但个人而言,我更喜欢用母语来称呼我的亲戚们 I , 叫做「奥拉尔」.
 	Pandolar14: Arguuth还好吗?
-	Pandolar15: You look... tired. Stop it. Get some help.
-	PandolarNuba: It's nice to see 云珀 has finally accepted that there is yet no way to bring their father back, she'll help us a lot in trying to find a way back to 赛勒斯.
-	PandolarPreSiblings: Novaniel and his siblings, the lost siblings and children of Nahlaár. I see that they have fallen into the rift as well. Not sure what they are up to here, but it seems to have to do with this world's moon.
-	PandolarPreAraghur: Along with me a couple other people from 赛勒斯 were thrown into the rift. We should find them to figure out how to return
-	PandolarPreAbaddon: I was about to return to Ariketik, to bring back the captured Decree, when suddenly the sky above 赛勒斯 turned dark and I found myself in a strange world, I was not able to land in time and crashed into the tundra
-	PandolarParty: Parties are great. Balloons, blinking lights, music... the only thing that it’s missing is a giant ice statue.
-	PandolarEnhancement: Claymarine Enhancement
+	Pandolar15: 你看起来...劳累过度了. 别干了. 找人帮忙吧.
+	PandolarNuba: 很高兴看到「云珀」终于明白了他们没办法让死去的父亲复活, 她会帮我我们找到回到赛勒斯的路的
+	PandolarPreSiblings: 「诺瓦尼尔」和他的族裔们，「失落族裔」和「诺赫拉尔」的孩子们. 我看到他们也掉进了裂隙里. 我不知道他们要去做什么, 但是应该和这个世界的月亮有关
+	PandolarPreAraghur: 几个和我一起来自「赛勒斯」的人也被卷入了裂隙之中. 我们应该聚集在一起找到回去的办法
+	PandolarPreAbaddon: 我正要返回Ariketik, 带回被俘虏的「裁决」, 这时候，「赛勒斯」的天空顷刻间阴沉下来，而后我还没来得及弄清楚我到了什么地方，就先一头装上了雪原 
+	PandolarParty: 派对很棒. 气球, 摇曳的灯光, 音乐... 唯一缺少的就是一个巨大冰雕.
+	PandolarEnhancement: 强化「潮遗黏骨」
 	PandolarSalvageButton: Salvaged Items
-	PandolarSalvageCooldown: I didn't find anything interesting yet. Come back later; maybe I'll have something by then...
+	PandolarSalvageCooldown: 我还没找到什么有趣的东西. 过会儿再来看看吧; 或许我一会儿就能找到什么有趣的东西了...
 	PandolarSalvageMysteriousGem: Here, take this, I have found this on my journey here and have no use for it. Maybe it will come in handy?
 	PandolarSalvageStandard: Oh man... it feels so nice to get my hands on some of this fur. The raw magic power from it is bursting at the seams... Also, they hunt us on our home planet for our magical potential. It seems the prey has become the predator! In fact, why don't you take some? I can't possibly use all of it.
 	PandolarSalvageGems: I went on a mining trip earlier today, found some things that might be useful to you. Here, take these.
@@ -7231,10 +7231,10 @@ Items: {
 	}
 
 	Claymarine: {
-		DisplayName: Claymarine
+		DisplayName: 潮遗黏骨
 		Tooltip:
 			'''
-			'Truly a masterful craft of the Olaar species'
+			“「奥拉尔」族的真正杰作”
 			{$CommonItemTooltip.LuxiteUpgradeableItem}
 			'''
 	}
