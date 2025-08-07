@@ -891,7 +891,7 @@ Town: {
 	PandolarPreAraghur: 几个和我一起来自「赛勒斯」的人也被卷入了裂隙之中. 我们应该聚集在一起找到回去的办法
 	PandolarPreAbaddon: 我正要返回Ariketik, 带回被俘虏的「裁决」, 这时候，「赛勒斯」的天空顷刻间阴沉下来，而后我还没来得及弄清楚我到了什么地方，就先一头装上了雪原 
 	PandolarParty: 派对很棒. 气球, 摇曳的灯光, 音乐... 唯一缺少的就是一个巨大冰雕.
-	PandolarEnhancement: 强化「潮遗黏骨」
+	PandolarEnhancement: 强化「潮遗黏尸」
 	PandolarSalvageButton: Salvaged Items
 	PandolarSalvageCooldown: 我还没找到什么有趣的东西. 过会儿再来看看吧; 或许我一会儿就能找到什么有趣的东西了...
 	PandolarSalvageMysteriousGem: Here, take this, I have found this on my journey here and have no use for it. Maybe it will come in handy?
@@ -7231,7 +7231,7 @@ Items: {
 	}
 
 	Claymarine: {
-		DisplayName: 潮遗黏骨
+		DisplayName: 潮遗黏尸
 		Tooltip:
 			'''
 			“「奥拉尔」族的真正杰作”
