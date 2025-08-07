@@ -301,8 +301,8 @@ Other: {
 		}
 
 		Shrinking: {
-			Name: 收缩
-			Description: 收缩扩散范围
+			Name: 收拢
+			Description: 收拢扩散范围
 		}
 	}
 }
@@ -850,41 +850,41 @@ Town: {
 	Neil17: 他们称我为毒品机器——不他们没有停止撒谎
 	Neil18: 我的头后面有七个舌头
 	Neil19: 是的我现在每周三都复用大剂量药物
-	Neil20: I studied alchemy in the highest academy on 赛勒斯, so I can get a drink whenever I feel like it.
-	Neil21: No I am not high, you are high! How did you even get into my room?
-	Neil22: Y'know, despite how potent my Mix is, the burning memories of my days at the academy keep resurfacing. Perhaps I'll never find a way to block them out. Perhaps I shouldn't...
-	Neil23: My hair? Oh yeah it's a scythe. Can you guys not shape your hair the way you want?
-	Neil24: F to my mans hair noodle cherry boi
-	Neil25: *Poses menacingly*
-	Neil26: Hey so uuuuuuuuuhhhhh the Abaddon guy is spreading his nightmares again, gives me bad rep. Didn't you deal with him already?
-	Neil27: No I don't have a war face stop screaming at me
-	NeilShroom: Shrooms? Shrooooooooooms. Shrooooooooooooooooooooooooms. Oh what? oh I just grabbed some samples and hooked them up to a circuit, they make funny sounds I think. YES this TOTALLY counts as research what do you mean?
-	NeilTrade: Trade Items
-	NeilErosion: Erosion Status
-	NeilErosionGone: Looks like the Erosion's receeded for today, I'll let you know when it resurfaces.
-	NeilErosionUG: Y'know rocky place? Well, there are crystal-y worms. Yes, worms. I hate worms. Go kill it. // SUCCUMB TO THE WORM. SUCCUMB TO THE WORM.
-	NeilErosionUGHallow: Looks like rainbow land got down with the sickness, there's some Erosion to weed out.
-	NeilErosionUGEvil: Purple eyeballs... Purple teeth... purple flesh... ew. Make it a little less disgusting by getting rid of whatever caught the Erosion.
-	NeilErosionSky: No. There's nothing up there. Stop.
-	NeilErosionUGDesert: There's reports of deafening screams down in the desert caves, as well as latent eroded energy. Go investigate.
-	NeilErosionFRF: Y'know, dude, I always loved the Cinder Forest. Unfortunate that due to these unforseen events, the Erosion managed to plague its creatures. Go put them out of their misery.
-	NeilErosionHell: Whatever those mockeries of our kind down there are, they seem to not care for what they come across and inevitably got themselves eroded. Obliterate them.
-	NeilErosionUnknown: my dude, my man, my head honcho extraordinaire, i don't even know anymore
-	Pandolar0: IT'S TIME FOR A TEA PARTYYY!
-	Pandolar1: Ariketik is a place that's very hostile for life to develop, it only really hosts us Olaar and the feared Anudeya C'thyr and Uleru. There might be other species, but the constant blizzards and fog make it hard to really find anything.
-	Pandolar2: You got some spare ice blocks? It’s really hot right now...
-	Pandolar3: My old home looked way better than this.
-	Pandolar4: Sometimes I think about licking ice cubes...
-	Pandolar5: Got something to trade?
-	Pandolar6: Need something??
-	Pandolar7: Glad I got this thermal flow augmented armor, without these Cernium crystals I'd be melting.
-	Pandolar8: It smells like burning, have you dropped into a volcano or something?
-	Pandolar9: There's a myth about humans turning into mutants after bathing in the blood of monsters, lets hope you don't end that way as well.
+	Neil20: 我在赛勒斯的最高学院学习炼金术, 这样我就可以随时喝药水了
+	Neil21: 不我没醉, 是你醉了! 你到底是怎么进到我的房间的?
+	Neil22: 你知道的, 尽管我的混合药水效果再强, 我在学院时的炽热记忆仍在眼前不断浮现. 或许我做不到忘掉那一切，或许我做不到……
+	Neil23: 我的发型? 嗯是的，是一把镰刀. 你们不能把发型做成自己喜欢的样子吗?
+	Neil24: 按下[F]向那个吃樱桃的男人致敬
+	Neil25: *摆出威胁的姿势*
+	Neil26: 嘿，那个叫「亚巴顿」的家伙又在散播噩梦了, 真是败坏了我的名声. 你不是已经解决它了吗?
+	Neil27: 不，我没有变战斗脸，别对我尖叫了
+	NeilShroom: 蘑菇? 蘑菇菇菇菇菇菇. 蘑菇菇菇菇菇菇菇菇菇菇菇. 哦, 什么? 我只是拿了点样本放到电路中, 我想他们会有美妙的声音的. -是-的-, 这-完-全-算是研究, 你是什么意思?
+	NeilTrade: 交易物品
+	NeilErosion: 侵蚀状态
+	NeilErosionGone: 看起来今天的侵蚀已经退去了，等它再次出现时我会通知你. 
+	NeilErosionUG: 你知道那个充满岩石的地方吗? 唔, 那有水晶蠕虫. 是的, 蠕虫. 我恨蠕虫. 去杀了它们. // -臣-服-于-蠕-虫-吧-. -臣-服-于-蠕-虫-.
+	NeilErosionUGHallow: 看起来彩虹之地也未能幸免于难，有一些侵蚀需要清除. 
+	NeilErosionUGEvil: 紫色的眼球……紫色的牙齿……紫色的肉……呃。去除任何被侵蚀的东西，让它不那么恶心。
+	NeilErosionSky: 不. 这什么都没有. 放弃吧.
+	NeilErosionUGDesert: 有报道称，沙漠洞穴中传来了震耳欲聋的尖叫声，同时还存在潜在的侵蚀能量。去调查一下吧。
+	NeilErosionFRF: 你知道的，伙计，我一直很喜欢焦烬森林。不幸的是，世事难料，侵蚀已经让那里的生物饱受折磨。去结束它们的痛苦吧。
+	NeilErosionHell: 无论下面那些嘲弄我们同类的东西是什么，它们似乎不在乎遇到的任何事物，最终自身被侵蚀殆尽。消灭它们吧。
+	NeilErosionUnknown: 我的兄弟，我的伙计，我的超级老大，我已经完全不知道了
+	Pandolar0: 是时候来举办一场饮茶派对了!
+	Pandolar1: Ariketik是一个对生命发展十分不利的地, 它的原住民只有Olaarbe、令人恐惧的Anudeya C'thyr和Uleru. 这里可能也有其他物种, 但是不断的暴雪与浓雾让我们很难发现它们.
+	Pandolar2: 你有备用冰块吗? 现在真的很热...
+	Pandolar3: 我的旧房子看起来比这好太多了.
+	Pandolar4: 有时我想舔冰块...
+	Pandolar5: 有什么要交易的吗?
+	Pandolar6: 需要什么吗??
+	Pandolar7: 谢天谢地我搞到了这套散热套装, 要是没有这些「凛寒」晶体我早就被熔化了. 
+	Pandolar8: 闻起来有点烧焦的味道, 你是掉进火山了还是怎么了？
+	Pandolar9: 有个神话说人类沐浴在怪物的血水中会成为突变体, 我希望你不会也变成这样
 	Pandolar10: Danim Zedonibēùs
-	Pandolar11: I have a multitude of furs. If you got that muney
+	Pandolar11: 我有许多毛皮. 如果你有足够多的钱的话
 	Pandolar12: Je lowù all teshat bomus
-	Pandolar13: Pandas? Oh I know about them. I was told that's what the term "Pandolar" is based off of. Personally, I prefer to refer to our kin in our native tongue, which would be 'Olaar'.
-	Pandolar14: Arguuth doing alright?
+	Pandolar13: Pandas(熊猫)? 哦我知道它们. 据我所知"Pandolar(潘多拉人)"就是根据这个词来的. 但个人而言,我更喜欢用母语来称呼我的亲戚们 I , 叫做'Olaar'.
+	Pandolar14: Arguuth还好吗?
 	Pandolar15: You look... tired. Stop it. Get some help.
 	PandolarNuba: It's nice to see 云珀 has finally accepted that there is yet no way to bring their father back, she'll help us a lot in trying to find a way back to 赛勒斯.
 	PandolarPreSiblings: Novaniel and his siblings, the lost siblings and children of Nahlaár. I see that they have fallen into the rift as well. Not sure what they are up to here, but it seems to have to do with this world's moon.
@@ -1903,7 +1903,7 @@ Items: {
 		DisplayName: 不朽焰巾
 		Tooltip:
 			'''
-			“由阿加尔灵魂中散发出的余烬化成，为森林中的居民带来生机”
+			“由「阿加尔」灵魂中散发出的余烬化成，为森林中的居民带来生机”
 			当敌人生命值高于50%时，+10%伤害；当敌人生命值小于50%时，-10%伤害
 			当受到攻击时，会召唤一个保护屏障，减少5秒内受到的伤害，
 			随后屏障将化作追踪导弹发射出去
@@ -1924,10 +1924,10 @@ Items: {
 	}
 
 	NovanielResolve: {
-		DisplayName: 诺瓦尼尔的决心
+		DisplayName: 「诺瓦尼尔」的决心
 		Tooltip:
 			'''
-			“诺瓦尼尔的决心与意志物质化的产物”
+			“「诺瓦尼尔」的决心与意志物质化的产物”
 			击中敌人有概率触发「诺瓦尼尔」的技能之一
 			30秒冷却
 			'''
@@ -8157,9 +8157,9 @@ TooltipDetail: {
 		   - 暴击率
 		您将能够抵消负面影响并获得新的属性：
 		   - Boss易伤: 提高你对Boss的伤害
-		   - 极性: 提高造成和受到的伤害（边际效应）
+		   - 极化: 提高造成和受到的伤害（边际效应）
 		   - 精准: 抵消距离衰减（边际效应）
-		   - 暴击伤害: 提高暴击率
+		   - 暴击伤害: 提高暴击伤害
 
 		Boss会掉落新的奖励, 包括「玻璃之心」和「挑战物品」:
 		   - 「玻璃之心」需要在启用「玻璃之魂」后通过击败特定的月亮领主后Boss获得，并且将提高你的最大生命值
