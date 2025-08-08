@@ -883,7 +883,7 @@ Town: {
 	Pandolar10: Danim Zedonibēùs
 	Pandolar11: 我有许多毛皮. 如果你有足够多的钱的话
 	Pandolar12: Je lowù all teshat bomus
-	Pandolar13: Pandas(熊猫)? 哦我知道它们. 据我所知"Pandolar(潘多拉人)"就是根据这个词来的. 但个人而言,我更喜欢用母语来称呼我的亲戚们 I , 叫做「奥拉尔」.
+	Pandolar13: Pandas(熊猫)? 哦我知道它们. 据我所知"Pandolar"就是根据这个词来的. 但个人而言,我更喜欢用母语来称呼我的亲戚们 I , 叫做「奥拉尔」.
 	Pandolar14: Arguuth还好吗?
 	Pandolar15: 你看起来...劳累过度了. 别干了. 找人帮忙吧.
 	PandolarNuba: 很高兴看到「云珀」终于明白了他们没办法让死去的父亲复活, 她会帮我我们找到回到赛勒斯的路的
@@ -894,10 +894,10 @@ Town: {
 	PandolarEnhancement: 强化「潮遗黏尸」
 	PandolarSalvageButton: Salvaged Items
 	PandolarSalvageCooldown: 我还没找到什么有趣的东西. 过会儿再来看看吧; 或许我一会儿就能找到什么有趣的东西了...
-	PandolarSalvageMysteriousGem: Here, take this, I have found this on my journey here and have no use for it. Maybe it will come in handy?
-	PandolarSalvageStandard: Oh man... it feels so nice to get my hands on some of this fur. The raw magic power from it is bursting at the seams... Also, they hunt us on our home planet for our magical potential. It seems the prey has become the predator! In fact, why don't you take some? I can't possibly use all of it.
-	PandolarSalvageGems: I went on a mining trip earlier today, found some things that might be useful to you. Here, take these.
-	PandolarSalvageCorruption: It's interesting how the great corrupted worm is entirely made up of demonite and shadow scales. Speaking of them, take some you missed!
+	PandolarSalvageMysteriousGem: 这里, 带上这个, 这是我旅途中找到的东西，但是我用不上. 或许有一天能够帮到你?
+	PandolarSalvageStandard: 呜呼... 摸到这些毛皮的感觉太爽了. 里面蕴含的原处魔力简直要溢出来了... 同时, 他们在我们的母星上猎杀我们. 这下猎人被猎物骑在头上了! 不过说实话, 你怎么也不拿一些走呢? 我用不了这么多的.
+	PandolarSalvageGems: 我前几天出游时找到一些可能对你有用的东西.给, 这就是.
+	PandolarSalvageCorruption: 有趣的是，这整条腐化蠕虫完全是由魔矿锭和暗影鳞片构成的. 说到他们，拿回你落下的东西吧
 	PandolarSalvageCrimson: Those creepers which circle the brain live up to their name! Take the tissue samples and crimtane you left, I don't want to be reminded of them!
 	PandolarSalvageDungeon: I recognised some of those skeletons... they were merchants I stol- uh I mean bought from! Take some bones you dropped down there.
 	PandolarSalvageWax: While researching the jungle hives, I found some bee wax from a totally destroyed hive. On the way back, I dropped by a pumpkin patch and snagged a couple. Maybe they'll bee of use to you?
