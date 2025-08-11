@@ -892,16 +892,16 @@ Town: {
 	PandolarPreAbaddon: 我正要返回Ariketik, 带回被俘虏的「裁决」, 这时候，「赛勒斯」的天空顷刻间阴沉下来，而后我还没来得及弄清楚我到了什么地方，就先一头装上了雪原 
 	PandolarParty: 派对很棒. 气球, 摇曳的灯光, 音乐... 唯一缺少的就是一个巨大冰雕.
 	PandolarEnhancement: 强化「潮遗黏尸」
-	PandolarSalvageButton: Salvaged Items
+	PandolarSalvageButton: 拾荒物资
 	PandolarSalvageCooldown: 我还没找到什么有趣的东西. 过会儿再来看看吧; 或许我一会儿就能找到什么有趣的东西了...
 	PandolarSalvageMysteriousGem: 这里, 带上这个, 这是我旅途中找到的东西，但是我用不上. 或许有一天能够帮到你?
 	PandolarSalvageStandard: 呜呼... 摸到这些毛皮的感觉太爽了. 里面蕴含的原处魔力简直要溢出来了... 同时, 他们在我们的母星上猎杀我们. 这下猎人被猎物骑在头上了! 不过说实话, 你怎么也不拿一些走呢? 我用不了这么多的.
 	PandolarSalvageGems: 我前几天出游时找到一些可能对你有用的东西.给, 这就是.
 	PandolarSalvageCorruption: 有趣的是，这整条腐化蠕虫完全是由魔矿锭和暗影鳞片构成的. 说到他们，拿回你落下的东西吧
-	PandolarSalvageCrimson: Those creepers which circle the brain live up to their name! Take the tissue samples and crimtane you left, I don't want to be reminded of them!
-	PandolarSalvageDungeon: I recognised some of those skeletons... they were merchants I stol- uh I mean bought from! Take some bones you dropped down there.
-	PandolarSalvageWax: While researching the jungle hives, I found some bee wax from a totally destroyed hive. On the way back, I dropped by a pumpkin patch and snagged a couple. Maybe they'll bee of use to you?
-	PandolarSalvageHM: I decided to go spelunking after the guide was killed. Man, I'm not sure what you did down there, but things just got a lot harder! Here are some of my findings from down there.
+	PandolarSalvageCrimson: 哪些围绕在大脑周围的飞眼怪真是名副其实.拿走你落下的组织样本和猩红矿锭, 我再也不希望他们出现在我的脑海里了
+	PandolarSalvageDungeon: 我依稀能够辨别那些骷髅是谁……他们是我偷——呃我买过东西的商人! 拿走你掉在这的骨肉. 
+	PandolarSalvageWax: 研究丛林的蜂巢时，我发现了一个完全被破坏的蜂巢中残留的蜂蜡. 回来时路过了一片南瓜地顺带摘了几个，或许对你有用? 
+	PandolarSalvageHM: 我准备向导被杀害后去洞穴里探险. 但是天哪，我不知道你都在下面干了什么, 但是情况变遭了很多! 给点。我从下面找到的吧. 
 	PandolarSalvageMech: I noticed some scrap metal that fell off those mechanical creatures you fought earlier. Don't be deceived by our love of cold, us Pandolars are great blacksmiths!
 	PandolarSalvageRaynare: After your battle with the Harpy Queen, feathers were scattered EVRYWHERE. I think I may have even found some of Jensen's lying in there too...
 	PandolarSalvageLihzahrd: I dropped by the jungle temple earlier, and found some fragments of some sort of tablet along with a couple loose bricks. The bricks almost look like they could be used in some sort of bar...
@@ -1934,7 +1934,7 @@ Items: {
 	}
 
 	MementoMori: {
-		DisplayName: Memento Mori
+		DisplayName: 铭记死亡
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedDamage}
@@ -1946,7 +1946,7 @@ Items: {
 	}
 
 	NebulaSigil: {
-		DisplayName: Nebula Sigil
+		DisplayName: 星云印章
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMagicDamage}
@@ -1955,7 +1955,7 @@ Items: {
 	}
 
 	QuasarSigil: {
-		DisplayName: Quasar Sigil
+		DisplayName: 类星体印章
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -1964,7 +1964,7 @@ Items: {
 	}
 
 	SolarSigil: {
-		DisplayName: Solar Sigil
+		DisplayName: 日耀印章
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMeleeDamage}
@@ -1973,7 +1973,7 @@ Items: {
 	}
 
 	StardustSigil: {
-		DisplayName: Stardust Sigil
+		DisplayName: 星尘印章
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
@@ -1983,7 +1983,7 @@ Items: {
 	}
 
 	VortexSigil: {
-		DisplayName: Vortex Sigil
+		DisplayName: 星旋印章
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedRangedDamage}
@@ -1993,33 +1993,33 @@ Items: {
 
 	EgoTail: {
 		// Vanity
-		DisplayName: Shocked's Tail
+		DisplayName: Shocked的尾巴
 		Tooltip: ""
 	}
 
 	IndiTail: {
-		DisplayName: Indi's Tail
+		DisplayName: Indi的尾巴
 		// Vanity
-		Tooltip: "'Great for impersonating mouse girls!'"
+		Tooltip: “非常适合扮演老鼠女孩! ”
 	}
 
 	ShadowDemonTail: {
-		DisplayName: Dan's Demon Tail
+		DisplayName: Dan的恶魔尾巴
 		Tooltip: ""
 	}
 
 	SpletTail: {
-		DisplayName: Splet's Tail
+		DisplayName: Splet的尾巴
 		Tooltip: ""
 	}
 
 	SumeTail: {
-		DisplayName: Sume's Tail
-		Tooltip: "'Great for impersonating pink floofs!'"
+		DisplayName: Sume的尾巴
+		Tooltip: “非常适合扮演粉色毛绒玩具”
 	}
 
 	AsthraltiteWings: {
-		DisplayName: 龙愠晶Wings
+		DisplayName: 龙愠晶之翼
 		Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 	}
 
@@ -2034,7 +2034,7 @@ Items: {
 	}
 
 	DanWings: {
-		DisplayName: Dan's Wings
+		DisplayName: Dan之翼
 		Tooltip:
 			'''
 			{$CommonItemTooltip.FlightAndSlowfall}
@@ -2043,7 +2043,7 @@ Items: {
 	}
 
 	DariusCape: {
-		DisplayName: Darius' Cape
+		DisplayName: Darius的斗篷
 		Tooltip:
 			'''
 			{$CommonItemTooltip.FlightAndSlowfall}
@@ -2052,36 +2052,36 @@ Items: {
 	}
 
 	DespairBoosters: {
-		DisplayName: Despair Boosters
+		DisplayName: 绝望助推器
 		Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 	}
 
 	DevilWings: {
-		DisplayName: Devil Wings
+		DisplayName: 魔鬼之翼
 		Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 	}
 
 	EgoWings: {
-		DisplayName: Dragon Prince's Wings
+		DisplayName: 龙嗣之翼
 		Tooltip: ""
 	}
 
 	FlariumWings: {
-		DisplayName: Flarium Wings
+		DisplayName: 炎流晶之翼
 		Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 	}
 
 	GrandWings: {
-		DisplayName: Jensen's Talisman
+		DisplayName: 「詹森」护符
 		Tooltip:
 			'''
 			{$CommonItemTooltip.FlightAndSlowfall}
-			Harpies become friendly
+			鸟妖变得友好
 			'''
 	}
 
 	KoopaWings: {
-		DisplayName: Koopa's Blue Shell
+		DisplayName: 卡米的蓝龟壳
 		Tooltip:
 			'''
 			{$CommonItemTooltip.FlightAndSlowfall}
@@ -2124,7 +2124,7 @@ Items: {
 			'''
 			“牺牲一切，信仰魔法”
 			使用魔力药水将造成「施法者的牲礼」效果而不是「魔力病」
-			「施法者的牲礼」最多叠加5层，每层将会+20%魔力消耗
+			「施法者的牲礼」最多叠加5层，每层将会 +20% 魔力消耗
 			'''
 	}
 
@@ -2598,7 +2598,7 @@ Items: {
 	}
 
 	FlariumChest: {
-		DisplayName: 炎流胸甲
+		DisplayName: 炎流晶胸甲
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy}
@@ -2607,7 +2607,7 @@ Items: {
 	}
 
 	FlariumCowl: {
-		DisplayName: 炎流斗篷
+		DisplayName: 炎流晶斗篷
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2619,7 +2619,7 @@ Items: {
 	}
 
 	FlariumCrown: {
-		DisplayName: 炎流冠
+		DisplayName: 炎流晶冠
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
@@ -2630,7 +2630,7 @@ Items: {
 	}
 
 	FlariumHelmet: {
-		DisplayName: 炎流头盔
+		DisplayName: 炎流晶头盔
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMeleeDamage}
@@ -2641,7 +2641,7 @@ Items: {
 	}
 
 	FlariumHood: {
-		DisplayName: 炎流兜帽
+		DisplayName: 炎流晶兜帽
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMagicDamage}
@@ -2653,7 +2653,7 @@ Items: {
 	}
 
 	FlariumLeggings: {
-		DisplayName: 炎流护腿
+		DisplayName: 炎流晶护腿
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMovementSpeed}
