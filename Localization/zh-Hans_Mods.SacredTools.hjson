@@ -2024,12 +2024,12 @@ Items: {
 	}
 
 	AuroraWings: {
-		DisplayName: Aurora Wings
+		DisplayName: 曙光之翼
 		Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 	}
 
 	CryoditeWings: {
-		DisplayName: Cryodite Wings
+		DisplayName: 凛晶之翼
 		Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 	}
 
@@ -2081,17 +2081,17 @@ Items: {
 	}
 
 	KoopaWings: {
-		DisplayName: 卡米的蓝龟壳
+		DisplayName: 酷帕的蓝龟壳
 		Tooltip:
 			'''
 			{$CommonItemTooltip.FlightAndSlowfall}
 			{$TooltipLabel.DeveloperVanity}
-			'And for scaring the crap out of people in first place...'
+			"把别人吓得屁滚尿流..."
 			'''
 	}
 
 	NanoplasmaticWings: {
-		DisplayName: Nanoplasmatic Wings
+		DisplayName: 纳米等离子体翼
 		Tooltip:
 			'''
 			{$CommonItemTooltip.FlightAndSlowfall}
@@ -2100,12 +2100,12 @@ Items: {
 	}
 
 	QuasarWings: {
-		DisplayName: Quasar Wings
+		DisplayName: 类星体之翼
 		Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 	}
 
 	SpletWings: {
-		DisplayName: Splet's Wings
+		DisplayName: Splet之翼
 		Tooltip:
 			'''
 			{$CommonItemTooltip.FlightAndSlowfall}
@@ -2355,12 +2355,12 @@ Items: {
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage@2}
 			仆从攻击会施加「Lunar Burn」减益
 			哨兵攻击会施加「灵液」减益并有概率引发毁灭性的星尘爆炸
-			'Show caution, a dead warrior wins no battles灯：出师未捷身先死，长使英雄泪满襟'
+			“谨慎为上，死亡的战士赢不了任何事物”
 			'''
 	}
 
 	StoneOfResonance: {
-		DisplayName: Stone of Resonance
+		DisplayName: 共鸣石
 		Tooltip:
 			'''
 			{$ItemTooltip.FrozenTurtleShell}
@@ -2373,7 +2373,7 @@ Items: {
 	}
 
 	VoidSpurs: {
-		DisplayName: Void Spurs
+		DisplayName: 虚渺马刺
 		Tooltip:
 			'''
 			“如果亚巴顿有脚，大概也会去穿这个”
@@ -2389,14 +2389,13 @@ Items: {
 	}
 
 	WildGemstone: {
-		DisplayName: Wild Gemstone
+		DisplayName: 荒芜宝石
 		Tooltip: 生命值低于33%时提高生命再生
 	}
 
 	YataMirror: {
 		DisplayName: 八咫镜
-		Tooltip: "'A shattered piece that reflects the whole. The storm rages around the knowing eye.
-		deepseek：“残镜窥世，万相俱现。狂澜怒卷，慧目如渊。”
+		Tooltip: “残镜窥世，万相俱现。狂澜怒卷，慧目如渊。”
 	}
 
 	BlindWraithsSheath: {
@@ -2407,8 +2406,8 @@ Items: {
 			我只是单纯的很幸运而已. 安静一些吧，过分的聒噪对你没有好处”
 			{$CommonItemTooltip.IncreasesKnifeStashBy}
 			{$CommonItemTooltip.PercentIncreasedKnifeRecoveryRate@1}
-			You gain 2 more knives each recovery
-			The top half of your knife stash receives a 20% damage boost that gradually decreases as the stash is used up
+			每次回收时多回收2飞刀储备
+			你的飞刀储备的先消耗的那一半会获得20%伤害加成并随着飞刀储备减少而减少
 			'''
 	}
 
@@ -2424,13 +2423,13 @@ Items: {
 	}
 
 	LanceSheathTalisman: {
-		DisplayName: Lance Sheath Talisman
+		DisplayName: 枪鞘护符
 		Tooltip:
 			'''
-			'A Weapon Sheath Talisman tailored specifically for lances. It stores them in a makeshift pocket space within the gem'
+			“专门为长矛定制的武器鞘符。它将长矛储存在宝石内的临时口袋空间中”
 			{$CommonItemTooltip.PercentIncreasedLanceRecallSpeed}
 			{$CommonItemTooltip.PercentIncreasedLanceRecallVelocity@1}
-			未手持长矛时可通过进行一段较长时间的引导来召回所有长矛，此次召回无飞行时间(2分钟冷却时间)
+			未手持长矛时可通过进行一段较长时间的蓄力来召回所有长矛，此次召回无飞行时间(2分钟冷却时间)
 			'''
 	}
 
@@ -2552,7 +2551,7 @@ Items: {
 	}
 
 	CairoCrusaderFaulds: {
-		DisplayName: Cairo Crusader Faulds
+		DisplayName: 开罗十字军裙甲
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2561,7 +2560,7 @@ Items: {
 	}
 
 	CairoCrusaderRobe: {
-		DisplayName: Cairo Crusader长袍
+		DisplayName: 开罗十字军长袍
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2570,7 +2569,7 @@ Items: {
 	}
 
 	CairoCrusaderTurban: {
-		DisplayName: Cairo Crusader头巾
+		DisplayName: 开罗十字军头巾
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2662,7 +2661,7 @@ Items: {
 	}
 
 	FlariumMask: {
-		DisplayName: Flarium Headguard
+		DisplayName: 炎流晶头甲
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedRangedDamage}
@@ -2673,7 +2672,7 @@ Items: {
 	}
 
 	DreadfireMask: {
-		DisplayName: Dreadfire Mask
+		DisplayName: 惧火面甲
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
@@ -2682,7 +2681,7 @@ Items: {
 	}
 
 	DreadfirePlate: {
-		DisplayName: Dreadfire Plate
+		DisplayName: 惧火胸板甲
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
@@ -2691,12 +2690,12 @@ Items: {
 	}
 
 	DreadfireBoots: {
-		DisplayName: Dreadfire Boots
+		DisplayName: 惧火靴
 		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}"
 	}
 
 	EerieChest: {
-		DisplayName: Eerie Chestpiece
+		DisplayName: 诡诞胸甲
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
@@ -2705,7 +2704,7 @@ Items: {
 	}
 
 	EerieHelmet: {
-		DisplayName: Eerie Helmet
+		DisplayName: 诡诞头盔
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
@@ -2714,22 +2713,22 @@ Items: {
 	}
 
 	EerieLegs: {
-		DisplayName: Eerie Greaves
+		DisplayName: 诡诞胫甲
 		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}"
 	}
 
 	ExodusChest: {
-		DisplayName: Exitum Lux Chestpiece
+		DisplayName: 末光胸甲
 		Tooltip: "{$CommonItemTooltip.ExitumLuxSlots}"
 	}
 
 	ExodusHelmet: {
-		DisplayName: Exitum Lux Helmet
+		DisplayName: 末光头盔
 		Tooltip: "{$CommonItemTooltip.ExitumLuxSlots}"
 	}
 
 	ExodusLegs: {
-		DisplayName: Exitum Lux Leggings
+		DisplayName: 末光腿甲
 		Tooltip: "{$CommonItemTooltip.ExitumLuxSlots}"
 	}
 
@@ -2757,7 +2756,7 @@ Items: {
 	}
 
 	NubaChest: {
-		DisplayName: Garb of Saving Grace
+		DisplayName: 拯恩典袍
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMagicDamage}
@@ -2769,7 +2768,7 @@ Items: {
 	}
 
 	NubaHood: {
-		DisplayName: Hood of Saving Grace
+		DisplayName: 拯恩典帽
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMagicDamage}
@@ -2778,7 +2777,7 @@ Items: {
 	}
 
 	NubaRobe: {
-		DisplayName: Robes of Saving Grace
+		DisplayName: 拯恩典裙
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMagicDamage}
@@ -2789,7 +2788,7 @@ Items: {
 	}
 
 	FallenPrinceBoots: {
-		DisplayName: Fallen Prince's Boots
+		DisplayName: 黯胤之靴
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2798,7 +2797,7 @@ Items: {
 	}
 
 	FallenPrinceChest: {
-		DisplayName: Fallen Prince's Chestplate
+		DisplayName: 黯胤胸甲
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2810,7 +2809,7 @@ Items: {
 	}
 
 	FallenPrinceHelm: {
-		DisplayName: Fallen Prince's Helm
+		DisplayName: 黯胤头盔
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
