@@ -2788,7 +2788,7 @@ Items: {
 	}
 
 	FallenPrinceBoots: {
-		DisplayName: 黯胤之靴
+		DisplayName: 败胤之靴
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2797,7 +2797,7 @@ Items: {
 	}
 
 	FallenPrinceChest: {
-		DisplayName: 黯胤胸甲
+		DisplayName: 败胤胸甲
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2809,7 +2809,7 @@ Items: {
 	}
 
 	FallenPrinceHelm: {
-		DisplayName: 黯胤头盔
+		DisplayName: 败胤头盔
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2818,7 +2818,7 @@ Items: {
 	}
 
 	BlazingBruteHelm: {
-		DisplayName: Helm of the Unrelenting Rival
+		DisplayName: 不渝宿敌头盔
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMeleeDamage}
@@ -2827,7 +2827,7 @@ Items: {
 	}
 
 	BlazingBruteLegs: {
-		DisplayName: Greaves of the Unrelenting Rival
+		DisplayName: 不渝宿敌胫甲
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMeleeDamage}
@@ -2836,7 +2836,7 @@ Items: {
 	}
 
 	BlazingBrutePlate: {
-		DisplayName: Plate of the Unrelenting Rival
+		DisplayName: 不渝宿敌板甲
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedMeleeDamage}
@@ -2847,7 +2847,7 @@ Items: {
 	}
 
 	StellarPriestChest: {
-		DisplayName: Spirit Medium's Garb
+		DisplayName: 灵媒束装
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
@@ -2858,7 +2858,7 @@ Items: {
 	}
 
 	StellarPriestHead: {
-		DisplayName: Spirit Medium's Circlet
+		DisplayName: 灵媒头冠
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
@@ -2867,7 +2867,7 @@ Items: {
 	}
 
 	StellarPriestLegs: {
-		DisplayName: Spirit Medium's Robes
+		DisplayName: 灵媒长袍
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
@@ -2876,7 +2876,7 @@ Items: {
 	}
 
 	VortexCommanderGreaves: {
-		DisplayName: Soran Forces Strides
+		DisplayName: 索兰军用靴
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedRangedDamage}
@@ -2885,7 +2885,7 @@ Items: {
 	}
 
 	VortexCommanderHat: {
-		DisplayName: Soran Forces Tactical Visor
+		DisplayName: 索兰军用战术镜
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedRangedDamage}
@@ -2894,7 +2894,7 @@ Items: {
 	}
 
 	VortexCommanderSuit: {
-		DisplayName: Soran Forces Suit
+		DisplayName: 索兰军用制服
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedRangedDamage}
@@ -2905,7 +2905,7 @@ Items: {
 	}
 
 	MarstechHelm: {
-		DisplayName: Marstech Helm
+		DisplayName: 火星科技战盔
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2914,7 +2914,7 @@ Items: {
 	}
 
 	MarstechLegs: {
-		DisplayName: Marstech Greaves
+		DisplayName: 火星科技胫甲
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2924,7 +2924,7 @@ Items: {
 	}
 
 	MarstechPlate: {
-		DisplayName: Marstech Plate
+		DisplayName: 火星科技板甲
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2933,7 +2933,7 @@ Items: {
 	}
 
 	VoidChest: {
-		DisplayName: Void Warden Chestpiece
+		DisplayName: 虚无守望者胸甲
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedDamage}
@@ -2943,7 +2943,7 @@ Items: {
 	}
 
 	VoidChestOffense: {
-		DisplayName: Void Warden Scale Mail
+		DisplayName: 虚无守望者鳞甲
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedDamage}
@@ -2952,7 +2952,7 @@ Items: {
 	}
 
 	VoidHelm: {
-		DisplayName: Void Warden Helmet
+		DisplayName: 虚无守望者头盔
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedDamage}
@@ -2961,22 +2961,22 @@ Items: {
 	}
 
 	VoidLegs: {
-		DisplayName: Void Warden Leggings
+		DisplayName: 虚无守望者胫甲
 		Tooltip: "{$CommonItemTooltip.PercentIncreasedMovementSpeed}"
 	}
 
 	PrairieChest: {
-		DisplayName: Prairie Wristbands
+		DisplayName: 原野腕带
 		Tooltip: "{$CommonItemTooltip.PercentIncreasedKineticSpeed}"
 	}
 
 	PrairieHelmet: {
-		DisplayName: Prairie Feather Headdress
-		Tooltip: 8% increased ranged and kinetic critical strike chance
+		DisplayName: 原野翎冠
+		Tooltip: +8%远程和动能暴击率
 	}
 
 	PrairieLegs: {
-		DisplayName: Prairie Loincloth
+		DisplayName: 原野腰布
 		Tooltip: "{$CommonItemTooltip.PercentIncreasedMovementSpeed}"
 	}
 
