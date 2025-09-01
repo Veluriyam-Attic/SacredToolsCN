@@ -2309,7 +2309,7 @@ Items: {
 	}
 
 	ReflectionShield: {
-		DisplayName: 镜光宝盾
+		DisplayName: 映射宝盾
 		Tooltip:
 			'''
 			{$ItemTooltip.AnkhShield}
@@ -2347,7 +2347,7 @@ Items: {
 	}
 
 	StarstreamVeil: {
-		DisplayName: Starstream Veil
+		DisplayName: 星河帷幕
 		Tooltip:
 			'''
 			{$CommonItemTooltip.IncreasesMaxMinionsBy}
@@ -3036,12 +3036,12 @@ Items: {
 	}
 
 	VulcanChest: {
-		DisplayName: Vulcan Reaper Garb
+		DisplayName: Vulcan Reaper Garb死神，伏尔甘之盔
 		Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage}"
 	}
 
 	VulcanHelm: {
-		DisplayName: Vulcan Reaper Helm
+		DisplayName: Vulcan Reaper Helm死神，伏尔甘之盔
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedDamage}
@@ -3050,18 +3050,18 @@ Items: {
 	}
 
 	VulcanLegs: {
-		DisplayName: Vulcan Reaper Robe
+		DisplayName: Vulcan Reaper Robe死神，伏尔甘之袍
 		Tooltip: "{$CommonItemTooltip.PercentDecreasedMovementSpeed}"
 	}
 
 	ManaFruit: {
-		DisplayName: Mana Fruit
+		DisplayName: 魔力果
 		Tooltip: "{$CommonItemTooltip.PermanentlyIncreasesMaxManaBy}"
 	}
 
 	DogmaDye: {
-		DisplayName: Living Static Dye
-		Tooltip: "'But if we are living in the light'"
+		DisplayName: 灵静染料
+		Tooltip: “若我们沐浴于光芒之中”
 	}
 
 	GlassSoul: {
@@ -3158,17 +3158,17 @@ Items: {
 	}
 
 	LuxDust: {
-		DisplayName: Lux Shard Dust
-		Tooltip: Can be forged into a lux shard with a random effect
+		DisplayName: 流光碎粉
+		Tooltip: 可以被锻造为有随机效果的「流光碎片」
 	}
 
 	LuxShard: {
-		DisplayName: Lux Enhancement Shard
+		DisplayName: 流光注能碎片
 		Tooltip: ""
 	}
 
 	LuxShardBig: {
-		DisplayName: Lux Enhancement Shard (Big)
+		DisplayName: 流光注能碎片(大)
 		Tooltip: ""
 	}
 
@@ -3254,12 +3254,12 @@ Items: {
 
 	AsthraltiteChunks: {
 		DisplayName: 龙愠晶碎片
-		Tooltip: "'A manifestation of concentrated dragon rage'"
+		Tooltip: “群龙怒火的具象化”
 	}
 
 	AsthraltitePowerCell: {
 		DisplayName: 龙愠晶储能单元
-		Tooltip: Used to power special equipment
+		Tooltip: 用于给特殊装备供能
 	}
 
 	BirdFeather: {
@@ -3268,12 +3268,12 @@ Items: {
 	}
 
 	BlackSun: {
-		DisplayName: Black Sun Fragment
-		Tooltip: "'Do you still not understand?'"
+		DisplayName: 黯日碎片
+		Tooltip: “你还没有明白吗？”
 	}
 
 	Blazefury: {
-		DisplayName: Blazefury
+		DisplayName: 怒焰鱼
 		Tooltip: ""
 	}
 
@@ -3293,18 +3293,18 @@ Items: {
 	}
 
 	DarkMist: {
-		DisplayName: Sinister Element
-		Tooltip: "'Pulsing with destructive energy'"
+		DisplayName: 诡诞元素
+		Tooltip: “迸发着毁灭性能量”
 	}
 
 	DesertCrystal: {
-		DisplayName: Desert Quartz
-		Tooltip: "'Rough and sharp'"
+		DisplayName: 沙质石英
+		Tooltip: “粗糙且尖锐”
 	}
 
 	DraconiumAlloy: {
-		DisplayName: Draconium Alloy
-		Tooltip: "'It feels warm'"
+		DisplayName: 龙木合金
+		Tooltip: “感觉很温暖”
 	}
 
 	DreadFlame: {
@@ -3313,22 +3313,22 @@ Items: {
 	}
 
 	EldritchSpark: {
-		DisplayName: Eldritch Spark
-		Tooltip: "'A remnant of the unthinkable'"
+		DisplayName: 诡谲火花
+		Tooltip: “不可思议之残余”
 	}
 
 	EmberOfOmen: {
-		DisplayName: Ember of Omen
-		Tooltip: "'Focus on the flame to see your fate'"
+		DisplayName: 余烬噩兆
+		Tooltip: “凝视火焰，以窥命运”
 	}
 
 	Enduflora: {
-		DisplayName: Enduflora
+		DisplayName: 焰茵
 		Tooltip: ""
 	}
 
 	ErosionSample: {
-		DisplayName: Erosion Sample
+		DisplayName: 侵蚀样本
 		Tooltip: "'A highly volatile remnant of an eroded being'"
 	}
 
