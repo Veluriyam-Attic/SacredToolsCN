@@ -2317,7 +2317,7 @@ Items: {
 			{$CommonItemTooltip.FlariumInfernoImmunity}
 			{$CommonItemTooltip.MinorStats}
 			{$CommonItemTooltip.PaladinsShieldEffect}
-			有10%的概率抵挡地方弹幕
+			有10%的概率抵挡敌方弹幕
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy}
 			该物品仅在「真实模式」下生效
 			'''
@@ -2981,7 +2981,7 @@ Items: {
 	}
 
 	NovaBreastplate: {
-		DisplayName: Quasar Breastplate
+		DisplayName: 类星体板甲
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2990,7 +2990,7 @@ Items: {
 	}
 
 	NovaHelmet: {
-		DisplayName: Quasar Helmet
+		DisplayName: 类星体头盔
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -2999,7 +2999,7 @@ Items: {
 	}
 
 	NovaLegs: {
-		DisplayName: Quasar Leggings
+		DisplayName: 类星体护胫
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -3009,7 +3009,7 @@ Items: {
 	}
 
 	SpaceJunkBody: {
-		DisplayName: Space Junk Chestplate
+		DisplayName: 太空垃圾板甲
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -3018,7 +3018,7 @@ Items: {
 	}
 
 	SpaceJunkHelm: {
-		DisplayName: Space Junk Helmet
+		DisplayName: 太空垃圾盔
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
@@ -3027,7 +3027,7 @@ Items: {
 	}
 
 	SpaceJunkLegs: {
-		DisplayName: Space Junk Boots
+		DisplayName: 太空垃圾靴
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
