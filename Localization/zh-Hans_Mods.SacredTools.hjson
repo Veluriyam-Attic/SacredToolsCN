@@ -313,7 +313,7 @@ Conversations are linked by key and array position. For example, Conversations.N
 Conversations: {
 	NihilusSpawn_First: {
 		0: 庞大到渗人的精神能量开始凝聚在方尖碑周围，此行务必谨慎！
-		1: 我会在边界外围戒备，必要时可以为你提供协助. 祝你好运. 
+		1: 我会在边界外围戒备，必要时可以为你提供协助. 祝你好运.
 	}
 
 	Nihilus_PhaseChange: {
@@ -425,9 +425,9 @@ BossMessage: {
 	SyrusEnd: 次元裂隙已经关闭!
 	NovanielSpawnMessage: 你在想什么？还没有结束呢...
 	NovanielCelestialJudgementMessage: 这并非针对个人，但不要阻挡我们的去路
-	NihilusHint1: 若说那般拙劣的表演竟是终章，简直是对它的侮辱，凡人. 
-	NihilusHint2: 真正的战斗这才刚刚开始。你将会受到不可名状的苦难. 而你所承受的苦难，仅仅是因为你帮助了那些……你称之为朋友的外人. 
-	NihilusHint3: 你将要用鲜血、灵魂、生命，以及死亡来付出代价. 我的计划不容他人干涉. 凡人，这是一则警告：保持警醒. 
+	NihilusHint1: 若说那般拙劣的表演竟是终章，简直是对它的侮辱，凡人.
+	NihilusHint2: 真正的战斗这才刚刚开始。你将会受到不可名状的苦难. 而你所承受的苦难，仅仅是因为你帮助了那些……你称之为朋友的外人.
+	NihilusHint3: 你将要用鲜血、灵魂、生命，以及死亡来付出代价. 我的计划不容他人干涉. 凡人，这是一则警告：保持警醒.
 	NihilusHint4: 你永远不知道下一个噩梦何时会悄然来袭……
 	TempleMessage: 丛林被刺目强光所笼罩……
 	RVGMessage: 来自另一个维度的生物正在进入我们的现实世界！
@@ -503,7 +503,7 @@ TooltipLabel: {
 	MagazineCurrent: "[弹药 {0}/{1}]"
 	MagazineReserve: "[储备 {0}]"
 	ReservesSpecial: " (特别)"
-	ReservesHeavy: "(重)"
+	ReservesHeavy: (重)
 }
 
 DropConditions: {
@@ -518,10 +518,10 @@ DropConditions: {
 }
 
 ChallengeItemHints: {
-	Decree: "“直面凛寒，无需庇护……”*"
-	Jensen: "“清风为伴，快然于大地……”*"
-	Araghur: "“深处回荡着灿烂能量……”"
-	Novaniel: "“无暇的，巅峰之时……速战速决. ”"
+	Decree: “直面凛寒，无需庇护……”*
+	Jensen: “清风为伴，快然于大地……”*
+	Araghur: “深处回荡着灿烂能量……”
+	Novaniel: “无暇的，巅峰之时……速战速决. ”
 }
 
 ExtraTooltip: {
@@ -585,7 +585,7 @@ Revenant: {
 	PenetrateTargetCount: 穿透{0}个目标
 	PierceBounce: 击中目标时反弹
 	PierceEmbed: 嵌入敌人
-	PierceRecall:命中敌人后自动返回
+	PierceRecall: 命中敌人后自动返回
 	IntrinsicRecall: Intrinsic Recall
 }
 
@@ -597,7 +597,7 @@ Sanguine: {
 SetBonus: {
 	AsthralMagic:
 		'''
-		
+
 		{$CommonItemTooltip.PercentIncreasedMagicDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
 		按下[{$Keybinds.AbilityPrimary.DisplayName}]以格挡光标方向的弹幕
@@ -663,13 +663,13 @@ SetBonus: {
 	Blightbone:
 		'''
 		   
-	    增强特定焦黑枯骨相关武器
+		   增强特定焦黑枯骨相关武器
 		'''
 	CairoCrusader:
 		'''
 
 		{$CommonItemTooltip.PercentChanceToSaveThrownItems}
-	    唤醒「永恒绿洲」加入到你的战斗
+		   唤醒「永恒绿洲」加入到你的战斗
 		双击[下]来在「主动模式」与「被动模式」切换
 		'''
 	Frosthunter:
@@ -806,12 +806,12 @@ Town: {
 	Erazor7: 「安泰」.. 我的老朋友.. 我一定会完成我们的研究...
 	Erazor8: 你和「尼尔」谈过了吗? 我听说那些恶臭的腐化又在蔓延了
 	Erazor9: 我一直随身佩戴此剑... 它有着和我女儿一样的名字, 大约五十年前的一场悲剧中我永远地失去了我的爱女，「雅瑞娅」
-	Erazor10: 我发现有几个强大的存在出现了「星蚀」的症状. 如果你感到了危险并愿意找到一些侵蚀样本，我想你能做到的. 一般来说越是神秘、千变万化的地方更可能拥有更多被侵蚀的存在. 
-	ErazorNuba: 不幸的是，「云珀」和她的族裔们似乎总是陷入麻烦之中. 我感到……内疚. 因为我应该为此负责. 
-	ErazorObelisk0: 年轻人，看起来你已经准备好一切了. 「亚巴顿」已经准备好开始他的计划了，准备好你的「圣遗」武器去阻止他吧! 
-	ErazorObelisk1: 勇士，确保你带上了你的「圣遗」，只有它才能让你击破那些存在的防御. 
+	Erazor10: 我发现有几个强大的存在出现了「星蚀」的症状. 如果你感到了危险并愿意找到一些侵蚀样本，我想你能做到的. 一般来说越是神秘、千变万化的地方更可能拥有更多被侵蚀的存在.
+	ErazorNuba: 不幸的是，「云珀」和她的族裔们似乎总是陷入麻烦之中. 我感到……内疚. 因为我应该为此负责.
+	ErazorObelisk0: 年轻人，看起来你已经准备好一切了. 「亚巴顿」已经准备好开始他的计划了，准备好你的「圣遗」武器去阻止他吧!
+	ErazorObelisk1: 勇士，确保你带上了你的「圣遗」，只有它才能让你击破那些存在的防御.
 	ErazorNeedRelic0: 第一步已经成功，但是如果你想要消灭这些存在必须要有一件「圣遗」
-	ErazorNeedRelic1: 没有「圣遗」你无法对那些存在造成任何妨害. 
+	ErazorNeedRelic1: 没有「圣遗」你无法对那些存在造成任何妨害.
 	ErazorNeedAsthral0: 你打败了我，但是你还没有做足准备. 你需要更加努力锻炼自己，同时搞到一整套「龙愠晶」盔甲来保护你
 	ErazorNeedAsthral1: 如果你想要阻止「亚巴顿」的计划会需要「龙愠晶」盔甲的. 这是抵御那些存在所产生的破坏性能量的唯一手段
 	ErazorDeclineFight:
@@ -835,18 +835,17 @@ Town: {
 	Neil3: 你在附近看见过一只巨大的红眼生化鸡吗？很好，你应该感谢我
 	Neil4: 蜥蜴人是蜥蜴还是人？
 	Neil5: 你是内个内个内个内- 等等，嗯？哦没事，没事. 你继续忙你的事情吧
-	Neil6: 你可能在好奇我会拿这些材料做什么吗？唔，我自己也不知道，赛勒斯上可没有这些. 我想我可能会把他们扔到一起然后看看会发生什么吧哈哈. 
+	Neil6: 你可能在好奇我会拿这些材料做什么吗？唔，我自己也不知道，赛勒斯上可没有这些. 我想我可能会把他们扔到一起然后看看会发生什么吧哈哈.
 	Neil7: 我不确定我是不是出现了什么幻觉，但是就在我和一个穿着超大牛仔裤的火箭冰淇淋人打完招呼后，看到了外面有一些飞着的眼球
 	Neil8: 嘿, 兄弟. 你肩膀上有一个，呃……手——哈哈吓到你了吧
-	Neil9: 你可能认为我们赛尔里安特人
-对门很头疼, 但是... 兄弟, 那不是真的. 别信他们的谎言.
+	Neil9: 你可能认为我们赛尔里安特人对门很头疼, 但是... 兄弟, 那不是真的. 别信他们的谎言.
 	Neil10: 啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
 	Neil11: 开门爬进来，趴地别乱动，一起模仿剑龙甩尾巴！
 	Neil12: 我最近检查你的报告了, 你又把“亚巴顿”拼错了，不是“阿巴顿”
 	Neil13: 新药水，你是？
 	Neil14: 砰! 砰! 嘣! 嘣! 啊哈哈哈哈哈哈- 哦, 嗨!.
 	Neil15: 治疗药水上的线条数……真的有实际意义吗?它们是和某个数学公式对应吗?在你的世界里，有没有某种权威机构专门负责监督这个标签?
-	Neil16: 哈. 哈哈哈. 哈哈哈哈哈. 哈哈哈哈哈哈哈. 
+	Neil16: 哈. 哈哈哈. 哈哈哈哈哈. 哈哈哈哈哈哈哈.
 	Neil17: 他们称我为毒品机器——不他们没有停止撒谎
 	Neil18: 我的头后面有七个舌头
 	Neil19: 是的我现在每周三都复用大剂量药物
@@ -861,9 +860,9 @@ Town: {
 	NeilShroom: 蘑菇? 蘑菇菇菇菇菇菇. 蘑菇菇菇菇菇菇菇菇菇菇菇. 哦, 什么? 我只是拿了点样本放到电路中, 我想他们会有美妙的声音的. -是-的-, 这-完-全-算是研究, 你是什么意思?
 	NeilTrade: 交易物品
 	NeilErosion: 侵蚀状态
-	NeilErosionGone: 看起来今天的侵蚀已经退去了，等它再次出现时我会通知你. 
+	NeilErosionGone: 看起来今天的侵蚀已经退去了，等它再次出现时我会通知你.
 	NeilErosionUG: 你知道那个充满岩石的地方吗? 唔, 那有水晶蠕虫. 是的, 蠕虫. 我恨蠕虫. 去杀了它们. // -臣-服-于-蠕-虫-吧-. -臣-服-于-蠕-虫-.
-	NeilErosionUGHallow: 看起来彩虹之地也未能幸免于难，有一些侵蚀需要清除. 
+	NeilErosionUGHallow: 看起来彩虹之地也未能幸免于难，有一些侵蚀需要清除.
 	NeilErosionUGEvil: 紫色的眼球……紫色的牙齿……紫色的肉……呃。去除任何被侵蚀的东西，让它不那么恶心。
 	NeilErosionSky: 不. 这什么都没有. 放弃吧.
 	NeilErosionUGDesert: 有报道称，沙漠洞穴中传来了震耳欲聋的尖叫声，同时还存在潜在的侵蚀能量。去调查一下吧。
@@ -877,7 +876,7 @@ Town: {
 	Pandolar4: 有时我想舔冰块...
 	Pandolar5: 有什么要交易的吗?
 	Pandolar6: 需要什么吗??
-	Pandolar7: 谢天谢地我搞到了这套散热套装, 要是没有这些「凛寒」晶体我早就被熔化了. 
+	Pandolar7: 谢天谢地我搞到了这套散热套装, 要是没有这些「凛寒」晶体我早就被熔化了.
 	Pandolar8: 闻起来有点烧焦的味道, 你是掉进火山了还是怎么了？
 	Pandolar9: 有个神话说人类沐浴在怪物的血水中会成为突变体, 我希望你不会也变成这样
 	Pandolar10: Danim Zedonibēùs
@@ -889,7 +888,7 @@ Town: {
 	PandolarNuba: 很高兴看到「云珀」终于明白了他们没办法让死去的父亲复活, 她会帮我我们找到回到赛勒斯的路的
 	PandolarPreSiblings: 「诺瓦尼尔」和他的族裔们，「失落族裔」和「诺赫拉尔」的孩子们. 我看到他们也掉进了裂隙里. 我不知道他们要去做什么, 但是应该和这个世界的月亮有关
 	PandolarPreAraghur: 几个和我一起来自「赛勒斯」的人也被卷入了裂隙之中. 我们应该聚集在一起找到回去的办法
-	PandolarPreAbaddon: 我正要返回Ariketik, 带回被俘虏的「裁决」, 这时候，「赛勒斯」的天空顷刻间阴沉下来，而后我还没来得及弄清楚我到了什么地方，就先一头装上了雪原 
+	PandolarPreAbaddon: 我正要返回Ariketik, 带回被俘虏的「裁决」, 这时候，「赛勒斯」的天空顷刻间阴沉下来，而后我还没来得及弄清楚我到了什么地方，就先一头装上了雪原
 	PandolarParty: 派对很棒. 气球, 摇曳的灯光, 音乐... 唯一缺少的就是一个巨大冰雕.
 	PandolarEnhancement: 强化「潮遗黏尸」
 	PandolarSalvageButton: 拾荒物资
@@ -899,9 +898,9 @@ Town: {
 	PandolarSalvageGems: 我前几天出游时找到一些可能对你有用的东西.给, 这就是.
 	PandolarSalvageCorruption: 有趣的是，这整条腐化蠕虫完全是由魔矿锭和暗影鳞片构成的. 说到他们，拿回你落下的东西吧
 	PandolarSalvageCrimson: 哪些围绕在大脑周围的飞眼怪真是名副其实.拿走你落下的组织样本和猩红矿锭, 我再也不希望他们出现在我的脑海里了
-	PandolarSalvageDungeon: 我依稀能够辨别那些骷髅是谁……他们是我偷——呃我买过东西的商人! 拿走你掉在这的骨肉. 
-	PandolarSalvageWax: 研究丛林的蜂巢时，我发现了一个完全被破坏的蜂巢中残留的蜂蜡. 回来时路过了一片南瓜地顺带摘了几个，或许对你有用? 
-	PandolarSalvageHM: 我准备向导被杀害后去洞穴里探险. 但是天哪，我不知道你都在下面干了什么, 但是情况变遭了很多! 给点。我从下面找到的吧. 
+	PandolarSalvageDungeon: 我依稀能够辨别那些骷髅是谁……他们是我偷——呃我买过东西的商人! 拿走你掉在这的骨肉.
+	PandolarSalvageWax: 研究丛林的蜂巢时，我发现了一个完全被破坏的蜂巢中残留的蜂蜡. 回来时路过了一片南瓜地顺带摘了几个，或许对你有用?
+	PandolarSalvageHM: 我准备向导被杀害后去洞穴里探险. 但是天哪，我不知道你都在下面干了什么, 但是情况变遭了很多! 给点。我从下面找到的吧.
 	PandolarSalvageMech: I noticed some scrap metal that fell off those mechanical creatures you fought earlier. Don't be deceived by our love of cold, us Pandolars are great blacksmiths!
 	PandolarSalvageRaynare: After your battle with the Harpy Queen, feathers were scattered EVRYWHERE. I think I may have even found some of Jensen's lying in there too...
 	PandolarSalvageLihzahrd: I dropped by the jungle temple earlier, and found some fragments of some sort of tablet along with a couple loose bricks. The bricks almost look like they could be used in some sort of bar...
@@ -2333,7 +2332,7 @@ Items: {
 	}
 
 	RoyalRunners: {
-		DisplayName: 帝驰
+		DisplayName: 皇家跑鞋
 		Tooltip:
 			'''
 			可飞行、飞速奔跑，并提供额外冰面行动力
@@ -2383,7 +2382,7 @@ Items: {
 			对火块免疫并在15秒内对熔岩免疫
 			减少因触碰熔岩而受到的伤害
 			+30%飞行时间
-		    +200%跳跃速度和跳跃高度，消除掉落伤害
+			   +200%跳跃速度和跳跃高度，消除掉落伤害
 			{$ItemTooltip.MasterNinjaGear}
 			'''
 	}
@@ -3289,7 +3288,7 @@ Items: {
 
 	Blightbone: {
 		DisplayName: 焦黑枯骨
-		Tooltip: "“一切生命都已凋零”"
+		Tooltip: “一切生命都已凋零”
 	}
 
 	DarkMist: {
@@ -3329,16 +3328,16 @@ Items: {
 
 	ErosionSample: {
 		DisplayName: 侵蚀样本
-		Tooltip: "'A highly volatile remnant of an eroded being'"
+		Tooltip: “一个被侵蚀的生命留下的残躯”
 	}
 
 	FieryExtract: {
-		DisplayName: Fiery Extract
-		Tooltip: "'Thermal Flow essence, extracted from the remains of Araghur's shell'"
+		DisplayName: 沸腾提取物
+		Tooltip: “从阿加尔外壳中提取的热流精华”
 	}
 
 	FieryFin: {
-		DisplayName: Fiery Fin
+		DisplayName: 赤焰鱼
 		Tooltip: ""
 	}
 
