@@ -901,7 +901,7 @@ Town: {
 	PandolarSalvageCrimson: 哪些围绕在大脑周围的飞眼怪真是名副其实.拿走你落下的组织样本和猩红矿锭, 我再也不希望他们出现在我的脑海里了
 	PandolarSalvageDungeon: 我依稀能够辨别那些骷髅是谁……他们是我偷——呃我买过东西的商人! 拿走你掉在这的骨肉. 
 	PandolarSalvageWax: 研究丛林的蜂巢时，我发现了一个完全被破坏的蜂巢中残留的蜂蜡. 回来时路过了一片南瓜地顺带摘了几个，或许对你有用? 
-	PandolarSalvageHM: 我准备向导被杀害后去洞穴里探险. 但是天哪，我不知道你都在下面干了什么, 但是情况变遭了很多! 这是我从下面找到的吧. 
+	PandolarSalvageHM: 我准备向导被杀害后去洞穴里探险. 但是天哪，我不知道你都在下面干了什么, 但是情况变遭了很多! 这是我从下面找到的. 
 	PandolarSalvageMech: I noticed some scrap metal that fell off those mechanical creatures you fought earlier. Don't be deceived by our love of cold, us Pandolars are great blacksmiths!
 	PandolarSalvageRaynare: After your battle with the Harpy Queen, feathers were scattered EVRYWHERE. I think I may have even found some of Jensen's lying in there too...
 	PandolarSalvageLihzahrd: I dropped by the jungle temple earlier, and found some fragments of some sort of tablet along with a couple loose bricks. The bricks almost look like they could be used in some sort of bar...
@@ -2333,7 +2333,7 @@ Items: {
 	}
 
 	RoyalRunners: {
-		DisplayName: 帝驰
+		DisplayName: 皇家跑鞋
 		Tooltip:
 			'''
 			可飞行、飞速奔跑，并提供额外冰面行动力
@@ -3329,16 +3329,16 @@ Items: {
 
 	ErosionSample: {
 		DisplayName: 侵蚀样本
-		Tooltip: "'A highly volatile remnant of an eroded being'"
+		Tooltip: “一个被侵蚀的生命留下的残躯”
 	}
 
 	FieryExtract: {
-		DisplayName: Fiery Extract
-		Tooltip: "'Thermal Flow essence, extracted from the remains of Araghur's shell'"
+		DisplayName: 沸腾提取物
+		Tooltip: “从阿加尔外壳中提取的热流精华”
 	}
 
 	FieryFin: {
-		DisplayName: Fiery Fin
+		DisplayName: 赤焰鱼
 		Tooltip: ""
 	}
 
