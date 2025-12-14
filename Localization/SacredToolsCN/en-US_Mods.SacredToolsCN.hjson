@@ -8,4 +8,36 @@ CommonItemTooltip: {
 	PercentIncreasedSummonDamage: +{0}% Summon Damage
 	# {$CommonItemTooltip.PercentIncreasedSummonDamage -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage
 	IncreasesMaxSentriesBy: +{0} Sentries slot
+	# {$CommonItemTooltip.PercentIncreasedMovementSpeed -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed
+	PercentIncreasedMovementSpeed: +{0}% Movement Speed
+	# {$CommonItemTooltip.IncreasesMaxMinionsBy -> {$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy
+	IncreasesMaxMinionsBy: +{0} Minion slot
+	# {$CommonItemTooltip.PercentIncreasedRangedDamage -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage
+	PercentIncreasedRangedDamage: +{0}% Ranged Damage
+	# {$CommonItemTooltip.PercentIncreasedRangedCritChance -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedCritChance
+	PercentIncreasedRangedCritChance: +{0}% Ranged Crit Chance
+	# {$CommonItemTooltip.PercentIncreasedMeleeCritChance -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeCritChance
+	PercentIncreasedMeleeCritChance: +{0}% Melee Crit Chance
+	# {$CommonItemTooltip.PercentIncreasedMeleeDamage -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeDamage
+	PercentIncreasedMeleeDamage: +{0}% Melee Damage
+	# {$CommonItemTooltip.PercentIncreasedMagicDamage -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage
+	PercentIncreasedMagicDamage: +{0}% Magic Damage
+	# {$CommonItemTooltip.PercentIncreasedMagicCritChance -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicCritChance
+	PercentIncreasedMagicCritChance: +{0}% Magic Crit Chance
+	# {$CommonItemTooltip.PercentIncreasedDamage -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage
+	PercentIncreasedDamage: +{0}% Damage
+	# {$CommonItemTooltip.PercentIncreasedCritChance -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedCritChance
+	PercentIncreasedCritChance: +{0}% Crit Chance
+	# {$CommonItemTooltip.PercentIncreasedMeleeSpeed -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeSpeed
+	PercentIncreasedMeleeSpeed: +{0}% Melee Attack Speed
+	# {$CommonItemTooltip.PercentReducedManaCost -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentReducedManaCost
+	PercentReducedManaCost: -{0}% Mana Cost
+	# {$CommonItemTooltip.IncreasesMaxManaBy -> {$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxManaBy
+	IncreasesMaxManaBy: +{0} Max Mana
+	# {$CommonItemTooltip.PercentChanceToSaveAmmo -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo
+	PercentChanceToSaveAmmo: +{0}% Chance to save Ammo
+	# {$CommonItemTooltip.PercentChanceToSaveThrownItems -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveThrownItems
+	PercentChanceToSaveThrownItems: +{0}% Chance to save thrown items
+	# {$CommonItemTooltip.ReducesDamageTakenByPercent -> {$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent
+	ReducesDamageTakenByPercent: -{0}% Damage taken by
 }

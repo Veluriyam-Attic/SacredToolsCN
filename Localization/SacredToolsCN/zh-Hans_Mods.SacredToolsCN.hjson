@@ -8,4 +8,36 @@ CommonItemTooltip: {
 	PercentIncreasedSummonDamage: +{0}%召唤伤害
 	# {$CommonItemTooltip.PercentIncreasedSummonDamage -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage
 	IncreasesMaxSentriesBy: +{0}哨兵栏
+	# {$CommonItemTooltip.PercentIncreasedMovementSpeed -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed
+	PercentIncreasedMovementSpeed: +{0}%移动速度
+	# {$CommonItemTooltip.IncreasesMaxMinionsBy -> {$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy
+	IncreasesMaxMinionsBy: +{0}仆从栏
+	# {$CommonItemTooltip.PercentIncreasedRangedDamage -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage
+	PercentIncreasedRangedDamage: +{0}%远程伤害
+	# {$CommonItemTooltip.PercentIncreasedRangedCritChance -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedCritChance
+	PercentIncreasedRangedCritChance: +{0}%远程暴击率
+	# {$CommonItemTooltip.PercentIncreasedMeleeCritChance -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeCritChance
+	PercentIncreasedMeleeCritChance: +{0}%近战暴击率
+	# {$CommonItemTooltip.PercentIncreasedMeleeDamage -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeDamage
+	PercentIncreasedMeleeDamage: +{0}%近战伤害
+	# {$CommonItemTooltip.PercentIncreasedMagicDamage -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage
+	PercentIncreasedMagicDamage: +{0}%魔法伤害
+	# {$CommonItemTooltip.PercentIncreasedMagicCritChance -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicCritChance
+	PercentIncreasedMagicCritChance: +{0}%魔法暴击率
+	# {$CommonItemTooltip.PercentIncreasedDamage -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage
+	PercentIncreasedDamage: +{0}%伤害
+	# {$CommonItemTooltip.PercentIncreasedCritChance -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedCritChance
+	PercentIncreasedCritChance: +{0}%暴击率
+	# {$CommonItemTooltip.PercentIncreasedMeleeSpeed -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeSpeed
+	PercentIncreasedMeleeSpeed: +{0}%近战攻速
+	# {$CommonItemTooltip.PercentReducedManaCost -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentReducedManaCost
+	PercentReducedManaCost: -{0}%魔力消耗
+	# {$CommonItemTooltip.IncreasesMaxManaBy -> {$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxManaBy
+	IncreasesMaxManaBy: +{0}最大魔力值
+	# {$CommonItemTooltip.PercentChanceToSaveAmmo -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo
+	PercentChanceToSaveAmmo: +{0}%不消耗弹药概率
+	# {$CommonItemTooltip.PercentChanceToSaveThrownItems -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveThrownItems
+	PercentChanceToSaveThrownItems: +{0}%投掷物可回收概率
+	# {$CommonItemTooltip.ReducesDamageTakenByPercent -> {$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent
+	ReducesDamageTakenByPercent: -{0}%收到的伤害
 }

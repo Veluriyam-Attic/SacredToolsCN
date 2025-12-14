@@ -597,7 +597,7 @@ Sanguine: {
 SetBonus: {
 	AsthralMagic:
 		'''
-		{$CommonItemTooltip.PercentIncreasedMagicDamage}
+		{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
 		Press [{$Keybinds.AbilityPrimary.DisplayName}] to parry incoming attacks in the direction of the cursor
 		Successfully parrying an attack will grant 1 second of invincibility and knock the player backwards
@@ -608,7 +608,7 @@ SetBonus: {
 		'''
 	AsthralMelee:
 		'''
-		{$CommonItemTooltip.PercentIncreasedMeleeDamage}
+		{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
 		Press [{$Keybinds.AbilityPrimary.DisplayName}] to parry incoming attacks in the direction of the cursor
 		Successfully parrying an attack will grant 1 second of invincibility and knock the player backwards
@@ -619,7 +619,7 @@ SetBonus: {
 		'''
 	AsthralRanged:
 		'''
-		{$CommonItemTooltip.PercentIncreasedRangedDamage}
+		{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
 		Press [{$Keybinds.AbilityPrimary.DisplayName}] to parry incoming attacks in the direction of the cursor
 		Successfully parrying an attack will grant 1 second of invincibility and knock the player backwards
@@ -630,7 +630,7 @@ SetBonus: {
 		'''
 	AsthralSummon:
 		'''
-		{$CommonItemTooltip.PercentIncreasedSummonDamage}
+		{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
 		Press [{$Keybinds.AbilityPrimary.DisplayName}] to parry incoming attacks in the direction of the cursor
 		Successfully parrying an attack will grant 1 second of invincibility and knock the player backwards
@@ -654,7 +654,7 @@ SetBonus: {
 	Blightbone: Empowers certain bone-related weapons
 	CairoCrusader:
 		'''
-		{$CommonItemTooltip.PercentChanceToSaveThrownItems}
+		{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveThrownItems}
 		Awakens Eternal Oasis to aid you in battle
 		Double tap down to switch between active and passive
 		'''
@@ -672,7 +672,7 @@ SetBonus: {
 	Eerie: Minion damage grants increased life regeneration
 	Lapis:
 		'''
-		{$CommonItemTooltip.PercentIncreasedMovementSpeed}
+		{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}
 		After taking damage movement speed is increased by 20% for a short time
 		'''
 	BlazingBrute:
@@ -727,7 +727,7 @@ SetBonus: {
 		'''
 	SpaceJunk:
 		'''
-		{$CommonItemTooltip.PercentChanceToSaveThrownItems}
+		{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveThrownItems}
 		Damaging enemies will occasionally call upon a meteor to fall from the sky
 		'''
 	VulcanReaper: Provides immunity to Flarium Inferno and Obsidian Curse
@@ -1048,7 +1048,7 @@ Buffs: {
 		Description:
 			'''
 			'I am speed'
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}
 			'''
 	}
 
@@ -1087,11 +1087,11 @@ Buffs: {
 			'''
 			'You are ready for battle.'
 			Defense increased by {0}, life regen increased by {1}
-			{$CommonItemTooltip.PercentIncreasedDamage@2}
-			{$CommonItemTooltip.PercentIncreasedCritChance@3}
-			{$CommonItemTooltip.ReducesDamageTakenByPercent@4}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@5}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@6}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedCritChance@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent@4}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@5}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@6}
 			'''
 	}
 
@@ -1102,7 +1102,7 @@ Buffs: {
 
 	ExtraEnduranceBuff: {
 		DisplayName: Draconium Skin
-		Description: "{$CommonItemTooltip.ReducesDamageTakenByPercent}"
+		Description: "{$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent}"
 	}
 
 	ExtraFishBuff: {
@@ -1177,7 +1177,7 @@ Buffs: {
 
 	AraghurDefenseBuff: {
 		DisplayName: Undying
-		Description: "{$CommonItemTooltip.ReducesDamageTakenByPercent}"
+		Description: "{$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent}"
 	}
 
 	CasterSacrificeDebuff: {
@@ -1222,12 +1222,12 @@ Buffs: {
 
 	NubaArmorDamageBuff: {
 		DisplayName: Nebulous Flame - Damage
-		Description: "{$CommonItemTooltip.PercentIncreasedDamage}"
+		Description: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}"
 	}
 
 	NubaArmorDefenseBuff: {
 		DisplayName: Nebulous Flame - Defense
-		Description: "{$CommonItemTooltip.ReducesDamageTakenByPercent}"
+		Description: "{$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent}"
 	}
 
 	NubaArmorHealthBuff: {
@@ -1242,7 +1242,7 @@ Buffs: {
 
 	NubaArmorSpeedBuff: {
 		DisplayName: Nebulous Flame - Speed
-		Description: "{$CommonItemTooltip.PercentIncreasedMovementSpeed}"
+		Description: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}"
 	}
 
 	PerkisasBuff: {
@@ -1886,9 +1886,9 @@ Items: {
 		DisplayName: Memento Mori
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedDamage}
-			{$CommonItemTooltip.PercentIncreasedCritChance@1}
-			{$CommonItemTooltip.IncreasesMaxMinionsBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy@2}
 			{$CommonItemTooltip.IncreasesMaxSentriesBy@3}
 			{$CommonItemTooltip.RageSuppression}
 			'''
@@ -1898,8 +1898,8 @@ Items: {
 		DisplayName: Nebula Sigil
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMagicDamage}
-			{$CommonItemTooltip.PercentIncreasedMagicCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicCritChance@1}
 			'''
 	}
 
@@ -1916,8 +1916,8 @@ Items: {
 		DisplayName: Solar Sigil
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMeleeDamage}
-			{$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
 			'''
 	}
 
@@ -1925,8 +1925,8 @@ Items: {
 		DisplayName: Stardust Sigil
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedSummonDamage}
-			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy@1}
 			{$CommonItemTooltip.IncreasesMaxSentriesBy@2}
 			'''
 	}
@@ -1935,8 +1935,8 @@ Items: {
 		DisplayName: Vortex Sigil
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedRangedDamage}
-			{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedCritChance@1}
 			'''
 	}
 
@@ -2107,7 +2107,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.IncreasesMaxSentriesBy}
-			{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage@1}
 			Sentries have a chance to cause a devastating stardust explosion on enemy hits
 			'They will not break us, they will break upon us'
 			'''
@@ -2137,7 +2137,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.FlariumInfernoImmunity}
-			{$CommonItemTooltip.IncreasesMaxLifeBy}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy}
 			'''
 	}
 
@@ -2245,7 +2245,7 @@ Items: {
 		DisplayName: Radiant Amulet
 		Tooltip:
 			'''
-			{$CommonItemTooltip.IncreasesMaxMinionsBy}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy}
 			Increases minion knockback and damage by 15%
 			Minion attacks inflict Cursed Inferno and Shadowflame
 			Sentry attacks inflict Ichor
@@ -2267,7 +2267,7 @@ Items: {
 			{$CommonItemTooltip.MinorStats}
 			{$CommonItemTooltip.PaladinsShieldEffect}
 			Has a 10% chance of blocking a hostile projectile
-			{$CommonItemTooltip.IncreasesMaxLifeBy}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy}
 			This item's effects are only active in True Mode
 			'''
 	}
@@ -2286,7 +2286,7 @@ Items: {
 		Tooltip:
 			'''
 			Allows flight, super fast running, and extra mobility on ice
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}
 			Provides the ability to walk on water, honey & lava
 			Grants immunity to fire blocks and 10 seconds of immunity to lava
 			Reduces damage from touching lava
@@ -2299,9 +2299,9 @@ Items: {
 		DisplayName: Starstream Veil
 		Tooltip:
 			'''
-			{$CommonItemTooltip.IncreasesMaxMinionsBy}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy}
 			{$CommonItemTooltip.IncreasesMaxSentriesBy@1}
-			{$CommonItemTooltip.PercentIncreasedSummonDamage@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage@2}
 			Minion attacks inflict Lunar Burn
 			Sentry attacks inflict Ichor and have a chance to cause a devastating stardust explosion
 			'Show caution, a dead warrior wins no battles'
@@ -2327,7 +2327,7 @@ Items: {
 			'''
 			'If Abaddon had feet, he'd probably wear these'
 			Allows flight, incredibly fast running, and extra mobility on ice
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}
 			Provides the ability to walk on water, honey & lava
 			Grants immunity to fire blocks and 15 seconds of immunity to lava
 			Reduces damage from touching lava
@@ -2386,7 +2386,7 @@ Items: {
 		DisplayName: Asthraltite Breastplate
 		Tooltip:
 			'''
-			{$CommonItemTooltip.IncreasesMaxLifeBy}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy}
 			{$CommonItemTooltip.MajorLifeRegen}
 			'''
 	}
@@ -2395,8 +2395,8 @@ Items: {
 		DisplayName: Asthraltite Robes
 		Tooltip:
 			'''
-			{$CommonItemTooltip.IncreasesMaxLifeBy}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
 
@@ -2404,11 +2404,11 @@ Items: {
 		DisplayName: Asthraltite Hood
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentReducedManaCost}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentReducedManaCost}
 			{$CommonItemTooltip.MajorManaRegen}
-			{$CommonItemTooltip.PercentIncreasedMagicCritChance@1}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@2}
-			{$CommonItemTooltip.IncreasesMaxManaBy@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxManaBy@3}
 			'''
 	}
 
@@ -2416,9 +2416,9 @@ Items: {
 		DisplayName: Asthraltite Helmet
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMeleeSpeed}
-			{$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeSpeed}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			'''
 	}
 
@@ -2426,9 +2426,9 @@ Items: {
 		DisplayName: Asthraltite Visor
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
-			{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			'''
 	}
 
@@ -2436,9 +2436,9 @@ Items: {
 		DisplayName: Asthraltite Mask
 		Tooltip:
 			'''
-			{$CommonItemTooltip.IncreasesMaxMinionsBy}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy}
 			{$CommonItemTooltip.IncreasesMaxSentriesBy@1}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			'''
 	}
 
@@ -2449,7 +2449,7 @@ Items: {
 			{$CommonItemTooltip.PercentIncreasedLanceReadySpeed}
 			{$CommonItemTooltip.PercentIncreasedKnifeVelocity@1}
 			{$CommonItemTooltip.PercentIncreasedKineticCritChance@2}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@3}
 			'''
 	}
 
@@ -2457,22 +2457,22 @@ Items: {
 		DisplayName: Bismuth Breastplate
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMagicDamage}
-			{$CommonItemTooltip.PercentReducedManaCost@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentReducedManaCost@1}
 			'''
 	}
 
 	BismuthHelm: {
 		DisplayName: Bismuth Helmet
-		Tooltip: "{$CommonItemTooltip.PercentIncreasedMagicDamage}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage}"
 	}
 
 	BismuthLegs: {
 		DisplayName: Bismuth Greaves
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMagicDamage}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
 
@@ -2486,7 +2486,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
 
@@ -2504,7 +2504,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
 
@@ -2528,20 +2528,20 @@ Items: {
 
 	FrosthunterBoots: {
 		DisplayName: Frosthunter Boots
-		Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamage}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}"
 	}
 
 	FrosthunterHeaddress: {
 		DisplayName: Frosthunter Headdress
-		Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamage}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}"
 	}
 
 	FrosthunterWrappings: {
 		DisplayName: Frosthunter Wrappings
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedRangedDamage}
-			{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedCritChance@1}
 			'''
 	}
 
@@ -2549,7 +2549,7 @@ Items: {
 		DisplayName: Flarium Breastplate
 		Tooltip:
 			'''
-			{$CommonItemTooltip.IncreasesMaxLifeBy}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy}
 			{$CommonItemTooltip.MajorLifeRegen}
 			'''
 	}
@@ -2561,8 +2561,8 @@ Items: {
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
 			{$CommonItemTooltip.PercentIncreasedKineticCritChance@1}
 			{$CommonItemTooltip.PercentIncreasedKineticSpeed@2}
-			{$CommonItemTooltip.PercentChanceToSaveThrownItems@3}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@4}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveThrownItems@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@4}
 			'''
 	}
 
@@ -2570,10 +2570,10 @@ Items: {
 		DisplayName: Flarium Crown
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedSummonDamage}
-			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy@1}
 			{$CommonItemTooltip.IncreasesMaxSentriesBy@2}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@3}
 			'''
 	}
 
@@ -2581,10 +2581,10 @@ Items: {
 		DisplayName: Flarium Helmet
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMeleeDamage}
-			{$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
-			{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@3}
 			'''
 	}
 
@@ -2592,11 +2592,11 @@ Items: {
 		DisplayName: Flarium Hood
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMagicDamage}
-			{$CommonItemTooltip.PercentIncreasedMagicCritChance@1}
-			{$CommonItemTooltip.PercentReducedManaCost@2}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@3}
-			{$CommonItemTooltip.IncreasesMaxManaBy@4}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentReducedManaCost@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxManaBy@4}
 			'''
 	}
 
@@ -2604,8 +2604,8 @@ Items: {
 		DisplayName: Flarium Leg Plates
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@1}
 			'''
 	}
 
@@ -2613,10 +2613,10 @@ Items: {
 		DisplayName: Flarium Headguard
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedRangedDamage}
-			{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-			{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@3}
 			'''
 	}
 
@@ -2624,8 +2624,8 @@ Items: {
 		DisplayName: Dreadfire Mask
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedSummonDamage}
-			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy@1}
 			'''
 	}
 
@@ -2633,22 +2633,22 @@ Items: {
 		DisplayName: Dreadfire Plate
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedSummonDamage}
-			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy@1}
 			'''
 	}
 
 	DreadfireBoots: {
 		DisplayName: Dreadfire Boots
-		Tooltip: "{$CommonItemTooltip.PercentIncreasedSummonDamage}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}"
 	}
 
 	EerieChest: {
 		DisplayName: Eerie Chestpiece
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedSummonDamage}
-			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy@1}
 			'''
 	}
 
@@ -2656,14 +2656,14 @@ Items: {
 		DisplayName: Eerie Helmet
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedSummonDamage}
-			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy@1}
 			'''
 	}
 
 	EerieLegs: {
 		DisplayName: Eerie Greaves
-		Tooltip: "{$CommonItemTooltip.PercentIncreasedSummonDamage}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}"
 	}
 
 	ExodusChest: {
@@ -2685,8 +2685,8 @@ Items: {
 		DisplayName: Lapis Breastplate
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedRangedDamage}
-			{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedCritChance@1}
 			'''
 	}
 
@@ -2694,25 +2694,25 @@ Items: {
 		DisplayName: Lapis Helmet
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedRangedDamage}
-			{$CommonItemTooltip.PercentChanceToSaveAmmo@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo@1}
 			'''
 	}
 
 	LapisLegs: {
 		DisplayName: Lapis Greaves
-		Tooltip: "{$CommonItemTooltip.PercentChanceToSaveAmmo}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}"
 	}
 
 	NubaChest: {
 		DisplayName: Garb of Saving Grace
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMagicDamage}
-			{$CommonItemTooltip.PercentIncreasedMagicCritChance@1}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			{$CommonItemTooltip.MajorLifeRegen}
-			{$CommonItemTooltip.IncreasesMaxManaBy@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxManaBy@3}
 			'''
 	}
 
@@ -2720,7 +2720,7 @@ Items: {
 		DisplayName: Hood of Saving Grace
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMagicDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage}
 			{$CommonItemTooltip.MajorManaRegen}
 			'''
 	}
@@ -2729,10 +2729,10 @@ Items: {
 		DisplayName: Robes of Saving Grace
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMagicDamage}
-			{$CommonItemTooltip.PercentReducedManaCost@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentReducedManaCost@1}
 			{$CommonItemTooltip.MajorManaRegen}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@2}
 			'''
 	}
 
@@ -2741,7 +2741,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
 
@@ -2752,7 +2752,7 @@ Items: {
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
 			{$CommonItemTooltip.PercentIncreasedKineticCritChance@1}
 			{$CommonItemTooltip.PercentIncreasedKineticSpeed@2}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@3}
 			{$CommonItemTooltip.MajorLifeRegen}
 			'''
 	}
@@ -2762,7 +2762,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
-			{$CommonItemTooltip.PercentChanceToSaveThrownItems@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveThrownItems@1}
 			'''
 	}
 
@@ -2770,8 +2770,8 @@ Items: {
 		DisplayName: Helm of the Unrelenting Rival
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMeleeDamage}
-			{$CommonItemTooltip.PercentIncreasedMeleeSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeSpeed@1}
 			'''
 	}
 
@@ -2779,8 +2779,8 @@ Items: {
 		DisplayName: Greaves of the Unrelenting Rival
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMeleeDamage}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
 
@@ -2788,9 +2788,9 @@ Items: {
 		DisplayName: Plate of the Unrelenting Rival
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMeleeDamage}
-			{$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			{$CommonItemTooltip.MajorLifeRegen}
 			'''
 	}
@@ -2799,9 +2799,9 @@ Items: {
 		DisplayName: Spirit Medium's Garb
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedSummonDamage}
-			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			{$CommonItemTooltip.MajorLifeRegen}
 			'''
 	}
@@ -2810,7 +2810,7 @@ Items: {
 		DisplayName: Spirit Medium's Circlet
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedSummonDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
 			{$CommonItemTooltip.IncreasesMaxSentriesBy@1}
 			'''
 	}
@@ -2819,8 +2819,8 @@ Items: {
 		DisplayName: Spirit Medium's Robes
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedSummonDamage}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
 
@@ -2828,8 +2828,8 @@ Items: {
 		DisplayName: Soran Forces Strides
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedRangedDamage}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
 
@@ -2837,8 +2837,8 @@ Items: {
 		DisplayName: Soran Forces Tactical Visor
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedRangedDamage}
-			{$CommonItemTooltip.PercentChanceToSaveAmmo@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo@1}
 			'''
 	}
 
@@ -2846,9 +2846,9 @@ Items: {
 		DisplayName: Soran Forces Suit
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedRangedDamage}
-			{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			{$CommonItemTooltip.MajorLifeRegen}
 			'''
 	}
@@ -2858,7 +2858,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
-			{$CommonItemTooltip.PercentChanceToSaveThrownItems@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveThrownItems@1}
 			'''
 	}
 
@@ -2868,7 +2868,7 @@ Items: {
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
 			{$CommonItemTooltip.PercentIncreasedKineticCritChance@1}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@2}
 			'''
 	}
 
@@ -2885,9 +2885,9 @@ Items: {
 		DisplayName: Void Warden Chestpiece
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedDamage}
-			{$CommonItemTooltip.ReducesDamageTakenByPercent@1}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			'''
 	}
 
@@ -2895,8 +2895,8 @@ Items: {
 		DisplayName: Void Warden Scale Mail
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedDamage}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@1}
 			'''
 	}
 
@@ -2904,14 +2904,14 @@ Items: {
 		DisplayName: Void Warden Helmet
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedDamage}
-			{$CommonItemTooltip.PercentIncreasedCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedCritChance@1}
 			'''
 	}
 
 	VoidLegs: {
 		DisplayName: Void Warden Leggings
-		Tooltip: "{$CommonItemTooltip.PercentIncreasedMovementSpeed}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}"
 	}
 
 	PrairieChest: {
@@ -2926,7 +2926,7 @@ Items: {
 
 	PrairieLegs: {
 		DisplayName: Prairie Loincloth
-		Tooltip: "{$CommonItemTooltip.PercentIncreasedMovementSpeed}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}"
 	}
 
 	NovaBreastplate: {
@@ -2943,7 +2943,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
-			{$CommonItemTooltip.PercentChanceToSaveThrownItems@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveThrownItems@1}
 			'''
 	}
 
@@ -2953,7 +2953,7 @@ Items: {
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
 			{$CommonItemTooltip.PercentIncreasedKineticCritChance@1}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@2}
 			'''
 	}
 
@@ -2980,21 +2980,21 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
 
 	VulcanChest: {
 		DisplayName: Vulcan Reaper Garb
-		Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}"
 	}
 
 	VulcanHelm: {
 		DisplayName: Vulcan Reaper Helm
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedDamage}
-			{$CommonItemTooltip.PercentIncreasedCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedCritChance@1}
 			'''
 	}
 
@@ -3017,7 +3017,7 @@ Items: {
 		DisplayName: Glass Soul
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}
 			Getting hit instantly ends your life
 			Shadow Dodge is disabled
 			'''
@@ -3905,7 +3905,7 @@ Items: {
 		Tooltip:
 			'''
 			'What did that madman put in this?'
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}
 			'''
 	}
 
@@ -3979,7 +3979,7 @@ Items: {
 
 	ExtraEndurancePotion: {
 		DisplayName: Draconium Skin Potion
-		Tooltip: "{$CommonItemTooltip.ReducesDamageTakenByPercent}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent}"
 	}
 
 	ExtraFishPotion: {
@@ -4026,8 +4026,8 @@ Items: {
 		DisplayName: Nightmare Fuel Potion
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedDamage}
-			{$CommonItemTooltip.IncreasesMaxLifeBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@1}
 			{$CommonItemTooltip.MinorLifeRegen}
 			'''
 	}
@@ -4739,7 +4739,7 @@ Items: {
 			'''
 			'The day Dan lost control over himself... dread was drowning me once more. To think, that another incident could've happened that day...
 			Another innocent soul turned berserk, and the deaths that would've followed... I cannot allow such events to transpire ever again.'
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			Every tenth shot fires a homing beam
 			'''
 	}
@@ -5464,7 +5464,7 @@ Items: {
 		DisplayName: Gav Gun
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			Every eigth shot fires a spread of shark teeth
 			'''
 	}
@@ -5532,7 +5532,7 @@ Items: {
 			Meeting the requirement again refreshes the buff
 			Souldrinker: Gain health based on the number of hits before reloading (Max: 20% max health, 10 second cooldown)
 			Replaces all bullets with hitscan bullets
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -6297,7 +6297,7 @@ Items: {
 		Tooltip:
 			'''
 			Uses elemental orbs as ammo
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -6397,7 +6397,7 @@ Items: {
 		Tooltip:
 			'''
 			Fires three arrows in a random spread
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			Fires an additional frost bolt arrow
 			'''
 	}
@@ -6451,7 +6451,7 @@ Items: {
 		Tooltip:
 			'''
 			Uses elemental orbs as ammo
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -6878,7 +6878,7 @@ Items: {
 		Tooltip:
 			'''
 			Fires additional auto-aiming phoenixes
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -6901,7 +6901,7 @@ Items: {
 		DisplayName: Thermogenesis
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			Has a chance to release a flare grenade
 			'''
 	}
@@ -6914,7 +6914,7 @@ Items: {
 			we have disabled the Oxidator Solar rocket launcher in all activities.
 
 			Uses rockets as ammo
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -7217,7 +7217,7 @@ Items: {
 		Tooltip:
 			'''
 			Uses elemental orbs as ammo
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -7282,7 +7282,7 @@ Items: {
 		Tooltip:
 			'''
 			Fires inaccurate arrows with fast speed
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -7306,7 +7306,7 @@ Items: {
 		Tooltip:
 			'''
 			<right> to shoot
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -7339,7 +7339,7 @@ Items: {
 		Tooltip:
 			'''
 			Additionally fires homing shadows
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -7444,7 +7444,7 @@ Items: {
 		Tooltip:
 			'''
 			Unleashes a blizzard of snowballs
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -7540,7 +7540,7 @@ Items: {
 			Hitting enemies consistently fires a tracking Maelstrom Rocket
 			If 3 rockets detonate on an enemy, a Dark Matter grenade is loaded (max: 3)
 			Hold [{$Keybinds.Reload.DisplayName}] to switch between grenade and bullet mode
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -7549,7 +7549,7 @@ Items: {
 		Tooltip:
 			'''
 			'Destruction brings creation'
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -7573,7 +7573,7 @@ Items: {
 		Tooltip:
 			'''
 			Fires four arrows in a random spread
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			Additionally fires an aggressive wasp arrow which splits into multiple royal wasps
 			'''
 	}

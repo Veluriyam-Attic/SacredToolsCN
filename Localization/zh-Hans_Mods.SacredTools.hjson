@@ -313,7 +313,7 @@ Conversations are linked by key and array position. For example, Conversations.N
 Conversations: {
 	NihilusSpawn_First: {
 		0: 庞大到渗人的精神能量开始凝聚在方尖碑周围，此行务必谨慎！
-		1: 我会在边界外围戒备，必要时可以为你提供协助. 祝你好运. 
+		1: 我会在边界外围戒备，必要时可以为你提供协助. 祝你好运.
 	}
 
 	Nihilus_PhaseChange: {
@@ -425,9 +425,9 @@ BossMessage: {
 	SyrusEnd: 次元裂隙已经关闭!
 	NovanielSpawnMessage: 你在想什么？还没有结束呢...
 	NovanielCelestialJudgementMessage: 这并非针对个人，但不要阻挡我们的去路
-	NihilusHint1: 若说那般拙劣的表演竟是终章，简直是对它的侮辱，凡人. 
-	NihilusHint2: 真正的战斗这才刚刚开始。你将会受到不可名状的苦难. 而你所承受的苦难，仅仅是因为你帮助了那些……你称之为朋友的外人. 
-	NihilusHint3: 你将要用鲜血、灵魂、生命，以及死亡来付出代价. 我的计划不容他人干涉. 凡人，这是一则警告：保持警醒. 
+	NihilusHint1: 若说那般拙劣的表演竟是终章，简直是对它的侮辱，凡人.
+	NihilusHint2: 真正的战斗这才刚刚开始。你将会受到不可名状的苦难. 而你所承受的苦难，仅仅是因为你帮助了那些……你称之为朋友的外人.
+	NihilusHint3: 你将要用鲜血、灵魂、生命，以及死亡来付出代价. 我的计划不容他人干涉. 凡人，这是一则警告：保持警醒.
 	NihilusHint4: 你永远不知道下一个噩梦何时会悄然来袭……
 	TempleMessage: 丛林被刺目强光所笼罩……
 	RVGMessage: 来自另一个维度的生物正在进入我们的现实世界！
@@ -503,7 +503,7 @@ TooltipLabel: {
 	MagazineCurrent: "[弹药 {0}/{1}]"
 	MagazineReserve: "[储备 {0}]"
 	ReservesSpecial: " (特别)"
-	ReservesHeavy: "(重)"
+	ReservesHeavy: (重)
 }
 
 DropConditions: {
@@ -518,10 +518,10 @@ DropConditions: {
 }
 
 ChallengeItemHints: {
-	Decree: "“直面凛寒，无需庇护……”*"
-	Jensen: "“清风为伴，快然于大地……”*"
-	Araghur: "“深处回荡着灿烂能量……”"
-	Novaniel: "“无暇的，巅峰之时……速战速决. ”"
+	Decree: “直面凛寒，无需庇护……”*
+	Jensen: “清风为伴，快然于大地……”*
+	Araghur: “深处回荡着灿烂能量……”
+	Novaniel: “无暇的，巅峰之时……速战速决. ”
 }
 
 ExtraTooltip: {
@@ -585,7 +585,7 @@ Revenant: {
 	PenetrateTargetCount: 穿透{0}个目标
 	PierceBounce: 击中目标时反弹
 	PierceEmbed: 嵌入敌人
-	PierceRecall:命中敌人后自动返回
+	PierceRecall: 命中敌人后自动返回
 	IntrinsicRecall: Intrinsic Recall
 }
 
@@ -597,8 +597,8 @@ Sanguine: {
 SetBonus: {
 	AsthralMagic:
 		'''
-		
-		{$CommonItemTooltip.PercentIncreasedMagicDamage}
+
+		{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
 		按下[{$Keybinds.AbilityPrimary.DisplayName}]以格挡光标方向的弹幕
 		成功格挡攻击会给予穿戴者1秒的无敌并向后击退玩家
@@ -610,7 +610,7 @@ SetBonus: {
 	AsthralMelee:
 		'''
 
-		{$CommonItemTooltip.PercentIncreasedMeleeDamage}
+		{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
 		按下[{$Keybinds.AbilityPrimary.DisplayName}]以格挡光标方向的弹幕
 		成功格挡攻击会给予穿戴者1秒的无敌并向后击退玩家
@@ -622,7 +622,7 @@ SetBonus: {
 	AsthralRanged:
 		'''
 
-		{$CommonItemTooltip.PercentIncreasedRangedDamage}
+		{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}
 		{$CommonItemTooltip.PercentIncreasedSuppression@1}
 		按下[{$Keybinds.AbilityPrimary.DisplayName}]以格挡光标方向的弹幕
 		成功格挡攻击会给予穿戴者1秒的无敌并向后击退玩家
@@ -663,13 +663,13 @@ SetBonus: {
 	Blightbone:
 		'''
 		   
-	    增强特定焦黑枯骨相关武器
+		   增强特定焦黑枯骨相关武器
 		'''
 	CairoCrusader:
 		'''
 
-		{$CommonItemTooltip.PercentChanceToSaveThrownItems}
-	    唤醒「永恒绿洲」加入到你的战斗
+		{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveThrownItems}
+		   唤醒「永恒绿洲」加入到你的战斗
 		双击[下]来在「主动模式」与「被动模式」切换
 		'''
 	Frosthunter:
@@ -693,7 +693,7 @@ SetBonus: {
 	Lapis:
 		'''
 		         
-		{$CommonItemTooltip.PercentIncreasedMovementSpeed}
+		{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}
 		在受到伤害后的短时间内+20%移速
 		'''
 	BlazingBrute:
@@ -771,7 +771,7 @@ SetBonus: {
 	SpaceJunk:
 		'''
 
-		{$CommonItemTooltip.PercentChanceToSaveThrownItems}
+		{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveThrownItems}
 		攻击敌人时有概率降下流星
 		'''
 	VulcanReaper:
@@ -806,12 +806,12 @@ Town: {
 	Erazor7: 「安泰」.. 我的老朋友.. 我一定会完成我们的研究...
 	Erazor8: 你和「尼尔」谈过了吗? 我听说那些恶臭的腐化又在蔓延了
 	Erazor9: 我一直随身佩戴此剑... 它有着和我女儿一样的名字, 大约五十年前的一场悲剧中我永远地失去了我的爱女，「雅瑞娅」
-	Erazor10: 我发现有几个强大的存在出现了「星蚀」的症状. 如果你感到了危险并愿意找到一些侵蚀样本，我想你能做到的. 一般来说越是神秘、千变万化的地方更可能拥有更多被侵蚀的存在. 
-	ErazorNuba: 不幸的是，「云珀」和她的族裔们似乎总是陷入麻烦之中. 我感到……内疚. 因为我应该为此负责. 
-	ErazorObelisk0: 年轻人，看起来你已经准备好一切了. 「亚巴顿」已经准备好开始他的计划了，准备好你的「圣遗」武器去阻止他吧! 
-	ErazorObelisk1: 勇士，确保你带上了你的「圣遗」，只有它才能让你击破那些存在的防御. 
+	Erazor10: 我发现有几个强大的存在出现了「星蚀」的症状. 如果你感到了危险并愿意找到一些侵蚀样本，我想你能做到的. 一般来说越是神秘、千变万化的地方更可能拥有更多被侵蚀的存在.
+	ErazorNuba: 不幸的是，「云珀」和她的族裔们似乎总是陷入麻烦之中. 我感到……内疚. 因为我应该为此负责.
+	ErazorObelisk0: 年轻人，看起来你已经准备好一切了. 「亚巴顿」已经准备好开始他的计划了，准备好你的「圣遗」武器去阻止他吧!
+	ErazorObelisk1: 勇士，确保你带上了你的「圣遗」，只有它才能让你击破那些存在的防御.
 	ErazorNeedRelic0: 第一步已经成功，但是如果你想要消灭这些存在必须要有一件「圣遗」
-	ErazorNeedRelic1: 没有「圣遗」你无法对那些存在造成任何妨害. 
+	ErazorNeedRelic1: 没有「圣遗」你无法对那些存在造成任何妨害.
 	ErazorNeedAsthral0: 你打败了我，但是你还没有做足准备. 你需要更加努力锻炼自己，同时搞到一整套「龙愠晶」盔甲来保护你
 	ErazorNeedAsthral1: 如果你想要阻止「亚巴顿」的计划会需要「龙愠晶」盔甲的. 这是抵御那些存在所产生的破坏性能量的唯一手段
 	ErazorDeclineFight:
@@ -835,18 +835,17 @@ Town: {
 	Neil3: 你在附近看见过一只巨大的红眼生化鸡吗？很好，你应该感谢我
 	Neil4: 蜥蜴人是蜥蜴还是人？
 	Neil5: 你是内个内个内个内- 等等，嗯？哦没事，没事. 你继续忙你的事情吧
-	Neil6: 你可能在好奇我会拿这些材料做什么吗？唔，我自己也不知道，赛勒斯上可没有这些. 我想我可能会把他们扔到一起然后看看会发生什么吧哈哈. 
+	Neil6: 你可能在好奇我会拿这些材料做什么吗？唔，我自己也不知道，赛勒斯上可没有这些. 我想我可能会把他们扔到一起然后看看会发生什么吧哈哈.
 	Neil7: 我不确定我是不是出现了什么幻觉，但是就在我和一个穿着超大牛仔裤的火箭冰淇淋人打完招呼后，看到了外面有一些飞着的眼球
 	Neil8: 嘿, 兄弟. 你肩膀上有一个，呃……手——哈哈吓到你了吧
-	Neil9: 你可能认为我们赛尔里安特人
-对门很头疼, 但是... 兄弟, 那不是真的. 别信他们的谎言.
+	Neil9: 你可能认为我们赛尔里安特人对门很头疼, 但是... 兄弟, 那不是真的. 别信他们的谎言.
 	Neil10: 啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
 	Neil11: 开门爬进来，趴地别乱动，一起模仿剑龙甩尾巴！
 	Neil12: 我最近检查你的报告了, 你又把“亚巴顿”拼错了，不是“阿巴顿”
 	Neil13: 新药水，你是？
 	Neil14: 砰! 砰! 嘣! 嘣! 啊哈哈哈哈哈哈- 哦, 嗨!.
 	Neil15: 治疗药水上的线条数……真的有实际意义吗?它们是和某个数学公式对应吗?在你的世界里，有没有某种权威机构专门负责监督这个标签?
-	Neil16: 哈. 哈哈哈. 哈哈哈哈哈. 哈哈哈哈哈哈哈. 
+	Neil16: 哈. 哈哈哈. 哈哈哈哈哈. 哈哈哈哈哈哈哈.
 	Neil17: 他们称我为毒品机器——不他们没有停止撒谎
 	Neil18: 我的头后面有七个舌头
 	Neil19: 是的我现在每周三都复用大剂量药物
@@ -861,9 +860,9 @@ Town: {
 	NeilShroom: 蘑菇? 蘑菇菇菇菇菇菇. 蘑菇菇菇菇菇菇菇菇菇菇菇. 哦, 什么? 我只是拿了点样本放到电路中, 我想他们会有美妙的声音的. -是-的-, 这-完-全-算是研究, 你是什么意思?
 	NeilTrade: 交易物品
 	NeilErosion: 侵蚀状态
-	NeilErosionGone: 看起来今天的侵蚀已经退去了，等它再次出现时我会通知你. 
+	NeilErosionGone: 看起来今天的侵蚀已经退去了，等它再次出现时我会通知你.
 	NeilErosionUG: 你知道那个充满岩石的地方吗? 唔, 那有水晶蠕虫. 是的, 蠕虫. 我恨蠕虫. 去杀了它们. // -臣-服-于-蠕-虫-吧-. -臣-服-于-蠕-虫-.
-	NeilErosionUGHallow: 看起来彩虹之地也未能幸免于难，有一些侵蚀需要清除. 
+	NeilErosionUGHallow: 看起来彩虹之地也未能幸免于难，有一些侵蚀需要清除.
 	NeilErosionUGEvil: 紫色的眼球……紫色的牙齿……紫色的肉……呃。去除任何被侵蚀的东西，让它不那么恶心。
 	NeilErosionSky: 不. 这什么都没有. 放弃吧.
 	NeilErosionUGDesert: 有报道称，沙漠洞穴中传来了震耳欲聋的尖叫声，同时还存在潜在的侵蚀能量。去调查一下吧。
@@ -877,7 +876,7 @@ Town: {
 	Pandolar4: 有时我想舔冰块...
 	Pandolar5: 有什么要交易的吗?
 	Pandolar6: 需要什么吗??
-	Pandolar7: 谢天谢地我搞到了这套散热套装, 要是没有这些「凛寒」晶体我早就被熔化了. 
+	Pandolar7: 谢天谢地我搞到了这套散热套装, 要是没有这些「凛寒」晶体我早就被熔化了.
 	Pandolar8: 闻起来有点烧焦的味道, 你是掉进火山了还是怎么了？
 	Pandolar9: 有个神话说人类沐浴在怪物的血水中会成为突变体, 我希望你不会也变成这样
 	Pandolar10: Danim Zedonibēùs
@@ -889,7 +888,7 @@ Town: {
 	PandolarNuba: 很高兴看到「云珀」终于明白了他们没办法让死去的父亲复活, 她会帮我我们找到回到赛勒斯的路的
 	PandolarPreSiblings: 「诺瓦尼尔」和他的族裔们，「失落族裔」和「诺赫拉尔」的孩子们. 我看到他们也掉进了裂隙里. 我不知道他们要去做什么, 但是应该和这个世界的月亮有关
 	PandolarPreAraghur: 几个和我一起来自「赛勒斯」的人也被卷入了裂隙之中. 我们应该聚集在一起找到回去的办法
-	PandolarPreAbaddon: 我正要返回Ariketik, 带回被俘虏的「裁决」, 这时候，「赛勒斯」的天空顷刻间阴沉下来，而后我还没来得及弄清楚我到了什么地方，就先一头装上了雪原 
+	PandolarPreAbaddon: 我正要返回Ariketik, 带回被俘虏的「裁决」, 这时候，「赛勒斯」的天空顷刻间阴沉下来，而后我还没来得及弄清楚我到了什么地方，就先一头装上了雪原
 	PandolarParty: 派对很棒. 气球, 摇曳的灯光, 音乐... 唯一缺少的就是一个巨大冰雕.
 	PandolarEnhancement: 强化「潮遗黏尸」
 	PandolarSalvageButton: 拾荒物资
@@ -899,9 +898,9 @@ Town: {
 	PandolarSalvageGems: 我前几天出游时找到一些可能对你有用的东西.给, 这就是.
 	PandolarSalvageCorruption: 有趣的是，这整条腐化蠕虫完全是由魔矿锭和暗影鳞片构成的. 说到他们，拿回你落下的东西吧
 	PandolarSalvageCrimson: 哪些围绕在大脑周围的飞眼怪真是名副其实.拿走你落下的组织样本和猩红矿锭, 我再也不希望他们出现在我的脑海里了
-	PandolarSalvageDungeon: 我依稀能够辨别那些骷髅是谁……他们是我偷——呃我买过东西的商人! 拿走你掉在这的骨肉. 
-	PandolarSalvageWax: 研究丛林的蜂巢时，我发现了一个完全被破坏的蜂巢中残留的蜂蜡. 回来时路过了一片南瓜地顺带摘了几个，或许对你有用? 
-	PandolarSalvageHM: 我准备向导被杀害后去洞穴里探险. 但是天哪，我不知道你都在下面干了什么, 但是情况变遭了很多! 这是我从下面找到的. 
+	PandolarSalvageDungeon: 我依稀能够辨别那些骷髅是谁……他们是我偷——呃我买过东西的商人! 拿走你掉在这的骨肉.
+	PandolarSalvageWax: 研究丛林的蜂巢时，我发现了一个完全被破坏的蜂巢中残留的蜂蜡. 回来时路过了一片南瓜地顺带摘了几个，或许对你有用?
+	PandolarSalvageHM: 我准备向导被杀害后去洞穴里探险. 但是天哪，我不知道你都在下面干了什么, 但是情况变遭了很多! 这是我从下面找到的.
 	PandolarSalvageMech: I noticed some scrap metal that fell off those mechanical creatures you fought earlier. Don't be deceived by our love of cold, us Pandolars are great blacksmiths!
 	PandolarSalvageRaynare: After your battle with the Harpy Queen, feathers were scattered EVRYWHERE. I think I may have even found some of Jensen's lying in there too...
 	PandolarSalvageLihzahrd: I dropped by the jungle temple earlier, and found some fragments of some sort of tablet along with a couple loose bricks. The bricks almost look like they could be used in some sort of bar...
@@ -1099,7 +1098,7 @@ Buffs: {
 		Description:
 			'''
 			'I am speed'
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}
 			'''
 	}
 
@@ -1138,11 +1137,11 @@ Buffs: {
 			'''
 			'You are ready for battle.'
 			Defense increased by {0}, life regen increased by {1}
-			{$CommonItemTooltip.PercentIncreasedDamage@2}
-			{$CommonItemTooltip.PercentIncreasedCritChance@3}
-			{$CommonItemTooltip.ReducesDamageTakenByPercent@4}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedCritChance@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent@4}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@5}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@6}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@6}
 			'''
 	}
 
@@ -1153,7 +1152,7 @@ Buffs: {
 
 	ExtraEnduranceBuff: {
 		DisplayName: Draconium Skin
-		Description: "{$CommonItemTooltip.ReducesDamageTakenByPercent}"
+		Description: "{$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent}"
 	}
 
 	ExtraFishBuff: {
@@ -1228,7 +1227,7 @@ Buffs: {
 
 	AraghurDefenseBuff: {
 		DisplayName: Undying
-		Description: "{$CommonItemTooltip.ReducesDamageTakenByPercent}"
+		Description: "{$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent}"
 	}
 
 	CasterSacrificeDebuff: {
@@ -1273,12 +1272,12 @@ Buffs: {
 
 	NubaArmorDamageBuff: {
 		DisplayName: Nebulous Flame - Damage
-		Description: "{$CommonItemTooltip.PercentIncreasedDamage}"
+		Description: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}"
 	}
 
 	NubaArmorDefenseBuff: {
 		DisplayName: Nebulous Flame - Defense
-		Description: "{$CommonItemTooltip.ReducesDamageTakenByPercent}"
+		Description: "{$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent}"
 	}
 
 	NubaArmorHealthBuff: {
@@ -1293,7 +1292,7 @@ Buffs: {
 
 	NubaArmorSpeedBuff: {
 		DisplayName: Nebulous Flame - Speed
-		Description: "{$CommonItemTooltip.PercentIncreasedMovementSpeed}"
+		Description: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}"
 	}
 
 	PerkisasBuff: {
@@ -1934,12 +1933,12 @@ Items: {
 	}
 
 	MementoMori: {
-		DisplayName: 铭记死亡
+		DisplayName: 生死在念
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedDamage}
-			{$CommonItemTooltip.PercentIncreasedCritChance@1}
-			{$CommonItemTooltip.IncreasesMaxMinionsBy@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy@2}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxSentriesBy@3}
 			{$CommonItemTooltip.RageSuppression}
 			'''
@@ -1949,8 +1948,8 @@ Items: {
 		DisplayName: 星云印章
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMagicDamage}
-			{$CommonItemTooltip.PercentIncreasedMagicCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicCritChance@1}
 			'''
 	}
 
@@ -1967,8 +1966,8 @@ Items: {
 		DisplayName: 日耀印章
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMeleeDamage}
-			{$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
 			'''
 	}
 
@@ -1977,7 +1976,7 @@ Items: {
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
-			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy@1}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxSentriesBy@2}
 			'''
 	}
@@ -1986,8 +1985,8 @@ Items: {
 		DisplayName: 星旋印章
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedRangedDamage}
-			{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedCritChance@1}
 			'''
 	}
 
@@ -2296,7 +2295,7 @@ Items: {
 		DisplayName: 辉光护身符
 		Tooltip:
 			'''
-			{$CommonItemTooltip.IncreasesMaxMinionsBy}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy}
 			+15%仆从击退和伤害
 			仆从攻击会施加「诅咒狱火」和「暗影焰」减益
 			哨兵攻击会施加「灵液」减益
@@ -2337,7 +2336,7 @@ Items: {
 		Tooltip:
 			'''
 			可飞行、飞速奔跑，并提供额外冰面行动力
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}
 			可让人在水、蜂蜜和熔岩上行走
 			对火块免疫并在10秒内对熔岩免疫
 			减少因触碰熔岩而受到的伤害
@@ -2350,7 +2349,7 @@ Items: {
 		DisplayName: 星河帷幕
 		Tooltip:
 			'''
-			{$CommonItemTooltip.IncreasesMaxMinionsBy}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxSentriesBy@1}
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage@2}
 			仆从攻击会施加「Lunar Burn」减益
@@ -2378,12 +2377,12 @@ Items: {
 			'''
 			“如果亚巴顿有脚，大概也会去穿这个”
 			可飞行、飞速奔跑，并提供额外冰面行动力
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}
 			可让人在水、蜂蜜和熔岩上行走
 			对火块免疫并在15秒内对熔岩免疫
 			减少因触碰熔岩而受到的伤害
 			+30%飞行时间
-		    +200%跳跃速度和跳跃高度，消除掉落伤害
+			+200%跳跃速度和跳跃高度，消除掉落伤害
 			{$ItemTooltip.MasterNinjaGear}
 			'''
 	}
@@ -2447,7 +2446,7 @@ Items: {
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
 
@@ -2455,11 +2454,11 @@ Items: {
 		DisplayName: 龙愠晶兜帽
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentReducedManaCost}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentReducedManaCost}
 			{$CommonItemTooltip.MajorManaRegen}
-			{$CommonItemTooltip.PercentIncreasedMagicCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicCritChance@1}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
-			{$CommonItemTooltip.IncreasesMaxManaBy@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxManaBy@3}
 			'''
 	}
 
@@ -2467,8 +2466,8 @@ Items: {
 		DisplayName: 龙愠晶头盔
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMeleeSpeed}
-			{$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeSpeed}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			'''
 	}
@@ -2477,8 +2476,8 @@ Items: {
 		DisplayName: 龙愠晶战术盔
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
-			{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedCritChance@1}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			'''
 	}
@@ -2487,7 +2486,7 @@ Items: {
 		DisplayName: 龙愠晶面具
 		Tooltip:
 			'''
-			{$CommonItemTooltip.IncreasesMaxMinionsBy}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxSentriesBy@1}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			'''
@@ -2508,22 +2507,22 @@ Items: {
 		DisplayName: 铋胸甲
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMagicDamage}
-			{$CommonItemTooltip.PercentReducedManaCost@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentReducedManaCost@1}
 			'''
 	}
 
 	BismuthHelm: {
 		DisplayName: 铋头盔
-		Tooltip: "{$CommonItemTooltip.PercentIncreasedMagicDamage}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage}"
 	}
 
 	BismuthLegs: {
 		DisplayName: 铋护腿
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMagicDamage}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
 
@@ -2537,7 +2536,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
 
@@ -2555,7 +2554,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
 
@@ -2579,20 +2578,20 @@ Items: {
 
 	FrosthunterBoots: {
 		DisplayName: 漠雪猎手靴
-		Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamage}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}"
 	}
 
 	FrosthunterHeaddress: {
 		DisplayName: 漠雪猎手头饰
-		Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamage}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}"
 	}
 
 	FrosthunterWrappings: {
 		DisplayName: 漠雪猎手胸甲
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedRangedDamage}
-			{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedCritChance@1}
 			'''
 	}
 
@@ -2612,7 +2611,7 @@ Items: {
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
 			{$CommonItemTooltip.PercentIncreasedKineticCritChance@1}
 			{$CommonItemTooltip.PercentIncreasedKineticSpeed@2}
-			{$CommonItemTooltip.PercentChanceToSaveThrownItems@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveThrownItems@3}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@4}
 			'''
 	}
@@ -2622,7 +2621,7 @@ Items: {
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
-			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy@1}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxSentriesBy@2}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@3}
 			'''
@@ -2632,9 +2631,9 @@ Items: {
 		DisplayName: 炎流晶头盔
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMeleeDamage}
-			{$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
-			{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@3}
 			'''
 	}
@@ -2643,11 +2642,11 @@ Items: {
 		DisplayName: 炎流晶兜帽
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMagicDamage}
-			{$CommonItemTooltip.PercentIncreasedMagicCritChance@1}
-			{$CommonItemTooltip.PercentReducedManaCost@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentReducedManaCost@2}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@3}
-			{$CommonItemTooltip.IncreasesMaxManaBy@4}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxManaBy@4}
 			'''
 	}
 
@@ -2655,7 +2654,7 @@ Items: {
 		DisplayName: 炎流晶护腿
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@1}
 			'''
 	}
@@ -2664,9 +2663,9 @@ Items: {
 		DisplayName: 炎流晶头甲
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedRangedDamage}
-			{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-			{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo@2}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@3}
 			'''
 	}
@@ -2676,7 +2675,7 @@ Items: {
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
-			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy@1}
 			'''
 	}
 
@@ -2685,7 +2684,7 @@ Items: {
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
-			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy@1}
 			'''
 	}
 
@@ -2699,7 +2698,7 @@ Items: {
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
-			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy@1}
 			'''
 	}
 
@@ -2708,7 +2707,7 @@ Items: {
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
-			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy@1}
 			'''
 	}
 
@@ -2736,8 +2735,8 @@ Items: {
 		DisplayName: 青金石胸甲
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedRangedDamage}
-			{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedCritChance@1}
 			'''
 	}
 
@@ -2745,25 +2744,25 @@ Items: {
 		DisplayName: 青金石头盔
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedRangedDamage}
-			{$CommonItemTooltip.PercentChanceToSaveAmmo@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo@1}
 			'''
 	}
 
 	LapisLegs: {
 		DisplayName: 青金石护腿
-		Tooltip: "{$CommonItemTooltip.PercentChanceToSaveAmmo}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}"
 	}
 
 	NubaChest: {
 		DisplayName: 拯恩典袍
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMagicDamage}
-			{$CommonItemTooltip.PercentIncreasedMagicCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicCritChance@1}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			{$CommonItemTooltip.MajorLifeRegen}
-			{$CommonItemTooltip.IncreasesMaxManaBy@3}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxManaBy@3}
 			'''
 	}
 
@@ -2771,7 +2770,7 @@ Items: {
 		DisplayName: 拯恩典帽
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMagicDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage}
 			{$CommonItemTooltip.MajorManaRegen}
 			'''
 	}
@@ -2780,10 +2779,10 @@ Items: {
 		DisplayName: 拯恩典裙
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMagicDamage}
-			{$CommonItemTooltip.PercentReducedManaCost@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMagicDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentReducedManaCost@1}
 			{$CommonItemTooltip.MajorManaRegen}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@2}
 			'''
 	}
 
@@ -2792,7 +2791,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
 
@@ -2813,7 +2812,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
-			{$CommonItemTooltip.PercentChanceToSaveThrownItems@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveThrownItems@1}
 			'''
 	}
 
@@ -2821,8 +2820,8 @@ Items: {
 		DisplayName: 不渝宿敌头盔
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMeleeDamage}
-			{$CommonItemTooltip.PercentIncreasedMeleeSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeSpeed@1}
 			'''
 	}
 
@@ -2830,8 +2829,8 @@ Items: {
 		DisplayName: 不渝宿敌胫甲
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMeleeDamage}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
 
@@ -2839,8 +2838,8 @@ Items: {
 		DisplayName: 不渝宿敌板甲
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedMeleeDamage}
-			{$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			{$CommonItemTooltip.MajorLifeRegen}
 			'''
@@ -2851,7 +2850,7 @@ Items: {
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
-			{$CommonItemTooltip.IncreasesMaxMinionsBy@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxMinionsBy@1}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			{$CommonItemTooltip.MajorLifeRegen}
 			'''
@@ -2871,7 +2870,7 @@ Items: {
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
 
@@ -2879,8 +2878,8 @@ Items: {
 		DisplayName: 索兰军用靴
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedRangedDamage}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
 
@@ -2888,8 +2887,8 @@ Items: {
 		DisplayName: 索兰军用战术镜
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedRangedDamage}
-			{$CommonItemTooltip.PercentChanceToSaveAmmo@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo@1}
 			'''
 	}
 
@@ -2897,8 +2896,8 @@ Items: {
 		DisplayName: 索兰军用制服
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedRangedDamage}
-			{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedRangedCritChance@1}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			{$CommonItemTooltip.MajorLifeRegen}
 			'''
@@ -2909,7 +2908,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
-			{$CommonItemTooltip.PercentChanceToSaveThrownItems@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveThrownItems@1}
 			'''
 	}
 
@@ -2919,7 +2918,7 @@ Items: {
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
 			{$CommonItemTooltip.PercentIncreasedKineticCritChance@1}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@2}
 			'''
 	}
 
@@ -2936,8 +2935,8 @@ Items: {
 		DisplayName: 虚无守望者胸甲
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedDamage}
-			{$CommonItemTooltip.ReducesDamageTakenByPercent@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent@1}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@2}
 			'''
 	}
@@ -2946,7 +2945,7 @@ Items: {
 		DisplayName: 虚无守望者鳞甲
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@1}
 			'''
 	}
@@ -2955,14 +2954,14 @@ Items: {
 		DisplayName: 虚无守望者头盔
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedDamage}
-			{$CommonItemTooltip.PercentIncreasedCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedCritChance@1}
 			'''
 	}
 
 	VoidLegs: {
 		DisplayName: 虚无守望者胫甲
-		Tooltip: "{$CommonItemTooltip.PercentIncreasedMovementSpeed}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}"
 	}
 
 	PrairieChest: {
@@ -2977,7 +2976,7 @@ Items: {
 
 	PrairieLegs: {
 		DisplayName: 原野腰布
-		Tooltip: "{$CommonItemTooltip.PercentIncreasedMovementSpeed}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}"
 	}
 
 	NovaBreastplate: {
@@ -2994,7 +2993,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
-			{$CommonItemTooltip.PercentChanceToSaveThrownItems@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveThrownItems@1}
 			'''
 	}
 
@@ -3004,7 +3003,7 @@ Items: {
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
 			{$CommonItemTooltip.PercentIncreasedKineticCritChance@1}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@2}
 			'''
 	}
 
@@ -3031,21 +3030,21 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.PercentIncreasedKineticDamage}
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 			'''
 	}
 
 	VulcanChest: {
 		DisplayName: Vulcan Reaper Garb死神，伏尔甘之盔
-		Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}"
 	}
 
 	VulcanHelm: {
 		DisplayName: Vulcan Reaper Helm死神，伏尔甘之盔
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedDamage}
-			{$CommonItemTooltip.PercentIncreasedCritChance@1}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedCritChance@1}
 			'''
 	}
 
@@ -3068,7 +3067,7 @@ Items: {
 		DisplayName: 玻璃之魂
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}
 			被击中会立刻死亡
 			闪避功能已被禁用
 			'''
@@ -3289,7 +3288,7 @@ Items: {
 
 	Blightbone: {
 		DisplayName: 焦黑枯骨
-		Tooltip: "“一切生命都已凋零”"
+		Tooltip: “一切生命都已凋零”
 	}
 
 	DarkMist: {
@@ -3956,7 +3955,7 @@ Items: {
 		Tooltip:
 			'''
 			'What did that madman put in this?'
-			{$CommonItemTooltip.PercentIncreasedMovementSpeed}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}
 			'''
 	}
 
@@ -4030,7 +4029,7 @@ Items: {
 
 	ExtraEndurancePotion: {
 		DisplayName: Draconium Skin Potion
-		Tooltip: "{$CommonItemTooltip.ReducesDamageTakenByPercent}"
+		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent}"
 	}
 
 	ExtraFishPotion: {
@@ -4077,7 +4076,7 @@ Items: {
 		DisplayName: Nightmare Fuel Potion
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentIncreasedDamage}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxLifeBy@1}
 			{$CommonItemTooltip.MinorLifeRegen}
 			'''
@@ -4790,7 +4789,7 @@ Items: {
 			'''
 			'The day Dan lost control over himself... dread was drowning me once more. To think, that another incident could've happened that day...
 			Another innocent soul turned berserk, and the deaths that would've followed... I cannot allow such events to transpire ever again.'
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			Every tenth shot fires a homing beam
 			'''
 	}
@@ -5516,7 +5515,7 @@ Items: {
 		DisplayName: Gav Gun
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			Every eigth shot fires a spread of shark teeth
 			'''
 	}
@@ -5584,7 +5583,7 @@ Items: {
 			Meeting the requirement again refreshes the buff
 			Souldrinker: Gain health based on the number of hits before reloading (Max: 20% max health, 10 second cooldown)
 			Replaces all bullets with hitscan bullets
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -6349,7 +6348,7 @@ Items: {
 		Tooltip:
 			'''
 			Uses elemental orbs as ammo
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -6449,7 +6448,7 @@ Items: {
 		Tooltip:
 			'''
 			Fires three arrows in a random spread
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			Fires an additional frost bolt arrow
 			'''
 	}
@@ -6515,7 +6514,7 @@ Items: {
 		Tooltip:
 			'''
 			Uses elemental orbs as ammo
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -6942,7 +6941,7 @@ Items: {
 		Tooltip:
 			'''
 			Fires additional auto-aiming phoenixes
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -6965,7 +6964,7 @@ Items: {
 		DisplayName: Thermogenesis
 		Tooltip:
 			'''
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			Has a chance to release a flare grenade
 			'''
 	}
@@ -6978,7 +6977,7 @@ Items: {
 			we have disabled the Oxidator Solar rocket launcher in all activities.
 
 			Uses rockets as ammo
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -7281,7 +7280,7 @@ Items: {
 		Tooltip:
 			'''
 			Uses elemental orbs as ammo
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -7346,7 +7345,7 @@ Items: {
 		Tooltip:
 			'''
 			Fires inaccurate arrows with fast speed
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -7370,7 +7369,7 @@ Items: {
 		Tooltip:
 			'''
 			<right> to shoot
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -7403,7 +7402,7 @@ Items: {
 		Tooltip:
 			'''
 			Additionally fires homing shadows
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -7508,7 +7507,7 @@ Items: {
 		Tooltip:
 			'''
 			Unleashes a blizzard of snowballs
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -7604,7 +7603,7 @@ Items: {
 			Hitting enemies consistently fires a tracking Maelstrom Rocket
 			If 3 rockets detonate on an enemy, a Dark Matter grenade is loaded (max: 3)
 			Hold [{$Keybinds.Reload.DisplayName}] to switch between grenade and bullet mode
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -7613,7 +7612,7 @@ Items: {
 		Tooltip:
 			'''
 			'Destruction brings creation'
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			'''
 	}
 
@@ -7637,7 +7636,7 @@ Items: {
 		Tooltip:
 			'''
 			Fires four arrows in a random spread
-			{$CommonItemTooltip.PercentChanceToSaveAmmo}
+			{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveAmmo}
 			Additionally fires an aggressive wasp arrow which splits into multiple royal wasps
 			'''
 	}
