@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SacredToolsCN")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94f76f4785eb4c88e9d08dbbb650ccee579ff26d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c690aca1a0c240911c13f8a3379e0cc93b256f72")]
 [assembly: System.Reflection.AssemblyProductAttribute("SacredToolsCN")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SacredToolsCN")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

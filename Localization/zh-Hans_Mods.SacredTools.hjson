@@ -39,7 +39,7 @@ Biomes: {
 
 CommonItemTooltip: {
 	RageSuppression: 允许你最多携带50个「{$Items.AsthraltiteChunks.DisplayName}」而不被侵蚀
-	PaladinsShieldEffect: 生命值大于25%时，可以替队友抵挡25%伤害
+	PaladinsShieldEffect: 生命值大于25%时,可以替队友抵挡25%伤害
 	FlariumInfernoImmunity: 免疫「高温」
 	PercentIncreasedKineticDamage: +{0}%动能伤害
 	PercentIncreasedKineticCritChance: +{0}%动能暴击率
@@ -108,7 +108,7 @@ CrossMod: {
 	Census: {
 		// Note: Currently unused since Census doesn't support localization.
 		Condition: {
-			ShrineCommon: 只出现在在星光圣地
+			ShrineCommon: 只出现在在「星光圣地」
 			Scavenger: 击败「裁决」, 「惧焰拉内克」或「风暴女妖詹森」
 			Decorationalist: 击败「克苏鲁之眼」
 			RalnekShrine:
@@ -118,7 +118,7 @@ CrossMod: {
 				'''
 			NeilShrine:
 				'''
-				在专家模式下击败「亚巴顿，苦厄之始」
+				在专家模式下击败「亚巴顿,苦厄之始」
 				{$ShrineCommon}
 				'''
 			NubaShrine:
@@ -137,7 +137,7 @@ CrossMod: {
 	ROR2HealthBars: {
 		BossName: {
 			// Most of these are here because the normal name already contains the title.
-			Abaddon: 苦厄之始，亚巴顿
+			Abaddon: 苦厄之始,亚巴顿
 			AraghurHead: 阿加尔
 			Novaniel: 诺瓦尼尔
 			Nihilus2: 尼希勒斯
@@ -232,8 +232,8 @@ PrefixTooltip: {
 		'''
 	IncandescentPrefix:
 		'''
-		飞刀会刺入敌人，并在不久后爆炸
-		-30%命中伤害，换取1.5倍爆炸伤害
+		飞刀会刺入敌人,并在不久后爆炸
+		-30%命中伤害,换取1.5倍爆炸伤害
 		'''
 	WeightedPrefix: 飞刀击中物块时可以进行至多2次的反弹
 	MagneticPrefix:
@@ -282,7 +282,7 @@ Other: {
 	}
 
 	UnknownNet: 未知消息类型: {0}
-	WorldGen.Shinies: 青金石和铋正在散布到世界各地...
+	WorldGen.Shinies: 「青金石」和「铋」正在散布到世界各地...
 
 	Spread: {
 		Even: {
@@ -312,38 +312,38 @@ Conversations are linked by key and array position. For example, Conversations.N
 */
 Conversations: {
 	NihilusSpawn_First: {
-		0: 庞大到渗人的精神能量开始凝聚在方尖碑周围，此行务必谨慎！
-		1: 我会在边界外围戒备，必要时可以为你提供协助. 祝你好运.
+		0: 庞大到渗人的精神能量开始凝聚在方尖碑周围,多加小心! 
+		1: 我会在边界外围戒备,必要时可以为你提供协助. 祝你好运.
 	}
 
 	Nihilus_PhaseChange: {
-		0: 战斗还未结束! 这个生物终于露出了真面目，周围变得更加扭曲了.
-		1: 准备好你的「圣遗」武器了吗! 打破扭曲，而后踏着它的尸体走过去!
+		0: 战斗还未结束! 这个生物终于露出了真面目,周围变得更加扭曲了.
+		1: 准备好你的「圣遗」武器了吗! 打破扭曲,而后踏着它的尸体走过去! 
 	}
 
-	Nihilus_Stun.0: 我替你争取到了输出的机会! 把你的毕生所学都使出来吧!
+	Nihilus_Stun.0: 我替你争取到了输出的机会! 把你的毕生所学都使出来吧! 
 
 	Nihilus_ExtinctionRay: {
-		0: 你撑不住的!
-		1: 快! 撤到另一边! 我会帮助你的!
+		0: 你撑不住的! 
+		1: 快! 撤到另一边! 我会帮助你的! 
 	}
 
 	Nihilus_RisenLanternWarning: {
-		0: 这个生物似乎变得更加不稳定了, 并在将这种不稳定的能量变成某种催化剂.
-		1: 当心! 如果它设法将这种能量集中到攻击中, 效果将会是毁灭性的.
+		0: 这个生物似乎变得更加不稳定了, 并利用这种不稳定的能量来转化为某种催化剂.
+		1: 当心! 如果它设法将这种能量集中到攻击上, 效果将会是毁灭性的.
 	}
 
 	Nihilus_CondemnationWarning: {
-		0: 集中精神! 它正准备打算进行一次强力的攻击!
-		1: 快点，躲到那些石头后面! 但是不要松懈，我感觉到它们里面潜伏着不稳定的力量.
+		0: 集中精神! 它正准备打算进行一次强力的攻击! 
+		1: 快点,躲到那些石头后面! 但是不要松懈,我感觉到它们里面潜伏着不稳定的力量.
 	}
 
 	FirstDreamscapeDefeat: {
 		0: 啊呵呵呵...我的造物之一陨落了, 看来这个世界还是有一定的威胁性.
-		1: 听好了，不管你是谁, 这事与你无关. 我以前对你的行为并不在意，尽管你攻击了我虚弱的身体.
-		2: 但现在，你似乎已经决定了要站在我的对立面，因此我不能在任由你继续这样下去了.
-		3: 你可能自认为你打乱了我的计划，但你只不过是方程式中增加的一个额外变量.
-		4: 那么，继续下去吧，装作你能对结果有任何影响. 继续下去，试着改变那些无法改变的事情.
+		1: 听好了,不管你是谁, 这事与你无关. 我以前对你的行为并不在意,尽管你攻击了我虚弱的身体.
+		2: 但现在,你似乎已经决定了要站在我的对立面,因此我不能在任由你继续这样下去了.
+		3: 你可能自认为你打乱了我的计划,但你只不过是方程式中增加的一个额外变量.
+		4: 那么,继续下去吧,装作你能对结果有任何影响. 继续下去,试着改变那些无法改变的事情.
 	}
 }
 
@@ -379,15 +379,15 @@ UI: {
 			'''
 			伤害: 60% 暴击率: 40%
 			近战攻速: 50% 投掷速度: 70%
-			对 接触/弹幕 的伤害减免: 45%
+			对接触伤害/弹幕伤害的减免: 45%
 			魔力再生速度: 30% 最大生命值: 300
 			投掷/远程不消耗率: 50%
 			最大仆从栏: 6 最大哨兵栏: 4
 			'''
-		Gem: 插入「流光碎片」，将其分解为粉尘
+		Gem: 插入「流光碎片」,将其分解为粉尘
 		Assemble: 组装
 		Dismantle: 拆卸
-		ArmorPrompt: 请在此放置一件Exitum Lux盔甲
+		ArmorPrompt: 请在此放置一件「Exitum Lux」盔甲
 	}
 
 	Pandolar: {
@@ -413,26 +413,26 @@ WorldGen: {
 }
 
 BossMessage: {
-	AbaddonDeathMessage: 亚巴顿的黑暗能量挣脱了束缚...
+	AbaddonDeathMessage: 「亚巴顿」的黑暗能量挣脱了束缚...
 	FlameMessage: ... 现实正在扭曲...
-	MoonLordMessage: 圣光之下，必投最暗之影
+	MoonLordMessage: 圣光之下,必投最暗之影
 	QueenBeeMessage: 一团微弱的火焰在夜里徘徊...
 	FlariumMessage: 焰火逐渐变得微弱...
 	FragmentMessage: 节庆之月熠熠生辉
-	PiglinBruteEnter: 猪灵军团野蛮的进入了战场
-	PiglinRetreatMessage: 猪灵军团撤回到了自己的领地
-	PiglinDefeatMessage: 猪灵军团已被击退!
-	SyrusEnd: 次元裂隙已经关闭!
-	NovanielSpawnMessage: 你在想什么？还没有结束呢...
-	NovanielCelestialJudgementMessage: 这并非针对个人，但不要阻挡我们的去路
-	NihilusHint1: 若说那般拙劣的表演竟是终章，简直是对它的侮辱，凡人.
-	NihilusHint2: 真正的战斗这才刚刚开始。你将会受到不可名状的苦难. 而你所承受的苦难，仅仅是因为你帮助了那些……你称之为朋友的外人.
-	NihilusHint3: 你将要用鲜血、灵魂、生命，以及死亡来付出代价. 我的计划不容他人干涉. 凡人，这是一则警告：保持警醒.
+	PiglinBruteEnter: 「猪灵军团」野蛮的进入了战场
+	PiglinRetreatMessage: 「猪灵军团」撤回到了自己的领地
+	PiglinDefeatMessage: 「猪灵军团」已被击退! 
+	SyrusEnd: 「次元裂隙」已经关闭! 
+	NovanielSpawnMessage: 你在想什么?还没有结束呢...
+	NovanielCelestialJudgementMessage: 这并非针对个人,但不要阻挡我们的去路
+	NihilusHint1: 若说那般拙劣的表演竟是终章,简直是对它的侮辱,凡人.
+	NihilusHint2: 真正的战斗这才刚刚开始。你将会受到不可名状的苦难. 而你所承受的苦难,仅仅是因为你帮助了那些……你称之为朋友的外人.
+	NihilusHint3: 你将要用鲜血、灵魂、生命,以及死亡来付出代价. 我的计划不容他人干涉. 凡人,这是一则警告：保持警醒.
 	NihilusHint4: 你永远不知道下一个噩梦何时会悄然来袭……
 	TempleMessage: 丛林被刺目强光所笼罩……
-	RVGMessage: 来自另一个维度的生物正在进入我们的现实世界！
-	FrostMessage: 霜之灵已降临人间！
-	CerniumMessage: Cernium Crystals在洞穴深处析出
+	RVGMessage: 来自另一个维度的生物正在进入我们的现实世界! 
+	FrostMessage: 霜之灵已降临人间! 
+	CerniumMessage: 「Cernium Crystals」在洞穴深处析出
 }
 
 DeathMessage: {
@@ -441,7 +441,7 @@ DeathMessage: {
 	GlassSoul: "{0}的灵魂破碎不复"
 	Sume: "{0}无法及时再塑肉身"
 	end: "{0}的游戏结束了"
-	LunarFlee: "{0}张开双臂，最后紧紧拥抱了死亡"
+	LunarFlee: "{0}张开双臂,最后紧紧拥抱了死亡"
 	Nightmare0: "{0}试图当个逃兵"
 	Nightmare1: "{0}没有醒来"
 	Nightmare2: "{0}良好的解决了失眠难题"
@@ -457,7 +457,7 @@ DeathMessage: {
 	Cerena3: "{0}深刻体会到了被锁在冰箱的感受"
 	Water0: "{0}忘记了水是致命的"
 	Water1: "{0}被水杀死了"
-	Water2: "{0}忘记了Shadow Sareliants不喜欢水"
+	Water2: "{0}忘记了「Shadow Sareliants」不喜欢水"
 	Water3: "{0}死于水下窒息的心理阴影"
 	Shadowflare0: "{0}只在地面上留下了一个黑色污点"
 	Shadowflare1: "{0}的生命力被焚烧殆尽"
@@ -486,8 +486,8 @@ TooltipLabel: {
 	ChallengeItemNotSoulboundWarning:
 		'''
 		{$ChallengeItemLabel}
-		此道具未绑定灵魂!
-		请通过正常途径获得该道具以绑定灵魂!
+		此道具未绑定灵魂! 
+		请通过正常途径获得该道具以绑定灵魂! 
 		'''
 	ChallengeItemSoulbound: "{$ChallengeItemLabel}灵魂已绑定到: {0}"
 	Developer: "[开发者物品: {0}]"
@@ -518,15 +518,15 @@ DropConditions: {
 }
 
 ChallengeItemHints: {
-	Decree: “直面凛寒，无需庇护……”*
-	Jensen: “清风为伴，快然于大地……”*
+	Decree: “直面凛寒,无需庇护……”*
+	Jensen: “清风为伴,快然于大地……”*
 	Araghur: “深处回荡着灿烂能量……”
-	Novaniel: “无暇的，巅峰之时……速战速决. ”
+	Novaniel: “无暇的,巅峰之时……速战速决. ”
 }
 
 ExtraTooltip: {
 	ChallengeWarning: 已装备挑战者物品.
-	MageCrystalWorth: 若你足具资格，便可启用此物
+	MageCrystalWorth: 若你足具资格,便可启用此物
 	NiceEffects: 有一些不错的效果
 	LuxMeleeDamage: +{0}%近战伤害
 	LuxMeleeCrit: +{0}%近战暴击率
@@ -554,7 +554,7 @@ ExtraTooltip: {
 	FishSwordBonus1: "[强化阶段1: +15伤害]"
 	FishSwordBonus2: "[强化阶段2: +10伤害]"
 	FishSwordBonus3: "[强化阶段3: +10伤害, 直接命中施加「毒素」]"
-	FishSwordBonus4: "[强化阶段4: +15伤害, 直接命中施加「着火了！ 」]"
+	FishSwordBonus4: "[强化阶段4: +15伤害, 直接命中施加「着火了! 」]"
 	FishSwordBonus5: "[强化阶段5: +20伤害]"
 	FishSwordBonus6: "[强化阶段6: +25伤害, 挥舞时发射弹幕]"
 	FishSwordBonus7: "[强化阶段7: +40伤害, chance to lifesteal on direct hits]"
@@ -658,18 +658,18 @@ SetBonus: {
 	Bismuth:
 		'''
 		         
-		击中敌人后有概率生成一个铋锤造成额外伤害
+		击中敌人后有概率生成一个「铋锤」造成额外伤害
 		'''
 	Blightbone:
 		'''
 		   
-		   增强特定焦黑枯骨相关武器
+		   增强特定「焦黑枯骨」相关武器
 		'''
 	CairoCrusader:
 		'''
 
 		{$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveThrownItems}
-		   唤醒「永恒绿洲」加入到你的战斗
+		唤醒「永恒绿洲」加入到你的战斗
 		双击[下]来在「主动模式」与「被动模式」切换
 		'''
 	Frosthunter:
@@ -700,14 +700,14 @@ SetBonus: {
 		'''
 
 		站立不动5秒后会为护盾充能
-		每级护盾可以提高25%伤害减免，最高四级
+		每级护盾可以提高25%伤害减免,最高四级
 		受到攻击或移动将会重置充能进度
 		受到攻击将会降低1级护盾等级
 		'''
 	Nuba:
 		'''
 		              
-		攻击敌人有几率生成增益强化道具，拾取强化道具可获得可堆叠的增益. 
+		攻击敌人有几率生成增益强化道具,拾取强化道具可获得可堆叠的增益. 
 		'''
 	VortexCommander:
 		'''
@@ -783,40 +783,40 @@ SetBonus: {
 
 Town: {
 	Pause: 你要是再开自动暂停我就把你的腿捏可捏可捏断了
-	Decorationalist0: 旅途中你听闻过圣巢吗？? 真希望我有一天能够去到那里.
+	Decorationalist0: 旅途中你听闻过圣巢吗?? 真希望我有一天能够去到那里.
 	Decorationalist1: 嗯~巴夫呐呐~
-	Decorationalist2: 没有必要为你的订单发愁，我的货源是无尽的！
-	Decorationalist3: 别小瞧了骨钉！如果用对了威力可是巨大的！
+	Decorationalist2: 没有必要为你的订单发愁,我的货源是无尽的! 
+	Decorationalist3: 别小瞧了骨钉! 如果用对了威力可是巨大的! 
 	Decorationalist4: 我发誓我见过这个地方……
 	Decorationalist5: 要看看我的货物吗?
 	Decorationalist6: 我的装饰品很适合点缀你的房间
 	Decorationalist7: 这里或许需要装饰一下……
-	Decorationalist8: 你让我想起来我认识的一个人... 但，是谁呢...
+	Decorationalist8: 你让我想起来我认识的一个人... 但,是谁呢...
 	Decorationalist9: 哦?看起来你是为了另一个装饰品而来
 	Decorationalist10: 难得啊,想来买幅画吗?
 	Decorationalist11: 试过把太阳变成黑洞吗?
-	DecorationalistParty: 让我们彻夜歌舞吧! 我们现在只需要那几幅顶级画作!
-	Erazor0: 一名战士不能是仅有蛮力的野人; 想要在这片土地上生存，你还需要速度和敏捷
+	DecorationalistParty: 这场派对绝对会嗨翻天! 我们现在只需要那几幅顶级画作! 
+	Erazor0: 一名战士不能是仅有蛮力的野人; 想要在这片土地上生存,你还需要速度和敏捷
 	Erazor1: 你身中的战士之血必定在沸腾着
-	Erazor2: 「秩晶守卫」随着他们守护的家园从地图上消失后，我决定调查此事，结果意外发现了一个由强大生物制造的「次元裂隙」. 它将我和它的领域链接起来，这也是为什么我会出现在这里
-	Erazor3: 你自觉可为世界之主？倘若如此，何因使你确信已获此殊荣？
-	Erazor4: 一定要保留一些样本来备用，因为我可以利用这些数据，并据此制造新型武器.
-	Erazor5: 我可以使用「龙愠晶镀板」制作大量强有力的装备，但是你想要的话需要付得起足够的「龙愠晶镀板」来向我证明你的能力.
-	Erazor6: 那些生物在我们下方的深处飞来飞去；有时候，它们会让我想起父亲的战士们.
+	Erazor2: 「秩晶守卫」随着他们守护的家园从地图上消失后,我决定调查此事,结果意外发现了一个由强大生物制造的「次元裂隙」. 它将我和它的领域链接起来,这也是为什么我会出现在这里
+	Erazor3: 你自觉可为世界之主?倘若如此,何因使你确信已获此殊荣?
+	Erazor4: 一定要保留一些样本来备用,因为我可以利用这些数据,并据此制造新型武器.
+	Erazor5: 我可以使用「龙愠晶镀板」制作大量强有力的装备,但是你想要的话需要付得起足够的「龙愠晶镀板」来向我证明你的能力.
+	Erazor6: 那些生物在我们下方的深处飞来飞去; 有时候,它们会让我想起父亲的战士们.
 	Erazor7: 「安泰」.. 我的老朋友.. 我一定会完成我们的研究...
 	Erazor8: 你和「尼尔」谈过了吗? 我听说那些恶臭的腐化又在蔓延了
-	Erazor9: 我一直随身佩戴此剑... 它有着和我女儿一样的名字, 大约五十年前的一场悲剧中我永远地失去了我的爱女，「雅瑞娅」
-	Erazor10: 我发现有几个强大的存在出现了「星蚀」的症状. 如果你感到了危险并愿意找到一些侵蚀样本，我想你能做到的. 一般来说越是神秘、千变万化的地方更可能拥有更多被侵蚀的存在.
-	ErazorNuba: 不幸的是，「云珀」和她的族裔们似乎总是陷入麻烦之中. 我感到……内疚. 因为我应该为此负责.
-	ErazorObelisk0: 年轻人，看起来你已经准备好一切了. 「亚巴顿」已经准备好开始他的计划了，准备好你的「圣遗」武器去阻止他吧!
-	ErazorObelisk1: 勇士，确保你带上了你的「圣遗」，只有它才能让你击破那些存在的防御.
-	ErazorNeedRelic0: 第一步已经成功，但是如果你想要消灭这些存在必须要有一件「圣遗」
+	Erazor9: 我一直随身佩戴此剑... 它有着和我女儿一样的名字, 大约五十年前的一场悲剧中我永远地失去了我的爱女,「雅瑞娅」
+	Erazor10: 我发现有几个强大的存在出现了「星蚀」的症状. 如果你感到了危险并愿意找到一些侵蚀样本,我想你能做到的. 一般来说越是神秘、千变万化的地方更可能拥有更多被侵蚀的存在.
+	ErazorNuba: 不幸的是,「云珀」和她的族裔们似乎总是陷入麻烦之中. 我感到……内疚. 因为我应该为此负责.
+	ErazorObelisk0: 年轻人,看起来你已经准备好一切了. 「亚巴顿」已经准备好开始他的计划了,准备好你的「圣遗」武器去阻止他吧! 
+	ErazorObelisk1: 勇士,确保你带上了你的「圣遗」,只有它才能让你击破那些存在的防御.
+	ErazorNeedRelic0: 第一步已经成功,但是如果你想要消灭这些存在必须要有一件「圣遗」
 	ErazorNeedRelic1: 没有「圣遗」你无法对那些存在造成任何妨害.
-	ErazorNeedAsthral0: 你打败了我，但是你还没有做足准备. 你需要更加努力锻炼自己，同时搞到一整套「龙愠晶」盔甲来保护你
+	ErazorNeedAsthral0: 你打败了我,但是你还没有做足准备. 你需要更加努力锻炼自己,同时搞到一整套「龙愠晶」盔甲来保护你
 	ErazorNeedAsthral1: 如果你想要阻止「亚巴顿」的计划会需要「龙愠晶」盔甲的. 这是抵御那些存在所产生的破坏性能量的唯一手段
 	ErazorDeclineFight:
 		'''
-		你还太弱了，不配和我一起锻炼
+		你还太弱了,不配和我一起锻炼
 		当你开个独自对抗被侵蚀的生物时再来找我
 
 		(需要10样本)
@@ -829,55 +829,55 @@ Town: {
 		(需要10样本)
 		'''
 	ErazorStart: 在圣地后面的庭院来见我
-	Neil0: 我十分好奇那些「鱼鳃药水」是怎么在你身上生效的. 真的……会让你变成一条鱼？或者部分变成？只有腮的部分起作用？或者像Syranox那样在水下呼吸？
+	Neil0: 我十分好奇那些「鱼鳃药水」是怎么在你身上生效的. 真的……会让你变成一条鱼?或者部分变成?只有腮的部分起作用?或者像Syranox那样在水下呼吸?
 	Neil1: 我有多高? 呃, 我想大概有6英尺
-	Neil2: 我可能获得了某个药水的效果……但是我还没有完麻醉掉，你可以帮我个忙吗，让那个喋喋不休的岩石闭上嘴
-	Neil3: 你在附近看见过一只巨大的红眼生化鸡吗？很好，你应该感谢我
-	Neil4: 蜥蜴人是蜥蜴还是人？
-	Neil5: 你是内个内个内个内- 等等，嗯？哦没事，没事. 你继续忙你的事情吧
-	Neil6: 你可能在好奇我会拿这些材料做什么吗？唔，我自己也不知道，赛勒斯上可没有这些. 我想我可能会把他们扔到一起然后看看会发生什么吧哈哈.
-	Neil7: 我不确定我是不是出现了什么幻觉，但是就在我和一个穿着超大牛仔裤的火箭冰淇淋人打完招呼后，看到了外面有一些飞着的眼球
-	Neil8: 嘿, 兄弟. 你肩膀上有一个，呃……手——哈哈吓到你了吧
-	Neil9: 你可能认为我们赛尔里安特人对门很头疼, 但是... 兄弟, 那不是真的. 别信他们的谎言.
+	Neil2: 我可能获得了某个药水的效果……但是我还没有完麻醉掉,你可以帮我个忙吗,让那个喋喋不休的岩石闭上嘴
+	Neil3: 你在附近看见过一只巨大的红眼生化鸡吗?很好,你应该感谢我
+	Neil4: 蜥蜴人是蜥蜴还是人?
+	Neil5: 你是内个内个内个内- 等等,嗯?哦没事,没事. 你继续忙你的事情吧
+	Neil6: 你可能在好奇我会拿这些材料做什么吗?唔,我自己也不知道,「赛勒斯」上可没有这些. 我想我可能会把他们扔到一起然后看看会发生什么吧哈哈.
+	Neil7: 我不确定我是不是出现了什么幻觉,但是就在我和一个穿着超大牛仔裤的火箭冰淇淋人打完招呼后,看到了外面有一些飞着的眼球
+	Neil8: 嘿, 兄弟. 你肩膀上有一个,呃……手——哈哈吓到你了吧
+	Neil9: 你可能认为我们「赛尔里安特人」对门很头疼, 但是... 兄弟, 那不是真的. 别信他们的谎言.
 	Neil10: 啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
-	Neil11: 开门爬进来，趴地别乱动，一起模仿剑龙甩尾巴！
-	Neil12: 我最近检查你的报告了, 你又把“亚巴顿”拼错了，不是“阿巴顿”
-	Neil13: 新药水，你是？
-	Neil14: 砰! 砰! 嘣! 嘣! 啊哈哈哈哈哈哈- 哦, 嗨!.
-	Neil15: 治疗药水上的线条数……真的有实际意义吗?它们是和某个数学公式对应吗?在你的世界里，有没有某种权威机构专门负责监督这个标签?
+	Neil11: 开门爬进来,趴地别乱动,一起模仿剑龙甩尾巴! 
+	Neil12: 我最近检查你的报告了, 你又把「亚巴顿」拼错了,不是「阿巴顿」
+	Neil13: 新药水,你是?
+	Neil14: 砰! 砰! 嘣! 嘣! 啊哈哈哈哈哈哈- 哦, 嗨! .
+	Neil15: 「治疗药水」上的线条数……真的有实际意义吗?它们是和某个数学公式对应吗?在你的世界里,有没有某种权威机构专门负责监督这个标签?
 	Neil16: 哈. 哈哈哈. 哈哈哈哈哈. 哈哈哈哈哈哈哈.
 	Neil17: 他们称我为毒品机器——不他们没有停止撒谎
 	Neil18: 我的头后面有七个舌头
 	Neil19: 是的我现在每周三都复用大剂量药物
-	Neil20: 我在赛勒斯的最高学院学习炼金术, 这样我就可以随时喝药水了
+	Neil20: 我在「赛勒斯」的最高学院学习炼金术, 这样我就可以随时喝药水了
 	Neil21: 不我没醉, 是你醉了! 你到底是怎么进到我的房间的?
-	Neil22: 你知道的, 尽管我的混合药水效果再强, 我在学院时的炽热记忆仍在眼前不断浮现. 或许我做不到忘掉那一切，或许我做不到……
-	Neil23: 我的发型? 嗯是的，是一把镰刀. 你们不能把发型做成自己喜欢的样子吗?
+	Neil22: 你知道的, 尽管我的混合药水效果再强, 我在学院时的炽热记忆仍在眼前不断浮现. 或许我做不到忘掉那一切,或许我做不到……
+	Neil23: 我的发型? 嗯是的,是一把镰刀. 你们不能把发型做成自己喜欢的样子吗?
 	Neil24: 按下[F]向那个吃樱桃的男人致敬
 	Neil25: *摆出威胁的姿势*
-	Neil26: 嘿，那个叫「亚巴顿」的家伙又在散播噩梦了, 真是败坏了我的名声. 你不是已经解决它了吗?
-	Neil27: 不，我没有变战斗脸，别对我尖叫了
+	Neil26: 嘿,那个叫「亚巴顿」的家伙又在散播噩梦了, 真是败坏了我的名声. 你不是已经解决它了吗?
+	Neil27: 不,我没有变战斗脸,别对我尖叫了
 	NeilShroom: 蘑菇? 蘑菇菇菇菇菇菇. 蘑菇菇菇菇菇菇菇菇菇菇菇. 哦, 什么? 我只是拿了点样本放到电路中, 我想他们会有美妙的声音的. -是-的-, 这-完-全-算是研究, 你是什么意思?
 	NeilTrade: 交易物品
 	NeilErosion: 侵蚀状态
-	NeilErosionGone: 看起来今天的侵蚀已经退去了，等它再次出现时我会通知你.
+	NeilErosionGone: 看起来今天的侵蚀已经退去了,等它再次出现时我会通知你.
 	NeilErosionUG: 你知道那个充满岩石的地方吗? 唔, 那有水晶蠕虫. 是的, 蠕虫. 我恨蠕虫. 去杀了它们. // -臣-服-于-蠕-虫-吧-. -臣-服-于-蠕-虫-.
-	NeilErosionUGHallow: 看起来彩虹之地也未能幸免于难，有一些侵蚀需要清除.
-	NeilErosionUGEvil: 紫色的眼球……紫色的牙齿……紫色的肉……呃。去除任何被侵蚀的东西，让它不那么恶心。
+	NeilErosionUGHallow: 看起来彩虹之地也未能幸免于难,有一些侵蚀需要清除.
+	NeilErosionUGEvil: 紫色的眼球……紫色的牙齿……紫色的肉……呃。去除任何被侵蚀的东西,让它不那么恶心。
 	NeilErosionSky: 不. 这什么都没有. 放弃吧.
-	NeilErosionUGDesert: 有报道称，沙漠洞穴中传来了震耳欲聋的尖叫声，同时还存在潜在的侵蚀能量。去调查一下吧。
-	NeilErosionFRF: 你知道的，伙计，我一直很喜欢焦烬森林。不幸的是，世事难料，侵蚀已经让那里的生物饱受折磨。去结束它们的痛苦吧。
-	NeilErosionHell: 无论下面那些嘲弄我们同类的东西是什么，它们似乎不在乎遇到的任何事物，最终自身被侵蚀殆尽。消灭它们吧。
-	NeilErosionUnknown: 我的兄弟，我的伙计，我的超级老大，我已经完全不知道了
-	Pandolar0: 是时候来举办一场饮茶派对了!
-	Pandolar1: Ariketik是一个对生命发展十分不利的地, 它的原住民只有Olaarbe、令人恐惧的Anudeya C'thyr和Uleru. 这里可能也有其他物种, 但是不断的暴雪与浓雾让我们很难发现它们.
+	NeilErosionUGDesert: 有报道称,沙漠洞穴中传来了震耳欲聋的尖叫声,同时还存在潜在的侵蚀能量。去调查一下吧。
+	NeilErosionFRF: 你知道的,伙计,我一直很喜欢「焦烬森林」。不幸的是,世事难料,侵蚀已经让那里的生物饱受折磨。去结束它们的痛苦吧。
+	NeilErosionHell: 无论下面那些嘲弄我们同类的东西是什么,它们似乎不在乎遇到的任何事物,最终自身被侵蚀殆尽。消灭它们吧。
+	NeilErosionUnknown: 我的兄弟,我的伙计,我的超级老大,我已经完全不知道了
+	Pandolar0: 是时候来举办一场饮茶派对了! 
+	Pandolar1: Ariketik是一个对生命发展十分不利的地, 它的原住民只有Olaarbe、令人恐惧的Anudeya C'thyr和Uleru. 这里可能也有其他物种, 但是不休止的暴雪与浓雾让我们很难发现它们.
 	Pandolar2: 你有备用冰块吗? 现在真的很热...
 	Pandolar3: 我的旧房子看起来比这好太多了.
 	Pandolar4: 有时我想舔冰块...
 	Pandolar5: 有什么要交易的吗?
 	Pandolar6: 需要什么吗??
 	Pandolar7: 谢天谢地我搞到了这套散热套装, 要是没有这些「凛寒」晶体我早就被熔化了.
-	Pandolar8: 闻起来有点烧焦的味道, 你是掉进火山了还是怎么了？
+	Pandolar8: 闻起来有点烧焦的味道, 你是掉进火山了还是怎么了?
 	Pandolar9: 有个神话说人类沐浴在怪物的血水中会成为突变体, 我希望你不会也变成这样
 	Pandolar10: Danim Zedonibēùs
 	Pandolar11: 我有许多毛皮. 如果你有足够多的钱的话
@@ -885,76 +885,76 @@ Town: {
 	Pandolar13: Pandas(熊猫)? 哦我知道它们. 据我所知"Pandolar"就是根据这个词来的. 但个人而言,我更喜欢用母语来称呼我的亲戚们 I , 叫做「奥拉尔」.
 	Pandolar14: Arguuth还好吗?
 	Pandolar15: 你看起来...劳累过度了. 别干了. 找人帮忙吧.
-	PandolarNuba: 很高兴看到「云珀」终于明白了他们没办法让死去的父亲复活, 她会帮我我们找到回到赛勒斯的路的
-	PandolarPreSiblings: 「诺瓦尼尔」和他的族裔们，「失落族裔」和「诺赫拉尔」的孩子们. 我看到他们也掉进了裂隙里. 我不知道他们要去做什么, 但是应该和这个世界的月亮有关
+	PandolarNuba: 很高兴看到「云珀」终于明白了他们没办法让死去的父亲复活, 她会帮我我们找到回到「赛勒斯」的路的
+	PandolarPreSiblings: 「诺瓦尼尔」和他的族裔们,「失落族裔」和「诺赫拉尔」的孩子们. 我看到他们也掉进了「裂隙」里. 我不知道他们要去做什么, 但是应该和这个世界的月亮有关
 	PandolarPreAraghur: 几个和我一起来自「赛勒斯」的人也被卷入了裂隙之中. 我们应该聚集在一起找到回去的办法
-	PandolarPreAbaddon: 我正要返回Ariketik, 带回被俘虏的「裁决」, 这时候，「赛勒斯」的天空顷刻间阴沉下来，而后我还没来得及弄清楚我到了什么地方，就先一头装上了雪原
+	PandolarPreAbaddon: 我正要返回Ariketik, 带回被俘虏的「裁决」, 这时候,「赛勒斯」的天空顷刻间阴沉下来,而后我还没来得及弄清楚我到了什么地方,就先一头撞上了雪原
 	PandolarParty: 派对很棒. 气球, 摇曳的灯光, 音乐... 唯一缺少的就是一个巨大冰雕.
 	PandolarEnhancement: 强化「潮遗黏尸」
 	PandolarSalvageButton: 拾荒物资
 	PandolarSalvageCooldown: 我还没找到什么有趣的东西. 过会儿再来看看吧; 或许我一会儿就能找到什么有趣的东西了...
-	PandolarSalvageMysteriousGem: 这里, 带上这个, 这是我旅途中找到的东西，但是我用不上. 或许有一天能够帮到你?
+	PandolarSalvageMysteriousGem: 这里, 带上这个, 这是我旅途中找到的东西,但是我用不上. 或许有一天能够帮到你?
 	PandolarSalvageStandard: 呜呼... 摸到这些毛皮的感觉太爽了. 里面蕴含的原处魔力简直要溢出来了... 同时, 他们在我们的母星上猎杀我们. 这下猎人被猎物骑在头上了! 不过说实话, 你怎么也不拿一些走呢? 我用不了这么多的.
 	PandolarSalvageGems: 我前几天出游时找到一些可能对你有用的东西.给, 这就是.
-	PandolarSalvageCorruption: 有趣的是，这整条腐化蠕虫完全是由魔矿锭和暗影鳞片构成的. 说到他们，拿回你落下的东西吧
+	PandolarSalvageCorruption: 有趣的是,这整条腐化蠕虫完全是由魔矿锭和暗影鳞片构成的. 说到他们,拿回你落下的东西吧
 	PandolarSalvageCrimson: 哪些围绕在大脑周围的飞眼怪真是名副其实.拿走你落下的组织样本和猩红矿锭, 我再也不希望他们出现在我的脑海里了
 	PandolarSalvageDungeon: 我依稀能够辨别那些骷髅是谁……他们是我偷——呃我买过东西的商人! 拿走你掉在这的骨肉.
-	PandolarSalvageWax: 研究丛林的蜂巢时，我发现了一个完全被破坏的蜂巢中残留的蜂蜡. 回来时路过了一片南瓜地顺带摘了几个，或许对你有用?
-	PandolarSalvageHM: 我准备向导被杀害后去洞穴里探险. 但是天哪，我不知道你都在下面干了什么, 但是情况变遭了很多! 这是我从下面找到的.
-	PandolarSalvageMech: 我见着一些从你之前打的机械生物身上掉下来的零碎金属。可别被我们Pandolar人对寒冷的喜好骗了，我们可是在技艺精湛的铁匠!
-	PandolarSalvageRaynare: 你和那个鸟妖女王战斗之后，羽毛掉的到处都是! 我想...呃我想我甚至还在那里找到了几个詹森的羽毛...
-	PandolarSalvageLihzahrd: 我刚才去丛林神庙逛了逛，找到了好像是某种石板的碎片，还有几块碎砖头。 这些砖头看上去好像可以作为某种锭的材料...
-	PandolarSalvageTide: 当我去海洋探险的时候，我找到了一只超大的鱼, 当然，它和往常一样是死的. 我掏了掏有什么有用的, 结果有特别多的灵魂就堆在里面。我想这些灵魂对你来说更有用.
-	PandolarSalvageCelestial: 哇，刚才那些外星人数量可真多. 我想他们是来自这个世界的月亮井吧, 无论如何, 我带回来了一些你落下的碎片.
-	PandolarSalvageOblivion: 你打败了亚巴顿之后, 我再也不做在太阳上的噩梦了! 唉，我想想都发抖... 不过, 我做了个关于地底某个洞穴的梦. 我去那边的时候，找到了这个矿物。拿点吧，我对这东西有什么用完全没头绪.
-	PandolarSalvageFlarium: 你击败阿加尔之后我去了趟渊狱, 还收集了一些样本。或许它们对你有用?
-	PandolarSalvageLunarCoins: 我刚才和 云珀 聊天, 不得不说，索兰的文明真有趣! 她谢了我和她聊天，还给了我这几枚硬币. 她说这是索兰上的特殊货币. 我拿着没用，所以给你吧.
-	PandolarWake: 过去多久了? 一瞬间? 1000年? 400,000年? 哦，抱歉，我的名字是 {0}, 谢谢你救了我。 有什么我能帮到你的吗?
-	PandolarHaunt: 把你的自动暂停关了，不然我晚上钻你被窝。
+	PandolarSalvageWax: 研究丛林的蜂巢时,我发现了一个完全被破坏的蜂巢中残留的蜂蜡. 回来时路过了一片南瓜地顺带摘了几个,或许对你有用?
+	PandolarSalvageHM: 我准备向导被杀害后去洞穴里探险. 但是天哪,我不知道你都在下面干了什么, 但是情况变遭了很多! 这是我从下面找到的.
+	PandolarSalvageMech: 我见着一些从你之前打的机械生物身上掉下来的零碎金属。可别被我们「Pandolar人」对寒冷的喜好骗了,我们可是在技艺精湛的铁匠! 
+	PandolarSalvageRaynare: 你和那个鸟妖女王战斗之后,羽毛掉的到处都是! 我想...呃我想我甚至还在那里找到了几个「詹森」的羽毛...
+	PandolarSalvageLihzahrd: 我刚才去丛林神庙逛了逛,找到了好像是某种石板的碎片,还有几块碎砖头。 这些砖头看上去好像可以作为某种锭的材料...
+	PandolarSalvageTide: 当我去海洋探险的时候,我找到了一只超大的鱼, 当然,它和往常一样是死的. 我掏了掏有什么有用的, 结果有特别多的灵魂就堆在里面。我想这些灵魂对你来说更有用.
+	PandolarSalvageCelestial: 哇,刚才那些外星人数量可真多. 我想他们是来自这个世界的月亮井吧, 无论如何, 我带回来了一些你落下的碎片.
+	PandolarSalvageOblivion: 你打败了「亚巴顿」之后, 我再也不做在太阳上的噩梦了! 唉,我想想都发抖... 不过, 我做了个关于地底某个洞穴的梦. 我去那边的时候,找到了这个矿物。拿点吧,我对这东西有什么用完全没头绪.
+	PandolarSalvageFlarium: 你击败「阿加尔」之后我去了趟「渊狱」, 还收集了一些样本。或许它们对你有用?
+	PandolarSalvageLunarCoins: 我刚才和「云珀」聊天, 不得不说,「索兰」的文明真有趣! 她谢了我和她聊天,还给了我这几枚硬币. 她说这是「索兰」上的特殊货币. 我拿着没用,所以给你吧.
+	PandolarWake: 过去多久了? 一瞬间? 1000年? 400,000年? 哦,抱歉,我的名字是 {0}, 谢谢你救了我。 有什么我能帮到你的吗?
+	PandolarHaunt: 把你的自动暂停关了,不然我晚上钻你被窝。
 	Ralnek0: 我可没想要成为英雄啊, 希望我们可以早日回家...
-	Ralnek1: 这地方对我来说太冷了，我不喜欢.
-	Ralnek2: 有金子吗? 别给我那堆基础的东西，我在找那种特别的.
-	Ralnek3: 我有时候可能是个懦夫, 但是有必要的时候我会在战斗中全力以赴!
-	Ralnek4: 我在想，阿加尔大人还好吗。我能感受到他的存在但是听不见他的声音...
-	Scavenger0: 我见过不少千奇百怪的生物, 但是我从来没见过幻影在死河那边游荡着!
-	Scavenger1: 咋? 你觉得我搁这拿剑捅野兽心脏? 当然不是了，哥们, 我正在这舞着把你没装的酷给装了呢!
-	Scavenger2: 伙计，你好嘞! 我是 {0}, 我就是你的好哥们! 记得来买我的品质好货哈, 我给你开友情价!
-	Scavenger3: 在奥兹那边，我们有最神奇的东西! 听说过袋鼠不? 凤头鹦鹉? 或者说土狗? 你哪天真得来一趟，咱那的人都听傻乐呵的!
-	Scavenger4: 不是，什么叫澳洲不存在? 真是一堆土猪啊! 我搁那底下长大的，澳洲当然是真的! 怕不是脑子进袋鼠了吧!
-	Scavenger5: 最近见过羊不? 可真是堆捣蛋的东西! 整天从他们主人的圈里逃出去然后在死河里给自己淹死!
-	Scavenger6: 圣诞节真棒吧? 尽兴的好时候, 超好的食物和圣诞礼物! 那白东西掉你头上感觉应该很不赖吧! 我这辈子都没见过!
-	ScavengerDesert: 跟回家了一样!
-	ScavengerSnow: 哇, 地是白的! 哇，地从天上掉我们头上了! 哇，没别人觉得这很棒吗?
+	Ralnek1: 这地方对我来说太冷了,我不喜欢.
+	Ralnek2: 有金子吗? 别给我那堆基础的东西,我在找那种特别的.
+	Ralnek3: 我有时候可能是个懦夫, 但是有必要的时候我会在战斗中全力以赴! 
+	Ralnek4: 我在想,「阿加尔」大人还好吗。我能感受到他的存在但是听不见他的声音...
+	Scavenger0: 我见过不少千奇百怪的生物, 但是我从来没见过幻影在死河那边游荡着! 
+	Scavenger1: 咋? 你觉得我搁这拿剑捅野兽心脏? 当然不是了,哥们, 我正在这舞着把你没装的酷给装了呢! 
+	Scavenger2: 伙计,你好嘞! 我是 {0}, 我就是你的好哥们! 记得来买我的品质好货哈, 我给你开友情价! 
+	Scavenger3: 在「奥兹」那边,我们有最神奇的东西! 听说过袋鼠不? 凤头鹦鹉? 或者说土狗? 你哪天真得来一趟,咱那的人都听傻乐呵的! 
+	Scavenger4: 不是,什么叫澳洲不存在? 真是一堆土猪啊! 我搁那底下长大的,澳洲当然是真的! 怕不是脑子进袋鼠了吧! 
+	Scavenger5: 最近见过羊不? 可真是堆捣蛋的东西! 整天从他们主人的圈里逃出去然后在死河里给自己淹死! 
+	Scavenger6: 圣诞节真棒吧? 尽兴的好时候, 超好的食物和圣诞礼物! 那白东西掉你头上感觉应该很不赖吧! 我这辈子都没见过! 
+	ScavengerDesert: 跟回家了一样! 
+	ScavengerSnow: 哇, 地是白的! 哇,地从天上掉我们头上了! 哇,没别人觉得这很棒吗?
 	ScavengerFRF: 说真的哥们, 这地方真和家一样.
-	ScavengerBloodMoon: 你看不出我搁这忙的魂都跟不上了吗, 真是累死了, 一边去你个呆子!
-	ScavengerDecree: 哎兄弟, 裁决, 雪原的猛兽, 从'两人一狗'里的那小小一只狗到为了 Pandolars 的魔法去吞噬他们. 它死了可真是件好事, 你是自从切片面包之后发生的最好的事了!
-	ScavengerRalnek: 和南瓜吵架就和对牛弹琴似的, 除非是那个夜里烧着火的骇人玩意!真是奇怪，那小小的物品是咋变成那炙人的怪物的!
-	ScavengerJensen: 听说过Winterfloat不? 那可真是个不错的地方. 说起Winterfloat, 那个刚和你掐过一架的鹦鹉女人是那里的公主! 我想那个红毛女王大概不会多高兴.
-	ScavengerAraneas: 好家伙，深底下那个大蜘蛛巢穴! 那地方真邪门, 比澳洲的大蜘蛛还难整! 它们的女皇就跟和一只那种吃鸟的蜘蛛打一架一样! 那里面拥挤的，人挤人，狗挤狗，蜘蛛挤蜘蛛! 我只能说，我们来这里可不是来扯皮浪费时间的!
-	ScavengerRaynare: Winterfloat的那个红发老女王现在不怎么受欢迎了。你从你把她打败了之后, 就连醉得东倒西歪的愣子都信不过她了! ‘恭喜你摧毁了一个辉煌的帝国', 大概.
+	ScavengerBloodMoon: 你看不出我搁这忙的魂都跟不上了吗, 真是累死了, 一边去你个呆子! 
+	ScavengerDecree: 哎兄弟, 「裁决」, 雪原的猛兽, 从"两人一狗"里的那小小一只狗到为了「Pandolars」的魔法去吞噬他们. 它死了可真是件好事, 你是自从切片面包之后发生的最好的事了! 
+	ScavengerRalnek: 和南瓜吵架就和对牛弹琴似的, 除非是那个夜里烧着火的骇人玩意! 真是奇怪,那小小的物品是咋变成那炙人的怪物的! 
+	ScavengerJensen: 听说过「Winterfloat」不? 那可真是个不错的地方. 说起「Winterfloat」, 那个刚和你掐过一架的鹦鹉女人是那里的公主! 我想那个红毛女王大概不会多高兴.
+	ScavengerAraneas: 好家伙,深底下那个大蜘蛛巢穴! 那地方真邪门, 比澳洲的大蜘蛛还难整! 它们的女皇就跟和一只那种吃鸟的蜘蛛打一架一样! 那里面拥挤的,人挤人,狗挤狗,蜘蛛挤蜘蛛! 我只能说,我们来这里可不是来扯皮浪费时间的! 
+	ScavengerRaynare: 「Winterfloat」的那个红发老女王现在不怎么受欢迎了。你从你把她打败了之后, 就连醉得东倒西歪的愣子都信不过她了! ‘恭喜你摧毁了一个辉煌的帝国', 大概.
 	ScavengerPrimordia: 虫 木 斤  虫 易
-	ScavengerAbaddon: 啊，是的，亚巴顿! 梦魇的使者! 你们吵架时候的幽影恶魔! 可得把他盯紧喽，他是你最不想干架的人!
-	ScavengerAraghur: 那个熔岩蟒裔? 那肯定是阿加尔, 耀炎巨蟒! 他是个不得了的主儿，比光有气死苍蝇的臭脾气的那种小长虫强多了! 说不定他哪天会决定来入住呢!
-	ScavengerSiblings: 云珀，就和你过招的那个女的，人倒是真挺不赖的，澳州口音也甜得很。不过那个涡旋就有点磕碜了, 长得跟个狗一样!
+	ScavengerAbaddon: 啊,是的,「亚巴顿」! 梦魇的使者! 你们吵架时候的幽影恶魔! 可得把他盯紧喽,他是你最不想干架的人! 
+	ScavengerAraghur: 那个熔岩蟒裔? 那肯定是「阿加尔」, 耀炎巨蟒! 他是个不得了的主儿,比光有气死苍蝇的臭脾气的那种小长虫强多了! 说不定他哪天会决定来入住呢! 
+	ScavengerSiblings: 「云珀」,就和你过招的那个女的,人倒是真挺不赖的,澳州口音也甜得很。不过那个涡旋就有点磕碜了, 长得跟个狗一样! 
 	ScavengerErazor: 亻尹 扌立 亻左 真 リ 巾
-	ScavengerMale: "{0} 是吧? 哎哟喂, 你这人儿不错啊! 你瞧着像是那种很镇定的闲逛的人!"
-	ScavengerFemale: 你看上去精神不错 {0}! 你这样的人可真不错，性子又好!
+	ScavengerMale: "{0} 是吧? 哎哟喂, 你这人儿不错啊! 你瞧着像是那种很镇定的闲逛的人! "
+	ScavengerFemale: 你看上去精神不错 {0}! 你这样的人可真不错,性子又好! 
 	ScavengerMistake: 告诉我你的秘密
-	Nuba0: 谢谢你让我留在这里，我需要去一个地方，但是我不得不说, 这里很是惬意.
-	Nuba1: 不得不说，我老家的人算不上多友善. 我还是更喜欢这里，谢谢.
-	Nuba2: 你知道吗，不知道为什么我觉得那个巨大的月亮怪物不是我们的父亲. 他的气场很像，但是又有点不一样, 不知道诺瓦尼尔是不是也有这种感受...
-	Nuba3: 在索兰上我们从来没有过那些令人讨厌的史莱姆, 真是群不要脸的麻烦精!
-	Nuba4: 我有些挺不错的物品在售, 它们绝对天下独一份!
-	Nuba5: 你们这些人怎么称呼自己? '泰拉人'可以吗?
-	Nuba6: 海的那边... 真的有东西吗? 我去过好几趟沙滩了，但是我就只见过水.
-	Nuba7: "'我的货物天下独一份!' 就像我的标语一样? 不是? 噢..."
-	Nuba8: 我总是收到来自人们的奇怪消息，像什么 '你真好看' 和 '云珀最美' , 说真的，这真让我感觉你们这些人就是有那么邪恶...
-	Nuba9: 哦天呐，突变体! 他们吓到我了, 长得像他们杀掉的生物融合在一起了! 呃，不过我们索兰人好像也没好多少...
-	Nuba10: 哦，你就是 {0}? 呃，行! 你好! 很高兴，呃，很高兴见到你!
-	NubaGuide: 你这个世界真奇怪, {0} 和我说了不少, 它和我们的故乡索兰看上去相似, 但是实际上不是卫星，而是一个真的星球, 就像赛勒斯一样.
-	NubaPandolar: 我希望 {0} 不要在意我, 我和我的兄弟们是出了名的好几次没听 the Elite Guardians 关于不要去索兰的命令，还有进行和龙愠晶相关的禁忌研究。
-	NubaNovanielPresent: 我就知道诺瓦尼尔会回来的! 不得不说，我想他了。我很高兴他选择加入我们, 他曾经是我们的偶像，索兰的王子.
-	NubaNovanielAbsent: 我离开家的时候，我最大的哥哥充满了悲伤。他说过我们终会再见, 说不定他会来这里呢.
+	Nuba0: 谢谢你让我留在这里,我需要去一个地方,但是我不得不说, 这里很是惬意.
+	Nuba1: 不得不说,我老家的人算不上多友善. 我还是更喜欢这里,谢谢.
+	Nuba2: 你知道吗,不知道为什么我觉得那个巨大的月亮怪物不是我们的父亲. 他的气场很像,但是又有点不一样, 不知道「诺瓦尼尔」是不是也有这种感受...
+	Nuba3: 在「索兰」上我们从来没有过那些令人讨厌的史莱姆, 真是群不要脸的麻烦精! 
+	Nuba4: 我有些挺不错的物品在售, 它们绝对天下独一份! 
+	Nuba5: 你们这些人怎么称呼自己? 「泰拉人」可以吗?
+	Nuba6: 海的那边... 真的有东西吗? 我去过好几趟沙滩了,但是我就只见过水.
+	Nuba7: "'我的货物天下独一份! ' 就像我的标语一样? 不是? 噢..."
+	Nuba8: 我总是收到来自人们的奇怪消息,像什么 "你真好看"和"「云珀」最美", 说真的,这真让我感觉你们这些人就是有那么邪恶...
+	Nuba9: 哦天呐,「突变体」! 他们吓到我了, 长得像他们杀掉的生物融合在一起了! 呃,不过我们「索兰人」好像也没好多少...
+	Nuba10: 哦,你就是 {0}? 呃,行! 你好! 很高兴,呃,很高兴见到你! 
+	NubaGuide: 你这个世界真奇怪, {0} 和我说了不少, 它和我们的故乡「索兰」看上去相似, 但是实际上不是卫星,而是一个真的星球, 就像「赛勒斯」一样.
+	NubaPandolar: 我希望 {0} 不要在意我, 我和我的兄弟们是出了名的好几次没听 the Elite Guardians 关于不要去「索兰」的命令,还有进行和「龙愠晶」相关的禁忌研究。
+	NubaNovanielPresent: 我就知道「诺瓦尼尔」会回来的! 不得不说,我想他了。我很高兴他选择加入我们, 他曾经是我们的偶像,「索兰」的王子.
+	NubaNovanielAbsent: 我离开家的时候,我最大的哥哥充满了悲伤。他说过我们终会再见, 说不定他会来这里呢.
 	NubaAssemble: 铠甲合体
 }
 
@@ -966,12 +966,12 @@ Buffs: {
 
 	CandleingMinionBuff: {
 		DisplayName: "{$Projectiles.CandleingMinion.DisplayName}"
-		Description: 惊吓时间到!
+		Description: 惊吓时间到! 
 	}
 
 	AntheePetBuff: {
 		DisplayName: 追忆
-		Description: 关于安泰的回忆与你同在
+		Description: 关于「安泰」的回忆与你同在
 	}
 
 	BulletKinPetBuff: {
@@ -1021,7 +1021,7 @@ Buffs: {
 
 	HowlingDeathPupPetBuff: {
 		DisplayName: 嚎叫的死亡小狗
-		Description: "'汪汪!'"
+		Description: "'汪汪! '"
 	}
 
 	MoplePetBuff: {
@@ -1031,7 +1031,7 @@ Buffs: {
 
 	MothPetBuff: {
 		DisplayName: "{$Projectiles.MothPetProjectile.DisplayName}"
-		Description: 毛茸茸的!
+		Description: 毛茸茸的! 
 	}
 
 	NickyPetBuff: {
@@ -1046,7 +1046,7 @@ Buffs: {
 
 	SeraphSigilLightPetBuff: {
 		DisplayName: 死亡炽天使的印章
-		Description: "'诅咒被接受了...'"
+		Description: "“诅咒被接受了...”"
 	}
 
 	SpiritLinkPetBuff: {
@@ -1094,20 +1094,20 @@ Buffs: {
 	}
 
 	NeilSpeedBuff: {
-		DisplayName: Serious Syrusian（赛勒斯人？） Syrup
+		DisplayName: Serious 赛勒斯人 Syrup
 		Description:
 			'''
 			'我就是速度'
-			#赛车总动员?
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}
 			'''
+			#赛车总动员?
 	}
 
 	SuppressionBuff: {
 		DisplayName: 踏进风暴
 		Description:
 			'''
-			'万事俱备.'
+			"万事俱备."
 			{$CommonItemTooltip.PercentIncreasedSuppression}
 			'''
 	}
@@ -1136,7 +1136,7 @@ Buffs: {
 		DisplayName: 暴怒
 		Description:
 			'''
-			'你准备好战斗了.'
+			"你准备好战斗了."
 			防御提高 {0}, 生命再生提高 {1}
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage@2}
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedCritChance@3}
@@ -1173,12 +1173,12 @@ Buffs: {
 
 	FlariumInfernoImmunityBuff: {
 		DisplayName: 炎流炼狱免疫
-		Description: 暂时对 {$Buffs.FlariumInfernoDebuff.DisplayName} 免疫
+		Description: 暂时对「{$Buffs.FlariumInfernoDebuff.DisplayName}」免疫
 	}
 
 	HolyShineBuff: {
 		DisplayName: 圣光
-		Description: "'闪亮!'"
+		Description: "“闪亮! ”"
 	}
 
 	JumpBoostBuff: {
@@ -1203,7 +1203,7 @@ Buffs: {
 
 	SandstormWindImmunityBuff: {
 		DisplayName: 与风暴一体
-		Description: "'风就像是穿过了你一样...'"
+		Description: "“风就像是穿过了你一样...”"
 	}
 
 	SentryBuff: {
@@ -1213,7 +1213,7 @@ Buffs: {
 
 	SkeletonMinionBuff: {
 		DisplayName: 钙
-		Description: "'享受你的新盟友吧'"
+		Description: "“享受你的新盟友吧”"
 	}
 
 	ThrownBuff: {
@@ -1253,7 +1253,7 @@ Buffs: {
 
 	DreadfireCooldownDebuff: {
 		DisplayName: 骇焰燃尽
-		Description: 无法使用 '骇焰光环'
+		Description: 无法使用「骇焰光环」
 	}
 
 	FlariumInfernoDebuff: {
@@ -1299,7 +1299,7 @@ Buffs: {
 	PerkisasBuff: {
 		DisplayName: 龙之贪婪
 		Description: 攻击敌人提升层数
-		Description_Final: 攻击敌人会降下 Perkisas 的怒火
+		Description_Final: 攻击敌人会降下「Perkisas」的怒火
 	}
 
 	ShadowflareVortexDebuff: {
@@ -1402,7 +1402,7 @@ Buffs: {
 
 	ChickenMount: {
 		DisplayName: Skeleton Chicken
-		Description: Onwards! Chickenless bone!
+		Description: Onwards! Chickenless bone! 
 	}
 
 	CrimsonMinion: {
@@ -1492,7 +1492,7 @@ Buffs: {
 
 	FireBreath: {
 		DisplayName: Fire Breath
-		Description: That dish was so spicy, you are literally breathing flames!
+		Description: That dish was so spicy, you are literally breathing flames! 
 	}
 
 	FireMaggot: {
@@ -1577,7 +1577,7 @@ Buffs: {
 
 	LunarCharge: {
 		DisplayName: Novaniel's Charge
-		Description: End the battle before it's too late!
+		Description: End the battle before it's too late! 
 	}
 
 	LunarianAura: {
@@ -1903,9 +1903,9 @@ Items: {
 		DisplayName: 不朽焰巾
 		Tooltip:
 			'''
-			“由「阿加尔」灵魂中散发出的余烬化成，为森林中的居民带来生机”
-			当敌人生命值高于50%时，+10%伤害；当敌人生命值小于50%时，-10%伤害
-			当受到攻击时，会召唤一个保护屏障，减少5秒内受到的伤害，
+			“由「阿加尔」灵魂中散发出的余烬化成,为森林中的居民带来生机”
+			当敌人生命值高于50%时,+10%伤害; 当敌人生命值小于50%时,-10%伤害
+			当受到攻击时,会召唤一个保护屏障,减少5秒内受到的伤害,
 			随后屏障将化作追踪导弹发射出去
 			30秒冷却
 			'''
@@ -1915,9 +1915,9 @@ Items: {
 		DisplayName: 绯红狱巾
 		Tooltip:
 			'''
-			“绯红烈焰，既可带来繁荣，亦可招致毁灭. 你要踏上何途？”
-			当敌人生命值高于50%时，+10%伤害加成；当敌人生命值小于50%时，-10%伤害加成
-			当受到攻击时，会召唤一个保护屏障，减少5秒内受到的伤害，
+			“绯红烈焰,既可带来繁荣,亦可招致毁灭. 你要踏上何途?”
+			当敌人生命值高于50%时,+10%伤害加成; 当敌人生命值小于50%时,-10%伤害加成
+			当受到攻击时,会召唤一个保护屏障,减少5秒内受到的伤害,
 			随后屏障将化作追踪导弹发射出去
 			30秒冷却
 			'''
@@ -2109,7 +2109,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.FlightAndSlowfall}
-			'Great for impersonating lizards!'
+			'Great for impersonating lizards! '
 			'''
 	}
 
@@ -2122,9 +2122,9 @@ Items: {
 		DisplayName: 施法者秘器
 		Tooltip:
 			'''
-			“牺牲一切，信仰魔法”
+			“牺牲一切,信仰魔法”
 			使用魔力药水将造成「施法者的牲礼」效果而不是「魔力病」
-			「施法者的牲礼」最多叠加5层，每层将会 +20% 魔力消耗
+			「施法者的牲礼」最多叠加5层,每层将会 +20% 魔力消耗
 			'''
 	}
 
@@ -2148,8 +2148,8 @@ Items: {
 		DisplayName: 霜寒吊坠
 		Tooltip:
 			'''
-			“捕食者需要变得无情，你也不例外”
-			在雪原时持有者将化身为裁决
+			“捕食者需要变得无情,你也不例外”
+			在雪原时持有者将化身为「裁决」
 			'''
 	}
 
@@ -2160,7 +2160,7 @@ Items: {
 			{$Mods.SacredToolsCN.CommonItemTooltip.IncreasesMaxSentriesBy}
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage@1}
 			哨兵有几率在击中敌人时造成毁灭性的星尘爆炸
-			“他们休想击溃我们，他们终将在我们面前分崩离析！”
+			“他们休想击溃我们,他们终将在我们面前分崩离析! ”
 			'''
 	}
 
@@ -2194,7 +2194,7 @@ Items: {
 
 	FlightFeather: {
 		DisplayName: 风暴飞羽
-		Tooltip: 免疫衰落伤害并且可以滑翔
+		Tooltip: 免疫摔落伤害并且可以滑翔
 	}
 
 	FloraFist: {
@@ -2228,7 +2228,7 @@ Items: {
 		Tooltip:
 			'''
 			近战攻击有概率造成「青金石盾」效果
-			「青金石盾」可以堆叠3次，同时会提高你的防御
+			「青金石盾」可以堆叠3次,同时会提高你的防御
 			'''
 	}
 
@@ -2242,14 +2242,14 @@ Items: {
 		Tooltip:
 			'''
 			击杀敌人时可以额外获得「殇月硬币」
-			提高原版硬币与「殇月硬币」的掉落概率，降低商店的物品价格
+			提高原版硬币与「殇月硬币」的掉落概率,降低商店的物品价格
 			击中敌人有时会掉落额外的硬币
 			'''
 	}
 
 	MageCrystal: {
 		DisplayName: 龙魄凝晶
-		Tooltip: “唯真龙之裔，方能驾驭此物”
+		Tooltip: “唯真龙之裔,方能驾驭此物”
 	}
 
 	MilinticaDash: {
@@ -2261,8 +2261,8 @@ Items: {
 		DisplayName: 噩梦遮目
 		Tooltip:
 			'''
-			“我凝视着虚无，而在这凝视中，我学会不再觊觎任何目标”
-			免疫「黑暗」，「黑视」和「遮挡」减益
+			“我凝视着虚无,而在这凝视中,我学会不再觊觎任何目标”
+			免疫「黑暗」,「黑视」和「遮挡」减益
 			在黑暗中能看得更清晰
 			{$CommonItemTooltip.PercentIncreasedSuppression}
 			'''
@@ -2274,7 +2274,7 @@ Items: {
 	}
 
 	NubasBlessing: {
-		DisplayName: 云珀之泽
+		DisplayName: 「云珀」之泽
 		Tooltip:
 			'''
 			魔法伤害暴击会吸取魔力
@@ -2336,13 +2336,13 @@ Items: {
 		DisplayName: 皇家跑鞋
 		Tooltip:
 			'''
-			可飞行、飞速奔跑，并提供额外冰面行动力
+			可飞行、飞速奔跑,并提供额外冰面行动力
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}
 			可让人在水、蜂蜜和熔岩上行走
 			对火块免疫并在10秒内对熔岩免疫
 			减少因触碰熔岩而受到的伤害
 			+20%飞行时间
-			+100%跳跃速度和跳跃高度，免疫掉落伤害
+			+100%跳跃速度和跳跃高度,免疫掉落伤害
 			'''
 	}
 
@@ -2355,7 +2355,7 @@ Items: {
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedSummonDamage@2}
 			仆从攻击会施加「Lunar Burn」减益
 			哨兵攻击会施加「灵液」减益并有概率引发毁灭性的星尘爆炸
-			“谨慎为上，死亡的战士赢不了任何事物”
+			“谨慎为上,死亡的战士赢不了任何事物”
 			'''
 	}
 
@@ -2376,14 +2376,14 @@ Items: {
 		DisplayName: 虚渺马刺
 		Tooltip:
 			'''
-			“如果亚巴顿有脚，大概也会去穿这个”
-			可飞行、飞速奔跑，并提供额外冰面行动力
+			“如果「亚巴顿」有脚,大概也会去穿这个”
+			可飞行、飞速奔跑,并提供额外冰面行动力
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}
 			可让人在水、蜂蜜和熔岩上行走
 			对火块免疫并在15秒内对熔岩免疫
 			减少因触碰熔岩而受到的伤害
 			+30%飞行时间
-			+200%跳跃速度和跳跃高度，消除掉落伤害
+			+200%跳跃速度和跳跃高度,消除掉落伤害
 			{$ItemTooltip.MasterNinjaGear}
 			'''
 	}
@@ -2395,15 +2395,15 @@ Items: {
 
 	YataMirror: {
 		DisplayName: 八咫镜
-		Tooltip: “残镜窥世，万相俱现。狂澜怒卷，慧目如渊。”
+		Tooltip: “残镜窥世,万相俱现。狂澜怒卷,慧目如渊。”
 	}
 
 	BlindWraithsSheath: {
 		DisplayName: 盲魂之鞘
 		Tooltip:
 			'''
-			“你或许认为我只是在追求幸运. 如果是这样的话，那么我同意
-			我只是单纯的很幸运而已. 安静一些吧，过分的聒噪对你没有好处”
+			“你或许认为我只是在追求幸运. 如果是这样的话,那么我同意
+			我只是单纯的很幸运而已. 安静一些吧,过分的聒噪对你没有好处”
 			{$CommonItemTooltip.IncreasesKnifeStashBy}
 			{$CommonItemTooltip.PercentIncreasedKnifeRecoveryRate@1}
 			每次回收时多回收2飞刀储备
@@ -2415,7 +2415,7 @@ Items: {
 		DisplayName: 真实桎梏
 		Tooltip:
 			'''
-			“现实，往往荒诞不经”
+			“现实,往往荒诞不经”
 			{$CommonItemTooltip.PercentIncreasedLancePerfectStrikeDamage}
 			{$CommonItemTooltip.PercentIncreasedLanceRecoveryMoveDamage@1}
 			{$CommonItemTooltip.IncreasesLancePerfectStrikeWindowByPercent@2}
@@ -2429,7 +2429,7 @@ Items: {
 			“专门为长矛定制的武器鞘符。它将长矛储存在宝石内的临时口袋空间中”
 			{$CommonItemTooltip.PercentIncreasedLanceRecallSpeed}
 			{$CommonItemTooltip.PercentIncreasedLanceRecallVelocity@1}
-			未手持长矛时可通过进行一段较长时间的蓄力来召回所有长矛，此次召回无飞行时间(2分钟冷却时间)
+			未手持长矛时可通过进行一段较长时间的蓄力来召回所有长矛,此次召回无飞行时间(2分钟冷却时间)
 			'''
 	}
 
@@ -3036,12 +3036,12 @@ Items: {
 	}
 
 	VulcanChest: {
-		DisplayName: Vulcan Reaper Garb死神，伏尔甘之盔
+		DisplayName: Vulcan Reaper Garb死神,伏尔甘之盔
 		Tooltip: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}"
 	}
 
 	VulcanHelm: {
-		DisplayName: Vulcan Reaper Helm死神，伏尔甘之盔
+		DisplayName: Vulcan Reaper Helm死神,伏尔甘之盔
 		Tooltip:
 			'''
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}
@@ -3050,7 +3050,7 @@ Items: {
 	}
 
 	VulcanLegs: {
-		DisplayName: Vulcan Reaper Robe死神，伏尔甘之袍
+		DisplayName: Vulcan Reaper Robe死神,伏尔甘之袍
 		Tooltip: "{$CommonItemTooltip.PercentDecreasedMovementSpeed}"
 	}
 
@@ -3078,8 +3078,8 @@ Items: {
 		DisplayName: 挑战者的玻璃之魂
 		Tooltip:
 			'''
-			“接受成为毁灭之神的代价，放弃一切搏命的机会”
-			永久启用「挑战者的玻璃之魂模式」，这会导致任何类型的伤害杀死你，并禁用所有闪避和复活效果
+			“接受成为毁灭之神的代价,放弃一切搏命的机会”
+			永久启用「挑战者的玻璃之魂模式」,这会导致任何类型的伤害杀死你,并禁用所有闪避和复活效果
 			使用「生命水晶」将+1%伤害
 			使用「生命果」将+0.5%伤害
 			使用「玻璃之心」将+5%伤害
@@ -3248,7 +3248,7 @@ Items: {
 	}
 
 	ArcticFur: {
-		DisplayName: 裁决兽绒
+		DisplayName: 「裁决」兽绒
 		Tooltip: “无数死于利爪下的潘多拉星人喂养了它无尽的冰雪魔法”
 	}
 
@@ -3269,7 +3269,7 @@ Items: {
 
 	BlackSun: {
 		DisplayName: 黯日碎片
-		Tooltip: “你还没有明白吗？”
+		Tooltip: “你还没有明白吗?”
 	}
 
 	Blazefury: {
@@ -3319,7 +3319,7 @@ Items: {
 
 	EmberOfOmen: {
 		DisplayName: 余烬噩兆
-		Tooltip: “凝视火焰，以窥命运”
+		Tooltip: “凝视火焰,以窥命运”
 	}
 
 	Enduflora: {
@@ -3399,7 +3399,7 @@ Items: {
 
 	GrandHarpyFeather: {
 		DisplayName: 风暴之羽
-		Tooltip: “已然适应了Valnuu咆哮的风”
+		Tooltip: “已然适应了「Valnuu」咆哮的风”
 	}
 
 	Illumifern: {
@@ -3484,7 +3484,7 @@ Items: {
 
 	SnowBar: {
 		DisplayName: Illean Bar
-		Tooltip: “潘多拉星人发明的一种特殊合金”
+		Tooltip: “「潘多拉星人」发明的一种特殊合金”
 	}
 
 	SoulOfTide: {
@@ -3499,7 +3499,7 @@ Items: {
 
 	TiridiumBar: {
 		DisplayName: Tiridium Bar
-		Tooltip: "'A pink and silver material mined on 赛勒斯' moon Aron'"
+		Tooltip: "'A pink and silver material mined on 「赛勒斯」' moon Aron'"
 	}
 
 	TraceOfChaos: {
@@ -3519,7 +3519,7 @@ Items: {
 
 	VenomSample: {
 		DisplayName: Venom Sample
-		Tooltip: "'A deadly venom extracted from 蛛影阿菈涅丝' discarded armor'"
+		Tooltip: "'A deadly venom extracted from 「蛛影阿菈涅丝」' discarded armor'"
 	}
 
 	Welkinbell: {
@@ -3572,7 +3572,7 @@ Items: {
 
 	GlowingSock: {
 		DisplayName: Luminous Sock
-		Tooltip: Summons Chibi 涡旋 to follow you around
+		Tooltip: Summons Chibi 「涡旋」 to follow you around
 	}
 
 	MothPet: {
@@ -3666,7 +3666,7 @@ Items: {
 	}
 
 	NeilBrewer: {
-		DisplayName: Syrusian（赛勒斯人？） Brewing Station
+		DisplayName: 「赛勒斯人」 Brewing Station
 		Tooltip: Allows the creation of otherworldly mixtures
 	}
 
@@ -3791,7 +3791,7 @@ Items: {
 	}
 
 	Dreamscape1MusicBox: {
-		DisplayName: 音乐盒(风暴前夕)
+		DisplayName: 音乐盒(风雨欲来)
 		Tooltip: ""
 	}
 
@@ -3857,7 +3857,7 @@ Items: {
 
 	RawLapis: {
 		DisplayName: 粗青金石
-		Tooltip: 太过粗糙，无法直接使用
+		Tooltip: 太过粗糙,无法直接使用
 	}
 
 	Emberbark: {
@@ -3952,7 +3952,7 @@ Items: {
 	}
 
 	NeilSpeedPotion: {
-		DisplayName: Serious Syrusian（赛勒斯人？） Syrup
+		DisplayName: Serious 「赛勒斯人」 Syrup
 		Tooltip:
 			'''
 			'What did that madman put in this?'
@@ -4197,7 +4197,7 @@ Items: {
 
 	PandolarPickaxe: {
 		DisplayName: Pandolar Pick
-		Tooltip: "'A cute tool to mine some stuff!'"
+		Tooltip: "'A cute tool to mine some stuff! '"
 	}
 
 	QuasarPickaxe: {
@@ -4220,7 +4220,7 @@ Items: {
 		DisplayName: Matter Manipulator
 		Tooltip:
 			'''
-			'Manipulates everything that matters!'
+			'Manipulates everything that matters! '
 			300% pickaxe power
 			Smart Cursor switches to 1x1 mode
 			'''
@@ -4347,7 +4347,7 @@ Items: {
 
 	PrimordiaMask: {
 		DisplayName: 原基面具
-		Tooltip: “ 我 因 何 而 生 ？ 又 何 去 何 从 ？ ”
+		Tooltip: “ 我 因 何 而 生 ? 又 何 去 何 从 ? ”
 	}
 
 	RalnekMask: {
@@ -4417,12 +4417,12 @@ Items: {
 
 	DariusChest: {
 		DisplayName: Darius' Chestplate
-		Tooltip: "'Great for impersonating mod devs!'"
+		Tooltip: "'Great for impersonating mod devs! '"
 	}
 
 	DariusCrown: {
 		DisplayName: Darius' Sacred Crown
-		Tooltip: "'Great for impersonating mod devs!'"
+		Tooltip: "'Great for impersonating mod devs! '"
 	}
 
 	DariusHair: {
@@ -4437,22 +4437,22 @@ Items: {
 
 	DariusLegs: {
 		DisplayName: Darius' Robe
-		Tooltip: "'Great for impersonating mod devs!'"
+		Tooltip: "'Great for impersonating mod devs! '"
 	}
 
 	DragonChest: {
 		DisplayName: Ivor's Carved Scales
-		Tooltip: "'Great for impersonating mod devs!'"
+		Tooltip: "'Great for impersonating mod devs! '"
 	}
 
 	DragonHead: {
 		DisplayName: Ivor's Decapitated Head
-		Tooltip: "'Great for impersonating mod devs!'"
+		Tooltip: "'Great for impersonating mod devs! '"
 	}
 
 	DragonLegs: {
 		DisplayName: Ivor's Torn Talons
-		Tooltip: "'Great for impersonating mod devs!'"
+		Tooltip: "'Great for impersonating mod devs! '"
 	}
 
 	EgoChest: {
@@ -4462,7 +4462,7 @@ Items: {
 
 	EgoHelmet: {
 		DisplayName: Dragon Prince's Wig
-		Tooltip: "'It's no Helm of Darkness, but these locks sure are stylish!'"
+		Tooltip: "'It's no Helm of Darkness, but these locks sure are stylish! '"
 	}
 
 	EgoLegs: {
@@ -4492,22 +4492,22 @@ Items: {
 
 	GoteMask: {
 		DisplayName: Alexis' Mask
-		Tooltip: "'Great for impersonating gotes!'"
+		Tooltip: "'Great for impersonating gotes! '"
 	}
 
 	IndiChest: {
 		DisplayName: Indi's Shirt
-		Tooltip: "'Great for impersonating mouse girls!'"
+		Tooltip: "'Great for impersonating mouse girls! '"
 	}
 
 	IndiHead: {
 		DisplayName: Indi's Mask
-		Tooltip: "'Great for impersonating mouse girls!'"
+		Tooltip: "'Great for impersonating mouse girls! '"
 	}
 
 	IndiLegs: {
 		DisplayName: Indi's Leggings
-		Tooltip: "'Great for impersonating mouse girls!'"
+		Tooltip: "'Great for impersonating mouse girls! '"
 	}
 
 	JensenChest: {
@@ -4522,17 +4522,17 @@ Items: {
 
 	KoopaBoots: {
 		DisplayName: Koopa Boots
-		Tooltip: "'Great for impersonating mod devs!'"
+		Tooltip: "'Great for impersonating mod devs! '"
 	}
 
 	KoopaHelm: {
 		DisplayName: Koopa Helm
-		Tooltip: "'Great for impersonating mod devs!'"
+		Tooltip: "'Great for impersonating mod devs! '"
 	}
 
 	KoopaShell: {
 		DisplayName: Koopa Shell
-		Tooltip: "'Great for impersonating mod devs!'"
+		Tooltip: "'Great for impersonating mod devs! '"
 	}
 
 	LCSBody: {
@@ -4552,7 +4552,7 @@ Items: {
 
 	LuxordHair: {
 		DisplayName: Hair of the Gambler
-		Tooltip: "'Now, let the game begin!'"
+		Tooltip: "'Now, let the game begin! '"
 	}
 
 	MaliciousHead: {
@@ -4587,17 +4587,17 @@ Items: {
 
 	NanoplasmaticBreastplate: {
 		DisplayName: Nanoplasmatic Breastplate
-		Tooltip: "'Great for impersonating mod devs!'"
+		Tooltip: "'Great for impersonating mod devs! '"
 	}
 
 	NanoplasmaticHood: {
 		DisplayName: Nanoplasmatic Hood
-		Tooltip: "'Great for impersonating mod devs!'"
+		Tooltip: "'Great for impersonating mod devs! '"
 	}
 
 	NanoplasmaticLeggings: {
 		DisplayName: Nanoplasmatic Leggings
-		Tooltip: "'Great for impersonating mod devs!'"
+		Tooltip: "'Great for impersonating mod devs! '"
 	}
 
 	OkuyasuHair: {
@@ -4627,12 +4627,12 @@ Items: {
 
 	RiellCape: {
 		DisplayName: Riell's Scarf
-		Tooltip: "'Feel my stealth!'"
+		Tooltip: "'Feel my stealth! '"
 	}
 
 	RossoArm: {
 		DisplayName: Rosso's Corrupted Arms
-		Tooltip: "'Defeat... Me...!'"
+		Tooltip: "'Defeat... Me...! '"
 	}
 
 	SaitamaBoots: {
@@ -4642,7 +4642,7 @@ Items: {
 
 	SaitamaShirt: {
 		DisplayName: Hero Shirt
-		Tooltip: "'Nothing can beat you!'"
+		Tooltip: "'Nothing can beat you! '"
 	}
 
 	SeraphChest: {
@@ -4667,32 +4667,32 @@ Items: {
 
 	SpletChest: {
 		DisplayName: Splet's Jacket
-		Tooltip: "'Great for impersonating mod devs!'"
+		Tooltip: "'Great for impersonating mod devs! '"
 	}
 
 	SpletHead: {
 		DisplayName: Splet's Mask
-		Tooltip: "'Great for impersonating mod devs!'"
+		Tooltip: "'Great for impersonating mod devs! '"
 	}
 
 	SpletLegs: {
 		DisplayName: Splet's Jeans
-		Tooltip: "'Great for impersonating mod devs!'"
+		Tooltip: "'Great for impersonating mod devs! '"
 	}
 
 	SumeBody: {
 		DisplayName: Sumenora's Shirt
-		Tooltip: "'Great for impersonating pink floofs!'"
+		Tooltip: "'Great for impersonating pink floofs! '"
 	}
 
 	SumeHead: {
 		DisplayName: Sumenora's Mask
-		Tooltip: "'Great for impersonating pink floofs!'"
+		Tooltip: "'Great for impersonating pink floofs! '"
 	}
 
 	SumeLegs: {
 		DisplayName: Sumenora's Leggings
-		Tooltip: "'Great for impersonating pink floofs!'"
+		Tooltip: "'Great for impersonating pink floofs! '"
 	}
 
 	TreeMask: {
@@ -4702,17 +4702,17 @@ Items: {
 
 	VanitasChestplate: {
 		DisplayName: Vanitas' Suit
-		Tooltip: "'Show me anguish!'"
+		Tooltip: "'Show me anguish! '"
 	}
 
 	VanitasHelmet: {
 		DisplayName: Vanitas' Helmet
-		Tooltip: "'What's yours is mine!'"
+		Tooltip: "'What's yours is mine! '"
 	}
 
 	VanitasLeggings: {
 		DisplayName: Vanitas' Greaves
-		Tooltip: "'Join now with your better half!'"
+		Tooltip: "'Join now with your better half! '"
 	}
 
 	XIIICoat: {
@@ -4799,10 +4799,10 @@ Items: {
 		DisplayName: 窥渊者谶
 		Tooltip:
 			'''
-			“旷古传说言道, 龙族被屠戮殆尽，仅有一息得以传承. 
-			我不禁开始思索，这些水晶仍被同样的血恨与悲哀缠绕着
+			“旷古传说言道, 龙族被屠戮殆尽,仅有一息得以传承. 
+			我不禁开始思索,这些水晶仍被同样的血恨与悲哀缠绕着
 			我们尚且不够格侵扰它们. ”
-			击中敌人后，会生成一把刀的虚影，并自动瞄准附近的敌人
+			击中敌人后,会生成一把刀的虚影,并自动瞄准附近的敌人
 			'''
 	}
 
@@ -5819,7 +5819,7 @@ Items: {
 
 	FuryMonolith: {
 		DisplayName: Crest of the Forge
-		Tooltip: "'Strike the iron with the fury of a thousand hammers!'"
+		Tooltip: "'Strike the iron with the fury of a thousand hammers! '"
 	}
 
 	HardenedScorchedSand: {
@@ -6234,9 +6234,9 @@ Items: {
 		DisplayName: 腐朽之契
 		Tooltip:
 			'''
-			“真实往往比谎言更懂得如何刺痛人心. 遵循此句箴言，或许你能窥见其后的真实……”
+			“真实往往比谎言更懂得如何刺痛人心. 遵循此句箴言,或许你能窥见其后的真实……”
 			使用以启用「真实模式」, 释放出Syru的真正力量. 也将为你敞开接触更深层内容的大门
-			注意：此！效！果！不！可！逆！请一定确保您做好了足够的准备后再开启此模式
+			注意：此! 效! 果! 不! 可! 逆! 请一定确保您做好了足够的准备后再开启此模式
 			'''
 	}
 
@@ -6336,7 +6336,7 @@ Items: {
 
 	DualRedLightsaber: {
 		DisplayName: Red Dual Lightsaber
-		Tooltip: "'Come to the dark side!'"
+		Tooltip: "'Come to the dark side! '"
 	}
 
 	EerieCane: {
@@ -6407,7 +6407,7 @@ Items: {
 		DisplayName: 织针
 		Tooltip:
 			'''
-			'Garama!'
+			'Garama! '
 			掷出一个强力的织针
 			在空中使用时按[下]会进行连击
 			在空中使用时按[上]可以像钩爪一样使用
@@ -6541,7 +6541,7 @@ Items: {
 
 	Pandolarra: {
 		DisplayName: Pandolarra
-		Tooltip: "'Fear the mighty Pandolar!'"
+		Tooltip: "'Fear the mighty Pandolar! '"
 	}
 
 	PandolarRepeater: {
@@ -6598,7 +6598,7 @@ Items: {
 		DisplayName: Spine Rattler
 		Tooltip:
 			'''
-			'Rattle the bones of your opponents!'
+			'Rattle the bones of your opponents! '
 			可以焦黑枯骨盔甲增强
 			'''
 	}
@@ -6664,7 +6664,7 @@ Items: {
 
 	WoodJavelin: {
 		DisplayName: 木标枪
-		Tooltip: “为投手准备的入门装备！”
+		Tooltip: “为投手准备的入门装备! ”
 	}
 
 	AsthralArrow: {
@@ -6895,7 +6895,7 @@ Items: {
 
 	RoseChakram: {
 		DisplayName: Rose Chakram
-		Tooltip: "'Neato!' -Cenecal"
+		Tooltip: "'Neato! ' -Cenecal"
 	}
 
 	Eschaton: {
@@ -6934,7 +6934,7 @@ Items: {
 
 	FlareFlail: {
 		DisplayName: Radiant Blaze
-		Tooltip: "'Incinerate your enemies!'"
+		Tooltip: "'Incinerate your enemies! '"
 	}
 
 	FlariumBow: {
@@ -7018,12 +7018,12 @@ Items: {
 
 	SerpentChain: {
 		DisplayName: Serpent Flare Chain
-		Tooltip: "'Strike your enemy with the force of 「阿加尔」!'"
+		Tooltip: "'Strike your enemy with the force of 「阿加尔」! '"
 	}
 
 	Featherbook: {
 		DisplayName: 鹰身女妖巨著
-		Tooltip: "'It shall rain feathers from the Sky!!'"
+		Tooltip: "'It shall rain feathers from the Sky! ! '"
 	}
 
 	Feathergun: {
@@ -7053,7 +7053,7 @@ Items: {
 
 	RedBook: {
 		DisplayName: Royal Harpy Tome
-		Tooltip: "'Rain down hell on your foes!'"
+		Tooltip: "'Rain down hell on your foes! '"
 	}
 
 	RedGun: {
@@ -7196,7 +7196,7 @@ Items: {
 
 	LunaticsGamble: {
 		DisplayName: Lunatic's Gamble
-		Tooltip: "'Look who's on top of the game!'"
+		Tooltip: "'Look who's on top of the game! '"
 	}
 
 	Nyanmere: {
@@ -7388,7 +7388,7 @@ Items: {
 		DisplayName: Phantom's Razor
 		Tooltip:
 			'''
-			'A spear so long not even Odin can hold it!'
+			'A spear so long not even Odin can hold it! '
 			Unleashes dark surges on swing
 			'''
 	}
@@ -7541,7 +7541,7 @@ Items: {
 
 	Devilsknife: {
 		DisplayName: Devilsknife
-		Tooltip: "'CHAOS, CHAOS!'"
+		Tooltip: "'CHAOS, CHAOS! '"
 	}
 
 	DimensionalCrusher: {
@@ -7657,7 +7657,7 @@ Items: {
 		DisplayName: Perkisas - Sword of Greed
 		Tooltip:
 			'''
-			'How dare you step foot in here... Pay for your sins, with your lives!'
+			'How dare you step foot in here... Pay for your sins, with your lives! '
 			Executes a 3 slash combo
 			Each slash has an increasing chance to apply a stack of Dragon's Greed
 			Landing a hit with the third slash while at 5 stacks will summon an Imprint of Perkisas
@@ -7668,7 +7668,7 @@ Items: {
 		DisplayName: Sharpshooter
 		Tooltip:
 			'''
-			'R for reload!'
+			'R for reload! '
 			A pair of arrowguns that fire auto-aiming bolts at enemies.
 			Holding [{$Keybinds.Reload.DisplayName}] with both magazines full switches to sniper mode, which fires a big projectile that ricochets into enemies
 			With both magazines empty, you instead switch to bow mode, allowing you fire an arrow skyward which causes a rain of arrows upon expiring
@@ -7692,7 +7692,7 @@ Items: {
 
 	HarpyBoomerang: {
 		DisplayName: Jensen's Magical Boomerang
-		Tooltip: "'It appears she left it at home, bummer!'"
+		Tooltip: "'It appears she left it at home, bummer! '"
 	}
 
 	Haven: {
@@ -7719,7 +7719,7 @@ Items: {
 		DisplayName: Prejordian
 		Tooltip:
 			'''
-			'Forged with the fury of the moon!'
+			'Forged with the fury of the moon! '
 			Hold left to charge and unleash a powerful attack
 			<right> to thrust the spear forward
 			'''
@@ -7768,10 +7768,10 @@ Items: {
 		DisplayName: Yaldabaoth
 		Tooltip:
 			'''
-			Rise! Oh, Dark Lord of Despair! Crush the stars! Lay waste to care!
-			Rise and cover the land in sorrows! May your symphony of emptiness bring the end of all tomorrows!
-			Rise! Oh, Dark Lord of Despair! Crush the stars! Lay waste to care!
-			Upon your wing, dark judgment bring! May your symphony of tragedy cause the end of everything!
+			Rise! Oh, Dark Lord of Despair! Crush the stars! Lay waste to care! 
+			Rise and cover the land in sorrows! May your symphony of emptiness bring the end of all tomorrows! 
+			Rise! Oh, Dark Lord of Despair! Crush the stars! Lay waste to care! 
+			Upon your wing, dark judgment bring! May your symphony of tragedy cause the end of everything! 
 			'''
 	}
 
@@ -7953,7 +7953,7 @@ Items: {
 
 	IncandescentSolarEffectItem: {
 		DisplayName: Incandescent Solar Effect Item
-		Tooltip: You shouldn't have this!
+		Tooltip: You shouldn't have this! 
 	}
 
 	NightTerror: {
@@ -7983,7 +7983,7 @@ Items: {
 		DisplayName: Beta Coupon
 		Tooltip:
 			'''
-			Erazor and 云珀 are not available in this beta, exchange this coupon for some of the reworked content!
+			Erazor and 云珀 are not available in this beta, exchange this coupon for some of the reworked content! 
 			This item will be removed with the addition of the Erazor rework and related things
 			'''
 	}
@@ -8090,7 +8090,7 @@ Items: {
 
 	SpamtonBody: {
 		DisplayName: Spamton's Suit
-		Tooltip: "'WARNING!' [[Prize]] VARIES!'"
+		Tooltip: "'WARNING! ' [[Prize]] VARIES! '"
 	}
 
 	SpamtonLegs: {
@@ -8124,8 +8124,8 @@ TooltipVanillaModify: {
 	SoaringInsigniaInfo: 伊卡洛斯之愚
 	SoaringInsignia:
 		'''
-		当飞行时间耗尽时，如果当前场上有Boss存活将会每秒削弱装备者
-		减少飞行速度，减少伤害，提高受到的伤害
+		当飞行时间耗尽时,如果当前场上有Boss存活将会每秒削弱装备者
+		减少飞行速度,减少伤害,提高受到的伤害
 		+50%飞行时间
 		'''
 }
@@ -8147,11 +8147,11 @@ TooltipDetail: {
 	CorruptedSigil:
 		'''
 
-		Boss受到的伤害减少，能够造成更多伤害并拥有更高的生命值
-		Boss会获得新的技能，并且更倾向于使用新的技能
+		Boss受到的伤害减少,能够造成更多伤害并拥有更高的生命值
+		Boss会获得新的技能,并且更倾向于使用新的技能
 		Boss可以对玩家造成一些新的减益效果, 并且会随着进程更加强力
-		远程攻击现在会受到距离衰减的影响，同时根据Boss的不同，攻击距离越远，伤害越低
-		某些属性现在获得了更强的边际效应，当你堆叠下列属性时会失去效果：
+		远程攻击现在会受到距离衰减的影响,同时根据Boss的不同,攻击距离越远,伤害越低
+		某些属性现在获得了更强的边际效应,当你堆叠下列属性时会失去效果：
 		   - 近战攻速
 		   - 暴击率
 		您将能够抵消负面影响并获得新的属性：
@@ -8161,11 +8161,11 @@ TooltipDetail: {
 		   - 暴击伤害: 提高暴击伤害
 
 		Boss会掉落新的奖励, 包括「玻璃之心」和「挑战物品」:
-		   - 「玻璃之心」需要在启用「玻璃之魂」后通过击败特定的月亮领主后Boss获得，并且将提高你的最大生命值
-		   - 「挑战物品」需要在特定的条件下击败对应Boss获得，在生物图鉴中将会显示对应提示，您可以将他们装备在指定栏位上
+		   - 「玻璃之心」需要在启用「玻璃之魂」后通过击败特定的月亮领主后Boss获得,并且将提高你的最大生命值
+		   - 「挑战物品」需要在特定的条件下击败对应Boss获得,在生物图鉴中将会显示对应提示,您可以将他们装备在指定栏位上
 
-		这个物品在使用后不会消失，当你需要阅读有关机制时可以随时来查看
-		不过，如果你需要更多详细信息，请查阅官方Wiki(Wiki.gg)上的内容
+		这个物品在使用后不会消失,当你需要阅读有关机制时可以随时来查看
+		不过,如果你需要更多详细信息,请查阅官方Wiki(Wiki.gg)上的内容
 		'''
 }
 
@@ -8375,7 +8375,7 @@ NPCs: {
 	}
 
 	Abaddon: {
-		DisplayName: 亚巴顿，苦厄之始
+		DisplayName: 亚巴顿,苦厄之始
 
 		BossChecklistIntegration: {
 			EntryName: "{$NPCs.Abaddon.DisplayName}"
@@ -9891,7 +9891,7 @@ Tiles: {
 	BendyCutoutTile.MapEntry: Bendy Cutout
 	BoneThroneTile.MapEntry: Bone Throne
 	CatLampTile.MapEntry: Cat Lamp
-	NeilBrewerTile.MapEntry: Syrusian（赛勒斯人？） Brewing Station
+	NeilBrewerTile.MapEntry: Syrusian（赛勒斯人?） Brewing Station
 	ShrineBrazierTile.MapEntry: Shrine Brazier
 	ShrineLampSmallTile.MapEntry: Small Shrine Lamp
 	ShrineLampTile.MapEntry: Shrine Lamp
@@ -10047,10 +10047,10 @@ Missions: {
 
 	BaseOfOperationsMission: {
 		Title: Base of Operations
-		Description: Find a suitable location where Reggie can set up camp and find the other lost syrusians（赛勒斯人？）.
+		Description: Find a suitable location where Reggie can set up camp and find the other lost syrusians（赛勒斯人?）.
 		FindBase: Reach the Starlight Shrine.
 		ReggieText: Reggie appears at the Shrine
-		ConsoleText: Syrusian（赛勒斯人？） Console
+		ConsoleText: Syrusian（赛勒斯人?） Console
 	}
 
 	TestMission: {
