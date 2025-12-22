@@ -901,42 +901,42 @@ Town: {
 	PandolarSalvageDungeon: 我依稀能够辨别那些骷髅是谁……他们是我偷——呃我买过东西的商人! 拿走你掉在这的骨肉.
 	PandolarSalvageWax: 研究丛林的蜂巢时，我发现了一个完全被破坏的蜂巢中残留的蜂蜡. 回来时路过了一片南瓜地顺带摘了几个，或许对你有用?
 	PandolarSalvageHM: 我准备向导被杀害后去洞穴里探险. 但是天哪，我不知道你都在下面干了什么, 但是情况变遭了很多! 这是我从下面找到的.
-	PandolarSalvageMech: I noticed some scrap metal that fell off those mechanical creatures you fought earlier. Don't be deceived by our love of cold, us Pandolars are great blacksmiths!
-	PandolarSalvageRaynare: After your battle with the Harpy Queen, feathers were scattered EVRYWHERE. I think I may have even found some of Jensen's lying in there too...
-	PandolarSalvageLihzahrd: I dropped by the jungle temple earlier, and found some fragments of some sort of tablet along with a couple loose bricks. The bricks almost look like they could be used in some sort of bar...
-	PandolarSalvageTide: When I explored the ocean, I found a huge fish, and it was dead as usual. When I went to see what i could get out of it, I found a huge abundance of souls just sitting in it. I think you'd have more of a use for them than I do.
-	PandolarSalvageCelestial: Man, that was a lot of celestial aliens. I think they come from this world's moon well, anyways, I managed to salvage a few fragments that I think you missed.
-	PandolarSalvageOblivion: After you defeated Abaddon, all those nightmares of being on the sun went away! I'm shivering just thinking about it... however, I did dream about a specific location underground. When I went there, I found some of this ore. Take some of it, I don't have an inkling on what it's for.
-	PandolarSalvageFlarium: I visited the Infernal Depths after you defeated Araghur, and managed to collect some samples while I was there. Maybe they could be of use to you?
-	PandolarSalvageLunarCoins: I spoke to 云珀 earlier, and I mast say, the civilization of Soran seems quite interesting! She thanked me for having a conversation with her, and gave me these coins. She said they're a special currency on Soran. I have no use for them, so you should take them.
-	PandolarWake: How many years have passed? None? 1000? 400,000? Oh, excuse me, my name is {0}, thank you for saving me. Is there any way I can help you?
-	PandolarHaunt: Turn off autopause or I will haunt your dreams.
-	Ralnek0: I didn't ask to be here, I hope we can get back home soon...
-	Ralnek1: This place is too cold for me, and I don't like it.
-	Ralnek2: Got some gold? None of that basic stuff, I am looking for a special kind.
-	Ralnek3: I may be a coward oftentimes, but when I must I will give my all in battle!
-	Ralnek4: I wonder if master Araghur is okay. I can feel his presence but his voice cannot be heard...
-	Scavenger0: I’ve seen quite a lot of beasties in my days, I’ve even seen a phantom hauntin’ over at the billabong!
-	Scavenger1: What? You think I’m over ‘ere pokin’ swords in beastie tickers? Naw cobber, I’m just waltzin’ over here, takin’ the swag you left behind!
-	Scavenger2: G’day mate! I’m {0}, your dardy ol’ cobber! Be sure to purchase my shmickin’ wares, you’ll get me mate’s rate!
-	Scavenger3: Over in oz we got the craziest stuff! Heard of a kanga? A cockie? Maybe even a dingie? You should come over ‘ere sometime, everyone’s a bit of a galah here!
-	Scavenger4: What’s all this about ‘straya not existin’? What a buncha bush pigs! I was born n’ raised down under, ‘course it exists! Must have a bit of the ol’ kangaroos in the top paddock!
-	Scavenger5: Seen any jumbucks lately? What a buncha cheeky menaces they are! Escapin’ their masters then gettin’ swaggies drowned in billabongs!
-	Scavenger6: Don’t ye love chrissie? Glorious time of fun, unrule tucker to bog into and best of all prezzies! Must be nice havin’ that white stuff fallin’ on yer heads! Never seen it in me life!
-	ScavengerDesert: It’s just like home over ‘ere!
-	ScavengerSnow: Wow, the ground is white! Wow, the ground is falling on our heads! Wow, how does everyone not find this amazing?
-	ScavengerFRF: I won’t lie cobber, this is just like home over ‘ere.
-	ScavengerBloodMoon: Can’t yer see that I’m workin’ my soul case out, I’m bloody well tired, so bugger off ya nillwit!
-	ScavengerDecree: Ah cobber, the Decree, the beastie of the tundras, the once wee little canine in a two men and one dog to the monster that bogs into the Pandolars for their bonza magic. Glad it carked it, yer the best thing since sliced bread!
+	PandolarSalvageMech: 我见着一些从你之前打的机械生物身上掉下来的零碎金属。可别被我们Pandolar人对寒冷的喜好骗了，我们可是在技艺精湛的铁匠!
+	PandolarSalvageRaynare: 你和那个鸟妖女王战斗之后，羽毛掉的到处都是! 我想...呃我想我甚至还在那里找到了几个詹森的羽毛...
+	PandolarSalvageLihzahrd: 我刚才去丛林神庙逛了逛，找到了好像是某种石板的碎片，还有几块碎砖头。 这些砖头看上去好像可以作为某种锭的材料...
+	PandolarSalvageTide: 当我去海洋探险的时候，我找到了一只超大的鱼, 当然，它和往常一样是死的. 我掏了掏有什么有用的, 结果有特别多的灵魂就堆在里面。我想这些灵魂对你来说更有用.
+	PandolarSalvageCelestial: 哇，刚才那些外星人数量可真多. 我想他们是来自这个世界的月亮井吧, 无论如何, 我带回来了一些你落下的碎片.
+	PandolarSalvageOblivion: 你打败了亚巴顿之后, 我再也不做在太阳上的噩梦了! 唉，我想想都发抖... 不过, 我做了个关于地底某个洞穴的梦. 我去那边的时候，找到了这个矿物。拿点吧，我对这东西有什么用完全没头绪.
+	PandolarSalvageFlarium: 你击败阿加尔之后我去了趟渊狱, 还收集了一些样本。或许它们对你有用?
+	PandolarSalvageLunarCoins: 我刚才和 云珀 聊天, 不得不说，索兰的文明真有趣! 她谢了我和她聊天，还给了我这几枚硬币. 她说这是索兰上的特殊货币. 我拿着没用，所以给你吧.
+	PandolarWake: 过去多久了? 一瞬间? 1000年? 400,000年? 哦，抱歉，我的名字是 {0}, 谢谢你救了我。 有什么我能帮到你的吗?
+	PandolarHaunt: 把你的自动暂停关了，不然我晚上钻你被窝。
+	Ralnek0: 我可没想要成为英雄啊, 希望我们可以早日回家...
+	Ralnek1: 这地方对我来说太冷了，我不喜欢.
+	Ralnek2: 有金子吗? 别给我那堆基础的东西，我在找那种特别的.
+	Ralnek3: 我有时候可能是个懦夫, 但是有必要的时候我会在战斗中全力以赴!
+	Ralnek4: 我在想，阿加尔大人还好吗。我能感受到他的存在但是听不见他的声音...
+	Scavenger0: 我见过不少千奇百怪的生物, 但是我从来没见过幻影在死河那边游荡着!
+	Scavenger1: 咋? 你觉得我搁这拿剑捅野兽心脏? 当然不是了，哥们, 我正在这舞着把你没装的酷给装了呢!
+	Scavenger2: 伙计，你好嘞! 我是 {0}, 我就是你的好哥们! 记得来买我的品质好货哈, 我给你开友情价!
+	Scavenger3: 在奥兹那边，我们有最神奇的东西! 听说过袋鼠不? 凤头鹦鹉? 或者说土狗? 你哪天真得来一趟，咱那的人都听傻乐呵的!
+	Scavenger4: 不是，什么叫澳洲不存在? 真是一堆土猪啊! 我搁那底下长大的，澳洲当然是真的! 怕不是脑子进袋鼠了吧!
+	Scavenger5: 最近见过羊不? 可真是堆捣蛋的东西! 整天从他们主人的圈里逃出去然后在死河里给自己淹死!
+	Scavenger6: 圣诞节真棒吧? 尽兴的好时候, 超好的食物和圣诞礼物! 那白东西掉你头上感觉应该很不赖吧! 我这辈子都没见过!
+	ScavengerDesert: 跟回家了一样!
+	ScavengerSnow: 哇, 地是白的! 哇，地从天上掉我们头上了! 哇，没别人觉得这很棒吗?
+	ScavengerFRF: 说真的哥们, 这地方真和家一样.
+	ScavengerBloodMoon: 你看不出我搁这忙的魂都跟不上了吗, 真是累死了, 一边去你个呆子!
+	ScavengerDecree: 哎兄弟, 裁决, 雪原的猛兽, 从'两人一狗'里的那小小一只狗到为了 Pandolars 的魔法去吞噬他们. 它死了可真是件好事, 你是自从切片面包之后发生的最好的事了!
 	ScavengerRalnek: ‘Avin a blue with a pumpkin is like ‘avin a blue with a wall, unless it’s the smokin’ hot burning horror of the night! I wonder ‘ow such a wee lil’ object could become such a scorchin’ beast!
 	ScavengerJensen: ‘eard of Winterfloat? Lovely ol’ place that is. Speakin’ of Winterfloat, that green feathered cockie-sheila like thing you had a bit of a blue with is the princess of Winterfloat! I’m sure that ranga queen won’t be too much of a happy little vegemite about that.
 	ScavengerAraneas: Crikey, the great spider nest of the deep ends! Nasty ol’ place that is, even worse than straya’s cranky ol’ spiders! Their empress is like gettin’ into a blue with one of em bird boggin’ spiders! It’s like every man and his dog in there! All me myself can really say about em is that we’re not ‘ere to heck spiders!
 	ScavengerRaynare: Seems like that ol’ ragna queen of Winterfloat isn’t much of a grand ol’ sheila now. After losin’ that blue with ye, not even a blotto bloke has any faith in her! ‘Gratulations for the collapse of a bonza empire, I s’pose.
-	ScavengerPrimordia: L I Z A R D S
+	ScavengerPrimordia: 虫 木 斤  虫 易
 	ScavengerAbaddon: Ah ye, Abaddon! Emissary of Nightmares! Demonic Shadow Wraith of when y’all are havin’ a nanna’s! Do the bee’s knees to watch out for him, he’s the last one you’d want to have a blue with!
 	ScavengerAraghur: That snake hips settle petal ol’ magma serpent? That’d most certainly be the old cobber Araghur, the Flare Serpent! Quite the chap he is, more than just a cute ol’ serpent with a temper bad enough to gag a maggot! Maybe he’ll decide to move here one day!
 	ScavengerSiblings: That ol’ 云珀 sheila you fought was quite the good sort, sweet Aussie accent! That 涡旋 sheila though, she got a bit of a face of a smashed crab, sheepshagger at that!
-	ScavengerErazor: E R A Z O R   I S   H A N D S O M E
+	ScavengerErazor: 亻尹 扌立 亻左 真 リ 巾
 	ScavengerMale: "{0} is it? My oh my, what a fine ol’ bloke you are! Ye seem like kind of a cruiseling and as cool as a cucumber!"
 	ScavengerFemale: Well you’re a fine lookin’ sheila {0}! You’re the good sort, got a sweet ol’ personality as well!
 	ScavengerMistake: Tell me your secrets
@@ -955,7 +955,7 @@ Town: {
 	NubaPandolar: I hope {0} doesn't mind my presence, me and my siblings are infamous for disobeying the Elite Guardians' orders to not visit Soran multiple times and conducting forbidden research with Asthraltite.
 	NubaNovanielPresent: I knew Novaniel would come back! I must say, I did miss him. I'm glad he made the decision to join us, he was the one we all looked up to, the fabled prince of Soran.
 	NubaNovanielAbsent: When I left my home, my eldest brother was filled with sadness. He said we'd meet again another day, maybe he'll even come here.
-	NubaAssemble: Assemble Armor
+	NubaAssemble: 铠甲合体
 }
 
 Buffs: {
@@ -966,107 +966,107 @@ Buffs: {
 
 	CandleingMinionBuff: {
 		DisplayName: "{$Projectiles.CandleingMinion.DisplayName}"
-		Description: It's spook time!
+		Description: 惊吓时间到!
 	}
 
 	AntheePetBuff: {
-		DisplayName: Remembrance
-		Description: The memory of Antheé is still with you
+		DisplayName: 追忆
+		Description: 关于安泰的回忆与你同在
 	}
 
 	BulletKinPetBuff: {
-		DisplayName: Bullet Kin
-		Description: Born from your gun, this lil fella seems to like you
+		DisplayName: 子弹人
+		Description: 从你的枪中诞生的这个小家伙似乎喜欢你
 	}
 
 	BuzzyBeetlePetBuff: {
-		DisplayName: Buzzy Beetle
-		Description: A cute beetle follows you on your journey
+		DisplayName: 嗡嗡甲虫
+		Description: 一只可爱的小甲虫与你在旅途中随行
 	}
 
 	CerlaPetBuff: {
 		DisplayName: Cerla
-		Description: "'What a cute fishy.'"
+		Description: "'多么可爱的小鱼。'"
 	}
 
 	ChibiAraghurPetBuff: {
 		DisplayName: Chibi Araghur
-		Description: "'I am disgusted by this.'"
+		Description: "'令人恶心。'"
 	}
 
 	ChibiJensenPetBuff: {
 		DisplayName: Chibi Jensen
-		Description: She still doesn't like you
+		Description: 她还是不喜欢你
 	}
 
 	ChibiVoxaPetBuff: {
 		DisplayName: Chibi 涡旋
-		Description: Make sure to bring cake
+		Description: 记得带蛋糕
 	}
 
 	CrimsonSigilLightPetBuff: {
-		DisplayName: Crimson Sigil
-		Description: Everyday life with an eldritch abomination
+		DisplayName: 猩红印章
+		Description: 与旧日怪物的日常生活
 	}
 
 	DarkStarLightPetBuff: {
-		DisplayName: Dark Star
-		Description: Darkness within Darkness within Darkness within Darkness within Darkness within Darkness within Darkness with-...
+		DisplayName: 暗冥之星
+		Description: 暗影中的暗影中的暗影中的暗影中白-...
 	}
 
 	HaldezPetBuff: {
 		DisplayName: Haldez
-		Description: The spirit of a dragon follows you around
+		Description: 一头龙的灵魂随你而行
 	}
 
 	HowlingDeathPupPetBuff: {
-		DisplayName: Howling Death Pup
-		Description: "'Arf! Arf!'"
+		DisplayName: 嚎叫的死亡小狗
+		Description: "'汪汪!'"
 	}
 
 	MoplePetBuff: {
 		DisplayName: Mople
-		Description: The small spirit is following you
+		Description: 这只小灵魂随你而行
 	}
 
 	MothPetBuff: {
 		DisplayName: "{$Projectiles.MothPetProjectile.DisplayName}"
-		Description: Fluffy!
+		Description: 毛茸茸的!
 	}
 
 	NickyPetBuff: {
-		DisplayName: Nicky Pet
-		Description: Who is this again
+		DisplayName: Nicky 宠物
+		Description: ...这谁来着?
 	}
 
 	RalseiPetBuff: {
-		DisplayName: Prince from the Dark
-		Description: The power of fluffy boys courses through you
+		DisplayName: 暗夜王子
+		Description: 来自毛茸茸小家伙的力量充满了你的身体
 	}
 
 	SeraphSigilLightPetBuff: {
-		DisplayName: Sigil of the Death Seraph
-		Description: "'The curse was accepted..'"
+		DisplayName: 死亡炽天使的印章
+		Description: "'诅咒被接受了...'"
 	}
 
 	SpiritLinkPetBuff: {
-		DisplayName: Spirit Link
-		Description: Connected by an unbreakable bond
+		DisplayName: 灵魂链接
+		Description: 由牢不可破的羁绊链接着
 	}
 
 	SunSigilLightPetBuff: {
-		DisplayName: Sigil of the Sun
-		Description: A bright light shines upon you
+		DisplayName: 耀阳印章
+		Description: 耀眼的光芒照耀着你
 	}
 
 	TabbySlimePetBuff: {
-		DisplayName: Tabby Slime
-		Description: Don't forget to feed it
+		DisplayName: 虎斑史莱姆
+		Description: 别忘了喂它
 	}
 
 	UmbraPetBuff: {
-		DisplayName: Umbra
-		Description: My blade will guide you
+		DisplayName: 幽暗
+		Description: 我的锋刃会指引你
 	}
 
 	NeilBossDamageBuff: {
@@ -1075,68 +1075,69 @@ Buffs: {
 	}
 
 	NeilCritDamageBuff: {
-		DisplayName: Frenzied Animosity
+		DisplayName: 癫狂的憎恨之物
 		Description: "{$CommonItemTooltip.PercentIncreasedCritDamage}"
 	}
 
 	NeilPolarizeBuff: {
-		DisplayName: Number One
+		DisplayName: 第一名
 		Description:
 			'''
-			'Here's a little lesson in trickery'
+			'接下来上一节有关骗术的课'
 			"{$CommonItemTooltip.PercentIncreasedPolarization}"
 			'''
 	}
 
 	NeilShineBuff: {
 		DisplayName: Flarium Flurry
-		Description: Once Radiant
+		Description: 曾经闪耀过
 	}
 
 	NeilSpeedBuff: {
 		DisplayName: Serious Syrusian（赛勒斯人？） Syrup
 		Description:
 			'''
-			'I am speed'
+			'我就是速度'
+			#赛车总动员?
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}
 			'''
 	}
 
 	SuppressionBuff: {
-		DisplayName: Into the Storm
+		DisplayName: 踏进风暴
 		Description:
 			'''
-			'Preparations were made.'
+			'万事俱备.'
 			{$CommonItemTooltip.PercentIncreasedSuppression}
 			'''
 	}
 
 	AhristaCooldown: {
-		DisplayName: "{$Items.AhristaHealingPotion.DisplayName} Cooldown"
-		Description: Cannot use the {$Items.AhristaHealingPotion.DisplayName}
+		DisplayName: "{$Items.AhristaHealingPotion.DisplayName} 冷却"
+		Description: 无法使用 {$Items.AhristaHealingPotion.DisplayName}
 	}
 
 	AhristaRegenBuff: {
-		DisplayName: "{$Items.AhristaHealingPotion.DisplayName} - Life Regen"
-		Description: Restores health over time
+		DisplayName: "{$Items.AhristaHealingPotion.DisplayName} - 生命再生"
+		Description: 随着时间回复血量
 	}
 
 	KrysteaCooldown: {
-		DisplayName: "{$Items.KrysteaManaPotion.DisplayName} Cooldown"
-		Description: Cannot use the {$Items.KrysteaManaPotion.DisplayName}
+		DisplayName: "{$Items.KrysteaManaPotion.DisplayName} 冷却"
+		Description: 无法使用 {$Items.KrysteaManaPotion.DisplayName}
 	}
 
 	KrysteaManaRegenBuff: {
-		DisplayName: "{$Items.KrysteaManaPotion.DisplayName} - Mana Regen"
-		Description: Restores mana quickly
+		DisplayName: "{$Items.KrysteaManaPotion.DisplayName} - 魔力再生"
+		Description: 快速回复魔力
 	}
 
 	ComboBuff: {
-		DisplayName: Fury
+		DisplayName: 暴怒
 		Description:
 			'''
-			'You are ready for battle.'
-			Defense increased by {0}, life regen increased by {1}
+			'你准备好战斗了.'
+			防御提高 {0}, 生命再生提高 {1}
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage@2}
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedCritChance@3}
 			{$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent@4}
@@ -1146,87 +1147,88 @@ Buffs: {
 	}
 
 	DayStatsBuff: {
-		DisplayName: Dawnlight
-		Description: Increased stats during the day
+		DisplayName: 晨光
+		Description: 白天提高数值
 	}
 
 	ExtraEnduranceBuff: {
-		DisplayName: Draconium Skin
+		DisplayName: 龙皮
 		Description: "{$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent}"
 	}
 
 	ExtraFishBuff: {
-		DisplayName: Shoal Fishing
-		Description: "'Your bait has become quite popular'"
+		DisplayName: 浅滩钓鱼
+		Description: "'你的鱼饵很流行'"
 	}
 
 	FastFallBuff: {
-		DisplayName: Heavy Fall
-		Description: "'Falling faster than an anvil'"
+		DisplayName: 重重落下
+		Description: "'落的比铁砧还快'"
 	}
 
 	FewerSpawnsBuff: {
-		DisplayName: Serene
-		Description: Moderately reduced spawns
+		DisplayName: 宁静
+		Description: 中等的减少生物生成
 	}
 
 	FlariumInfernoImmunityBuff: {
-		DisplayName: Inferno Immunity
-		Description: Temporarily immune to {$Buffs.FlariumInfernoDebuff.DisplayName}
+		DisplayName: 炎流炼狱免疫
+		Description: 暂时对 {$Buffs.FlariumInfernoDebuff.DisplayName} 免疫
 	}
 
 	HolyShineBuff: {
-		DisplayName: Holy Light
-		Description: "'Fluorescent!'"
+		DisplayName: 圣光
+		Description: "'闪亮!'"
 	}
 
 	JumpBoostBuff: {
-		DisplayName: Tower Surmounting
-		Description: Jump height and flight time are increased
+		DisplayName: 攀塔
+		Description: 跳跃高度和飞行时间增加
 	}
 
 	MoonlightBuff: {
-		DisplayName: Moonlight Rhapsody
-		Description: An aura of moonlight surrounds you
+		DisplayName: 月光狂想曲
+		Description: 月光交织的光环环绕着你
 	}
 
 	NightmareBuff: {
-		DisplayName: Nightmare-Fueled
-		Description: Your powers overcome human strength
+		DisplayName: 梦魇驱动
+		Description: 你的力量超越人类
 	}
 
 	NightStatsBuff: {
-		DisplayName: Moonlit
-		Description: Increased stats during the night
+		DisplayName: 月明
+		Description: 晚上提高数值
 	}
 
 	SandstormWindImmunityBuff: {
-		DisplayName: One with the Storm
-		Description: "'It's like the wind blows through you...'"
+		DisplayName: 与风暴一体
+		Description: "'风就像是穿过了你一样...'"
 	}
 
 	SentryBuff: {
-		DisplayName: Commanding
-		Description: Increased max number of sentries
+		DisplayName: 威严
+		Description: 哨兵上限增加
 	}
 
 	SkeletonMinionBuff: {
-		DisplayName: Calcium
-		Description: "'Enjoy your new allies'"
+		DisplayName: 钙
+		#其实想写嘟嘟哒嘟嘟哒
+		Description: "'享受你的新盟友吧'"
 	}
 
 	ThrownBuff: {
-		DisplayName: Ninja Focus
-		Description: Increased throwing powers
+		DisplayName: 忍者の集中
+		Description: 提高投掷能力
 	}
 
 	ThrownSpeedBuff: {
-		DisplayName: Robust Muscles
-		Description: Throwing velocity is increased
+		DisplayName: 强壮的肌肉
+		Description: 提高投掷物速度
 	}
 
 	AraghurDefenseBuff: {
-		DisplayName: Undying
+		DisplayName: 不死
 		Description: "{$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent}"
 	}
 
@@ -1236,23 +1238,23 @@ Buffs: {
 	}
 
 	DarkBindDebuff: {
-		DisplayName: Dark Bind
-		Description: Unable to move
+		DisplayName: 暗黑束缚
+		Description: 无法移动
 	}
 
 	DealmakerDebuff: {
 		DisplayName: KROMER
-		Description: IT'S TIME TO MAKE A VERY [Specil] DEAL...
+		Description: 是时候...做个非常 [特殊的] 交易了...
 	}
 
 	DreadfireAuraBuff: {
-		DisplayName: Dreadfire Aura
-		Description: The flames of the dreaded terror of the night strengthens your sorcery
+		DisplayName: 骇焰光环
+		Description: 幽夜中骇人恐怖的火焰强化你的法术
 	}
 
 	DreadfireCooldownDebuff: {
-		DisplayName: Dreadfire Exhaustion
-		Description: Cannot use 'Dreadfire Aura'
+		DisplayName: 骇焰燃尽
+		Description: 无法使用 '骇焰光环'
 	}
 
 	FlariumInfernoDebuff: {
@@ -1261,7 +1263,7 @@ Buffs: {
 	}
 
 	FleshWoundDebuff: {
-		DisplayName: Flesh Wound
+		DisplayName: 血肉伤
 		Description: "{$CommonItemTooltip.DecreasedMaxLifeByPercent}"
 	}
 
@@ -1271,42 +1273,42 @@ Buffs: {
 	}
 
 	NubaArmorDamageBuff: {
-		DisplayName: Nebulous Flame - Damage
+		DisplayName: 星云涡焰 - 伤害
 		Description: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedDamage}"
 	}
 
 	NubaArmorDefenseBuff: {
-		DisplayName: Nebulous Flame - Defense
+		DisplayName: 星云涡焰 - 防御
 		Description: "{$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent}"
 	}
 
 	NubaArmorHealthBuff: {
-		DisplayName: Nebulous Flame - Health
+		DisplayName: 星云涡焰 - 再生
 		Description: Regeneration increased by {0}
 	}
 
 	NubaArmorManaBuff: {
-		DisplayName: Nebulous Flame - Mana
+		DisplayName: 星云涡焰 - 魔力
 		Description: Mana regeneration increased by {0}
 	}
 
 	NubaArmorSpeedBuff: {
-		DisplayName: Nebulous Flame - Speed
+		DisplayName: 星云涡焰 - 速度
 		Description: "{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}"
 	}
 
 	PerkisasBuff: {
-		DisplayName: Dragon's Greed
-		Description: Attack enemies to increase the stack
-		Description_Final: Attacking an enemy will unleash Perkisas' wrath
+		DisplayName: 龙之贪婪
+		Description: 攻击敌人提升层数
+		Description_Final: 攻击敌人会降下 Perkisas 的怒火
 	}
 
 	ShadowflareVortexDebuff: {
-		DisplayName: Shadowflare Vortex
-		Description: You have entered the storm...
-		Description_DamageReduction: All damage decreased by {Percent}%
-		Description_Suppress: (Damage regained through suppression: {Percent}%)
-		Description_SuppressAll: (All damage regained through suppression)
+		DisplayName: 黯炎涡流
+		Description: 你进入了风暴之中...
+		Description_DamageReduction: 所有伤害降低 {Percent}%
+		Description_Suppress: (压制返还的伤害: {Percent}%)
+		Description_SuppressAll: (所有降低的伤害都已返还)
 	}
 
 	ArmageddonBlade: {
@@ -3152,7 +3154,7 @@ Items: {
 	}
 
 	RaynareBag: {
-		DisplayName: 宝藏袋(蕊娜蕾)
+		DisplayName: 宝藏袋(蕾娜)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
@@ -3790,7 +3792,7 @@ Items: {
 	}
 
 	Dreamscape1MusicBox: {
-		DisplayName: 音乐盒(风暴前夕)
+		DisplayName: 音乐盒(风雨欲来)
 		Tooltip: ""
 	}
 
@@ -4315,7 +4317,7 @@ Items: {
 	}
 
 	HarpyMask2: {
-		DisplayName: 蕊娜蕾面具
+		DisplayName: 蕾娜面具
 		Tooltip: "'You feel royal'"
 	}
 
@@ -5927,7 +5929,7 @@ Items: {
 	}
 
 	TrophyHarpy2: {
-		DisplayName: 蕊娜蕾Trophy
+		DisplayName: 蕾娜Trophy
 		Tooltip: ""
 	}
 
@@ -8038,7 +8040,7 @@ Items: {
 	}
 
 	RaynareRelicItem: {
-		DisplayName: 蕊娜蕾圣物
+		DisplayName: 蕾娜圣物
 		Tooltip: ""
 	}
 
@@ -8614,7 +8616,7 @@ NPCs: {
 	FeatherShieldShoot.DisplayName: Feather
 
 	Raynare: {
-		DisplayName: 蕊娜蕾
+		DisplayName: 蕾娜
 
 		BossChecklistIntegration: {
 			EntryName: 鹰身女皇{$NPCs.Raynare.DisplayName}
@@ -9310,7 +9312,7 @@ Projectiles: {
 	ExplosionTelegraph.DisplayName: Dreadflame Explosion Telegraph
 	FeatherShieldShoot.DisplayName: Red Spirit Feather
 	HarpyCircle.DisplayName: Red Magic
-	RaynarePowerUp.DisplayName: Technical Projectile: Visual Effect for 蕊娜蕾
+	RaynarePowerUp.DisplayName: Technical Projectile: Visual Effect for 蕾娜
 	RedFeather.DisplayName: Feather
 	RedSpell.DisplayName: Red Spell
 	RedSpellCircle.DisplayName: Red Magic
@@ -9425,7 +9427,7 @@ Projectiles: {
 	NovaSpawn2.DisplayName: Technical Projectile: Summons Novaniel
 	PumpkinSpawn.DisplayName: Technical Projectile: Summons the Flaming Pumpkin
 	RainSpawn.DisplayName: Technical Projectile: Summons Rain/Sandstorm
-	RaynareSpawn.DisplayName: Technical Projectile: Summons 蕊娜蕾
+	RaynareSpawn.DisplayName: Technical Projectile: Summons 蕾娜
 	SerpentSpawn.DisplayName: Technical Projectile: Summon 阿加尔
 	SpookboiSpawn.DisplayName: Technical Projectile: Summons the Abyssal Pumpkin
 	RoseChakram.DisplayName: Rose Chakram
