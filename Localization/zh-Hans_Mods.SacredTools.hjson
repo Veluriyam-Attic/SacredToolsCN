@@ -1213,7 +1213,6 @@ Buffs: {
 
 	SkeletonMinionBuff: {
 		DisplayName: 钙
-		#其实想写嘟嘟哒嘟嘟哒
 		Description: "'享受你的新盟友吧'"
 	}
 
