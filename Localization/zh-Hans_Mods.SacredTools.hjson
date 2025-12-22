@@ -928,33 +928,33 @@ Town: {
 	ScavengerFRF: 说真的哥们, 这地方真和家一样.
 	ScavengerBloodMoon: 你看不出我搁这忙的魂都跟不上了吗, 真是累死了, 一边去你个呆子!
 	ScavengerDecree: 哎兄弟, 裁决, 雪原的猛兽, 从'两人一狗'里的那小小一只狗到为了 Pandolars 的魔法去吞噬他们. 它死了可真是件好事, 你是自从切片面包之后发生的最好的事了!
-	ScavengerRalnek: ‘Avin a blue with a pumpkin is like ‘avin a blue with a wall, unless it’s the smokin’ hot burning horror of the night! I wonder ‘ow such a wee lil’ object could become such a scorchin’ beast!
-	ScavengerJensen: ‘eard of Winterfloat? Lovely ol’ place that is. Speakin’ of Winterfloat, that green feathered cockie-sheila like thing you had a bit of a blue with is the princess of Winterfloat! I’m sure that ranga queen won’t be too much of a happy little vegemite about that.
-	ScavengerAraneas: Crikey, the great spider nest of the deep ends! Nasty ol’ place that is, even worse than straya’s cranky ol’ spiders! Their empress is like gettin’ into a blue with one of em bird boggin’ spiders! It’s like every man and his dog in there! All me myself can really say about em is that we’re not ‘ere to heck spiders!
-	ScavengerRaynare: Seems like that ol’ ragna queen of Winterfloat isn’t much of a grand ol’ sheila now. After losin’ that blue with ye, not even a blotto bloke has any faith in her! ‘Gratulations for the collapse of a bonza empire, I s’pose.
+	ScavengerRalnek: 和南瓜吵架就和对牛弹琴似的, 除非是那个夜里烧着火的骇人玩意!真是奇怪，那小小的物品是咋变成那炙人的怪物的!
+	ScavengerJensen: 听说过Winterfloat不? 那可真是个不错的地方. 说起Winterfloat, 那个刚和你掐过一架的鹦鹉女人是那里的公主! 我想那个红毛女王大概不会多高兴.
+	ScavengerAraneas: 好家伙，深底下那个大蜘蛛巢穴! 那地方真邪门, 比澳洲的大蜘蛛还难整! 它们的女皇就跟和一只那种吃鸟的蜘蛛打一架一样! 那里面拥挤的，人挤人，狗挤狗，蜘蛛挤蜘蛛! 我只能说，我们来这里可不是来扯皮浪费时间的!
+	ScavengerRaynare: Winterfloat的那个红发老女王现在不怎么受欢迎了。你从你把她打败了之后, 就连醉得东倒西歪的愣子都信不过她了! ‘恭喜你摧毁了一个辉煌的帝国', 大概.
 	ScavengerPrimordia: 虫 木 斤  虫 易
-	ScavengerAbaddon: Ah ye, Abaddon! Emissary of Nightmares! Demonic Shadow Wraith of when y’all are havin’ a nanna’s! Do the bee’s knees to watch out for him, he’s the last one you’d want to have a blue with!
-	ScavengerAraghur: That snake hips settle petal ol’ magma serpent? That’d most certainly be the old cobber Araghur, the Flare Serpent! Quite the chap he is, more than just a cute ol’ serpent with a temper bad enough to gag a maggot! Maybe he’ll decide to move here one day!
-	ScavengerSiblings: That ol’ 云珀 sheila you fought was quite the good sort, sweet Aussie accent! That 涡旋 sheila though, she got a bit of a face of a smashed crab, sheepshagger at that!
+	ScavengerAbaddon: 啊，是的，亚巴顿! 梦魇的使者! 你们吵架时候的幽影恶魔! 可得把他盯紧喽，他是你最不想干架的人!
+	ScavengerAraghur: 那个熔岩蟒裔? 那肯定是阿加尔, 耀炎巨蟒! 他是个不得了的主儿，比光有气死苍蝇的臭脾气的那种小长虫强多了! 说不定他哪天会决定来入住呢!
+	ScavengerSiblings: 云珀，就和你过招的那个女的，人倒是真挺不赖的，澳州口音也甜得很。不过那个涡旋就有点磕碜了, 长得跟个狗一样!
 	ScavengerErazor: 亻尹 扌立 亻左 真 リ 巾
-	ScavengerMale: "{0} is it? My oh my, what a fine ol’ bloke you are! Ye seem like kind of a cruiseling and as cool as a cucumber!"
-	ScavengerFemale: Well you’re a fine lookin’ sheila {0}! You’re the good sort, got a sweet ol’ personality as well!
-	ScavengerMistake: Tell me your secrets
-	Nuba0: Thank you for letting me stay here, I needed to go somewhere and I must say, this is a lovely place.
-	Nuba1: Must say, the people where I'm from aren't exactly the nicest people. I much prefer it here, thank you.
-	Nuba2: You know, somehow I feel like that giant lunar beast wasn't our father. His aura feels similar however it is also a little different, not sure if Novaniel feels that difference too...
-	Nuba3: We never got those annoying slimes on Soran, they're such a bunch of cheeky menaces!
-	Nuba4: I got some pretty nice things to sell, they're totally out of this world!
-	Nuba5: What exactly do you people call yourself? Would 'Terrarian' work?
-	Nuba6: Is there... actually something beyond the oceans? I've been at the beach quite a few times and I can only see water.
-	Nuba7: "'My wares are out of this world!' Like my catchphrase? No? Oh..."
-	Nuba8: I keep on getting these weird messages from people such as 'you're hot' and '云珀 best girl', I must say that this definitely makes me feel like you people really are that evil...
-	Nuba9: Oh dear, mutants! They scare me, they look an amalgamation of all those creatures they've killed! Not that us Soraniti are much better, I must say...
-	Nuba10: Oh, so you're {0}? Uh, yeah! Hi! Nice to erm, meet you!
-	NubaGuide: This is a strange world you live in, {0} has been telling me a lot about it, it seems to be similar to our homeworld Soran, however it is not a moon but an actual planet, just like 赛勒斯.
-	NubaPandolar: I hope {0} doesn't mind my presence, me and my siblings are infamous for disobeying the Elite Guardians' orders to not visit Soran multiple times and conducting forbidden research with Asthraltite.
-	NubaNovanielPresent: I knew Novaniel would come back! I must say, I did miss him. I'm glad he made the decision to join us, he was the one we all looked up to, the fabled prince of Soran.
-	NubaNovanielAbsent: When I left my home, my eldest brother was filled with sadness. He said we'd meet again another day, maybe he'll even come here.
+	ScavengerMale: "{0} 是吧? 哎哟喂, 你这人儿不错啊! 你瞧着像是那种很镇定的闲逛的人!"
+	ScavengerFemale: 你看上去精神不错 {0}! 你这样的人可真不错，性子又好!
+	ScavengerMistake: 告诉我你的秘密
+	Nuba0: 谢谢你让我留在这里，我需要去一个地方，但是我不得不说, 这里很是惬意.
+	Nuba1: 不得不说，我老家的人算不上多友善. 我还是更喜欢这里，谢谢.
+	Nuba2: 你知道吗，不知道为什么我觉得那个巨大的月亮怪物不是我们的父亲. 他的气场很像，但是又有点不一样, 不知道诺瓦尼尔是不是也有这种感受...
+	Nuba3: 在索兰上我们从来没有过那些令人讨厌的史莱姆, 真是群不要脸的麻烦精!
+	Nuba4: 我有些挺不错的物品在售, 它们绝对天下独一份!
+	Nuba5: 你们这些人怎么称呼自己? '泰拉人'可以吗?
+	Nuba6: 海的那边... 真的有东西吗? 我去过好几趟沙滩了，但是我就只见过水.
+	Nuba7: "'我的货物天下独一份!' 就像我的标语一样? 不是? 噢..."
+	Nuba8: 我总是收到来自人们的奇怪消息，像什么 '你真好看' 和 '云珀最美' , 说真的，这真让我感觉你们这些人就是有那么邪恶...
+	Nuba9: 哦天呐，突变体! 他们吓到我了, 长得像他们杀掉的生物融合在一起了! 呃，不过我们索兰人好像也没好多少...
+	Nuba10: 哦，你就是 {0}? 呃，行! 你好! 很高兴，呃，很高兴见到你!
+	NubaGuide: 你这个世界真奇怪, {0} 和我说了不少, 它和我们的故乡索兰看上去相似, 但是实际上不是卫星，而是一个真的星球, 就像赛勒斯一样.
+	NubaPandolar: 我希望 {0} 不要在意我, 我和我的兄弟们是出了名的好几次没听 the Elite Guardians 关于不要去索兰的命令，还有进行和龙愠晶相关的禁忌研究。
+	NubaNovanielPresent: 我就知道诺瓦尼尔会回来的! 不得不说，我想他了。我很高兴他选择加入我们, 他曾经是我们的偶像，索兰的王子.
+	NubaNovanielAbsent: 我离开家的时候，我最大的哥哥充满了悲伤。他说过我们终会再见, 说不定他会来这里呢.
 	NubaAssemble: 铠甲合体
 }
 
@@ -3791,7 +3791,7 @@ Items: {
 	}
 
 	Dreamscape1MusicBox: {
-		DisplayName: 音乐盒(风雨欲来)
+		DisplayName: 音乐盒(风暴前夕)
 		Tooltip: ""
 	}
 
