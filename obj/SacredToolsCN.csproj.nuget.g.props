@@ -13,7 +13,4 @@
     <SourceRoot Include="C:\Users\Administrator\.nuget\packages\" />
     <SourceRoot Include="D:\Visual\Other\NuGetPackages\" />
   </ItemGroup>
-  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgtModLoader_CodeAssist Condition=" '$(PkgtModLoader_CodeAssist)' == '' ">C:\Users\Administrator\.nuget\packages\tmodloader.codeassist\0.1.5</PkgtModLoader_CodeAssist>
-  </PropertyGroup>
 </Project>

@@ -2,6 +2,7 @@ displayName = 亚巴顿之影「Shadows of Abaddon」汉化<25/12/14测试，不
 author = 玲珑汉化组
 version = 0.1
 modReferences = SacredTools
+dllReferences = TigerForceLocalizationLib
 translationMod = true
 side = Client
 hideResources = true

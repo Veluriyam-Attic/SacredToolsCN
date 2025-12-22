@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SacredToolsCN/1.0.0": {
+        "dependencies": {
+          "TigerForceLocalizationLib": "1.0.0.0"
+        },
+        "runtime": {
+          "SacredToolsCN.dll": {}
+        }
+      },
+      "TigerForceLocalizationLib/1.0.0.0": {
+        "runtime": {
+          "TigerForceLocalizationLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SacredToolsCN/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TigerForceLocalizationLib/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

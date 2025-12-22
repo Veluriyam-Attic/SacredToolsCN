@@ -10,7 +10,7 @@
 
 	<!-- References -->
 	<ItemGroup>
-		
+		<Reference Include="lib\*.dll" />
 	</ItemGroup>
 
 </Project>

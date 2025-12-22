@@ -1,0 +1,16 @@
+E:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\SacredToolsCN\bin\Debug\net8.0\SacredToolsCN.deps.json
+e:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\SacredToolsCN\bin\Debug\net8.0\SacredToolsCN.dll
+e:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\SacredToolsCN\bin\Debug\net8.0\SacredToolsCN.pdb
+e:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\SacredToolsCN\bin\Debug\net8.0\TigerForceLocalizationLib.dll
+e:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\SacredToolsCN\bin\Debug\net8.0\TigerForceLocalizationLib.xml
+e:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\SacredToolsCN\obj\Debug\net8.0\SacredToolsCN.csproj.AssemblyReference.cache
+e:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\SacredToolsCN\obj\Debug\net8.0\SacredToolsCN.GeneratedMSBuildEditorConfig.editorconfig
+e:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\SacredToolsCN\obj\Debug\net8.0\SacredToolsCN.AssemblyInfoInputs.cache
+e:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\SacredToolsCN\obj\Debug\net8.0\SacredToolsCN.AssemblyInfo.cs
+e:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\SacredToolsCN\obj\Debug\net8.0\SacredToolsCN.csproj.CoreCompileInputs.cache
+e:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\SacredToolsCN\obj\Debug\net8.0\SacredToolsCN.sourcelink.json
+E:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\SacredToolsCN\obj\Debug\net8.0\SacredTo.841EFF07.Up2Date
+e:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\SacredToolsCN\obj\Debug\net8.0\SacredToolsCN.dll
+e:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\SacredToolsCN\obj\Debug\net8.0\refint\SacredToolsCN.dll
+e:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\SacredToolsCN\obj\Debug\net8.0\SacredToolsCN.pdb
+E:\User\Administrator\Documents\My Games\Terraria\tModLoader\ModSources\SacredToolsCN\obj\Debug\net8.0\ref\SacredToolsCN.dll
