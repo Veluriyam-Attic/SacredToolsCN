@@ -357,7 +357,7 @@ DamageClasses: {
 Keybinds: {
 	AbilityPrimary.DisplayName: 能力「主」
 	AbilitySecondary.DisplayName: 能力「副」
-	Reload.DisplayName: Reload
+	Reload.DisplayName: 换弹
 	AltMelee.DisplayName: Alt Melee
 	LanceRecovery.DisplayName: Lance recovery/recall
 	Menu.DisplayName: SoA菜单
