@@ -312,20 +312,20 @@ Conversations are linked by key and array position. For example, Conversations.N
 */
 Conversations: {
 	NihilusSpawn_First: {
-		0: 庞大到渗人的精神能量开始凝聚在方尖碑周围,多加小心! 
+		0: 庞大到渗人的精神能量开始凝聚在方尖碑周围,多加小心!
 		1: 我会在边界外围戒备,必要时可以为你提供协助. 祝你好运.
 	}
 
 	Nihilus_PhaseChange: {
 		0: 战斗还未结束! 这个生物终于露出了真面目,周围变得更加扭曲了.
-		1: 准备好你的「圣遗」武器了吗! 打破扭曲,而后踏着它的尸体走过去! 
+		1: 准备好你的「圣遗」武器了吗! 打破扭曲,而后踏着它的尸体走过去!
 	}
 
-	Nihilus_Stun.0: 我替你争取到了输出的机会! 把你的毕生所学都使出来吧! 
+	Nihilus_Stun.0: 我替你争取到了输出的机会! 把你的毕生所学都使出来吧!
 
 	Nihilus_ExtinctionRay: {
-		0: 你撑不住的! 
-		1: 快! 撤到另一边! 我会帮助你的! 
+		0: 你撑不住的!
+		1: 快! 撤到另一边! 我会帮助你的!
 	}
 
 	Nihilus_RisenLanternWarning: {
@@ -334,7 +334,7 @@ Conversations: {
 	}
 
 	Nihilus_CondemnationWarning: {
-		0: 集中精神! 它正准备打算进行一次强力的攻击! 
+		0: 集中精神! 它正准备打算进行一次强力的攻击!
 		1: 快点,躲到那些石头后面! 但是不要松懈,我感觉到它们里面潜伏着不稳定的力量.
 	}
 
@@ -421,8 +421,8 @@ BossMessage: {
 	FragmentMessage: 节庆之月熠熠生辉
 	PiglinBruteEnter: 「猪灵军团」野蛮的进入了战场
 	PiglinRetreatMessage: 「猪灵军团」撤回到了自己的领地
-	PiglinDefeatMessage: 「猪灵军团」已被击退! 
-	SyrusEnd: 「次元裂隙」已经关闭! 
+	PiglinDefeatMessage: 「猪灵军团」已被击退!
+	SyrusEnd: 「次元裂隙」已经关闭!
 	NovanielSpawnMessage: 你在想什么?还没有结束呢...
 	NovanielCelestialJudgementMessage: 这并非针对个人,但不要阻挡我们的去路
 	NihilusHint1: 若说那般拙劣的表演竟是终章,简直是对它的侮辱,凡人.
@@ -430,8 +430,8 @@ BossMessage: {
 	NihilusHint3: 你将要用鲜血、灵魂、生命,以及死亡来付出代价. 我的计划不容他人干涉. 凡人,这是一则警告：保持警醒.
 	NihilusHint4: 你永远不知道下一个噩梦何时会悄然来袭……
 	TempleMessage: 丛林被刺目强光所笼罩……
-	RVGMessage: 来自另一个维度的生物正在进入我们的现实世界! 
-	FrostMessage: 霜之灵已降临人间! 
+	RVGMessage: 来自另一个维度的生物正在进入我们的现实世界!
+	FrostMessage: 霜之灵已降临人间!
 	CerniumMessage: 「Cernium Crystals」在洞穴深处析出
 }
 
@@ -785,8 +785,8 @@ Town: {
 	Pause: 你要是再开自动暂停我就把你的腿捏可捏可捏断了
 	Decorationalist0: 旅途中你听闻过圣巢吗?? 真希望我有一天能够去到那里.
 	Decorationalist1: 嗯~巴夫呐呐~
-	Decorationalist2: 没有必要为你的订单发愁,我的货源是无尽的! 
-	Decorationalist3: 别小瞧了骨钉! 如果用对了威力可是巨大的! 
+	Decorationalist2: 没有必要为你的订单发愁,我的货源是无尽的!
+	Decorationalist3: 别小瞧了骨钉! 如果用对了威力可是巨大的!
 	Decorationalist4: 我发誓我见过这个地方……
 	Decorationalist5: 要看看我的货物吗?
 	Decorationalist6: 我的装饰品很适合点缀你的房间
@@ -795,7 +795,7 @@ Town: {
 	Decorationalist9: 哦?看起来你是为了另一个装饰品而来
 	Decorationalist10: 难得啊,想来买幅画吗?
 	Decorationalist11: 试过把太阳变成黑洞吗?
-	DecorationalistParty: 这场派对绝对会嗨翻天! 我们现在只需要那几幅顶级画作! 
+	DecorationalistParty: 这场派对绝对会嗨翻天! 我们现在只需要那几幅顶级画作!
 	Erazor0: 一名战士不能是仅有蛮力的野人; 想要在这片土地上生存,你还需要速度和敏捷
 	Erazor1: 你身中的战士之血必定在沸腾着
 	Erazor2: 「秩晶守卫」随着他们守护的家园从地图上消失后,我决定调查此事,结果意外发现了一个由强大生物制造的「次元裂隙」. 它将我和它的领域链接起来,这也是为什么我会出现在这里
@@ -808,7 +808,7 @@ Town: {
 	Erazor9: 我一直随身佩戴此剑... 它有着和我女儿一样的名字, 大约五十年前的一场悲剧中我永远地失去了我的爱女,「雅瑞娅」
 	Erazor10: 我发现有几个强大的存在出现了「星蚀」的症状. 如果你感到了危险并愿意找到一些侵蚀样本,我想你能做到的. 一般来说越是神秘、千变万化的地方更可能拥有更多被侵蚀的存在.
 	ErazorNuba: 不幸的是,「云珀」和她的族裔们似乎总是陷入麻烦之中. 我感到……内疚. 因为我应该为此负责.
-	ErazorObelisk0: 年轻人,看起来你已经准备好一切了. 「亚巴顿」已经准备好开始他的计划了,准备好你的「圣遗」武器去阻止他吧! 
+	ErazorObelisk0: 年轻人,看起来你已经准备好一切了. 「亚巴顿」已经准备好开始他的计划了,准备好你的「圣遗」武器去阻止他吧!
 	ErazorObelisk1: 勇士,确保你带上了你的「圣遗」,只有它才能让你击破那些存在的防御.
 	ErazorNeedRelic0: 第一步已经成功,但是如果你想要消灭这些存在必须要有一件「圣遗」
 	ErazorNeedRelic1: 没有「圣遗」你无法对那些存在造成任何妨害.
@@ -840,7 +840,7 @@ Town: {
 	Neil8: 嘿, 兄弟. 你肩膀上有一个,呃……手——哈哈吓到你了吧
 	Neil9: 你可能认为我们「赛尔里安特人」对门很头疼, 但是... 兄弟, 那不是真的. 别信他们的谎言.
 	Neil10: 啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
-	Neil11: 开门爬进来,趴地别乱动,一起模仿剑龙甩尾巴! 
+	Neil11: 开门爬进来,趴地别乱动,一起模仿剑龙甩尾巴!
 	Neil12: 我最近检查你的报告了, 你又把「亚巴顿」拼错了,不是「阿巴顿」
 	Neil13: 新药水,你是?
 	Neil14: 砰! 砰! 嘣! 嘣! 啊哈哈哈哈哈哈- 哦, 嗨! .
@@ -869,7 +869,7 @@ Town: {
 	NeilErosionFRF: 你知道的,伙计,我一直很喜欢「焦烬森林」。不幸的是,世事难料,侵蚀已经让那里的生物饱受折磨。去结束它们的痛苦吧。
 	NeilErosionHell: 无论下面那些嘲弄我们同类的东西是什么,它们似乎不在乎遇到的任何事物,最终自身被侵蚀殆尽。消灭它们吧。
 	NeilErosionUnknown: 我的兄弟,我的伙计,我的超级老大,我已经完全不知道了
-	Pandolar0: 是时候来举办一场饮茶派对了! 
+	Pandolar0: 是时候来举办一场饮茶派对了!
 	Pandolar1: Ariketik是一个对生命发展十分不利的地, 它的原住民只有Olaarbe、令人恐惧的Anudeya C'thyr和Uleru. 这里可能也有其他物种, 但是不休止的暴雪与浓雾让我们很难发现它们.
 	Pandolar2: 你有备用冰块吗? 现在真的很热...
 	Pandolar3: 我的旧房子看起来比这好太多了.
@@ -901,7 +901,7 @@ Town: {
 	PandolarSalvageDungeon: 我依稀能够辨别那些骷髅是谁……他们是我偷——呃我买过东西的商人! 拿走你掉在这的骨肉.
 	PandolarSalvageWax: 研究丛林的蜂巢时,我发现了一个完全被破坏的蜂巢中残留的蜂蜡. 回来时路过了一片南瓜地顺带摘了几个,或许对你有用?
 	PandolarSalvageHM: 我准备向导被杀害后去洞穴里探险. 但是天哪,我不知道你都在下面干了什么, 但是情况变遭了很多! 这是我从下面找到的.
-	PandolarSalvageMech: 我见着一些从你之前打的机械生物身上掉下来的零碎金属。可别被我们「Pandolar人」对寒冷的喜好骗了,我们可是在技艺精湛的铁匠! 
+	PandolarSalvageMech: 我见着一些从你之前打的机械生物身上掉下来的零碎金属。可别被我们「Pandolar人」对寒冷的喜好骗了,我们可是在技艺精湛的铁匠!
 	PandolarSalvageRaynare: 你和那个鸟妖女王战斗之后,羽毛掉的到处都是! 我想...呃我想我甚至还在那里找到了几个「詹森」的羽毛...
 	PandolarSalvageLihzahrd: 我刚才去丛林神庙逛了逛,找到了好像是某种石板的碎片,还有几块碎砖头。 这些砖头看上去好像可以作为某种锭的材料...
 	PandolarSalvageTide: 当我去海洋探险的时候,我找到了一只超大的鱼, 当然,它和往常一样是死的. 我掏了掏有什么有用的, 结果有特别多的灵魂就堆在里面。我想这些灵魂对你来说更有用.
@@ -914,43 +914,43 @@ Town: {
 	Ralnek0: 我可没想要成为英雄啊, 希望我们可以早日回家...
 	Ralnek1: 这地方对我来说太冷了,我不喜欢.
 	Ralnek2: 有金子吗? 别给我那堆基础的东西,我在找那种特别的.
-	Ralnek3: 我有时候可能是个懦夫, 但是有必要的时候我会在战斗中全力以赴! 
+	Ralnek3: 我有时候可能是个懦夫, 但是有必要的时候我会在战斗中全力以赴!
 	Ralnek4: 我在想,「阿加尔」大人还好吗。我能感受到他的存在但是听不见他的声音...
-	Scavenger0: 我见过不少千奇百怪的生物, 但是我从来没见过幻影在死河那边游荡着! 
-	Scavenger1: 咋? 你觉得我搁这拿剑捅野兽心脏? 当然不是了,哥们, 我正在这舞着把你没装的酷给装了呢! 
-	Scavenger2: 伙计,你好嘞! 我是 {0}, 我就是你的好哥们! 记得来买我的品质好货哈, 我给你开友情价! 
-	Scavenger3: 在「奥兹」那边,我们有最神奇的东西! 听说过袋鼠不? 凤头鹦鹉? 或者说土狗? 你哪天真得来一趟,咱那的人都听傻乐呵的! 
-	Scavenger4: 不是,什么叫澳洲不存在? 真是一堆土猪啊! 我搁那底下长大的,澳洲当然是真的! 怕不是脑子进袋鼠了吧! 
-	Scavenger5: 最近见过羊不? 可真是堆捣蛋的东西! 整天从他们主人的圈里逃出去然后在死河里给自己淹死! 
-	Scavenger6: 圣诞节真棒吧? 尽兴的好时候, 超好的食物和圣诞礼物! 那白东西掉你头上感觉应该很不赖吧! 我这辈子都没见过! 
-	ScavengerDesert: 跟回家了一样! 
+	Scavenger0: 我见过不少千奇百怪的生物, 但是我从来没见过幻影在死河那边游荡着!
+	Scavenger1: 咋? 你觉得我搁这拿剑捅野兽心脏? 当然不是了,哥们, 我正在这舞着把你没装的酷给装了呢!
+	Scavenger2: 伙计,你好嘞! 我是 {0}, 我就是你的好哥们! 记得来买我的品质好货哈, 我给你开友情价!
+	Scavenger3: 在「奥兹」那边,我们有最神奇的东西! 听说过袋鼠不? 凤头鹦鹉? 或者说土狗? 你哪天真得来一趟,咱那的人都听傻乐呵的!
+	Scavenger4: 不是,什么叫澳洲不存在? 真是一堆土猪啊! 我搁那底下长大的,澳洲当然是真的! 怕不是脑子进袋鼠了吧!
+	Scavenger5: 最近见过羊不? 可真是堆捣蛋的东西! 整天从他们主人的圈里逃出去然后在死河里给自己淹死!
+	Scavenger6: 圣诞节真棒吧? 尽兴的好时候, 超好的食物和圣诞礼物! 那白东西掉你头上感觉应该很不赖吧! 我这辈子都没见过!
+	ScavengerDesert: 跟回家了一样!
 	ScavengerSnow: 哇, 地是白的! 哇,地从天上掉我们头上了! 哇,没别人觉得这很棒吗?
 	ScavengerFRF: 说真的哥们, 这地方真和家一样.
-	ScavengerBloodMoon: 你看不出我搁这忙的魂都跟不上了吗, 真是累死了, 一边去你个呆子! 
-	ScavengerDecree: 哎兄弟, 「裁决」, 雪原的猛兽, 从"两人一狗"里的那小小一只狗到为了「Pandolars」的魔法去吞噬他们. 它死了可真是件好事, 你是自从切片面包之后发生的最好的事了! 
-	ScavengerRalnek: 和南瓜吵架就和对牛弹琴似的, 除非是那个夜里烧着火的骇人玩意! 真是奇怪,那小小的物品是咋变成那炙人的怪物的! 
+	ScavengerBloodMoon: 你看不出我搁这忙的魂都跟不上了吗, 真是累死了, 一边去你个呆子!
+	ScavengerDecree: 哎兄弟, 「裁决」, 雪原的猛兽, 从"两人一狗"里的那小小一只狗到为了「Pandolars」的魔法去吞噬他们. 它死了可真是件好事, 你是自从切片面包之后发生的最好的事了!
+	ScavengerRalnek: 和南瓜吵架就和对牛弹琴似的, 除非是那个夜里烧着火的骇人玩意! 真是奇怪,那小小的物品是咋变成那炙人的怪物的!
 	ScavengerJensen: 听说过「Winterfloat」不? 那可真是个不错的地方. 说起「Winterfloat」, 那个刚和你掐过一架的鹦鹉女人是那里的公主! 我想那个红毛女王大概不会多高兴.
-	ScavengerAraneas: 好家伙,深底下那个大蜘蛛巢穴! 那地方真邪门, 比澳洲的大蜘蛛还难整! 它们的女皇就跟和一只那种吃鸟的蜘蛛打一架一样! 那里面拥挤的,人挤人,狗挤狗,蜘蛛挤蜘蛛! 我只能说,我们来这里可不是来扯皮浪费时间的! 
+	ScavengerAraneas: 好家伙,深底下那个大蜘蛛巢穴! 那地方真邪门, 比澳洲的大蜘蛛还难整! 它们的女皇就跟和一只那种吃鸟的蜘蛛打一架一样! 那里面拥挤的,人挤人,狗挤狗,蜘蛛挤蜘蛛! 我只能说,我们来这里可不是来扯皮浪费时间的!
 	ScavengerRaynare: 「Winterfloat」的那个红发老女王现在不怎么受欢迎了。你从你把她打败了之后, 就连醉得东倒西歪的愣子都信不过她了! ‘恭喜你摧毁了一个辉煌的帝国', 大概.
 	ScavengerPrimordia: 虫 木 斤  虫 易
-	ScavengerAbaddon: 啊,是的,「亚巴顿」! 梦魇的使者! 你们吵架时候的幽影恶魔! 可得把他盯紧喽,他是你最不想干架的人! 
-	ScavengerAraghur: 那个熔岩蟒裔? 那肯定是「阿加尔」, 耀炎巨蟒! 他是个不得了的主儿,比光有气死苍蝇的臭脾气的那种小长虫强多了! 说不定他哪天会决定来入住呢! 
-	ScavengerSiblings: 「云珀」,就和你过招的那个女的,人倒是真挺不赖的,澳州口音也甜得很。不过那个涡旋就有点磕碜了, 长得跟个狗一样! 
+	ScavengerAbaddon: 啊,是的,「亚巴顿」! 梦魇的使者! 你们吵架时候的幽影恶魔! 可得把他盯紧喽,他是你最不想干架的人!
+	ScavengerAraghur: 那个熔岩蟒裔? 那肯定是「阿加尔」, 耀炎巨蟒! 他是个不得了的主儿,比光有气死苍蝇的臭脾气的那种小长虫强多了! 说不定他哪天会决定来入住呢!
+	ScavengerSiblings: 「云珀」,就和你过招的那个女的,人倒是真挺不赖的,澳州口音也甜得很。不过那个涡旋就有点磕碜了, 长得跟个狗一样!
 	ScavengerErazor: 亻尹 扌立 亻左 真 リ 巾
 	ScavengerMale: "{0} 是吧? 哎哟喂, 你这人儿不错啊! 你瞧着像是那种很镇定的闲逛的人! "
-	ScavengerFemale: 你看上去精神不错 {0}! 你这样的人可真不错,性子又好! 
+	ScavengerFemale: 你看上去精神不错 {0}! 你这样的人可真不错,性子又好!
 	ScavengerMistake: 告诉我你的秘密
 	Nuba0: 谢谢你让我留在这里,我需要去一个地方,但是我不得不说, 这里很是惬意.
 	Nuba1: 不得不说,我老家的人算不上多友善. 我还是更喜欢这里,谢谢.
 	Nuba2: 你知道吗,不知道为什么我觉得那个巨大的月亮怪物不是我们的父亲. 他的气场很像,但是又有点不一样, 不知道「诺瓦尼尔」是不是也有这种感受...
-	Nuba3: 在「索兰」上我们从来没有过那些令人讨厌的史莱姆, 真是群不要脸的麻烦精! 
-	Nuba4: 我有些挺不错的物品在售, 它们绝对天下独一份! 
+	Nuba3: 在「索兰」上我们从来没有过那些令人讨厌的史莱姆, 真是群不要脸的麻烦精!
+	Nuba4: 我有些挺不错的物品在售, 它们绝对天下独一份!
 	Nuba5: 你们这些人怎么称呼自己? 「泰拉人」可以吗?
 	Nuba6: 海的那边... 真的有东西吗? 我去过好几趟沙滩了,但是我就只见过水.
 	Nuba7: "'我的货物天下独一份! ' 就像我的标语一样? 不是? 噢..."
 	Nuba8: 我总是收到来自人们的奇怪消息,像什么 "你真好看"和"「云珀」最美", 说真的,这真让我感觉你们这些人就是有那么邪恶...
 	Nuba9: 哦天呐,「突变体」! 他们吓到我了, 长得像他们杀掉的生物融合在一起了! 呃,不过我们「索兰人」好像也没好多少...
-	Nuba10: 哦,你就是 {0}? 呃,行! 你好! 很高兴,呃,很高兴见到你! 
+	Nuba10: 哦,你就是 {0}? 呃,行! 你好! 很高兴,呃,很高兴见到你!
 	NubaGuide: 你这个世界真奇怪, {0} 和我说了不少, 它和我们的故乡「索兰」看上去相似, 但是实际上不是卫星,而是一个真的星球, 就像「赛勒斯」一样.
 	NubaPandolar: 我希望 {0} 不要在意我, 我和我的兄弟们是出了名的好几次没听 the Elite Guardians 关于不要去「索兰」的命令,还有进行和「龙愠晶」相关的禁忌研究。
 	NubaNovanielPresent: 我就知道「诺瓦尼尔」会回来的! 不得不说,我想他了。我很高兴他选择加入我们, 他曾经是我们的偶像,「索兰」的王子.
@@ -966,7 +966,7 @@ Buffs: {
 
 	CandleingMinionBuff: {
 		DisplayName: "{$Projectiles.CandleingMinion.DisplayName}"
-		Description: 惊吓时间到! 
+		Description: 惊吓时间到!
 	}
 
 	AntheePetBuff: {
@@ -1031,7 +1031,7 @@ Buffs: {
 
 	MothPetBuff: {
 		DisplayName: "{$Projectiles.MothPetProjectile.DisplayName}"
-		Description: 毛茸茸的! 
+		Description: 毛茸茸的!
 	}
 
 	NickyPetBuff: {
@@ -1046,7 +1046,7 @@ Buffs: {
 
 	SeraphSigilLightPetBuff: {
 		DisplayName: 死亡炽天使的印章
-		Description: "“诅咒被接受了...”"
+		Description: “诅咒被接受了...”
 	}
 
 	SpiritLinkPetBuff: {
@@ -1100,7 +1100,6 @@ Buffs: {
 			'我就是速度'
 			{$Mods.SacredToolsCN.CommonItemTooltip.PercentIncreasedMovementSpeed}
 			'''
-			#赛车总动员?
 	}
 
 	SuppressionBuff: {
@@ -1178,7 +1177,7 @@ Buffs: {
 
 	HolyShineBuff: {
 		DisplayName: 圣光
-		Description: "“闪亮! ”"
+		Description: “闪亮! ”
 	}
 
 	JumpBoostBuff: {
@@ -1203,7 +1202,7 @@ Buffs: {
 
 	SandstormWindImmunityBuff: {
 		DisplayName: 与风暴一体
-		Description: "“风就像是穿过了你一样...”"
+		Description: “风就像是穿过了你一样...”
 	}
 
 	SentryBuff: {
@@ -1213,7 +1212,7 @@ Buffs: {
 
 	SkeletonMinionBuff: {
 		DisplayName: 钙
-		Description: "“享受你的新盟友吧”"
+		Description: “享受你的新盟友吧”
 	}
 
 	ThrownBuff: {
@@ -1402,7 +1401,7 @@ Buffs: {
 
 	ChickenMount: {
 		DisplayName: Skeleton Chicken
-		Description: Onwards! Chickenless bone! 
+		Description: Onwards! Chickenless bone!
 	}
 
 	CrimsonMinion: {
@@ -1492,7 +1491,7 @@ Buffs: {
 
 	FireBreath: {
 		DisplayName: Fire Breath
-		Description: That dish was so spicy, you are literally breathing flames! 
+		Description: That dish was so spicy, you are literally breathing flames!
 	}
 
 	FireMaggot: {
@@ -1577,7 +1576,7 @@ Buffs: {
 
 	LunarCharge: {
 		DisplayName: Novaniel's Charge
-		Description: End the battle before it's too late! 
+		Description: End the battle before it's too late!
 	}
 
 	LunarianAura: {
@@ -7953,7 +7952,7 @@ Items: {
 
 	IncandescentSolarEffectItem: {
 		DisplayName: Incandescent Solar Effect Item
-		Tooltip: You shouldn't have this! 
+		Tooltip: You shouldn't have this!
 	}
 
 	NightTerror: {
