@@ -41,3 +41,5 @@ CommonItemTooltip: {
 	# {$CommonItemTooltip.ReducesDamageTakenByPercent -> {$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent
 	ReducesDamageTakenByPercent: -{0}% Damage taken by
 }
+
+SacredTools: Shadows of Abaddon [Public Beta]

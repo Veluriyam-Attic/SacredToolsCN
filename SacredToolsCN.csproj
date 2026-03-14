@@ -12,5 +12,8 @@
 	<ItemGroup>
 		<Reference Include="lib\*.dll" />
 	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\VeluriyamLibHjson\VeluriyamLibHjson.csproj" />
+	</ItemGroup>
 
 </Project>
