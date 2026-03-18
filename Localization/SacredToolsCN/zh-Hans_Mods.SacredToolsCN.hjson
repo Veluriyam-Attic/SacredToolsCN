@@ -39,7 +39,7 @@ CommonItemTooltip: {
 	# {$CommonItemTooltip.PercentChanceToSaveThrownItems -> {$Mods.SacredToolsCN.CommonItemTooltip.PercentChanceToSaveThrownItems
 	PercentChanceToSaveThrownItems: +{0}%投掷物可回收概率
 	# {$CommonItemTooltip.ReducesDamageTakenByPercent -> {$Mods.SacredToolsCN.CommonItemTooltip.ReducesDamageTakenByPercent
-	ReducesDamageTakenByPercent: -{0}%收到的伤害
+	ReducesDamageTakenByPercent: -{0}%受到的伤害
 }
 
 SacredTools: 亚巴顿之影[公开测试]

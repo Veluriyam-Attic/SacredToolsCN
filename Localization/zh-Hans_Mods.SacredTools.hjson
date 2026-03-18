@@ -3342,48 +3342,48 @@ Items: {
 	}
 
 	FlareEssentia: {
-		DisplayName: Flare Essentia
-		Tooltip: "'The essence of Magamantez made manifest'"
+		DisplayName: 烈芒精华
+		Tooltip: Magamantez的本质得以具现
 	}
 
 	FlariumShard: {
-		DisplayName: Flarium Shard
-		Tooltip: Can be fused with other shards to create a complete crystal
+		DisplayName: 炎流晶碎片
+		Tooltip: 可与其他碎片融合以形成完整晶体
 	}
 
 	ForgottenCrown: {
-		DisplayName: Forgotten Crown
+		DisplayName: 忘却皇冠
 		Tooltip: ""
 	}
 
 	ForgottenCrystalBattery: {
-		DisplayName: Forgotten Crystal Battery
+		DisplayName: 忘却晶华电池
 		Tooltip: ""
 	}
 
 	ForgottenTablet: {
-		DisplayName: Forgotten Tablet
+		DisplayName: 忘却石碑
 		Tooltip: ""
 	}
 
 	FragmentBlight: {
-		DisplayName: Fragment of Blight
-		Tooltip: "'It shines bright in the orange night'"
+		DisplayName: 荒芜碎魄
+		Tooltip: “它在橙色的夜空中熠熠生辉”
 	}
 
 	FragmentHatred: {
-		DisplayName: Fragment of Hatred
-		Tooltip: "'From a cold heart filled with hatred'"
+		DisplayName: 戾气碎魄
+		Tooltip: “来自一颗充满仇恨的冰冷之心”
 	}
 
 	FragmentQuasar: {
-		DisplayName: Quasar Fragment
-		Tooltip: "'The wrath of a dying star rests within this fragment'"
+		DisplayName: 类星体碎片
+		Tooltip: “一颗垂死恒星的怒火，蕴藏于这碎片之中”
 	}
 
 	GoldenFeather: {
-		DisplayName: Verdant Feather
-		Tooltip: "'Has an invigorating effect on flora'"
+		DisplayName: 烈花羽饰
+		Tooltip: “所到之处繁花似锦”
 	}
 
 	FrigidOoze: {
@@ -6117,7 +6117,7 @@ Items: {
 			'''
 			Harnesses the power of the Thermal Energy Flow and sends out a powerful pulse
 			Must rest in a flat, empty area with a clear sky
-			Requires 30 Flare Essentia to function
+			Requires 30 烈芒精华 to function
 			'''
 	}
 
