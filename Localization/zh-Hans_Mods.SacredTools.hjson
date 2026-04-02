@@ -3392,8 +3392,8 @@ Items: {
 	}
 
 	GoldNugget: {
-		DisplayName: Gold Nugget
-		Tooltip: "'Where did they get this from again?'"
+		DisplayName: 金粒
+		Tooltip: “他们到底是从哪里弄来这些东西的?”
 	}
 
 	GrandHarpyFeather: {
@@ -3402,32 +3402,32 @@ Items: {
 	}
 
 	Illumifern: {
-		DisplayName: Illumifern
+		DisplayName: 微光蕨
 		Tooltip: ""
 	}
 
 	JellyNebula: {
-		DisplayName: Nebula Jelly
+		DisplayName: 星云果胶
 		Tooltip: ""
 	}
 
 	JellyQuasar: {
-		DisplayName: Quasar Jelly
+		DisplayName: 类星体果胶
 		Tooltip: ""
 	}
 
 	JellySolar: {
-		DisplayName: Solar Jelly
+		DisplayName: 日曜果胶
 		Tooltip: ""
 	}
 
 	JellyStardust: {
-		DisplayName: Stardust Jelly
+		DisplayName: 星尘果胶
 		Tooltip: ""
 	}
 
 	JellyVortex: {
-		DisplayName: Vortex Jelly
+		DisplayName: 星旋果胶
 		Tooltip: ""
 	}
 
@@ -3437,13 +3437,13 @@ Items: {
 	}
 
 	LihzahrdBar: {
-		DisplayName: Lihzahrd Bar
-		Tooltip: "'Imbued with the power of the sun'"
+		DisplayName: 丛林蜥蜴锭
+		Tooltip: “沐浴着太阳的力量”
 	}
 
 	LuminousEnergy: {
-		DisplayName: Luminous Energy
-		Tooltip: "'Energy used by Soraniti to power high-tech weapons'"
+		DisplayName: 月明能量
+		Tooltip: “Soraniti用来驱动高科技武器的能量”
 	}
 
 	LunaVenom: {
@@ -3452,8 +3452,8 @@ Items: {
 	}
 
 	MarstechChip: {
-		DisplayName: Marstech Chip
-		Tooltip: "'It crackles with electricity'"
+		DisplayName: 火星科技芯片
+		Tooltip: “它噼啪作响，闪烁着电光.”
 	}
 
 	OblivionBar: {
