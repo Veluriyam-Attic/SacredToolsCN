@@ -3378,7 +3378,7 @@ Items: {
 
 	FragmentQuasar: {
 		DisplayName: 类星体碎片
-		Tooltip: “一颗垂死恒星的怒火，蕴藏于这碎片之中”
+		Tooltip: “一颗垂死恒星的怒火,蕴藏于这碎片之中”
 	}
 
 	GoldenFeather: {
@@ -3453,7 +3453,7 @@ Items: {
 
 	MarstechChip: {
 		DisplayName: 火星科技芯片
-		Tooltip: “它噼啪作响，闪烁着电光.”
+		Tooltip: “它噼啪作响,闪烁着电光.”
 	}
 
 	OblivionBar: {
@@ -3467,8 +3467,8 @@ Items: {
 	}
 
 	Redstone: {
-		DisplayName: Redstone Dust
-		Tooltip: "'A strange, otherworldly material that seems to store energy'"
+		DisplayName: 红石粉
+		Tooltip: “一种来自其他世界,似乎可以存储能量的奇异材料”
 	}
 
 	RefinedBismuth: {
@@ -3482,12 +3482,12 @@ Items: {
 	}
 
 	SnowBar: {
-		DisplayName: Illean Bar
+		DisplayName: 伊琳锭
 		Tooltip: “「潘多拉星人」发明的一种特殊合金”
 	}
 
 	SoulOfTide: {
-		DisplayName: Mutant Cells
+		DisplayName: 突变细胞
 		Tooltip: "'Extracted from the tissue of the mutant terror'"
 	}
 
@@ -8165,6 +8165,9 @@ TooltipDetail: {
 
 		这个物品在使用后不会消失,当你需要阅读有关机制时可以随时来查看
 		不过,如果你需要更多详细信息,请查阅官方Wiki(Wiki.gg)上的内容
+
+		关于汉化:
+		   - 模组中只出现一两次的生造词实在是太多,不做翻译.
 		'''
 }
 
