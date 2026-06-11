@@ -3348,11 +3348,11 @@ Items: {
 
 	FlariumShard: {
 		DisplayName: 炎流晶碎片
-		Tooltip: 可与其他碎片融合以形成完整晶体
+		Tooltip: 可与其他碎片聚集在一起形成完整水晶
 	}
 
 	ForgottenCrown: {
-		DisplayName: 忘却皇冠
+		DisplayName: 失落王冠
 		Tooltip: ""
 	}
 
@@ -3845,7 +3845,7 @@ Items: {
 	}
 
 	FlariumCrystal: {
-		DisplayName: Flarium Crystal
+		DisplayName: 炎流晶
 		Tooltip: ""
 	}
 
@@ -4735,14 +4735,14 @@ Items: {
 	}
 
 	AsthralBlade: {
-		DisplayName: Oath of Apostasy
+		DisplayName: 叛国之誓
 		Tooltip:
 			'''
-			'In the effort of rectifying my father's wrongdoings... I have inadvertedly doomed my entire kingdom. What is a king without his people...'
-			Unleashes a powerful energy slash that causes projection slashes on hit
+			“在纠正我父亲的过错中……我不经意间的行为让整个王国主定走向灭亡。没有臣民的空城之君又怎么算得上是君主……”
+			释放一个能够在命中时造成高能斩击的Unleashes a powerful energy slash that causes projection slashes on hit
 			Killing an enemy grants 5 seconds of Power Preservation, allowing the projection blades to appear without needing to hit an enemy
 			Press [Alt Melee] to consume 5 seconds of the buff to fire a spinning projection that causes enemies inflicted with Draconic Blaze to detonate
-			Buff duration cannot exceed 20 seconds
+			Buff持续时间不会超过20秒
 			'''
 	}
 
