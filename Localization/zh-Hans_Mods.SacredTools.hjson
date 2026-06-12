@@ -50,12 +50,12 @@ CommonItemTooltip: {
 	IncreasesKnifeStashByPercent: +{0}%最大飞刀储备
 	PercentIncreasedKnifeRecoveryRate: +{0}%飞刀储备回复速度
 	PercentIncreasedKnifeVelocity: +{0}%飞刀速度
-	PercentIncreasedLancePerfectStrikeDamage: +{0}%长矛「完美一击」伤害
-	IncreasesLancePerfectStrikeWindowByPercent: +{0}%长矛「完美一击」伤害
-	PercentIncreasedLanceRecoveryMoveDamage: +{0}%长矛回收伤害
-	PercentIncreasedLanceRecallSpeed: -{0}%长矛回收时间
-	PercentIncreasedLanceRecallVelocity: +{0}%长矛回收速度
-	PercentIncreasedLanceReadySpeed: -{0}%长矛蓄力时间
+	PercentIncreasedLancePerfectStrikeDamage: +{0}%长枪「完美一击」伤害
+	IncreasesLancePerfectStrikeWindowByPercent: +{0}%长枪「完美一击」伤害
+	PercentIncreasedLanceRecoveryMoveDamage: +{0}%长枪回收伤害
+	PercentIncreasedLanceRecallSpeed: -{0}%长枪回收时间
+	PercentIncreasedLanceRecallVelocity: +{0}%长枪回收速度
+	PercentIncreasedLanceReadySpeed: -{0}%长枪蓄力时间
 	PercentIncreasedSuppression: +{0}%抑制度
 	PercentIncreasedBossDamage: +{0}%Boss伤害
 	PercentIncreasedCritDamage: +{0}%暴击伤害
@@ -313,11 +313,11 @@ Conversations are linked by key and array position. For example, Conversations.N
 Conversations: {
 	NihilusSpawn_First: {
 		0: 庞大到渗人的精神能量开始凝聚在方尖碑周围,多加小心!
-		1: 我会在边界外围戒备,必要时可以为你提供协助. 祝你好运.
+		1: 我会负责封锁边线周边区域,必要时可以为你提供协助. 祝你好运.
 	}
 
 	Nihilus_PhaseChange: {
-		0: 战斗还未结束! 这个生物终于露出了真面目,周围变得更加扭曲了.
+		0: 战斗远未结束! 这个怪物终于露出了真面目,周围现在变得更加扭曲了.
 		1: 准备好你的「圣遗」武器了吗! 打破扭曲,而后踏着它的尸体走过去!
 	}
 
@@ -325,16 +325,16 @@ Conversations: {
 
 	Nihilus_ExtinctionRay: {
 		0: 你撑不住的!
-		1: 快! 撤到另一边! 我会帮助你的!
+		1: 快! 撤到另一边! 我会协助你的!
 	}
 
 	Nihilus_RisenLanternWarning: {
-		0: 这个生物似乎变得更加不稳定了, 并利用这种不稳定的能量来转化为某种催化剂.
+		0: 这个怪物似乎变得更加不稳定了, 并利用这种不稳定的能量来转化为某种催化剂.
 		1: 当心! 如果它设法将这种能量集中到攻击上, 效果将会是毁灭性的.
 	}
 
 	Nihilus_CondemnationWarning: {
-		0: 集中精神! 它正准备打算进行一次强力的攻击!
+		0: 当心! 它正准备打算进行一次强力的攻击!
 		1: 快点,躲到那些石头后面! 但是不要松懈,我感觉到它们里面潜伏着不稳定的力量.
 	}
 
@@ -350,7 +350,7 @@ Conversations: {
 SubworldName.ShrineSubworld: 星光圣地
 
 DamageClasses: {
-	SanguineDamageClass.DisplayName: sanguine damage
+	SanguineDamageClass.DisplayName: 血绣伤害
 	KineticDamageClass.DisplayName: 动能伤害
 }
 
@@ -358,8 +358,8 @@ Keybinds: {
 	AbilityPrimary.DisplayName: 能力「主」
 	AbilitySecondary.DisplayName: 能力「副」
 	Reload.DisplayName: 换弹
-	AltMelee.DisplayName: Alt Melee
-	LanceRecovery.DisplayName: Lance recovery/recall
+	AltMelee.DisplayName: 副近战攻击
+	LanceRecovery.DisplayName: 长枪收招/召回
 	Menu.DisplayName: SoA菜单
 }
 
@@ -387,7 +387,7 @@ UI: {
 		Gem: 插入「流光碎片」,将其分解为粉尘
 		Assemble: 组装
 		Dismantle: 拆卸
-		ArmorPrompt: 请在此放置一件「Exitum Lux」盔甲
+		ArmorPrompt: 请在此放置一件「末光」盔甲
 	}
 
 	Pandolar: {
@@ -397,7 +397,7 @@ UI: {
 
 	DamageFalloff: 距离衰减
 	//Not sure if needed
-	DamageFalloff_Accuracy: Effects lessened by {0}
+	DamageFalloff_Accuracy: 当前距离衰减: {0}
 
 	ChallengeSlot: {
 		FunctionalHoverName: 挑战饰品栏
@@ -432,7 +432,7 @@ BossMessage: {
 	TempleMessage: 丛林被刺目强光所笼罩……
 	RVGMessage: 来自另一个维度的生物正在进入我们的现实世界!
 	FrostMessage: 霜之灵已降临人间!
-	CerniumMessage: 「Cernium Crystals」在洞穴深处析出
+	CerniumMessage: 「寒凝晶」在洞穴深处析出
 }
 
 DeathMessage: {
@@ -457,7 +457,7 @@ DeathMessage: {
 	Cerena3: "{0}深刻体会到了被锁在冰箱的感受"
 	Water0: "{0}忘记了水是致命的"
 	Water1: "{0}被水杀死了"
-	Water2: "{0}忘记了「Shadow Sareliants」不喜欢水"
+	Water2: "{0}忘记了「赛尔里安特人」不喜欢水"
 	Water3: "{0}死于水下窒息的心理阴影"
 	Shadowflare0: "{0}只在地面上留下了一个黑色污点"
 	Shadowflare1: "{0}的生命力被焚烧殆尽"
@@ -467,11 +467,11 @@ DeathMessage: {
 	Wither: "{0}凋零了"
 	Erosion0: "{0}的头脑被无尽的愤怒吞噬"
 	Erosion1: "{0}忘记了自己"
-	NoDen: "{0}死于ligma."
+	NoDen: "{0}死于何意味."
 	TrulyAnExpert: "{0}败者食尘"
 	ErazorTimer: "{0}失败了"
 	Judgement: "{0}被评价了"
-	Revenge: "{0} messed with the Pandolar."
+	Revenge: "{0}惹怒了Pandolar."
 
 	FlariumInferno: {
 		0: "{Name}被业火吞噬"
@@ -509,8 +509,8 @@ TooltipLabel: {
 DropConditions: {
 	TrueMode: 需要开启「真实模式」
 	TrueOrMaster: 「真实模式」或「大师模式」
-	Dealmaker: "'Return to sender.'"
-	GlassSoul: Emerge victorious with any Glass Soul active
+	Dealmaker: “物归原主”
+	GlassSoul: 在玻璃之魂模式下取得胜利
 	Golem: 需要击败「石巨人」
 	Araneas: 需要击败「阿菈涅丝」
 	Araghur: 需要击败「阿加尔」
@@ -2425,10 +2425,10 @@ Items: {
 		DisplayName: 枪鞘护符
 		Tooltip:
 			'''
-			“专门为长矛定制的武器鞘符。它将长矛储存在宝石内的临时口袋空间中”
+			“专门为长枪定制的武器鞘符。它将长枪储存在宝石内的临时口袋空间中”
 			{$CommonItemTooltip.PercentIncreasedLanceRecallSpeed}
 			{$CommonItemTooltip.PercentIncreasedLanceRecallVelocity@1}
-			未手持长矛时可通过进行一段较长时间的蓄力来召回所有长矛,此次召回无飞行时间(2分钟冷却时间)
+			未手持长枪时可通过进行一段较长时间的蓄力来召回所有长枪,此次召回无飞行时间(2分钟冷却时间)
 			'''
 	}
 
@@ -4146,7 +4146,7 @@ Items: {
 	}
 
 	ExitumLuxFishingPole: {
-		DisplayName: Caster of Light
+		DisplayName: 掷光者
 		Tooltip:
 			'''
 			{$CommonItemTooltip.LavaFishing}
@@ -8874,7 +8874,7 @@ Projectiles: {
 	CactusRocket.DisplayName: Cactus Rocket
 	CactusRocket2.DisplayName: Scorched Cactus Needle
 	CerniumFlame.DisplayName: Frost Mist
-	CerniumLance.DisplayName: Cernium Lance
+	CerniumLance.DisplayName: 寒凝晶长枪
 	CerniumMist.DisplayName: Frost Mist
 	CleanseSpray.DisplayName: Cleansing Spray
 	CrossProj.DisplayName: Hallowed Decapitator
@@ -8944,7 +8944,7 @@ Projectiles: {
 	FrigidFusillade.DisplayName: 霜寒球
 	FrigidFusillade2.DisplayName: 霜寒尖刺
 	FrostBeamProjectile.DisplayName: Frost Scythe
-	FrostBullet.DisplayName: Cernium Bullet
+	FrostBullet.DisplayName: 寒凝晶子弹
 	FrostExplosion.DisplayName: Frost Explosion
 	FrostFire.DisplayName: Frost Mist
 	FuryHammer.DisplayName: Hammer of Fury
@@ -9328,7 +9328,7 @@ Projectiles: {
 	CeneraFlameBig.DisplayName: Cenera's Frost Mist
 	CeneraSpell.DisplayName: Cenera's Spell
 	WyvernSpell.DisplayName: Wyvern Spell
-	FrostHook.DisplayName: Cernium Hook
+	FrostHook.DisplayName: 寒凝晶Hook
 	ChainCircle.DisplayName: Chain Circle
 	CircleBarrage.DisplayName: Shadow Barrage Circle
 	CircleBomb.DisplayName: Shadow Bomb Circle
@@ -9578,9 +9578,9 @@ Projectiles: {
 	FeathershieldPlayer.DisplayName: Feather Shield
 	FlameSpawner.DisplayName: Flarium Sigil
 	FlameSpawner2.DisplayName: Technical Projectile: Bursts homing flames
-	FrostCrystal.DisplayName: Cernium Crystal
+	FrostCrystal.DisplayName: 寒凝晶
 	Frostfield.DisplayName: Frost Aura
-	FrostSentry.DisplayName: Cernium Sigil
+	FrostSentry.DisplayName: 寒凝晶Sigil
 	GalacticRift.DisplayName: Galactic Rift
 	GalacticRiftBeam.DisplayName: Galactic Rift Beam
 	HomeFireMinion.DisplayName: Flarium Fireball
@@ -9704,7 +9704,7 @@ Projectiles: {
 	CelebrationMK3RedRocket.DisplayName: Red Rocket
 	CelebrationMK3RedRocketRing.DisplayName: Orbital Strike
 	DecreeIceWave.DisplayName: Ice Wave
-	ExitumLuxFishingRodBobber.DisplayName: Exitum Lux Fishing Rod Bobber
+	ExitumLuxFishingRodBobber.DisplayName: 「末光」鱼竿和Bobber
 	FlariumFishingRodBobber.DisplayName: Flarium Fishing Rod Bobber
 	ShadeshotArrow.DisplayName: Shadeshot Arrow
 	ShadeshotEcho.DisplayName: Shadeshot Echo
@@ -9932,7 +9932,7 @@ Tiles: {
 	DecreeObelisk.MapEntry: Decree Obelisk
 	NihilusObeliskTile.MapEntry: 悚厄方尖碑
 	BismuthOre.MapEntry: Bismuth
-	Cernium.MapEntry: Cernium
+	Cernium.MapEntry: 寒凝晶
 	FlariumCrystalTile.MapEntry: Flarium
 	RawLapisTile.MapEntry: Lapis
 	OblivionOreTile.MapEntry: Oblivion Shards
